@@ -1,7 +1,19 @@
 export default function NavBar() {
     return (
-        <div>
-            <h1>This is the Nav Bar</h1>
-        </div>
+        <header className="header">
+            <div className="logo">
+                <h1 className="logo--text">Andrew Marks</h1>
+            </div>
+
+            <nav className="nav">
+                <ul className="nav--list">
+                    <li className="nav--list--item"><a href="#" className="nav--link">About</a></li>
+                    <li className="nav--list--item"><a href="#" className="nav--link">Projects</a></li>
+                    <li className="nav--list--item"><a href="#" className="nav--link">Resume</a></li>
+                    <li className="nav--list--item"><a href="#" className="nav--link">Artwork</a></li>
+                </ul>
+            </nav>
+            
+        </header>
     );
 }

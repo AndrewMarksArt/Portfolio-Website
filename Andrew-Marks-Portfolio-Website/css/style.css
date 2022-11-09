@@ -19,6 +19,7 @@
     --clr-primary: #9F496E;
     --clr-secondary: #BBB3D3;
     --clr-backup: #334980;
+    --clr-white: #ffffff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -29,6 +30,11 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
+/* General Styles */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light-bg);
     color: var(--clr-body-text);
@@ -36,4 +42,47 @@ body {
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+}
+
+/* Header and NavBar */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: var(--clr-white);
+    box-shadow: var(--bs);
+}
+
+.logo--text {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-h1);
+    color: var(--clr-headings);
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav--list {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav--link {
+    color: inherit;
+    font-weight: var(--fw-reg);
+    font-size: var(--fs-h2);
+    text-decoration: none;
+}
+
+.nav--link:hover {
+    color: var(--clr-hover);
 }

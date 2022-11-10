@@ -1,7 +1,10 @@
 export default function FeaturedProjects() {
     return (
-        <div>
-            <h1>Here are my 3 top Projects</h1>
-        </div>
+        <>
+            <div className="section">
+                <h1>Here are my 3 top Projects</h1>
+            </div>
+            <hr className="seperator"></hr>
+        </>
     );
 }

@@ -58,23 +58,22 @@ body {
     padding: 1em;
     background-color: var(--clr-white);
     box-shadow: var(--bs);
-    height: 120px;
+    height: 80px;
 }
 
 .logo--text {
     font-family: var(--ff-primary);
     font-size: var(--fs-h1);
     font-weight: var(--fw-bold);
-    line-height: 2.1em;
+    line-height: 1.1em;
     color: var(--clr-headings);
     display: inline;
     padding-left: 32px;
 }
 
 .nav {
-    position: fixed;
     display: inline;
-    padding-top: 28px;
+    padding-top: 8px;
     top: 0;
     bottom: 0;
     left: 0;
@@ -88,7 +87,6 @@ body {
     align-items: center;
     margin: 0;
     padding: 0;
-    padding-top: 16px;
 }
 
 .nav--link {
@@ -105,13 +103,40 @@ body {
     font-weight: var(--fw-semi);
     font-size: var(--fs-h2);
     text-decoration: none;
-    margin-right: 80px;
+    margin-right: 24px;
     margin-left: 12px;
 }
 
 .nav--link:hover,
 .nav--link--end:hover {
     color: var(--clr-hover);
-    font-weight: var(--fw-semi);
-    text-decoration-line: underline;
+}
+
+/* About Me Section */
+.section {
+    background-color: var(--clr-white);
+    border-radius: 40px;
+    max-width: 86vw;
+    min-height: 400px;
+    margin-left: 7vw;
+    margin-top: 36px;
+    box-shadow: var(--bs);
+}
+
+.seperator {
+    border: 0 none;
+    background-color: var(--clr-backup);
+    width: 82vw;
+    height: 1.5px;
+    margin-left: 9vw;
+    margin-top: 32px;
+    margin-bottom: -6px;
+}
+
+.footer {
+    background-color: var(--clr-white);
+    display: flex;
+    margin-top: 48px;
+    box-shadow: var(--bs);
+    height: 625px;
 }

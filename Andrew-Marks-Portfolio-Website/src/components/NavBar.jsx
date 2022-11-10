@@ -10,7 +10,7 @@ export default function NavBar() {
                     <li className="nav--list--item"><a href="#" className="nav--link">About</a></li>
                     <li className="nav--list--item"><a href="#" className="nav--link">Projects</a></li>
                     <li className="nav--list--item"><a href="#" className="nav--link">Resume</a></li>
-                    <li className="nav--list--item"><a href="#" className="nav--link">Artwork</a></li>
+                    <li className="nav--list--item"><a href="#" className="nav--link--end">Artwork</a></li>
                 </ul>
             </nav>
             

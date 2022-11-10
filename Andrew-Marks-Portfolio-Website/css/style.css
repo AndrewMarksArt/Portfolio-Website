@@ -31,10 +31,6 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-@media (min-width: 800px) {
-
-}
-
 /* General Styles */
 html {
     scroll-behavior: smooth;
@@ -49,6 +45,24 @@ body {
     line-height: 1.6;
     min-width: 800px;
 }
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1 { font-size: var(--fs-h1) }
+h2 { font-size: var(--fs-h2) }
+h3 { font-size: var(--fs-h3) }
+
 
 /* Header and NavBar */
 .header {
@@ -122,6 +136,47 @@ body {
     margin-top: 36px;
     box-shadow: var(--bs);
 }
+
+.container--about-me {
+    max-width: inherit;
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas: 
+        "title"
+        "subtitle"
+        "body"
+        "contact title"
+        "social links";
+    grid-template-columns: min-content max-content;
+}
+
+.logo--about-me {
+    max-width: 320px;
+}
+
+.about-me--subtitle {
+    max-width: 50vw;
+    margin-top: 12px;
+}
+
+.about-me--body {
+    max-width: 50vw;
+}
+
+.about-me--links {
+    max-width: inherit;
+    grid-column: -1/1;
+}
+
+.about-me--socials-list {
+    max-width: inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    list-style-type: none;
+}
+
 
 .seperator {
     border: 0 none;

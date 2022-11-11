@@ -247,6 +247,7 @@ h3 { font-size: var(--fs-h3) }
         border-radius: 40px;
         margin-top: 100px;
         margin-left: 7vw;
+        padding-bottom: 12px;
         max-width: 86vw;
         box-shadow: var(--bs);
     }
@@ -292,6 +293,28 @@ h3 { font-size: var(--fs-h3) }
         font-size: var(--fs-h2);
         font-weight: var(--fw-semi);
         color: var(--clr-headings);
+    }
+
+    .about-me--socials-list {
+        display: grid;
+        grid-template-columns: auto auto;
+        list-style-type: none;
+        justify-items: left;
+    }
+
+    .about-me--social-item {
+        margin-bottom: 8px;
+    }
+
+    .about-me--social-item > a {
+        color: var(--clr-body-text);
+        font-size: var(--fs-body);
+        font-weight: var(--fw-semi);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-hover);
     }
 
 }

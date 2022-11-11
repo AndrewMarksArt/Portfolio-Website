@@ -2,9 +2,9 @@ export default function AboutMe() {
     return (
         <>
             <div className="container--about-me">
-
-                <img className="logo--about-me" src="./img/logo.png"></img>
-
+                <div className="about-me--logo-container">
+                    <img className="logo--about-me" src="./img/logo.png"></img>
+                </div>
                 <div className="about-me--main">
                     <h1 className="about-me--title">About Me</h1>
 
@@ -18,7 +18,7 @@ export default function AboutMe() {
                     reprehenderit in voluptate velit.</p>
                 </div>
                 
-                <h2 className="about-me--contact-title">CONTACT INFORMATION</h2>
+                <h2 className="about-me--contact-title">Contact Information</h2>
                 
                 <ul className="about-me--socials-list">
                     <li className="about-me--social-item"><a href="#">email</a></li>

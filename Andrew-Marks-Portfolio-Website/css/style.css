@@ -112,7 +112,7 @@ h3 { font-size: var(--fs-h3) }
     .nav--link {
         text-decoration: none;
         font-size: var(--fs-h2);
-        font-weight: var(--fw-semi);
+        font-weight: var(--fw-bold);
         color: inherit;
     }
 
@@ -240,21 +240,79 @@ h3 { font-size: var(--fs-h3) }
 }
 
 /* About Me Section */
+/* Small screens (mobile) */
+@media (max-width: 800px) {
+    .container--about-me {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        margin-top: 100px;
+        margin-left: 7vw;
+        max-width: 86vw;
+        box-shadow: var(--bs);
+    }
+    
+    .about-me--logo-container {
+        display: flex;
+        justify-content: center;
+    }
 
-.container--about-me {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 12px;
-    background-color: var(--clr-white);
-    border-radius: 40px;
-    max-width: 86vw;
-    min-height: 400px;
-    margin-left: 7vw;
-    margin-top: 36px;
-    box-shadow: var(--bs);
+    .logo--about-me {
+        width: 320px;
+    }
+
+    .about-me--title {
+        margin-left: 24px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .about-me--subtitle {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 8px;
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .about-me--body {
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+    }
+
+    .about-me--contact-title {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 32px;
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
 }
 
-   
+
+/* Larger screens */
+@media (min-width: 800px) {
+    .container--about-me {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 12px;
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        max-width: 86vw;
+        min-height: 400px;
+        margin-left: 7vw;
+        margin-top: 36px;
+        box-shadow: var(--bs);
+    }
+
+    
     .logo--about-me {
         position: relative;
         margin-top: 32px;
@@ -322,6 +380,7 @@ h3 { font-size: var(--fs-h3) }
     a:hover {
         color: var(--clr-hover);
     }
+}
 
 
 .seperator {

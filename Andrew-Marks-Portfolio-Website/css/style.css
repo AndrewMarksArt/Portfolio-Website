@@ -242,7 +242,9 @@ h3 { font-size: var(--fs-h3) }
 /* About Me Section */
 /* Small screens (mobile) */
 @media (max-width: 800px) {
-    .container--about-me {
+    /* About me home page section cards */
+    .container--about-me,
+    .featured-container {
         background-color: var(--clr-white);
         border-radius: 40px;
         margin-top: 100px;
@@ -250,6 +252,10 @@ h3 { font-size: var(--fs-h3) }
         padding-bottom: 12px;
         max-width: 86vw;
         box-shadow: var(--bs);
+    }
+
+    .featured-container {
+        margin-top: 32px;
     }
     
     .about-me--logo-container {
@@ -403,6 +409,40 @@ h3 { font-size: var(--fs-h3) }
     a:hover {
         color: var(--clr-hover);
     }
+
+    /* Featured Projects Section*/
+    .featured-container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        max-width: 86vw;
+        min-height: 600px;
+        margin-left: 7vw;
+        margin-top: 36px;
+        box-shadow: var(--bs);
+    }
+
+    .featured-top-line {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .featured-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .featured-see-all {
+        background-color: transparent;
+        color: var(--clr-primary);
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        border-radius: 10px;
+        border: 3px solid var(--clr-primary);
+    }
+
 }
 
 

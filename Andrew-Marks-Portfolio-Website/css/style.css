@@ -419,13 +419,13 @@ h3 { font-size: var(--fs-h3) }
         margin-left: 7vw;
         margin-top: 36px;
         box-shadow: var(--bs);
+        padding: 40px;
     }
 
     .featured-top-line {
         display: flex;
         justify-content: space-between;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin-bottom: 40px;
     }
 
     .featured-title {
@@ -441,6 +441,20 @@ h3 { font-size: var(--fs-h3) }
         font-weight: var(--fw-reg);
         border-radius: 10px;
         border: 3px solid var(--clr-primary);
+    }
+
+    .featured-cards-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .project-card {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        border: 3px solid black;
+        height: 440px;
+        width: 25vw;
     }
 
 }

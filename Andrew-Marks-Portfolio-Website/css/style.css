@@ -452,9 +452,32 @@ h3 { font-size: var(--fs-h3) }
     .project-card {
         background-color: var(--clr-white);
         border-radius: 40px;
-        border: 3px solid black;
-        height: 440px;
+        box-shadow:0px 0px 0px 3px black inset;
         width: 25vw;
+    }
+
+    .project-image {
+        width: inherit;
+        border-radius: 40px 40px 0 0;
+        border: 3px solid black;
+    }
+
+    .project-title {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+        margin-left: 30px;
+        margin-top: 24px;
+    }
+
+    .project-headline {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 8px;
+        margin-bottom: 30px;
     }
 
 }

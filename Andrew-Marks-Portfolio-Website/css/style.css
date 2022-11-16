@@ -641,6 +641,48 @@ small screens
 large screens
 *************************************/
 @media (min-width: 800px) {
+    .art-gallery--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        max-width: 86vw;
+        margin-left: 7vw;
+        margin-top: 36px;
+        box-shadow: var(--bs);
+        padding: 32px;
+    }
+
+    .art-gallery--top-line {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .art-gallery--title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .art-gallery--see-all {
+        background-color: transparent;
+        color: var(--clr-primary);
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        border-radius: 10px;
+        border: 3px solid var(--clr-primary);
+    }
+
+    .art-gallery--see-all:hover {
+        margin: -6px 6px 6px -6px;
+        box-shadow: 6px 6px var(--clr-hover);
+    }
+
+    .art-gallery--grid-container {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        grid-template-columns: auto auto auto;
+    }
 
 }
 

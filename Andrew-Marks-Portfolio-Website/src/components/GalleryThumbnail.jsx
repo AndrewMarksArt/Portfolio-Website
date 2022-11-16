@@ -1,7 +1,7 @@
-export default function GalleryThumbnail() {
+export default function GalleryThumbnail(props) {
     return (
-        <div>
-            <h1>...a drawing...</h1>
+        <div className="gallery-image--container">
+            <img src={`./img/gallery/${props.item.img}`} className="gallery-image--home"></img>
         </div>
     )
 }

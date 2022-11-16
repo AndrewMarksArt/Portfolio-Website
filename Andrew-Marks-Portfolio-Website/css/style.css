@@ -654,7 +654,7 @@ large screens
     .art-gallery--top-line {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .art-gallery--title {
@@ -682,7 +682,26 @@ large screens
         place-items: center;
         align-items: center;
         grid-template-columns: auto auto auto;
+        grid-gap: 40px 40px;
+        margin-bottom: 12px;
     }
+
+    .gallery-image--home {
+        object-fit: cover;
+        width: 700px;
+        border-radius: 40px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        border: 4px solid black;
+    }
+
+    .gallery-image--home:hover {
+        margin: -10px 10px 10px -10px;
+        box-shadow: 10px 10px var(--clr-hover), 0px 0px 0px 3px black inset, 10px 10px 0px 3px black;
+    }
+
+    
 
 }
 

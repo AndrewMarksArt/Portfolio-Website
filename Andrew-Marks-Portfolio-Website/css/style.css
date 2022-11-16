@@ -66,6 +66,11 @@ img {
     margin-bottom: -6px;
 }
 
+button {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
 /* 
 /////////////////////////////////////////
             Typography
@@ -81,9 +86,6 @@ h3 {
 h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
-
-
-
 
  
 /*///////////////////////////////////////
@@ -475,7 +477,7 @@ small screens
     }
 
     .featured-title {
-        font-size: var(--fs-h2);
+        font-size: var(--fs-h1);
         font-weight: var(--fw-bold);
         color: var(--clr-headings);
     }
@@ -483,9 +485,9 @@ small screens
     .featured-see-all {
         background-color: transparent;
         color: var(--clr-primary);
-        font-size: var(--fs-body-sm);
+        font-size: var(--fs-body);
         font-weight: var(--fw-semi);
-        border-radius: 6px;
+        border-radius: 12px;
         border: 2px solid var(--clr-primary);
     }
 
@@ -514,8 +516,9 @@ small screens
     }
 
     .project-image {
-        width: inherit;
-        height: auto;
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
         border-radius: 40px 40px 0 0;
         border: 3px solid black;
     }
@@ -636,6 +639,67 @@ Large screens
 /*************************************
 small screens
 *************************************/
+@media (max-width: 800px) {
+    .art-gallery--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        max-width: 86vw;
+        margin-left: 7vw;
+        margin-top: 36px;
+        box-shadow: var(--bs);
+        padding: 32px;
+    }
+
+    .art-gallery--top-line {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .art-gallery--title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .art-gallery--see-all {
+        background-color: transparent;
+        color: var(--clr-primary);
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        border-radius: 10px;
+        border: 3px solid var(--clr-primary);
+    }
+
+    .art-gallery--see-all:hover {
+        margin: -6px 6px 6px -6px;
+        box-shadow: 6px 6px var(--clr-hover);
+    }
+
+    .art-gallery--grid-container {
+        display: grid;
+        place-items: center;
+        align-items: center;
+        grid-template-columns: auto auto;
+        grid-gap: 20px 20px;
+    }
+
+    .gallery-image--home {
+        object-fit: cover;
+        width: 100%;
+        max-height: 100%;
+        border-radius: 20px;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        border: 3px solid black;
+    }
+
+    .gallery-image--home:hover {
+        margin: -6px 6px 6px -6px;
+        box-shadow: 6px 6px var(--clr-hover), 0px 0px 0px 3px black inset, 6px 6px 0px 3px black;
+    }
+}
 
 /*************************************
 large screens

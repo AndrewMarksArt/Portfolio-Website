@@ -3,7 +3,7 @@ export default [
         id: 1,
         img: "defi_onboarding_featured.png",
         title: "DeFi & Crypto Onboarding",
-        headline: "UX Research -- Onboarding users with different needs"
+        headline: "UX Research -- Onboarding users with different needs."
     },
     {
         id: 2,

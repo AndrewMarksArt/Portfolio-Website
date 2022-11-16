@@ -1,6 +1,14 @@
 import ProjectCard from "./ProjectCard";
+import ProjectData from "./ProjectData"
+import React from "react";
 
 export default function FeaturedProjects() {
+    const projectElements = ProjectData.map(item => {
+        return <ProjectCard
+                    key={item.id}
+                    item={item}
+                />
+    }) 
     return (
         <>
             <div className="featured-container">
@@ -9,9 +17,7 @@ export default function FeaturedProjects() {
                     <button className="featured-see-all">see all projects</button>
                 </div>
                 <div className="featured-cards-container">
-                    <ProjectCard />
-                    <ProjectCard />
-                    <ProjectCard />
+                    {projectElements}
                 </div>
             </div>
             <hr className="seperator"></hr>

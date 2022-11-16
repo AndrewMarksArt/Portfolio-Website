@@ -31,7 +31,11 @@
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
-/* General Styles */
+/* 
+/////////////////////////////////////////
+        General Styles
+////////////////////////////////////////
+ */
 html {
     scroll-behavior: smooth;
 }
@@ -51,7 +55,21 @@ img {
     max-width: 100%;
 }
 
-/* Typography */
+.seperator {
+    border: 0 none;
+    background-color: var(--clr-backup);
+    width: 82vw;
+    height: 1.5px;
+    margin-left: 9vw;
+    margin-top: 32px;
+    margin-bottom: -6px;
+}
+
+/* 
+/////////////////////////////////////////
+            Typography
+////////////////////////////////////////
+ */
 h1,
 h2,
 h3 {
@@ -66,9 +84,14 @@ h3 { font-size: var(--fs-h3) }
 
 
 
-/* Header and NavBar */
+ 
+/*///////////////////////////////////////
+        Header and NavBar
+///////////////////////////////////////*/
 
-/* mobile and small screens */
+/***************************************
+mobile and small screens 
+***************************************/
 @media (max-width: 800px) {
     .header {
         position: fixed;
@@ -181,7 +204,9 @@ h3 { font-size: var(--fs-h3) }
     }
 }
 
-/* Larger screens */
+/***************************************
+Larger screens
+***************************************/
 @media (min-width: 800px) {
     .header {
         display: grid;
@@ -191,6 +216,11 @@ h3 { font-size: var(--fs-h3) }
         background-color: var(--clr-white);
         box-shadow: var(--bs);
         height: 80px;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: 100;
     }
 
     .logo--text {
@@ -239,8 +269,13 @@ h3 { font-size: var(--fs-h3) }
     }
 }
 
-/* About Me Section */
-/* Small screens (mobile) */
+/*//////////////////////////////////////
+            About Me Section 
+ /////////////////////////////////////*/
+
+/***************************************
+mobile and small screens 
+***************************************/
 @media (max-width: 800px) {
     /* About me home page section cards */
     .container--about-me,
@@ -326,7 +361,9 @@ h3 { font-size: var(--fs-h3) }
 }
 
 
-/* Larger screens */
+/***************************************
+Large screens 
+***************************************/
 @media (min-width: 800px) {
     .container--about-me {
         display: grid;
@@ -409,8 +446,17 @@ h3 { font-size: var(--fs-h3) }
     a:hover {
         color: var(--clr-hover);
     }
+}
 
-    /* Featured Projects Section*/
+
+/*/////////////////////////////////////
+    Featured Projects Section
+/////////////////////////////////////*/
+
+/*************************************
+Large screens
+*************************************/
+@media (min-width: 800px) {
     .featured-container {
         background-color: var(--clr-white);
         border-radius: 40px;
@@ -500,16 +546,6 @@ h3 { font-size: var(--fs-h3) }
 
 }
 
-
-.seperator {
-    border: 0 none;
-    background-color: var(--clr-backup);
-    width: 82vw;
-    height: 1.5px;
-    margin-left: 9vw;
-    margin-top: 32px;
-    margin-bottom: -6px;
-}
 
 .footer {
     background-color: var(--clr-white);

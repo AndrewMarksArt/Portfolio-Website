@@ -265,6 +265,7 @@ Larger screens
 
     .nav--link:hover {
         color: var(--clr-hover);
+        font-weight: var(--fw-bold);
     }
 
     .nav-toggle {
@@ -765,15 +766,26 @@ large screens
         box-shadow: 10px 10px var(--clr-hover), 0px 0px 0px 3px black inset, 10px 10px 0px 3px black;
     }
 
-    
-
 }
 
+/*/////////////////////////////////////
+    Footer/Contact Section
+/////////////////////////////////////*/
 
-.footer {
-    background-color: var(--clr-white);
-    display: flex;
-    margin-top: 48px;
-    box-shadow: var(--bs);
-    height: 625px;
+/*************************************
+small screens
+*************************************/
+@media (max-width: 800px){
+    .footer--container {
+        background-color: var(--clr-white);
+        margin-top: 40px;
+        box-shadow: -0.25em -0.25em 2em rgba(0,0,0,.15),
+                    -0.125em -0.125em 0.5em rgba(0,0,0,.10);
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .footer--top-line {
+        width: 100vw;
+    }
 }

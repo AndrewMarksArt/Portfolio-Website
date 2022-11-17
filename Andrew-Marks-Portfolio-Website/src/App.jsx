@@ -2,7 +2,7 @@ import NavBar from "./components/NavBar";
 import AboutMe from "./components/AboutMe";
 import FeaturedProjects from "./components/FeaturedProjects";
 import ArtGallery from "./components/ArtGallery";
-import Footer from "./components/Footer";
+import ContactMe from "./components/ContactMe";
 
 export default function App() {
     return (
@@ -11,7 +11,9 @@ export default function App() {
             <AboutMe />
             <FeaturedProjects />
             <ArtGallery />
-            <Footer />
+            <div className="contact-component--container">
+                    <ContactMe />
+            </div>
         </>
     );
 }

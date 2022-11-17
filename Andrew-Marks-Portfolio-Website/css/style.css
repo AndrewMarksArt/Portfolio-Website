@@ -49,6 +49,7 @@ body {
     font-size: var(--fs-body);
     line-height: 1.6;
     min-width: 800px;
+    overflow-x: hidden;
 }
 
 img {
@@ -340,18 +341,18 @@ mobile and small screens
         color: var(--clr-headings);
     }
 
-    .about-me--socials-list {
+    .contact--socials-list {
         display: grid;
         grid-template-columns: auto auto;
         list-style-type: none;
         justify-items: left;
     }
 
-    .about-me--social-item {
+    .contact--social-item {
         margin-bottom: 8px;
     }
 
-    .about-me--social-item > a {
+    .contact--social-item > a {
         color: var(--clr-body-text);
         font-size: var(--fs-body);
         font-weight: var(--fw-semi);
@@ -423,17 +424,17 @@ Large screens
         font-size: var(--fs-body);
     }
 
-    .about-me--links {
+    .contact--links {
         grid-row: 4/7;
     }
-    .about-me--contact-title {
+    .contact--contact-title {
         color: var(--clr-headings);
         margin-left: 36px;
         grid-column-start: 1;
         grid-column-end: 2;
     }
 
-    .about-me--socials-list {
+    .contact--socials-list {
         display: flex;
         justify-content: space-between;
         grid-row: 6/7;
@@ -442,7 +443,7 @@ Large screens
         margin-right: 36px;
     }
 
-    .about-me--social-item > a {
+    .contact--social-item > a {
         color: var(--clr-body-text);
         text-decoration: none;
     }
@@ -775,17 +776,11 @@ large screens
 /*************************************
 small screens
 *************************************/
-@media (max-width: 800px){
-    .footer--container {
+@media (max-width: 800px) {
+    .contact-component--container {
         background-color: var(--clr-white);
         margin-top: 40px;
-        box-shadow: -0.25em -0.25em 2em rgba(0,0,0,.15),
-                    -0.125em -0.125em 0.5em rgba(0,0,0,.10);
-        width: 100%;
-        overflow: hidden;
-    }
-
-    .footer--top-line {
-        width: 100vw;
+        box-shadow: -0.25em -0.25em 0.75em rgba(0,0,0,.25),
+                    -0.125em -0.125em 0.25em rgba(0,0,0,.15);
     }
 }

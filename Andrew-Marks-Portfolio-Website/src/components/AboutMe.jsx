@@ -1,3 +1,5 @@
+import ContactMe from "./ContactMe";
+
 export default function AboutMe() {
     return (
         <>
@@ -18,15 +20,7 @@ export default function AboutMe() {
                     reprehenderit in voluptate velit.</p>
                 </div>
                 
-                <h2 className="about-me--contact-title">Contact Information</h2>
-                
-                <ul className="about-me--socials-list">
-                    <li className="about-me--social-item"><a href="#">email</a></li>
-                    <li className="about-me--social-item"><a href="#">LinkedIn</a></li>
-                    <li className="about-me--social-item"><a href="#">Behance</a></li>
-                    <li className="about-me--social-item"><a href="#">Twitter</a></li>
-                    <li className="about-me--social-item"><a href="#">Github</a></li>
-                </ul>
+                <ContactMe />
                     
             </div>
             <hr className="seperator"></hr>

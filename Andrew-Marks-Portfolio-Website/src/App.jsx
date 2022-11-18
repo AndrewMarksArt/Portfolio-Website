@@ -11,8 +11,10 @@ export default function App() {
             <AboutMe />
             <FeaturedProjects />
             <ArtGallery />
-            <div className="contact-component--container">
+            <div className="footer--container">
+                <div className="footer--contact-container">
                     <ContactMe />
+                </div>
             </div>
         </>
     );

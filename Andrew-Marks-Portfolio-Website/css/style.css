@@ -332,30 +332,34 @@ mobile and small screens
         color: var(--clr-body-text);
     }
 
-    .about-me--contact-title {
+    .contact--contact-title {
+        display: flex;
+        justify-content: left;
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 32px;
-        font-size: var(--fs-h2);
+        font-size: var(--fs-h1);
         font-weight: var(--fw-semi);
         color: var(--clr-headings);
     }
 
     .contact--socials-list {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto auto auto;
         list-style-type: none;
-        justify-items: left;
+        justify-content: center;
+        padding-left: 17vw;
+        padding-right: 17vw;
+        grid-column-gap: 12vw;
     }
 
     .contact--social-item {
-        margin-bottom: 8px;
+        margin-bottom: 16px;
     }
 
     .contact--social-item > a {
         color: var(--clr-body-text);
-        font-size: var(--fs-body);
-        font-weight: var(--fw-semi);
+        font-size: var(--fs-h1);
         text-decoration: none;
     }
 

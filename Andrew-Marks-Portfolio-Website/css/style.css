@@ -376,75 +376,43 @@ Large screens
 @media (min-width: 800px) {
     .container--about-me {
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-column-gap: 12px;
         background-color: var(--clr-white);
         border-radius: 40px;
         max-width: 86vw;
-        min-height: 400px;
+        margin-top: 140px;
         margin-left: 7vw;
-        margin-top: 120px;
         box-shadow: var(--bs);
     }
 
     
     .logo--about-me {
-        position: relative;
-        margin-top: 32px;
-        margin-left: 40px;
-        grid-row: 1/5;
-        max-width: 320px;
+        
     }
     .about-me--main {
-        display: inline-block;
-        margin-top: 32px;
-        margin-left: 24px;
-        margin-right: 40px;
+        
     }
 
     .about-me--title {
-        color: var(--clr-headings);
-        margin-top: 32px;
-        grid-row: 1/2;
-        grid-column: 2;
+        
     }
 
     .about-me--subtitle {
-        color: var(--clr-body-text);
-        white-space: wrap;
-        grid-row: 2/3;
-        grid-column: 2;
-        max-width: 50vw;
-        margin-top: 12px;
-        margin-right: 20px;
+        
     }
 
     .about-me--body {
-        white-space: pre-wrap;
-        grid-row: 2;
-        grid-column: 3/6;
-        font-family: var(--ff-primary);
-        font-weight: var(--fw-reg);
-        font-size: var(--fs-body);
+        
     }
 
     .contact--links {
-        grid-row: 4/7;
+        
     }
     .contact--contact-title {
-        color: var(--clr-headings);
-        margin-left: 36px;
-        grid-column-start: 1;
-        grid-column-end: 2;
+        
     }
 
     .contact--socials-list {
-        display: flex;
-        justify-content: space-between;
-        grid-row: 6/7;
-        grid-column: -1/1;
-        list-style-type: none;
-        margin-right: 36px;
+        
     }
 
     .contact--social-item > a {

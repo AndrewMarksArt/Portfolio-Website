@@ -1,13 +1,18 @@
 import NavBar from "./components/NavBar";
-import AboutMe from "./components/AboutMe";
-import FeaturedProjects from "./components/FeaturedProjects";
-import ArtGallery from "./components/ArtGallery";
+import AboutMe from "./components/Home/AboutMe";
+import FeaturedProjects from "./components/Home/FeaturedProjects";
+import ArtGallery from "./components/Home/ArtGallery";
 import ContactMe from "./components/ContactMe";
+
+import UIUXProjects from "./components/Projects/UxProjects";
+import DsProjects from "./components/Projects/DataScienceProjects";
 
 export default function App() {
     return (
         <>
-            <NavBar />
+            {
+            // This is the Home Page
+            /*<NavBar />
             <AboutMe />
             <FeaturedProjects />
             <ArtGallery />
@@ -15,7 +20,19 @@ export default function App() {
                 <div className="footer--contact-container">
                     <ContactMe />
                 </div>
-            </div>
+            </div>*/}
+
+            <>
+                <NavBar />
+                <UIUXProjects />
+                <DsProjects />
+                <div className="footer--container">
+                    <div className="footer--contact-container">
+                        <ContactMe />
+                    </div>
+                </div>
+            </>
+
         </>
     );
 }

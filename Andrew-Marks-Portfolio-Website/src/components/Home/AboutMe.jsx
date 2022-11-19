@@ -1,4 +1,4 @@
-import ContactMe from "./ContactMe";
+import ContactMe from "../ContactMe";
 
 export default function AboutMe() {
     return (

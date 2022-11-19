@@ -1,5 +1,5 @@
-import GalleryThumbnail from "./GalleryThumbnail";
-import ArtGalleryData from "./ArtGalleryData";
+import GalleryThumbnail from "../GalleryThumbnail";
+import ArtGalleryData from "../ArtGalleryData";
 import React from "react";
 
 export default function ArtGallery() {

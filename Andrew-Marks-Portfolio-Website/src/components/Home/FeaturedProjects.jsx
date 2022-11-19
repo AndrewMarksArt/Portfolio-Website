@@ -1,5 +1,5 @@
-import ProjectCard from "./ProjectCard";
-import ProjectData from "./ProjectData"
+import ProjectCard from "../ProjectCard";
+import ProjectData from "../ProjectData"
 import React from "react";
 
 export default function FeaturedProjects() {

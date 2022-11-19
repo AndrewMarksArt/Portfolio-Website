@@ -369,13 +369,11 @@ mobile and small screens
 
 }
 
-
 /***************************************
 Large screens 
 ***************************************/
 @media (min-width: 800px) {
     .container--about-me {
-        display: grid;
         background-color: var(--clr-white);
         border-radius: 40px;
         max-width: 86vw;
@@ -384,24 +382,40 @@ Large screens
         box-shadow: var(--bs);
     }
 
+    .about-me--main-container{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1.5fr;
+        padding: 40px 80px;
+    }
     
     .logo--about-me {
-        
+        width: 25vw;
+        min-width: 250px;
     }
     .about-me--main {
-        
+        padding: 40px;
     }
 
     .about-me--title {
-        
+        margin-bottom: 16px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
     }
 
     .about-me--subtitle {
-        
+        margin-bottom: 32px;
+        font-size: var(--fs-h2);
+        color: var(--clr-headings);
+        font-weight: var(--fw-semi);
     }
 
     .about-me--body {
-        
+        font-size: var(--fs-body);
+        color: var(--clr-body-text);
+        font-weight: var(--fw-reg);
     }
 
     .contact--links {

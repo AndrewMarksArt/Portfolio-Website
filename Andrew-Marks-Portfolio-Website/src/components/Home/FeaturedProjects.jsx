@@ -17,7 +17,7 @@ export default function FeaturedProjects() {
                     <button className="featured-see-all">see all projects</button>
                 </div>
                 <div className="featured-cards-container">
-                    {projectElements}
+                    {projectElements.slice(0,3)}
                 </div>
             </div>
             <hr className="seperator"></hr>

@@ -16,5 +16,23 @@ export default [
         img: "battle_warriors_featured.png",
         title: "Battle Warriors NFT",
         headline: "Creator & Owner of P2E NFT gaming project."
-    }
+    },
+    {
+        id: 4,
+        img: "battle_warriors_featured.png",
+        title: "NFT Community Manager",
+        headline: "UI dashboard design for NFT communities with afocused on security."
+    },
+    {
+        id: 5,
+        img: "battle_warriors_featured.png",
+        title: "On Chain Blind Vikery Auction",
+        headline: "Design for fully on-chain blind auction allowing for better price discovery."
+    },
+    {
+        id: 6,
+        img: "battle_warriors_featured.png",
+        title: "Address and Contract Tracker",
+        headline: "Chrome extension to note, and keep track of crypto address and contracts."
+    },
 ]

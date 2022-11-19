@@ -27,6 +27,7 @@
     --fs-h3: 1.25rem;
     --fs-body: 22px;
     --fs-body-sm: 16px;
+    --fs-xl: 60px;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
@@ -39,6 +40,7 @@
  */
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 body {
@@ -358,7 +360,7 @@ mobile and small screens
     }
 
     .contact--social-item > a {
-        color: var(--clr-body-text);
+        color: var(--clr-primary);
         font-size: var(--fs-h1);
         text-decoration: none;
     }
@@ -387,7 +389,8 @@ Large screens
         align-items: center;
         justify-items: center;
         grid-template-columns: 1fr 1.5fr;
-        padding: 40px 80px;
+        padding: 40px 80px 0px 80px;
+        margin-bottom: 0px;
     }
     
     .logo--about-me {
@@ -418,19 +421,38 @@ Large screens
         font-weight: var(--fw-reg);
     }
 
-    .contact--links {
-        
+    .contact--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
     }
+
     .contact--contact-title {
-        
+        display: flex;
+        justify-content: left;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 40px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
     }
 
     .contact--socials-list {
-        
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        grid-column-gap: 10vw;
+    }
+
+    .contact--social-item {
+        margin-bottom: 40px;
     }
 
     .contact--social-item > a {
-        color: var(--clr-body-text);
+        color: var(--clr-primary);
+        font-size: var(--fs-h1);
         text-decoration: none;
     }
 
@@ -781,11 +803,13 @@ small screens
 large screens
 *************************************/
 @media (min-width: 800px) {
-    .contact-component--container {
-        display: flex;
+    .footer--container {
         background-color: var(--clr-white);
-        margin-top: 80px;
+        padding-top: 12px;
+        margin-top: 40px;
         box-shadow: -0.25em -0.25em 0.75em rgba(0,0,0,.25),
                     -0.125em -0.125em 0.25em rgba(0,0,0,.15);
+        bottom: 0;
     }
+
 }

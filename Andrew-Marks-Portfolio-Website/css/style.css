@@ -798,7 +798,7 @@ small screens
 */
 
 @media (max-width: 800px) {
-    .projects--uiux-container {
+    .projects--uiux-container, .projects--ds-container {
         margin: 100px 7vw 40px 7vw;
         background-color: var(--clr-white);
         border-radius: 40px;

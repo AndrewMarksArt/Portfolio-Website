@@ -17,7 +17,7 @@ export default function UIUXProjects() {
             </div>
 
             <div className="projects-cards-container">
-                    {projectElements}
+                    {projectElements.slice(0,6)}
             </div>
 
         </div>

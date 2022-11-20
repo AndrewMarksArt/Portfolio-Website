@@ -35,4 +35,22 @@ export default [
         title: "Address and Contract Tracker",
         headline: "Chrome extension to note, and keep track of crypto address and contracts."
     },
+    {
+        id: 7,
+        img: "airbnb_card.png",
+        title: "AirBnB Price Predictions",
+        headline: "UI dashboard design for NFT communities with afocused on security."
+    },
+    {
+        id: 8,
+        img: "yelp_card.png",
+        title: "Yelp Sentiment Analysis",
+        headline: "Design for fully on-chain blind auction allowing for better price discovery."
+    },
+    {
+        id: 9,
+        img: "hirst_card.png",
+        title: "Fine Art Market Analysis",
+        headline: "Chrome extension to note, and keep track of crypto address and contracts."
+    },
 ]

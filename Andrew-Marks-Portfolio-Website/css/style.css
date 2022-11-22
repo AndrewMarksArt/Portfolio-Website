@@ -885,6 +885,35 @@ small screens
     }
 }
 
+/*************************************
+large screens
+*************************************/
+@media (min-width: 800px) {
+    .full-gallery--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        box-shadow: var(--bs);
+        margin: 100px 7vw 100px 7vw;
+        width: 86vw;
+        padding-top: 24px;
+    }
+
+    .full-gallery--title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-left: 50px;
+    }
+
+    .full-gallery--grid-container {
+        padding: 50px;
+        padding-top: 24px;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 2vw;
+    }
+}
+
 /*/////////////////////////////////////
     Footer/Contact Section
 /////////////////////////////////////*/

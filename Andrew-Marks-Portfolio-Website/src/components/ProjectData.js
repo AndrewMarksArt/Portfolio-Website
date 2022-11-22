@@ -15,7 +15,7 @@ export default [
         id: 3,
         img: "battle_warriors_featured.png",
         title: "Battle Warriors NFT",
-        headline: "Creator & Owner of P2E NFT gaming project."
+        headline: "Creator, Artist, & Designer of P2E NFT gaming project."
     },
     {
         id: 4,

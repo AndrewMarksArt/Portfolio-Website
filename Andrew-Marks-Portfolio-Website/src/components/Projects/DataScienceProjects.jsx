@@ -16,7 +16,7 @@ export default function DsProjects() {
                 <h1 className="projects--section-title">Data Science Projects</h1>
             </div>
 
-            <div className="projects-cards-container">
+            <div className="projects--cards-container">
                     {projectElements.slice(6,)}
             </div>
         </div>

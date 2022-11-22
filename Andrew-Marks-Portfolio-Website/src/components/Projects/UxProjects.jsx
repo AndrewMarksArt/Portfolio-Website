@@ -16,7 +16,7 @@ export default function UIUXProjects() {
                 <h1 className="projects--section-title">UI/UX Projects</h1>
             </div>
 
-            <div className="projects-cards-container">
+            <div className="projects--cards-container">
                     {projectElements.slice(0,6)}
             </div>
 

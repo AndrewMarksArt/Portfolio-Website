@@ -6,6 +6,7 @@ import ContactMe from "./components/ContactMe";
 
 import UIUXProjects from "./components/Projects/UxProjects";
 import DsProjects from "./components/Projects/DataScienceProjects";
+import FullGallery from "./components/Gallery/FullGallery";
 
 export default function App() {
     return (
@@ -32,6 +33,18 @@ export default function App() {
                     </div>
                 </div>
             </>
+
+            {/*
+            <>
+                <NavBar />
+                <FullGallery />
+                <div className="footer--container">
+                    <div className="footer--contact-container">
+                        <ContactMe />
+                    </div>
+                </div>
+            </>
+            */}
 
         </>
     );

@@ -17,7 +17,7 @@ export default function ArtGallery() {
                 <button className="art-gallery--see-all">see all artwork</button>
             </div>
             <div className="art-gallery--grid-container">
-                {galleryElements}
+                {galleryElements.slice(0,9)}
             </div>
         </div>
     );

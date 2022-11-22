@@ -821,12 +821,17 @@ large screens
 ************************************/
 @media (min-width: 800px) {
     .projects--uiux-container, .projects--ds-container {
-        margin: 100px 7vw 40px 7vw;
+        margin: 140px 7vw 40px 7vw;
         background-color: var(--clr-white);
         border-radius: 40px;
         padding: 40px;
         width: 86vw;
         box-shadow: var(--bs);
+    }
+
+    .projects--ds-container {
+        margin-top: 60px;
+        margin-bottom: 100px;
     }
 
     .projects--cards-container {
@@ -846,6 +851,39 @@ large screens
 }
 
 
+/*
+///////////////////////////////////////
+Full Art Gallery Page
+///////////////////////////////////////
+*************************************
+small screens
+*************************************
+*/
+
+@media (max-width: 800px) {
+    .full-gallery--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        box-shadow: var(--bs);
+        margin: 100px 7vw 100px 7vw;
+        width: 86vw;
+        padding-top: 24px;
+    }
+
+    .full-gallery--grid-container {
+        padding: 24px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 24px;
+    }
+
+    .full-gallery--title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-left: 24px;
+    }
+}
 
 /*/////////////////////////////////////
     Footer/Contact Section

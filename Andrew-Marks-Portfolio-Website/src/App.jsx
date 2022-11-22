@@ -23,6 +23,7 @@ export default function App() {
                 </div>
             </div>*/}
 
+            {/*
             <>
                 <NavBar />
                 <UIUXProjects />
@@ -33,8 +34,9 @@ export default function App() {
                     </div>
                 </div>
             </>
+            */}
 
-            {/*
+            
             <>
                 <NavBar />
                 <FullGallery />
@@ -44,7 +46,7 @@ export default function App() {
                     </div>
                 </div>
             </>
-            */}
+            
 
         </>
     );

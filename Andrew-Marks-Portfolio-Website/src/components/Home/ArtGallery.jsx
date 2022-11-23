@@ -1,4 +1,4 @@
-import GalleryThumbnail from "../GalleryThumbnail";
+import GalleryThumbnail from "../Gallery/GalleryThumbnail";
 import ArtGalleryData from "../ArtGalleryData";
 import React from "react";
 

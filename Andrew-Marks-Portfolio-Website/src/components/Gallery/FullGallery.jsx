@@ -12,7 +12,17 @@ export default function FullGallery() {
 
     return(
         <div className="full-gallery--container">
-            <h1 className="full-gallery--title">Art Gallery</h1>
+            <div className="full-gallery--topline">
+                <h1 className="full-gallery--title">Art Gallery</h1>
+                <div className="full-gallery--filters">
+                    <button className="full-gallery--filter-active">all</button>
+                    <button className="full-gallery--filter-inactive">drawings</button>
+                    <button className="full-gallery--filter-inactive">paintings</button>
+                    <button className="full-gallery--filter-inactive">game art</button>
+                    <button className="full-gallery--filter-inactive">ui design</button>
+                </div>
+            </div>
+            
             <div className="full-gallery--grid-container">
                 {galleryElements}
             </div>

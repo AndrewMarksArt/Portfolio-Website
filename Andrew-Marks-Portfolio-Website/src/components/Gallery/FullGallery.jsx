@@ -4,11 +4,7 @@ import React from "react";
 
 export default function FullGallery() {
 
-    const [filter, setFilter] = React.useState("game_art")
-
-    function toggleFilter(type) {
-        setFilter(type)
-    }
+    const [filter, setFilter] = React.useState("all")
 
     function showImages() {
         if(filter == "all") {
@@ -41,11 +37,35 @@ export default function FullGallery() {
             <div className="full-gallery--topline">
                 <h1 className="full-gallery--title">Art Gallery</h1>
                 <div className="full-gallery--filters">
-                    <button className="full-gallery--filter-active" onClick={() => setFilter("all")}>all</button>
-                    <button className="full-gallery--filter-inactive" onClick={() => setFilter("drawing")}>drawings</button>
-                    <button className="full-gallery--filter-inactive" onClick={() => setFilter("painting")}>paintings</button>
-                    <button className="full-gallery--filter-inactive" onClick={() => setFilter("game_art")}>game art</button>
-                    <button className="full-gallery--filter-inactive" onClick={() => setFilter("ui")}>ui design</button>
+                    <button className={
+                                filter === "all" ? "full-gallery--filter-active" : "full-gallery--filter-all"
+                            } onClick={() => setFilter("all")}>
+                                all
+                    </button>
+
+                    <button className={
+                                filter === "drawing" ? "full-gallery--filter-active" : "full-gallery--filter-drawing"
+                            } onClick={() => setFilter("drawing")}>
+                                drawings
+                    </button>
+                    
+                    <button className={
+                                filter === "painting" ? "full-gallery--filter-active" : "full-gallery--filter-painting"
+                            } onClick={() => setFilter("painting")}>
+                                paintings
+                    </button>
+                    
+                    <button className={
+                                filter === "game_art" ? "full-gallery--filter-active" : "full-gallery--filter-game-art"
+                            } onClick={() => setFilter("game_art")}>
+                                game art
+                    </button>
+                    
+                    <button className={
+                                filter === "ui" ? "full-gallery--filter-active" : "full-gallery--filter-ui"
+                            } onClick={() => setFilter("ui")}>
+                                ui design
+                    </button>
                 </div>
             </div>
             

@@ -18,7 +18,7 @@ export default function FullGallery() {
                     <button className="full-gallery--filter-active">all</button>
                     <button className="full-gallery--filter-inactive">drawings</button>
                     <button className="full-gallery--filter-inactive">paintings</button>
-                    <button className="full-gallery--filter-inactive">game art</button>
+                    <button className="full-gallery--filter-inactive">nfts</button>
                     <button className="full-gallery--filter-inactive">ui design</button>
                 </div>
             </div>

@@ -8,7 +8,13 @@ export default function GalleryThumbnail(props) {
         <>
             <div className="gallery-image--container">
                 <img src={`./img/gallery/${props.img}`} className="gallery-image--home" onClick={()=>setShow(!show)}></img>
-                <Modal onClose={() => setShow(!show)} show={show} img={props.img}/>
+                <Modal 
+                    onClose={() => setShow(!show)} 
+                    show={show} 
+                    img={props.img}
+                    title={props.title}
+                    desc={props.desc}
+                />
             </div>
         </>
     )

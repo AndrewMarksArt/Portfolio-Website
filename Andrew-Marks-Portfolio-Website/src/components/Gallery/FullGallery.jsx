@@ -13,6 +13,9 @@ export default function FullGallery() {
                     return <GalleryThumbnail
                                 key={item.id}
                                 img={item.img}
+                                full_img={item.full_img}
+                                title={item.title}
+                                desc={item.desc}
                                 type={item.type}
                             />
                 })
@@ -24,6 +27,9 @@ export default function FullGallery() {
                     return <GalleryThumbnail
                                 key={item.id}
                                 img={item.img}
+                                full_img={item.full_img}
+                                title={item.title}
+                                desc={item.desc}
                                 type={item.type}
                             />}
                 })

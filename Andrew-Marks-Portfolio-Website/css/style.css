@@ -743,16 +743,27 @@ small screens
     }
 
     .modal-image {
-        object-fit: contain;
+        object-fit: fill;
         width: 60vw;
-        height: 100%;
+        height: 80%;
+        margin-bottom: 50px;
+    }
+
+    .modal-text-container {
+        margin-top: -80px;
     }
 
     .modal-image-title {
         font-size: var(--fs-h1);
         font-weight: var(--fw-bold);
         color: var(--clr-headings);
-        margin-bottom: 80px;
+        margin-bottom: -24px;
+    }
+
+    .modal-image-desc {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
     }
 
     .modal-close {

@@ -1,10 +1,15 @@
+import { useState } from "react"
+import Modal from "./ImageModal"
+
 export default function GalleryThumbnail(props) {
-    function showImg() {
-        console.log(props.img)
-    }
+    const [show, setShow] = useState(false)
+
     return (
-        <div className="gallery-image--container">
-            <img src={`./img/gallery/${props.img}`} className="gallery-image--home" onClick={showImg}></img>
-        </div>
+        <>
+            <div className="gallery-image--container">
+                <img src={`./img/gallery/${props.img}`} className="gallery-image--home" onClick={()=>setShow(!show)}></img>
+                <Modal onClose={() => setShow(!show)} show={show} img={props.img}/>
+            </div>
+        </>
     )
 }

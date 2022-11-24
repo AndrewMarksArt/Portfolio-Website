@@ -33,45 +33,47 @@ export default function FullGallery() {
     }
 
     return(
-        <div className="full-gallery--container">
-            <div className="full-gallery--topline">
-                <h1 className="full-gallery--title">Art Gallery</h1>
-                <div className="full-gallery--filters">
-                    <button className={
-                                filter === "all" ? "full-gallery--filter-active" : "full-gallery--filter-all"
-                            } onClick={() => setFilter("all")}>
-                                all
-                    </button>
+        <>
+            <div className="full-gallery--container">
+                <div className="full-gallery--topline">
+                    <h1 className="full-gallery--title">Art Gallery</h1>
+                    <div className="full-gallery--filters">
+                        <button className={
+                                    filter === "all" ? "full-gallery--filter-active" : "full-gallery--filter-all"
+                                } onClick={() => setFilter("all")}>
+                                    all
+                        </button>
 
-                    <button className={
-                                filter === "drawing" ? "full-gallery--filter-active" : "full-gallery--filter-drawing"
-                            } onClick={() => setFilter("drawing")}>
-                                drawings
-                    </button>
-                    
-                    <button className={
-                                filter === "painting" ? "full-gallery--filter-active" : "full-gallery--filter-painting"
-                            } onClick={() => setFilter("painting")}>
-                                paintings
-                    </button>
-                    
-                    <button className={
-                                filter === "game_art" ? "full-gallery--filter-active" : "full-gallery--filter-game-art"
-                            } onClick={() => setFilter("game_art")}>
-                                game art
-                    </button>
-                    
-                    <button className={
-                                filter === "ui" ? "full-gallery--filter-active" : "full-gallery--filter-ui"
-                            } onClick={() => setFilter("ui")}>
-                                ui design
-                    </button>
+                        <button className={
+                                    filter === "drawing" ? "full-gallery--filter-active" : "full-gallery--filter-drawing"
+                                } onClick={() => setFilter("drawing")}>
+                                    drawings
+                        </button>
+                        
+                        <button className={
+                                    filter === "painting" ? "full-gallery--filter-active" : "full-gallery--filter-painting"
+                                } onClick={() => setFilter("painting")}>
+                                    paintings
+                        </button>
+                        
+                        <button className={
+                                    filter === "game_art" ? "full-gallery--filter-active" : "full-gallery--filter-game-art"
+                                } onClick={() => setFilter("game_art")}>
+                                    game art
+                        </button>
+                        
+                        <button className={
+                                    filter === "ui" ? "full-gallery--filter-active" : "full-gallery--filter-ui"
+                                } onClick={() => setFilter("ui")}>
+                                    ui design
+                        </button>
+                    </div>
+                </div>
+                
+                <div className="full-gallery--grid-container">
+                    {showImages()}
                 </div>
             </div>
-            
-            <div className="full-gallery--grid-container">
-                {showImages()}
-            </div>
-        </div>
+        </>
     )
 }

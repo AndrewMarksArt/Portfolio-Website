@@ -745,8 +745,9 @@ small screens
 
     .modal-image {
         object-fit:contain;
-        max-height: 60vh;
+        max-height: 50vh;
         margin-bottom: 70px;
+        justify-self: center;
     }
 
     .modal-text-container {
@@ -881,7 +882,7 @@ large screens
 
     .modal-image {
         object-fit: cover;
-        max-height: 70vh;
+        max-height: 65vh;
         overflow: hidden;
         
     }

@@ -1,18 +1,18 @@
 export default [
     {
         id: 1,
-        img: "GoT.png",
-        full_img: "GoT_LRG.png",
+        img: "thumbnail/GoT.png",
+        full_img: "large/GoT_LRG.png",
         title: "Tyrion Lannister",
-        desc: "pen, ink, & illustrator",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
         id: 2,
-        img: "tangled.png",
-        full_img: "",
+        img: "thumbnail/tangled.png",
+        full_img: "large/tangled_LRG.png",
         title: "Tangled",
-        desc: "pen and ink",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
@@ -41,10 +41,10 @@ export default [
     },
     {
         id: 6,
-        img: "hipstercat.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/hipster_cat.png",
+        full_img: "large/hipster_cat_LRG.png",
+        title: "Hipster Cat",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
@@ -73,67 +73,67 @@ export default [
     },
     {
         id: 10,
-        img: "GoT.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/balloons.png",
+        full_img: "large/balloons_LRG.png",
+        title: "Float Away",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
         id: 11,
-        img: "tangled.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/headdress.png",
+        full_img: "large/headdress_LRG.png",
+        title: "Native Beauty",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
         id: 12,
-        img: "rouge.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "game_art"
+        img: "thumbnail/messy_bun.png",
+        full_img: "large/messy_bun_LRG.png",
+        title: "Messy Bun",
+        desc: "pen & ink, illustrator",
+        type: "drawing"
     },
     {
         id: 13,
-        img: "valk.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "game_art"
+        img: "thumbnail/lightbulb.png",
+        full_img: "large/lightbulb_LRG.png",
+        title: "Upcycled",
+        desc: "pen & ink, illustrator",
+        type: "drawing"
     },
     {
         id: 14,
-        img: "rain.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "painting"
+        img: "thumbnail/my_fair_lady.png",
+        full_img: "large/my_fair_lady_LRG.png",
+        title: "My Fair Lady",
+        desc: "pen & ink, illustrator",
+        type: "drawing"
     },
     {
         id: 15,
-        img: "hipstercat.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/little_princess.png",
+        full_img: "large/little_princess_LRG.png",
+        title: "Little Princess",
+        desc: "pen & ink, illustrator",
         type: "drawing"
     },
     {
         id: 16,
-        img: "grace_kelly.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "painting"
+        img: "thumbnail/upside_down.png",
+        full_img: "large/upside_down_LRG.png",
+        title: "New Perspective",
+        desc: "pen & ink, illustrator",
+        type: "drawing"
     },
     {
         id: 17,
-        img: "thor.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "game_art"
+        img: "thumbnail/batman.png",
+        full_img: "large/batman_LRG.png",
+        title: "Inking Practice",
+        desc: "pen & ink, illustrator",
+        type: "drawing"
     },
     {
         id: 18,
@@ -143,22 +143,10 @@ export default [
         desc: "",
         type: "game_art"
     },
-    {
-        id: 19,
-        img: "GoT.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "drawing"
-    },
-    {
-        id: 20,
-        img: "tangled.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "drawing"
-    },
+    
+    //
+
+    
     {
         id: 21,
         img: "rouge.png",
@@ -183,14 +171,9 @@ export default [
         desc: "",
         type: "painting"
     },
-    {
-        id: 24,
-        img: "hipstercat.png",
-        full_img: "",
-        title: "",
-        desc: "",
-        type: "drawing"
-    },
+    
+    //
+
     {
         id: 25,
         img: "grace_kelly.png",

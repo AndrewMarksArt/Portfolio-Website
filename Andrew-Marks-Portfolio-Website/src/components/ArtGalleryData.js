@@ -33,10 +33,10 @@ export default [
     },
     {
         id: 5,
-        img: "rain.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/rain.png",
+        full_img: "large/rain_LRG.png",
+        title: "Rainy Day",
+        desc: "watercolor, ink, canvas",
         type: "painting"
     },
     {
@@ -50,9 +50,9 @@ export default [
     {
         id: 7,
         img: "grace_kelly.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        full_img: "large/grace_kelly_LRG.png",
+        title: "Grace Kelly",
+        desc: "acrylic, ink, canvas",
         type: "painting"
     },
     {
@@ -137,57 +137,72 @@ export default [
     },
     {
         id: 18,
-        img: "king.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/lion.png",
+        full_img: "large/lion_LRG.png",
+        title: "Squeaky",
+        desc: "character design",
         type: "game_art"
     },
-    
-    //
 
+    //
     
     {
+        id: 20,
+        img: "thumbnail/flames.png",
+        full_img: "large/flames_LRG.png",
+        title: "Into the Flames",
+        desc: "Acrylic, canvas",
+        type: "painting"
+    },
+    {
         id: 21,
-        img: "rouge.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/witch.png",
+        full_img: "large/witch_LRG.png",
+        title: "Sabrina",
+        desc: "character design",
         type: "game_art"
     },
     {
         id: 22,
-        img: "valk.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/vampire.png",
+        full_img: "large/vampire_LRG.png",
+        title: "Chompy",
+        desc: "character design",
         type: "game_art"
     },
     {
         id: 23,
-        img: "rain.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/drips.png",
+        full_img: "large/drips_LRG.png",
+        title: "Squeeze",
+        desc: "spray pain, ink, canvas",
         type: "painting"
     },
     
-    //
+    {
+        id: 24,
+        img: "thumbnail/crazy_love.png",
+        full_img: "large/crazy_love_LRG.png",
+        title: "Crazy Love",
+        desc: "Acrylic, canvas",
+        type: "painting"
+    },
 
     {
         id: 25,
-        img: "grace_kelly.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/VintageDress.png",
+        full_img: "large/VintageDress_LRG.png",
+        title: "Vintage Dress",
+        desc: "Acrylic, ink, canvas",
         type: "painting"
     },
+
     {
         id: 26,
-        img: "thor.png",
-        full_img: "",
-        title: "",
-        desc: "",
+        img: "thumbnail/elephant.png",
+        full_img: "large/elephant_LRG.png",
+        title: "Elle Trunks",
+        desc: "character design",
         type: "game_art"
     },
     {

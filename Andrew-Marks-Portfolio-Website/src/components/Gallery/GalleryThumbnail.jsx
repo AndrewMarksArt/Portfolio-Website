@@ -12,6 +12,7 @@ export default function GalleryThumbnail(props) {
                     onClose={() => setShow(!show)} 
                     show={show} 
                     img={props.img}
+                    full_img={props.full_img}
                     title={props.title}
                     desc={props.desc}
                 />

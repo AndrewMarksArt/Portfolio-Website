@@ -2,9 +2,9 @@ export default [
     {
         id: 1,
         img: "GoT.png",
-        full_img: "",
+        full_img: "GoT_LRG.png",
         title: "Tyrion Lannister",
-        desc: "pen and ink",
+        desc: "pen, ink, & illustrator",
         type: "drawing"
     },
     {
@@ -209,6 +209,30 @@ export default [
     },
     {
         id: 27,
+        img: "king.png",
+        full_img: "",
+        title: "",
+        desc: "",
+        type: "ui"
+    },
+    {
+        id: 28,
+        img: "king.png",
+        full_img: "",
+        title: "",
+        desc: "",
+        type: "ui"
+    },
+    {
+        id: 29,
+        img: "king.png",
+        full_img: "",
+        title: "",
+        desc: "",
+        type: "ui"
+    },
+    {
+        id: 30,
         img: "king.png",
         full_img: "",
         title: "",

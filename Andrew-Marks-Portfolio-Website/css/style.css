@@ -740,13 +740,13 @@ small screens
         justify-content: center;
         align-items: center;
         gap: 0px;
+        padding:16px;
     }
 
     .modal-image {
-        object-fit: fill;
-        width: 60vw;
-        height: 80%;
-        margin-bottom: 50px;
+        object-fit:contain;
+        max-height: 60vh;
+        margin-bottom: 70px;
     }
 
     .modal-text-container {
@@ -880,8 +880,10 @@ large screens
     }
 
     .modal-image {
-        object-fit: fill;
-        height: 100%;
+        object-fit: cover;
+        max-height: 70vh;
+        overflow: hidden;
+        
     }
 
     .modal-text-container {

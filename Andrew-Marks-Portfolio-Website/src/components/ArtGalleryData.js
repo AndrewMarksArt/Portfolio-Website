@@ -354,86 +354,86 @@ export default [
         desc: "battle warriors character design",
         type: "game_art"
     },
-
-    
     {
         id: 45,
-        img: "thumbnail/death_mountains.png",
-        full_img: "large/death_mountains_LRG.png",
-        title: "Thane",
+        img: "thumbnail/poision_queen.png",
+        full_img: "large/poision_queen_LRG.png",
+        title: "Poison Queen",
         desc: "battle warriors character design",
         type: "game_art"
     },
     {
         id: 46,
-        img: "thumbnail/magic_high_king.png",
-        full_img: "large/magic_high_king_LRG.png",
-        title: "Magic High King",
+        img: "thumbnail/poision_king.png",
+        full_img: "large/poision_king_LRG.png",
+        title: "Poison King",
         desc: "battle warriors character design",
         type: "game_art"
     },
     {
         id: 47,
-        img: "thumbnail/freya_valk.png",
-        full_img: "large/freya_valk_LRG.png",
-        title: "Valkyrie Freya",
+        img: "thumbnail/blood_queen.png",
+        full_img: "large/blood_queen_LRG.png",
+        title: "Blood Queen",
         desc: "battle warriors character design",
         type: "game_art"
     },
     {
         id: 48,
-        img: "thumbnail/rouge.png",
-        full_img: "large/rouge_LRG.png",
-        title: "Dizzy Rouge",
+        img: "thumbnail/magic_archer.png",
+        full_img: "large/magic_archer_LRG.png",
+        title: "Magic Archer",
         desc: "battle warriors character design",
         type: "game_art"
     },
+
+
     {
         id: 49,
-        img: "thumbnail/heal_valk.png",
-        full_img: "large/heal_valk_LRG.png",
-        title: "Valkyrie Healer",
-        desc: "battle warriors character design",
+        img: "thumbnail/hard.png",
+        full_img: "large/hard_LRG.png",
+        title: "Watch Your Step",
+        desc: "battle warriors game design",
         type: "ui"
     },
     {
         id: 50,
-        img: "thumbnail/thor.png",
-        full_img: "large/thor_LRG.png",
-        title: "Ragnar Redmane",
-        desc: "battle warriors character design",
+        img: "thumbnail/level_building.png",
+        full_img: "large/level_building_LRG.png",
+        title: "Jump or Duck?",
+        desc: "battle warriors game design",
         type: "ui"
     },
     {
         id: 51,
-        img: "thumbnail/trainee.png",
-        full_img: "large/trainee_LRG.png",
-        title: "Viking Trainee",
-        desc: "battle warriors character design",
+        img: "thumbnail/good_luck.png",
+        full_img: "large/good_luck_LRG.png",
+        title: "Good Luck...",
+        desc: "battle warriors game design",
         type: "ui"
     },
     {
         id: 52,
-        img: "thumbnail/ranger.png",
-        full_img: "large/ranger_LRG.png",
-        title: "Forest Ranger",
-        desc: "battle warriors character design",
+        img: "thumbnail/char_select.png",
+        full_img: "large/char_select_LRG.png",
+        title: "Character Select",
+        desc: "battle warriors game design",
         type: "ui"
     },
     {
         id: 53,
-        img: "thumbnail/queen_freya.png",
-        full_img: "large/queen_freya_LRG.png",
-        title: "High Queen Freya",
-        desc: "battle warriors character design",
+        img: "thumbnail/new_game.png",
+        full_img: "large/new_game_LRG.png",
+        title: "New Game",
+        desc: "battle warriors game design",
         type: "ui"
     },
     {
         id: 54,
-        img: "thumbnail/death_berserker.png",
-        full_img: "large/death_berserker_LRG.png",
-        title: "Death Berserker",
-        desc: "battle warriors character design",
+        img: "thumbnail/ui_window.png",
+        full_img: "large/ui_window_LRG.png",
+        title: "UI Elements",
+        desc: "battle warriors game ui design",
         type: "ui"
     },
 ]

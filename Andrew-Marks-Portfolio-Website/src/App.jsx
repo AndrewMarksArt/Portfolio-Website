@@ -12,16 +12,20 @@ export default function App() {
     return (
         <>
             {
+            <>
             // This is the Home Page
-            /*<NavBar />
-            <AboutMe />
-            <FeaturedProjects />
-            <ArtGallery />
-            <div className="footer--container">
-                <div className="footer--contact-container">
-                    <ContactMe />
+                <NavBar />
+                <AboutMe />
+                <FeaturedProjects />
+                <ArtGallery />
+                <div className="footer--container">
+                    <div className="footer--contact-container">
+                        <ContactMe />
+                    </div>
                 </div>
-            </div>*/}
+            </>
+            }
+
 
             {/*
             <>
@@ -36,7 +40,7 @@ export default function App() {
             </>
             */}
 
-            
+            {/* 
             <>
                 <NavBar />
                 <FullGallery />
@@ -46,6 +50,7 @@ export default function App() {
                     </div>
                 </div>
             </>
+            */}
             
 
         </>

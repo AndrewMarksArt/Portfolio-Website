@@ -6,7 +6,11 @@ export default function ArtGallery() {
     const galleryElements = ArtGalleryData.map(item => {
         return <GalleryThumbnail
                     key={item.id}
-                    item={item}
+                    img={item.img}
+                    full_img={item.full_img}
+                    title={item.title}
+                    desc={item.desc}
+                    type={item.type}
                 />
     })
 

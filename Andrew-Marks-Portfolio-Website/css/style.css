@@ -870,7 +870,8 @@ large screens
     .modal-content {
         background-color: var(--clr-white);
         border-radius: 40px;
-        width: 50vw;
+        min-width: 50vw;
+        max-width: 80vw;
         height: 90vh;
         display: grid;
         grid-template-rows: auto 40px 60px;

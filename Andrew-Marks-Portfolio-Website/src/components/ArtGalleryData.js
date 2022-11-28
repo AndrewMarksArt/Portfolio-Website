@@ -436,4 +436,52 @@ export default [
         desc: "battle warriors game ui design",
         type: "ui"
     },
+    {
+        id: 55,
+        img: "thumbnail/weather_app.png",
+        full_img: "large/weather_app_LRG.png",
+        title: "Weather App",
+        desc: "ui design practice",
+        type: "ui"
+    },
+    {
+        id: 56,
+        img: "thumbnail/meditation.png",
+        full_img: "large/meditation_LRG.png",
+        title: "Meditation App",
+        desc: "ui design practice",
+        type: "ui"
+    },
+    {
+        id: 57,
+        img: "thumbnail/boarding_pass.png",
+        full_img: "large/boarding_pass_LRG.png",
+        title: "Boading Pass",
+        desc: "ui design practice",
+        type: "ui"
+    },
+    {
+        id: 58,
+        img: "thumbnail/dashboard_mock.png",
+        full_img: "large/dashboard_mock.png",
+        title: "Dashboard Concept",
+        desc: "ui design practice",
+        type: "ui"
+    },
+    {
+        id: 59,
+        img: "thumbnail/azuki_login.png",
+        full_img: "large/azuki_login_LRG.png",
+        title: "NFT Login Idea",
+        desc: "ui design practice",
+        type: "ui"
+    },
+    {
+        id: 60,
+        img: "thumbnail/crypto_dashboard.png",
+        full_img: "large/crypto_dashboard_LRG.jpg",
+        title: "Discord Security Tool",
+        desc: "ui design practice",
+        type: "ui"
+    },
 ]

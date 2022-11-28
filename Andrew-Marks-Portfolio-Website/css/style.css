@@ -1153,6 +1153,38 @@ large screens
     }
 }
 
+
+/*/////////////////////////////////////
+    Resume Section
+/////////////////////////////////////*/
+/*************************************
+small screens
+*************************************/
+@media (max-width: 800px) {
+
+
+}
+
+/*************************************
+large screens
+*************************************/
+@media (min-width: 800px) {
+
+    .resume--container {
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--clr-white);
+        width: 90vw;
+        height: 90vh;
+        margin-top: 120px;
+        margin-left: 5vw;
+        box-shadow: var(--bs);
+        padding: 24px;
+    }
+    
+}
+
+
 /*/////////////////////////////////////
     Footer/Contact Section
 /////////////////////////////////////*/

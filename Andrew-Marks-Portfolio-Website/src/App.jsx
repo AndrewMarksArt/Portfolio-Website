@@ -7,11 +7,12 @@ import ContactMe from "./components/ContactMe";
 import UIUXProjects from "./components/Projects/UxProjects";
 import DsProjects from "./components/Projects/DataScienceProjects";
 import FullGallery from "./components/Gallery/FullGallery";
+import Resume from "./components/Resume";
 
 export default function App() {
     return (
         <>
-            {
+            {/*
             <>
             // This is the Home Page
                 <NavBar />
@@ -24,7 +25,7 @@ export default function App() {
                     </div>
                 </div>
             </>
-            }
+            */}
 
 
             {/*
@@ -51,6 +52,13 @@ export default function App() {
                 </div>
             </>
             */}
+
+            {
+                <>
+                    <NavBar />
+                    <Resume />
+                </>
+            }
             
 
         </>

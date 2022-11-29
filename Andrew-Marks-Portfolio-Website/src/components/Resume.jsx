@@ -73,6 +73,22 @@ export default function Resume() {
                         <h1 className="resume--main-job-title">UI/UX Designer</h1>
                         <span className="resume--main-job-blank"></span>
                     </div>
+
+                    <div className="resume--main-contact-container">
+                        <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
+                        <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
+                        <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
+                    </div>
+
+                    <div className="resume--projects-container">
+                        <h1 className="resume--header">Featured Projects</h1>
+                        <hr className="resume--header-seperator"></hr>
+                    </div>
+
+                    <div className="resume--jobs-container">
+                        <h1 className="resume--header">Work Experience</h1>
+                        <hr className="resume--header-seperator"></hr>
+                    </div>
                 </div>
             </div>
         </>

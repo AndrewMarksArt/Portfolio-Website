@@ -1294,6 +1294,40 @@ large screens
     .resume--main-job-blank {
         background-color: var(--clr-light-bg);
     }
+
+    .resume--main-contact-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 24px;
+        justify-content: space-between;
+        margin-top: 12px;
+        overflow: hidden;
+    }
+
+    .resume--main-contact-link {
+        text-decoration: none;
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-primary);
+        word-wrap: break-word;
+    }
+
+    .resume--main-contact-link:hover {
+        text-decoration: underline;
+    }
+
+    .resume--header {
+        color: var(--clr-headings);
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        margin-top: 40px;
+    }
+
+    .resume--header-seperator {
+        background-color: var(--clr-headings);
+        height: 2px;
+        border: none;
+    }
     
 }
 

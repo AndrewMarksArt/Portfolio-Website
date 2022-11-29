@@ -69,6 +69,10 @@ export default function Resume() {
 
                 <div className="resume--main-body">
                     <h1 className="resume--main-title">ANDREW MARKS</h1>
+                    <div className="resume--main-job-container">
+                        <h1 className="resume--main-job-title">UI/UX Designer</h1>
+                        <span className="resume--main-job-blank"></span>
+                    </div>
                 </div>
             </div>
         </>

@@ -13,7 +13,7 @@
     --fw-semi: 600;
     --fw-bold: 900;
 
-    --clr-light-bg: #F0EDF4;
+    --clr-light-bg: #e3dfe8;
     --clr-headings: #3A3461;
     --clr-body-text: #5b6b79;
     --clr-disabled: #BA9FAA;
@@ -24,6 +24,7 @@
     --clr-white: #ffffff;
     
     --fs-h1: 40px;
+    --fs-sub-head: 32px;
     --fs-h2: 24px;
     --fs-h3: 1.25rem;
     --fs-body: 22px;
@@ -1264,6 +1265,34 @@ large screens
         color: var(--clr-headings);
         list-style: decimal;
         margin-bottom: 60px;
+    }
+
+    .resume--main-body {
+        padding: 40px;
+    }
+
+    .resume--main-title {
+        font-size: var(--fs-xl);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .resume--main-job-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 16px;
+    }
+
+    .resume--main-job-title {
+        font-size: var(--fs-sub-head);
+        font-weight: var(--fw-light);
+        color: var(--clr-light-bg);
+        background-color: var(--clr-headings);
+        padding: 12px;
+    }
+
+    .resume--main-job-blank {
+        background-color: var(--clr-light-bg);
     }
     
 }

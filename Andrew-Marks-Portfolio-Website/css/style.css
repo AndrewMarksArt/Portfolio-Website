@@ -1327,6 +1327,29 @@ large screens
         background-color: var(--clr-headings);
         height: 2px;
         border: none;
+        margin-bottom: 24px;
+    }
+
+    .resume--project-title {
+        font-size: var(--fs-sub-head);
+        font-weight: var(--fw-semi);
+        color: var(--clr-primary);
+        text-decoration: none;
+    }
+
+    .resume--project-title:hover {
+        text-decoration: underline;
+    }
+
+    .resume--project-blurb, .resume--project-list {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+        margin-top: 8px;
+        margin-bottom: 32px;
+    }
+    .resume--project-list > li {
+        margin-bottom: 20px;
     }
     
 }

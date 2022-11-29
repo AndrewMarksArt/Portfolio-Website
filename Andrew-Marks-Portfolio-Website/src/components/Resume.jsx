@@ -138,6 +138,70 @@ export default function Resume() {
                     <div className="resume--jobs-container">
                         <h1 className="resume--header">Work Experience</h1>
                         <hr className="resume--header-seperator"></hr>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-date">July 1 - Current</h1>
+                            </div>
+                            <h1 className="resume--job-title">Software Engineer</h1>
+                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
+                            takeaways. place holder  blurb about what skills and things I learned 
+                            and or used and the resut.</p>
+                            <ul className="resume--project-list">
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                            </ul>
+                        </div>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-date">July 1 - Current</h1>
+                            </div>
+                            <h1 className="resume--job-title">Software Engineer</h1>
+                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
+                            takeaways. place holder  blurb about what skills and things I learned 
+                            and or used and the resut.</p>
+                            <ul className="resume--project-list">
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                            </ul>
+                        </div>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-date">July 1 - Current</h1>
+                            </div>
+                            <h1 className="resume--job-title">Software Engineer</h1>
+                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
+                            takeaways. place holder  blurb about what skills and things I learned 
+                            and or used and the resut.</p>
+                            <ul className="resume--project-list">
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                                <li>place holder  blurb about what skills and things I learned and or used 
+                                and the resut. Blurb about project, goals, process, learning, next steps 
+                                or key takeaways. place holder blurb about what skills and things I learned 
+                                and or used and the resut.</li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </div>

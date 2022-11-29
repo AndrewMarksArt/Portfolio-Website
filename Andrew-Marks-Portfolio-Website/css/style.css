@@ -8,6 +8,7 @@
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
 
+    --fw-light: 300;
     --fw-reg: 400;
     --fw-semi: 600;
     --fw-bold: 900;
@@ -1171,15 +1172,98 @@ large screens
 @media (min-width: 800px) {
 
     .resume--container {
-        display: flex;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: 23vw auto;
         background-color: var(--clr-white);
         width: 90vw;
-        height: 90vh;
+        height: max-content;
         margin-top: 120px;
         margin-left: 5vw;
         box-shadow: var(--bs);
         padding: 24px;
+    }
+
+    .resume--logo {
+        max-width: 15vw;
+        margin: auto;
+    }
+
+    .resume--profile-container {
+        background-color: var(--clr-headings);
+        padding-bottom: 24px;
+    }
+
+    .resume--profile-title {
+        color: var(--clr-light-bg);
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-reg);
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+
+    .resume--seperator {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .resume--profile-body {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-light);
+        color: var(--clr-light-bg);
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .resume--edu-skills {
+        background-color: var(--clr-light-bg);
+        padding:24px;
+    }
+
+    .resume--edu-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .resume--edu-seperator{
+        background-color: var(--clr-headings);
+        height: 2px;
+        border: none;
+    }
+
+    .resume--edu-school {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-bottom: 12px;
+        margin-top: 24px;
+    }
+
+    .resume--edu-when {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+        margin-bottom: -6px;
+    }
+
+    .resume--edu-blurb {
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-headings);
+        margin-bottom: 24px;
+    }
+
+    .resume--edu {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .resume--skill-list {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+        list-style: decimal;
+        margin-bottom: 60px;
     }
     
 }

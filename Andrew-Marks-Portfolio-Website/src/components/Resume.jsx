@@ -5,7 +5,9 @@ export default function Resume() {
         <>
             <div className="resume--container">
                 <div className="resume--left-column">
-                    <img src="img/logo.png" className="resume--logo"></img>
+                    <div className="resume--logo-container">
+                        <img src="img/logo.png" className="resume--logo"></img>
+                    </div>
                     <div className="resume--profile-container">
                         <h1 className="resume--profile-title">PROFILE</h1>
                         <hr className="resume--seperator"></hr>

@@ -1184,6 +1184,14 @@ large screens
         padding: 24px;
     }
 
+    .resume--left-column {
+        background-color: var(--clr-light-bg);
+    }
+
+    .resume--logo-container {
+        background-color: var(--clr-white);
+    }
+
     .resume--logo {
         max-width: 15vw;
         margin: auto;
@@ -1216,6 +1224,7 @@ large screens
     }
 
     .resume--edu-skills {
+        display: block;
         background-color: var(--clr-light-bg);
         padding:24px;
     }

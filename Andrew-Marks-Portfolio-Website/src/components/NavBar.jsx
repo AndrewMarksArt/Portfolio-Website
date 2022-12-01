@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 export default function NavBar() {
 
@@ -28,10 +29,28 @@ export default function NavBar() {
 
             <nav className="nav">
                 <ul className="nav--list">
-                    <li className="nav--list--item"><a href="#about" className="nav--link" onClick={toggle}>About</a></li>
-                    <li className="nav--list--item"><a href="#" className="nav--link" onClick={toggle}>Projects</a></li>
-                    <li className="nav--list--item"><a href="#" className="nav--link" onClick={toggle}>Resume</a></li>
-                    <li className="nav--list--item"><a href="#" className="nav--link" onClick={toggle}>Artwork</a></li>
+                    <li className="nav--list--item">
+                            <Link to="/" className="nav--link" onClick={toggle}>About</Link>
+                    </li>
+
+                    <li className="nav--list--item">
+                        
+                            <Link to="/projects" className="nav--link" onClick={toggle}>Projects</Link>
+                        
+                    </li>
+
+                    <li className="nav--list--item">
+                        
+                            <Link to="/resume" className="nav--link" onClick={toggle}>Resume</Link>
+                        
+                    </li>
+
+                    <li className="nav--list--item">
+                        
+                            <Link to="/gallery" className="nav--link" onClick={toggle}>Artwork</Link>
+                        
+                    </li>
+
                 </ul>
             </nav>
 

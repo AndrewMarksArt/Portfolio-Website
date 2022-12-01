@@ -1,13 +1,15 @@
 import NavBar from "./components/NavBar";
-import AboutMe from "./components/Home/AboutMe";
-import FeaturedProjects from "./components/Home/FeaturedProjects";
-import ArtGallery from "./components/Home/ArtGallery";
+import AboutMe from "./pages/AboutMe";
+import FeaturedProjects from "./pages/FeaturedProjects";
+import ArtGallery from "./pages/ArtGallery";
 import ContactMe from "./components/ContactMe";
+import Layout from "./pages/Layout";
 
-import UIUXProjects from "./components/Projects/UxProjects";
-import DsProjects from "./components/Projects/DataScienceProjects";
-import FullGallery from "./components/Gallery/FullGallery";
+import UIUXProjects from "./pages/UxProjects";
+import DsProjects from "./pages/DataScienceProjects";
+import FullGallery from "./components/FullGallery";
 import Resume from "./components/Resume";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 export default function App() {
     return (
@@ -54,10 +56,23 @@ export default function App() {
             */}
 
             {
+                /*
                 <>
                     <NavBar />
                     <Resume />
                 </>
+                */
+
+                <BrowserRouter>
+                    <Routes>
+                        <Route path='/' element={<Layout />} >
+                            <Route index element={<AboutMe />} />
+                            <Route path="projects" element={<FeaturedProjects />} />
+                            <Route path="resume" element={<Resume />} />
+                            <Route path="gallery" element={<FullGallery />} />
+                        </Route>
+                    </Routes>
+                </BrowserRouter>
             }
             
 

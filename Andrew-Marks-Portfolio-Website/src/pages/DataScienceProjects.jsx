@@ -1,8 +1,8 @@
-import ProjectCard from "../ProjectCard";
-import ProjectData from "../ProjectData"
+import ProjectCard from "../components/ProjectCard";
+import ProjectData from "../data/ProjectData"
 import React from "react";
 
-export default function UIUXProjects() {
+export default function DsProjects() {
     const projectElements = ProjectData.map(item => {
         return <ProjectCard
                     key={item.id}
@@ -11,15 +11,14 @@ export default function UIUXProjects() {
     }) 
 
     return (
-        <div className="projects--uiux-container">
+        <div className="projects--ds-container">
             <div className="">
-                <h1 className="projects--section-title">UI/UX Projects</h1>
+                <h1 className="projects--section-title">Data Science Projects</h1>
             </div>
 
             <div className="projects--cards-container">
-                    {projectElements.slice(0,6)}
+                    {projectElements.slice(6,)}
             </div>
-
         </div>
     )
 }

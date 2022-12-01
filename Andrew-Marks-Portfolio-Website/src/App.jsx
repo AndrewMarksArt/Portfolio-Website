@@ -5,60 +5,20 @@ import FullGallery from "./components/FullGallery";
 import Resume from "./pages/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
     return (
         <>
-            {/*
-            <>
-            // This is the Home Page
-                <NavBar />
-                <AboutMe />
-                <FeaturedProjects />
-                <ArtGallery />
-                <div className="footer--container">
-                    <div className="footer--contact-container">
-                        <ContactMe />
-                    </div>
-                </div>
-            </>
-            */}
+            
 
+            
 
-            {/*
-            <>
-                <NavBar />
-                <UIUXProjects />
-                <DsProjects />
-                <div className="footer--container">
-                    <div className="footer--contact-container">
-                        <ContactMe />
-                    </div>
-                </div>
-            </>
-            */}
-
-            {/* 
-            <>
-                <NavBar />
-                <FullGallery />
-                <div className="footer--container">
-                    <div className="footer--contact-container">
-                        <ContactMe />
-                    </div>
-                </div>
-            </>
-            */}
+            
 
             {
-                /*
-                <>
-                    <NavBar />
-                    <Resume />
-                </>
-                */
-
                 <BrowserRouter>
+                    <ScrollToTop />
                     <Routes>
                         <Route path='/' element={<Layout />} >
                             <Route index element={<Home />} />

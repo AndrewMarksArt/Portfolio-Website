@@ -590,11 +590,15 @@ Large screens
 
     .featured-see-all {
         background-color: transparent;
+        border-radius: 10px;
+        border: 3px solid var(--clr-primary);
+    }
+
+    .featured--see-all-text {
         color: var(--clr-primary);
         font-size: var(--fs-body);
         font-weight: var(--fw-reg);
-        border-radius: 10px;
-        border: 3px solid var(--clr-primary);
+        text-decoration: none;
     }
 
     .featured-cards-container {
@@ -617,7 +621,7 @@ Large screens
         box-shadow: 10px 10px var(--clr-hover), 0px 0px 0px 3px black inset, 10px 10px 0px 3px black;
     }
 
-    .featured-see-all:hover {
+    .featured-see-all:hover{
         margin: -6px 6px 6px -6px;
         box-shadow: 6px 6px var(--clr-hover);
     }

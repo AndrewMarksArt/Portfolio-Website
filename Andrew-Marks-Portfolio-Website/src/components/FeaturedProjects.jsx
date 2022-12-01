@@ -1,4 +1,4 @@
-import ProjectCard from "../components/ProjectCard";
+import ProjectCard from "./ProjectCard";
 import ProjectData from "../data/ProjectData"
 import React from "react";
 

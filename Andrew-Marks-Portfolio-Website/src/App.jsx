@@ -1,15 +1,10 @@
-import NavBar from "./components/NavBar";
-import AboutMe from "./pages/AboutMe";
-import FeaturedProjects from "./pages/FeaturedProjects";
-import ArtGallery from "./pages/ArtGallery";
-import ContactMe from "./components/ContactMe";
-import Layout from "./pages/Layout";
 
-import UIUXProjects from "./pages/UxProjects";
-import DsProjects from "./pages/DataScienceProjects";
+import Home from "./pages/Home";
+import Layout from "./pages/Layout";
 import FullGallery from "./components/FullGallery";
-import Resume from "./components/Resume";
+import Resume from "./pages/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Projects from "./pages/Projects";
 
 export default function App() {
     return (
@@ -66,8 +61,8 @@ export default function App() {
                 <BrowserRouter>
                     <Routes>
                         <Route path='/' element={<Layout />} >
-                            <Route index element={<AboutMe />} />
-                            <Route path="projects" element={<FeaturedProjects />} />
+                            <Route index element={<Home />} />
+                            <Route path="projects" element={<Projects />} />
                             <Route path="resume" element={<Resume />} />
                             <Route path="gallery" element={<FullGallery />} />
                         </Route>

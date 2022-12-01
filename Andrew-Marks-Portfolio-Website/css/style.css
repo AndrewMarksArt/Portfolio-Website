@@ -589,7 +589,7 @@ Large screens
     }
 
     .featured-see-all {
-        background-color: transparent;
+        background-color: var(--clr-white);
         border-radius: 10px;
         border: 3px solid var(--clr-primary);
     }

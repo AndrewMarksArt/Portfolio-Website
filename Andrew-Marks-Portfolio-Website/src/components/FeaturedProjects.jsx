@@ -15,9 +15,11 @@ export default function FeaturedProjects() {
             <div className="featured-container">
                 <div className="featured-top-line">
                     <h1 className="featured-title">Featured Projects</h1>
-                    <button className="featured-see-all">
-                        <Link to="/projects" className="featured--see-all-text">see all projects</Link>    
-                    </button>
+                    <Link to="/projects" className="featured--see-all-text">
+                        <button className="featured-see-all">
+                            see all projects    
+                        </button>
+                    </Link>
                 </div>
                 <div className="featured-cards-container">
                     {projectElements.slice(0,3)}

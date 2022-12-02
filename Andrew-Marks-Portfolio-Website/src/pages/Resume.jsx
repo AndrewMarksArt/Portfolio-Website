@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 
 export default function Resume() {
     return (
@@ -86,7 +87,7 @@ export default function Resume() {
                         <h1 className="resume--header">Featured Projects</h1>
                         <hr className="resume--header-seperator"></hr>
                         <div className="resume--project-container">
-                            <a href="" className="resume--project-title">Project 1</a>
+                            <Link to="/project-1" className="resume--project-title">Project 1</Link>
                             <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
                             takeaways. place holder  blurb about what skills and things I learned 
                             and or used and the resut.</p>
@@ -102,24 +103,24 @@ export default function Resume() {
                             </ul>
 
                             <div className="resume--project-container">
-                            <a href="" className="resume--project-title">Project 2</a>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
-                            <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                            </ul>
+                                <Link to="/project-2" className="resume--project-title">Project 2</Link>
+                                <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
+                                takeaways. place holder  blurb about what skills and things I learned 
+                                and or used and the resut.</p>
+                                <ul className="resume--project-list">
+                                    <li>place holder  blurb about what skills and things I learned and or used 
+                                    and the resut. Blurb about project, goals, process, learning, next steps 
+                                    or key takeaways. place holder blurb about what skills and things I learned 
+                                    and or used and the resut.</li>
+                                    <li>place holder  blurb about what skills and things I learned and or used 
+                                    and the resut. Blurb about project, goals, process, learning, next steps 
+                                    or key takeaways. place holder blurb about what skills and things I learned 
+                                    and or used and the resut.</li>
+                                </ul>
                         </div>
 
                         <div className="resume--project-container">
-                            <a href="" className="resume--project-title">Project 3</a>
+                            <Link to="/project-3" className="resume--project-title">Project 3</Link>
                             <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
                             takeaways. place holder  blurb about what skills and things I learned 
                             and or used and the resut.</p>

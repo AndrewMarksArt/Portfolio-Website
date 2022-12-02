@@ -1170,13 +1170,16 @@ small screens
     .resume--container {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 6;
         background-color: var(--clr-white);
         border-radius: 40px;
         margin-left: 5vw;
         margin-right: 5vw;
         padding: 16px;
         margin-top: 100px;
+    }
+
+    .resume--name-contact {
+        grid-row: 1;
     }
 
 
@@ -1199,8 +1202,14 @@ large screens
         padding: 24px;
     }
 
+    .resume--top-line {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+
     .resume--left-column {
         background-color: var(--clr-light-bg);
+        grid-column-start: 1;
     }
 
     .resume--logo-container {

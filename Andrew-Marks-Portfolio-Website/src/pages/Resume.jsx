@@ -5,10 +5,26 @@ export default function Resume() {
     return (
         <>
             <div className="resume--container">
+                <div className="resume--top-line"></div>
+                        <div className="resume--logo-container">
+                            <img src="img/logo.png" className="resume--logo"></img>
+                        </div>
+                    <div className="resume--name-contact">
+                        <h1 className="resume--main-title">ANDREW MARKS</h1>
+                        <div className="resume--main-job-container">
+                            <h1 className="resume--main-job-title">UI/UX Designer</h1>
+                            <span className="resume--main-job-blank"></span>
+                        </div>
+
+                        <div className="resume--main-contact-container">
+                            <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
+                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
+                            <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
+                        </div>
+                </div>
+            
+
                 <div className="resume--left-column">
-                    <div className="resume--logo-container">
-                        <img src="img/logo.png" className="resume--logo"></img>
-                    </div>
                     <div className="resume--profile-container">
                         <h1 className="resume--profile-title">PROFILE</h1>
                         <hr className="resume--seperator"></hr>
@@ -70,21 +86,9 @@ export default function Resume() {
                     </div>
                 </div>
 
+                
+
                 <div className="resume--main-body">
-                    <div className="resume--name-contact">
-                        <h1 className="resume--main-title">ANDREW MARKS</h1>
-                        <div className="resume--main-job-container">
-                            <h1 className="resume--main-job-title">UI/UX Designer</h1>
-                            <span className="resume--main-job-blank"></span>
-                        </div>
-
-                        <div className="resume--main-contact-container">
-                            <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
-                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
-                            <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
-                        </div>
-                    </div>
-
                     <div className="resume--projects-container">
                         <h1 className="resume--header">Featured Projects</h1>
                         <hr className="resume--header-seperator"></hr>

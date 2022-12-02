@@ -71,16 +71,18 @@ export default function Resume() {
                 </div>
 
                 <div className="resume--main-body">
-                    <h1 className="resume--main-title">ANDREW MARKS</h1>
-                    <div className="resume--main-job-container">
-                        <h1 className="resume--main-job-title">UI/UX Designer</h1>
-                        <span className="resume--main-job-blank"></span>
-                    </div>
+                    <div className="resume--name-contact">
+                        <h1 className="resume--main-title">ANDREW MARKS</h1>
+                        <div className="resume--main-job-container">
+                            <h1 className="resume--main-job-title">UI/UX Designer</h1>
+                            <span className="resume--main-job-blank"></span>
+                        </div>
 
-                    <div className="resume--main-contact-container">
-                        <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
-                        <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
-                        <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
+                        <div className="resume--main-contact-container">
+                            <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
+                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
+                            <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
+                        </div>
                     </div>
 
                     <div className="resume--projects-container">
@@ -144,7 +146,7 @@ export default function Resume() {
 
                         <div className="resume--job-container">
                             <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-company">Company Name</h1>
                                 <h1 className="resume--job-date">July 1 - Current</h1>
                             </div>
                             <h1 className="resume--job-title">Software Engineer</h1>
@@ -165,7 +167,7 @@ export default function Resume() {
 
                         <div className="resume--job-container">
                             <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-company">Company Name</h1>
                                 <h1 className="resume--job-date">July 1 - Current</h1>
                             </div>
                             <h1 className="resume--job-title">Software Engineer</h1>
@@ -186,7 +188,7 @@ export default function Resume() {
 
                         <div className="resume--job-container">
                             <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Project 3</h1>
+                                <h1 className="resume--job-company">Company Name</h1>
                                 <h1 className="resume--job-date">July 1 - Current</h1>
                             </div>
                             <h1 className="resume--job-title">Software Engineer</h1>

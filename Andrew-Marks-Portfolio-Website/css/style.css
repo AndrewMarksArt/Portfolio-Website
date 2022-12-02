@@ -1358,7 +1358,11 @@ large screens
         color: var(--clr-headings);
         font-size: var(--fs-h1);
         font-weight: var(--fw-bold);
-        margin-top: 40px;
+        margin-top: -16px;
+    }
+
+    .resume--jobs-container {
+        margin-top: 60px;
     }
 
     .resume--header-seperator {

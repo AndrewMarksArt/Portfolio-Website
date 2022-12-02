@@ -1,6 +1,7 @@
 import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../data/ProjectData"
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function DsProjects() {
     const projectElements = ProjectData.map(item => {
@@ -17,7 +18,9 @@ export default function DsProjects() {
             </div>
 
             <div className="projects--cards-container">
-                    {projectElements.slice(6,)}
+                <Link to="/project-7">{projectElements[6]}</Link>
+                <Link to="/project-8">{projectElements[7]}</Link>
+                <Link to="/project-9">{projectElements[8]}</Link>
             </div>
         </div>
     )

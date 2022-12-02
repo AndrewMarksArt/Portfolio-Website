@@ -22,7 +22,9 @@ export default function FeaturedProjects() {
                     </Link>
                 </div>
                 <div className="featured-cards-container">
-                    {projectElements.slice(0,3)}
+                    <Link to="/project-1">{projectElements[0]}</Link>
+                    <Link to="/project-2">{projectElements[1]}</Link>
+                    <Link to="/project-3">{projectElements[2]}</Link>
                 </div>
             </div>
             <hr className="seperator"></hr>

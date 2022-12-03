@@ -1172,15 +1172,13 @@ small screens
         grid-template-columns: 1fr;
         background-color: var(--clr-white);
         border-radius: 40px;
-        margin-left: 5vw;
-        margin-right: 5vw;
         padding: 16px;
-        margin-top: 100px;
+        margin: 100px 5vw 60px 5vw;;
     }
 
     .resume--name-contact {
-        grid-row: 1;
         padding: 12px;
+        margin-bottom: 24px;
     }
 
     .resume--main-title {
@@ -1219,6 +1217,63 @@ small screens
         max-width: 60vw;
         margin: auto;
     }
+
+    .resume--profile-container {
+        background-color: var(--clr-headings);
+        border-radius: 20px;
+        padding:20px;
+        margin-bottom: 12px;;
+    }
+
+    .resume--profile-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-light-bg);
+    }
+    
+    .resume--profile-body {
+        color: var(--clr-light-bg);
+    }
+
+    .resume--edu-skills {
+        padding: 20px;
+    }
+
+    .resume--edu-title,
+    .resume--edu-school,
+    .resume--edu-when {
+        color: var(--clr-headings);
+    }
+
+    .resume--projects-container, .resume--jobs-container {
+        padding:20px;
+    }
+    .resume--header {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .resume--job-company {
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-top: 32px;
+    }
+
+    .resume--job-date, .resume--job-title {
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-sub-head);
+        color: var(--clr-headings);
+        margin-top: 12px;
+    }
+
+    .resume--project-title {
+        text-decoration: none;
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-sub-head);
+        color: var(--clr-primary);
+    }
+
 
 }
 

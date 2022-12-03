@@ -1180,8 +1180,45 @@ small screens
 
     .resume--name-contact {
         grid-row: 1;
+        padding: 12px;
     }
 
+    .resume--main-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-top: 4px;
+    }
+
+    .resume--main-job-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+        margin-top: 12px;
+    }
+
+    .resume--main-contact-container {
+        display: grid;
+        margin-top: 20px;
+    }
+
+    .resume--main-contact-link {
+        color: var(--clr-primary);
+        text-decoration: none;
+        font-weight: var(--fw-semi);
+    }
+
+    .resume--logo-container {
+        background-color: var(--clr-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume--logo {
+        max-width: 60vw;
+        margin: auto;
+    }
 
 }
 
@@ -1207,6 +1244,14 @@ large screens
         grid-column-end: -1;
     }
 
+    .resume--name-contact {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
     .resume--left-column {
         background-color: var(--clr-light-bg);
         grid-column-start: 1;
@@ -1214,11 +1259,14 @@ large screens
 
     .resume--logo-container {
         background-color: var(--clr-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .resume--logo {
         max-width: 15vw;
-        margin: auto;
+        max-height: 15vw;
     }
 
     .resume--profile-container {

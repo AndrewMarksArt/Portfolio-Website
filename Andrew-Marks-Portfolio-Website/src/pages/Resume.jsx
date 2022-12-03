@@ -18,8 +18,8 @@ export default function Resume() {
 
                         <div className="resume--main-contact-container">
                             <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
-                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks@gmail.com</a>
-                            <a href="" className="resume--main-contact-link">linkedin: AndrewMarksArt</a>
+                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks @gmail.com</a>
+                            <a href="" className="resume--main-contact-link">linkedin: Andrew Marks Art</a>
                         </div>
                 </div>
             

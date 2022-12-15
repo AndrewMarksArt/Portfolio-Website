@@ -988,10 +988,12 @@ large screens
     }
 
     .projects--cards-container {
-        margin-top: 40px;
+        margin-top: 32px;
+        margin-left: 8px;
+        margin-right: 8px;
         display: grid;
         grid-template-columns: auto auto auto;
-        gap: 40px 40px;
+        gap: 24px 24px;
         justify-content: center;
         align-items: center;
     }

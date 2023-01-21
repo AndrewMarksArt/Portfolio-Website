@@ -807,7 +807,7 @@ large screens
         margin-left: 7vw;
         margin-top: 36px;
         box-shadow: var(--bs);
-        padding: 32px;
+        padding: 40px;
     }
 
     .art-gallery--top-line {
@@ -840,7 +840,7 @@ large screens
         display: grid;
         place-items: center;
         align-items: center;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto;
         grid-gap: 40px 40px;
         margin-bottom: 12px;
     }

@@ -24,7 +24,7 @@ export default function ArtGallery() {
                 </button>
             </div>
             <div className="art-gallery--grid-container">
-                {galleryElements.slice(0,9)}
+                {galleryElements.slice(0,12)}
             </div>
         </div>
     );

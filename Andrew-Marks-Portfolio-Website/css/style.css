@@ -507,9 +507,9 @@ small screens
         border-radius: 40px;
         box-shadow:0px 0px 0px 3px black inset;
         z-index: 10;
-        padding-bottom: 20px;
+        padding-bottom: 40px;
         margin-top: 32px;
-        height:50vh;
+        height:55vh;
     }
 
     .featured-cards-container {
@@ -541,11 +541,11 @@ small screens
         font-weight: var(--fw-semi);
         color: var(--clr-headings);
         margin-left: 20px;
-        margin-top: 12px;
+        margin-top: 26px;
     }
 
     .project-headline {
-        font-size: var(--fs-body-sm);
+        font-size: var(--fs-body);
         font-weight: var(--fw-reg);
         color: var(--clr-body-text);
         margin-left: 20px;
@@ -637,7 +637,7 @@ Large screens
         font-size: var(--fs-h2);
         font-weight: var(--fw-semi);
         color: var(--clr-headings);
-        margin-left: 30px;
+        margin-left: 20px;
         margin-top: 24px;
     }
 
@@ -645,10 +645,9 @@ Large screens
         font-size: var(--fs-body);
         font-weight: var(--fw-reg);
         color: var(--clr-body-text);
-        margin-left: 30px;
+        margin-left: 20px;
         margin-right: 30px;
         margin-top: 8px;
-        margin-bottom: 30px;
     }
 
 }

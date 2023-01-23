@@ -32,7 +32,7 @@ export default [
     {
         id: 6,
         img: "battle_warriors_featured.png",
-        title: "Address and Contract Tracker",
+        title: "Crypto Tracker",
         headline: "Chrome extension to note, and keep track of crypto address and contracts."
     },
     {
@@ -51,6 +51,6 @@ export default [
         id: 9,
         img: "hirst_card.png",
         title: "Fine Art Market Analysis",
-        headline: "Chrome extension to note, and keep track of crypto address and contracts."
+        headline: "Data collection, visualizations, and analysis of Damien Hirst art auctions."
     },
 ]

@@ -20,7 +20,7 @@ export default function ArtGallery() {
             <div className="art-gallery--top-line">
                 <h1 className="art-gallery--title">Art Gallery</h1>
                 <button className="art-gallery--see-all">
-                    <Link to="/gallery" className="featured--see-all-text">see all artwork</Link>
+                    <Link to="/gallery" style={{ textDecoration: 'none', color: 'var(--clr-primary)' }}>all artwork</Link>
                 </button>
             </div>
             <div className="art-gallery--grid-container">

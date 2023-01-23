@@ -10,21 +10,24 @@ export default function FeaturedProjects() {
                     item={item}
                 />
     }) 
+
+
+
     return (
         <>
             <div className="featured-container">
                 <div className="featured-top-line">
                     <h1 className="featured-title">Featured Projects</h1>
-                    <Link to="/projects" className="featured--see-all-text">
+                    <Link to="/projects" style={{ textDecoration: 'none' }}>
                         <button className="featured-see-all">
-                            see all projects    
+                            all projects    
                         </button>
                     </Link>
                 </div>
                 <div className="featured-cards-container">
-                    <Link to="/project-1">{projectElements[0]}</Link>
-                    <Link to="/project-2">{projectElements[1]}</Link>
-                    <Link to="/project-3">{projectElements[2]}</Link>
+                    <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
+                    <Link to="/project-2" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
+                    <Link to="/project-3" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
                 </div>
             </div>
             <hr className="seperator"></hr>

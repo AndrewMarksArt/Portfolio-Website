@@ -6,7 +6,7 @@ export default function AboutMe() {
             <div className="container--about-me">
                 <div className="about-me--main-container">
                     <div className="about-me--logo-container">
-                        <img className="logo--about-me" src="./img/logo.png"></img>
+                        <img className="logo--about-me" src="../img/logo.png"></img>
                     </div>
                     <div className="about-me--main">
                         <h1 className="about-me--title">About Me</h1>

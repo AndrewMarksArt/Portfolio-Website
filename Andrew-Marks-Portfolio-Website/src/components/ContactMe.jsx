@@ -1,3 +1,6 @@
+import "../css/contact_me.css";
+import "../css/main.css";
+
 export default function ContactMe() {
     return (
         <div className="contact--container">

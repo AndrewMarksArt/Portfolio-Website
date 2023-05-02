@@ -1,3 +1,6 @@
+import "../css/image_modal.css";
+import "../css/main.css";
+
 export default function Modal(props) {
     if (!props.show) {
         return null

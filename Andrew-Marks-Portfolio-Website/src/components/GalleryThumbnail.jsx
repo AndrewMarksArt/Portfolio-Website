@@ -1,5 +1,7 @@
 import { useState } from "react"
 import Modal from "./ImageModal"
+import "../css/gallery_thumbnail.css";
+import "../css/main.css";
 
 export default function GalleryThumbnail(props) {
     const [show, setShow] = useState(false)

@@ -1,4 +1,6 @@
 import ContactMe from "../components/ContactMe";
+import "../css/about.css";
+import "../css/main.css";
 
 export default function AboutMe() {
     return (

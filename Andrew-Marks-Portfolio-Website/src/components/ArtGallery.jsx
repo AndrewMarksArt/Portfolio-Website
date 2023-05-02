@@ -2,6 +2,8 @@ import GalleryThumbnail from "../components/GalleryThumbnail";
 import ArtGalleryData from "../data/ArtGalleryData";
 import React from "react";
 import { Link } from "react-router-dom";
+import "../css/art_gallery.css";
+import "../css/main.css";
 
 export default function ArtGallery() {
     const galleryElements = ArtGalleryData.map(item => {

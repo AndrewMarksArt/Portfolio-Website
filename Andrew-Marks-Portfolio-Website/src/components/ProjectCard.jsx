@@ -1,4 +1,6 @@
 import React from "react"
+import "../css/project_card.css";
+import "../css/main.css";
 
 export default function ProjectCard(props) {
 

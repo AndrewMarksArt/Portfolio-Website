@@ -2,6 +2,8 @@ import ProjectCard from "./ProjectCard";
 import ProjectData from "../data/ProjectData"
 import React from "react";
 import { Link } from "react-router-dom";
+import "../css/ux_projects.css";
+import "../css/main.css";
 
 export default function UIUXProjects() {
     const projectElements = ProjectData.map(item => {

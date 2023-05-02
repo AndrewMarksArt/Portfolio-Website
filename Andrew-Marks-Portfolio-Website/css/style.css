@@ -46,13 +46,26 @@ html {
 }
 
 body {
-    background: var(--clr-light-bg);
+    background-color: var(--clr-light-bg);
     color: var(--clr-body-text);
     margin: 0;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
     overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
+    z-index: -1;
+    opacity: .4;
 }
 
 img {

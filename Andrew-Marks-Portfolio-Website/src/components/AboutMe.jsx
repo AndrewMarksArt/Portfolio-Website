@@ -6,6 +6,11 @@ export default function AboutMe() {
     return (
         <>
             <div className="container--about-me">
+                <div className="about-top-bar">
+                    <div className="about-line"></div>
+                    <div className="about-line"></div>
+                    <div className="about-line"></div>
+                </div>
                 <div className="about-me--main-container">
                     <div className="about-me--logo-container">
                         <img className="logo--about-me" src="../img/logo.png"></img>

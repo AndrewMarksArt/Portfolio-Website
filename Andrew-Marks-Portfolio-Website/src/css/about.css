@@ -1,4 +1,7 @@
 :root {
+
+    font-size: 16px;
+
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
 
@@ -17,16 +20,39 @@
     --clr-backup: #334980;
     --clr-white: #ffffff;
     
-    --fs-h1: 40px;
-    --fs-sub-head: 32px;
-    --fs-h2: 24px;
+    --fs-h1: 2.5rem;
+    --fs-sub-head: 2rem;
+    --fs-h2: 1.5rem;
     --fs-h3: 1.25rem;
-    --fs-body: 22px;
-    --fs-body-sm: 16px;
-    --fs-xl: 60px;
+    --fs-body: 1.375;
+    --fs-body-sm: 1rem;
+    --fs-xl: 3.75rem;
 
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
           0.125em 0.125em 0.25em rgba(0,0,0,.15);
+}
+
+.container--about-me {
+    overflow: hidden;
+}
+
+.about-top-bar {
+    width: 100%;
+    height: 2.5rem;
+    background-color: var(--clr-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2.5px solid black;
+}
+
+.about-line {
+    width: 90%;
+    height: 3.5px;
+    background-color: black;
+    border-radius: 2px;
+    margin: 2px 0;
 }
 
 @media (min-width: 320px) and (max-width: 479px) {
@@ -172,32 +198,28 @@
 
     .contact--contact-title {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 40px;
-        font-size: var(--fs-h1);
+        font-size: 2.5rem;
         font-weight: var(--fw-semi);
         color: var(--clr-headings);
     }
 
     .contact--socials-list {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto auto auto auto auto;
         list-style-type: none;
-        justify-content: center;
-        padding-left: 17vw;
-        padding-right: 17vw;
-        grid-column-gap: 12vw;
+        justify-content: left;
+        grid-column-gap: 7vw;
+        margin-left: -12px;
     }
 
-    .contact--social-item {
-        margin-bottom: 16px;
-    }
 
     .contact--social-item > a {
         color: var(--clr-primary);
-        font-size: var(--fs-h1);
+        font-size: 2rem;
         text-decoration: none;
     }
 
@@ -209,11 +231,174 @@
   /* Medium devices (tablets, portrait) */
   @media (min-width: 768px) and (max-width: 1023px){
     /* Styles for medium devices */
+    .container--about-me,
+    .featured-container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        margin-top: 120px;
+        margin-left: 8vw;
+        padding-bottom: 12px;
+        max-width: 84vw;
+        box-shadow: 8px 8px 0 0 black;
+        outline: 2.5px solid black;
+    }
+
+    .featured-container {
+        margin-top: 32px;
+    }
+    
+    .about-me--logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo--about-me {
+        max-width: 100%;
+    }
+
+    .about-me--title {
+        margin-left: 24px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .about-me--subtitle {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 8px;
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .about-me--body {
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+    }
+
+    .contact--contact-title {
+        display: flex;
+        justify-content: left;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 40px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .contact--socials-list {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        list-style-type: none;
+        justify-content: left;
+        grid-column-gap: 8vw;
+        margin-left: -12px;
+    }
+
+    .contact--social-item > a {
+        color: var(--clr-primary);
+        font-size: 2.5rem;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-hover);
+    }
   }
   
   /* Large devices (tablets, landscape / small laptops) */
   @media (min-width: 1024px) and (max-width: 1199px){
     /* Styles for large devices */
+    .container--about-me {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        max-width: 86vw;
+        margin-top: 140px;
+        margin-left: 7vw;
+        box-shadow: 8px 8px 0 0 black;
+        outline: 2.5px solid black;
+    }
+
+    .about-me--main-container{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: 1fr 1.5fr;
+        padding: 40px 80px 0px 80px;
+        margin-bottom: 0px;
+    }
+    
+    .logo--about-me {
+        width: 100%;
+    }
+    .about-me--main {
+        padding: 40px;
+    }
+
+    .about-me--title {
+        margin-bottom: 16px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .about-me--subtitle {
+        margin-bottom: 32px;
+        font-size: var(--fs-h2);
+        color: var(--clr-headings);
+        font-weight: var(--fw-semi);
+    }
+
+    .about-me--body {
+        font-size: var(--fs-body);
+        color: var(--clr-body-text);
+        font-weight: var(--fw-reg);
+    }
+
+    .contact--container {
+        background-color: var(--clr-white);
+        border-radius: 40px;
+    }
+
+    .contact--contact-title {
+        display: flex;
+        justify-content: left;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 20px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .contact--socials-list {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        grid-column-gap: 10vw;
+    }
+
+    .contact--social-item {
+        margin-bottom: 40px;
+    }
+
+    .contact--social-item > a {
+        color: var(--clr-primary);
+        font-size: var(--fs-h1);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-hover);
+    }
   }
   
   /* Extra large devices (laptops, desktops) */

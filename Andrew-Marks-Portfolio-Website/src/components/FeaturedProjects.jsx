@@ -13,11 +13,14 @@ export default function FeaturedProjects() {
                 />
     }) 
 
-
-
     return (
         <>
             <div className="featured-container">
+                <div className="featured-top-bar">
+                    <div className="featured-line"></div>
+                    <div className="featured-line"></div>
+                    <div className="featured-line"></div>
+                </div>
                 <div className="featured-top-line">
                     <h1 className="featured-title">Featured Projects</h1>
                     <Link to="/projects" style={{ textDecoration: 'none' }}>
@@ -25,6 +28,9 @@ export default function FeaturedProjects() {
                             all projects    
                         </button>
                     </Link>
+                </div>
+                <div className="featured-skills">
+                    <h2 className="featured-skills-list">Focus: skill 1, skill 2, skill 3, skill 4, skill 5</h2>
                 </div>
                 <div className="featured-cards-container">
                     <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>

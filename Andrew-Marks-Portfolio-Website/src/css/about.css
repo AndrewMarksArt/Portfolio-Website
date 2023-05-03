@@ -31,11 +31,179 @@
 
 @media (min-width: 320px) and (max-width: 479px) {
     /* Styles for extra small devices */
+    .container--about-me,
+    .featured-container {
+      background-color: var(--clr-white);
+      border-radius: 30px;
+      margin-top: 100px;
+      margin-left: 8vw;
+      padding-bottom: 12px;
+      max-width: 84vw;
+      box-shadow: 6px 6px 0 0 black;
+      outline: 2.2px solid black;
+    }
+
+    .featured-container {
+        margin-top: 32px;
+    }
+    
+    .about-me--logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo--about-me {
+      max-width: 100%;
+    }
+
+    .about-me--title {
+        margin-left: 24px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .about-me--subtitle {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 8px;
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .about-me--body {
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+    }
+
+    .contact--contact-title {
+        display: flex;
+        justify-content: center;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 40px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .contact--socials-list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 17vw;
+        padding-right: 17vw;
+        grid-column-gap: 12vw;
+    }
+
+    .contact--social-item {
+        margin-bottom: 16px;
+    }
+
+    .contact--social-item > a {
+        color: var(--clr-primary);
+        font-size: var(--fs-h1);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-hover);
+    }
   }
   
   /* Small devices (landscape phones) */
   @media (min-width: 480px) and (max-width: 767px){
     /* Styles for small devices */
+    .container--about-me,
+    .featured-container {
+        background-color: var(--clr-white);
+        border-radius: 30px;
+        margin-top: 120px;
+        margin-left: 8vw;
+        padding-bottom: 12px;
+        max-width: 84vw;
+        box-shadow: 8px 8px 0 0 black;
+        outline: 2.5px solid black;
+    }
+
+    .featured-container {
+        margin-top: 32px;
+    }
+    
+    .about-me--logo-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo--about-me {
+        max-width: 100%;
+    }
+
+    .about-me--title {
+        margin-left: 24px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .about-me--subtitle {
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 8px;
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .about-me--body {
+        margin-top: 16px;
+        margin-left: 24px;
+        margin-right: 24px;
+        font-size: var(--fs-body);
+        font-weight: var(--fw-reg);
+        color: var(--clr-body-text);
+    }
+
+    .contact--contact-title {
+        display: flex;
+        justify-content: center;
+        margin-left: 24px;
+        margin-right: 24px;
+        margin-top: 40px;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+    }
+
+    .contact--socials-list {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        list-style-type: none;
+        justify-content: center;
+        padding-left: 17vw;
+        padding-right: 17vw;
+        grid-column-gap: 12vw;
+    }
+
+    .contact--social-item {
+        margin-bottom: 16px;
+    }
+
+    .contact--social-item > a {
+        color: var(--clr-primary);
+        font-size: var(--fs-h1);
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: var(--clr-hover);
+    }
   }
   
   /* Medium devices (tablets, portrait) */

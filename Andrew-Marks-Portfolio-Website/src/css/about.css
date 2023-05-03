@@ -35,6 +35,14 @@
 }
 
 .container--about-me {
+    background-color: var(--clr-white);
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 8vw;
+    padding-bottom: 12px;
+    max-width: 84vw;
+    box-shadow: 8px 8px 0 0 black;
+    outline: 3px solid black;
     overflow: hidden;
 }
 
@@ -57,6 +65,11 @@
     margin: 2px 0;
 }
 
+.about-me--logo-container {
+    display: flex;
+    justify-content: center;
+}
+
 .about-me--title {
     display: inline;
     padding-left: 6px;
@@ -64,67 +77,78 @@
     background-color: var(--clr-secondary);
 }
 
+.about-me--title {
+    margin-left: 24px;
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    color: var(--clr-headings);
+}
+
+.about-me--subtitle {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 8px;
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+}
+
+.about-me--body {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    color: var(--clr-body-text);
+}
+
+.contact--contact-title {
+    display: flex;
+    justify-content: center;
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+}
+
+.contact--social-item > a {
+    color: var(--clr-primary);
+    font-size: var(--fs-h1);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--clr-hover);
+}
+
+
 @media (min-width: 320px) and (max-width: 479px) {
     /* Styles for extra small devices */
-    .container--about-me,
-    .featured-container {
-      background-color: var(--clr-white);
-      border-radius: 30px;
-      margin-top: 100px;
-      margin-left: 8vw;
-      padding-bottom: 12px;
-      max-width: 84vw;
-      box-shadow: 6px 6px 0 0 black;
-      outline: 2.2px solid black;
+    .container--about-me {
+        box-shadow: 6px 6px 0 0 black;
+        outline: 2.2px solid black;
     }
 
-    .featured-container {
-        margin-top: 32px;
-    }
-    
-    .about-me--logo-container {
-        display: flex;
-        justify-content: center;
+    .about-top-bar {
+        border-bottom: 2.2px solid black;
     }
 
     .logo--about-me {
-      max-width: 100%;
-    }
-
-    .about-me--title {
-        margin-left: 24px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
+        max-width: 100%;
     }
 
     .about-me--subtitle {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 8px;
-        font-size: var(--fs-h2);
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .about-me--body {
         margin-top: 16px;
         margin-left: 24px;
         margin-right: 24px;
-        font-size: var(--fs-body);
-        font-weight: var(--fw-reg);
-        color: var(--clr-body-text);
     }
 
     .contact--contact-title {
-        display: flex;
-        justify-content: center;
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 40px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .contact--socials-list {
@@ -140,69 +164,44 @@
     .contact--social-item {
         margin-bottom: 16px;
     }
-
-    .contact--social-item > a {
-        color: var(--clr-primary);
-        font-size: var(--fs-h1);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
-    }
   }
   
   /* Small devices (landscape phones) */
   @media (min-width: 480px) and (max-width: 767px){
     /* Styles for small devices */
-    .container--about-me,
-    .featured-container {
-        background-color: var(--clr-white);
-        border-radius: 30px;
+    .container--about-me {
+        border-radius: 40px;
         margin-top: 120px;
         margin-left: 8vw;
         padding-bottom: 12px;
         max-width: 84vw;
         box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
     }
 
-    .featured-container {
-        margin-top: 32px;
-    }
-    
-    .about-me--logo-container {
-        display: flex;
-        justify-content: center;
+    .about-top-bar {
+        border-bottom: 3px solid black;
     }
 
-    .logo--about-me {
-        max-width: 100%;
+    .about-line {
+        height: 3px;
+        border-radius: 4px;
+        width: 82%;
     }
 
     .about-me--title {
         margin-left: 24px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 
     .about-me--subtitle {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 8px;
-        font-size: var(--fs-h2);
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .about-me--body {
         margin-top: 16px;
         margin-left: 24px;
         margin-right: 24px;
-        font-size: var(--fs-body);
-        font-weight: var(--fw-reg);
-        color: var(--clr-body-text);
     }
 
     .contact--contact-title {
@@ -212,8 +211,6 @@
         margin-right: 24px;
         margin-top: 40px;
         font-size: 2.5rem;
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .contact--socials-list {
@@ -225,69 +222,48 @@
         margin-left: -12px;
     }
 
-
     .contact--social-item > a {
-        color: var(--clr-primary);
         font-size: 2rem;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
     }
   }
   
   /* Medium devices (tablets, portrait) */
   @media (min-width: 768px) and (max-width: 1023px){
     /* Styles for medium devices */
-    .container--about-me,
-    .featured-container {
-        background-color: var(--clr-white);
+    .container--about-me {
         border-radius: 40px;
         margin-top: 120px;
         margin-left: 8vw;
         padding-bottom: 12px;
         max-width: 84vw;
         box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
+        outline: 3px solid black;
     }
 
-    .featured-container {
-        margin-top: 32px;
-    }
-    
-    .about-me--logo-container {
-        display: flex;
-        justify-content: center;
+    .about-top-bar {
+        border-bottom: 3px solid black;
     }
 
-    .logo--about-me {
-        max-width: 100%;
+    .about-line {
+        height: 3px;
+        border-radius: 4px;
+        width: 85%;
     }
 
     .about-me--title {
         margin-left: 24px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 
     .about-me--subtitle {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 8px;
-        font-size: var(--fs-h2);
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .about-me--body {
         margin-top: 16px;
         margin-left: 24px;
         margin-right: 24px;
-        font-size: var(--fs-body);
-        font-weight: var(--fw-reg);
-        color: var(--clr-body-text);
     }
 
     .contact--contact-title {
@@ -296,9 +272,6 @@
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 40px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-semi);
-        color: var(--clr-headings);
     }
 
     .contact--socials-list {
@@ -311,13 +284,7 @@
     }
 
     .contact--social-item > a {
-        color: var(--clr-primary);
         font-size: 2.5rem;
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
     }
   }
   
@@ -325,13 +292,22 @@
   @media (min-width: 1024px) and (max-width: 1199px){
     /* Styles for large devices */
     .container--about-me {
-        background-color: var(--clr-white);
         border-radius: 40px;
         max-width: 86vw;
         margin-top: 140px;
         margin-left: 7vw;
-        box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
+        box-shadow: 12px 12px 0 0 black;
+        outline: 3px solid black;
+    }
+
+    .about-top-bar {
+        border-bottom: 3px solid black;
+    }
+
+    .about-line {
+        height: 3px;
+        border-radius: 4px;
+        width: 90%;
     }
 
     .about-me--main-container{
@@ -343,35 +319,20 @@
         margin-bottom: 0px;
     }
     
-    .logo--about-me {
-        width: 100%;
-    }
     .about-me--main {
-        padding: 40px;
+        padding: 24px;
     }
 
     .about-me--title {
         margin-bottom: 16px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 
     .about-me--subtitle {
-        margin-bottom: 32px;
-        font-size: var(--fs-h2);
-        color: var(--clr-headings);
-        font-weight: var(--fw-semi);
+        margin-bottom: 24px;
     }
 
     .about-me--body {
-        font-size: var(--fs-body);
-        color: var(--clr-body-text);
-        font-weight: var(--fw-reg);
-    }
-
-    .contact--container {
-        background-color: var(--clr-white);
+        margin-left: 28px;
     }
 
     .contact--contact-title {
@@ -395,17 +356,11 @@
     }
 
     .contact--social-item {
-        margin-bottom: 24px;
+        margin-bottom: 0px;
     }
 
     .contact--social-item > a {
-        color: var(--clr-primary);
         font-size: var(--fs-h1);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
     }
   }
   
@@ -413,17 +368,21 @@
   @media (min-width: 1200px) and (max-width: 1439px){
     /* Styles for extra large devices */
     .container--about-me {
-        background-color: var(--clr-white);
         border-radius: 40px;
         max-width: 86vw;
-        margin-top: 140px;
+        margin-top: 120px;
         margin-left: 7vw;
-        box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
+        box-shadow: 12px 12px 0 0 black;
+        outline: 3px solid black;
+    }
+
+    .about-top-bar {
+        border-bottom: 3px solid black;
     }
 
     .about-line {
         width: 93%;
+        height: 3px;
     }
 
     .about-me--main-container{
@@ -434,35 +393,16 @@
         padding: 20px 32px 0px 32px;
     }
     
-    .logo--about-me {
-        width: 100%;
-    }
     .about-me--main {
-        padding: 40px;
-    }
-
-    .about-me--title {
-        margin-bottom: 16px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
+        padding: 28px;
     }
 
     .about-me--subtitle {
-        margin-bottom: 32px;
-        font-size: var(--fs-h2);
-        color: var(--clr-headings);
-        font-weight: var(--fw-semi);
+        margin-bottom: 24px;
     }
 
     .about-me--body {
-        font-size: var(--fs-body);
-        color: var(--clr-body-text);
-        font-weight: var(--fw-reg);
-    }
-
-    .contact--container {
-        background-color: var(--clr-white);
+        margin-left: 24px;
     }
 
     .contact--contact-title {
@@ -470,9 +410,6 @@
         justify-content: left;
         margin-left: 32px;
         margin-right: 24px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 
     .contact--socials-list {
@@ -485,35 +422,33 @@
     }
 
     .contact--social-item {
-        margin-bottom: 24px;
+        margin-bottom: 0px;
     }
 
     .contact--social-item > a {
-        color: var(--clr-primary);
         font-size: var(--fs-h1);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
     }
   }
   
   /* XXL devices (large desktops) */
-  @media (min-width: 1440px) and (max-width: 1919px){
+  @media (min-width: 1440px) and (max-width: 1919px) {
     /* Styles for XXL devices */
     .container--about-me {
-        background-color: var(--clr-white);
         border-radius: 40px;
         max-width: 86vw;
         margin-top: 140px;
         margin-left: 7vw;
-        box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
+        box-shadow: 12px 12px 0 0 black;
+        outline: 3px solid black;
+    }
+
+    .about-top-bar {
+        border-bottom: 3px solid black;
     }
 
     .about-line {
         width: 93%;
+        height: 3px;
     }
 
     .about-me--main-container{
@@ -524,35 +459,16 @@
         padding: 20px 32px 0px 32px;
     }
     
-    .logo--about-me {
-        width: 100%;
-    }
     .about-me--main {
-        padding: 40px;
-    }
-
-    .about-me--title {
-        margin-bottom: 16px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
+        padding: 32px;
     }
 
     .about-me--subtitle {
-        margin-bottom: 32px;
-        font-size: var(--fs-h2);
-        color: var(--clr-headings);
-        font-weight: var(--fw-semi);
+        margin-bottom: 24px;
     }
 
     .about-me--body {
-        font-size: var(--fs-body);
-        color: var(--clr-body-text);
-        font-weight: var(--fw-reg);
-    }
-
-    .contact--container {
-        background-color: var(--clr-white);
+        margin-left: 24px;
     }
 
     .contact--contact-title {
@@ -575,17 +491,11 @@
     }
 
     .contact--social-item {
-        margin-bottom: 24px;
+        margin-bottom: 0;
     }
 
     .contact--social-item > a {
-        color: var(--clr-primary);
-        font-size: var(--fs-h1);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
+        font-size: 3rem;
     }
   }
   
@@ -593,17 +503,21 @@
   @media (min-width: 1920px) {
     /* Styles for ultra large devices */
     .container--about-me {
-        background-color: var(--clr-white);
-        border-radius: 40px;
+        border-radius: 30px;
         max-width: 86vw;
         margin-top: 140px;
         margin-left: 7vw;
-        box-shadow: 8px 8px 0 0 black;
-        outline: 2.5px solid black;
+        box-shadow: 12px 12px 0 0 black;
+        outline: 3px solid black;
     }
 
+    .about-top-bar {
+        border-bottom: 3px solid black;
+    } 
+
     .about-line {
-        width: 93%;
+        width: 95%;
+        height: 3px;
     }
 
     .about-me--main-container{
@@ -613,43 +527,24 @@
         grid-template-columns: 1fr 2.5fr;
         padding: 20px 32px 0px 32px;
     }
-    
-    .logo--about-me {
-        width: 100%;
-    }
-    .about-me--main {
-        padding: 40px;
-    }
 
-    .about-me--title {
-        margin-bottom: 16px;
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
+    .about-me--main {
+        padding: 24px;
     }
 
     .about-me--subtitle {
-        padding-top: 16px;
-        margin-bottom: 32px;
-        font-size: var(--fs-h2);
-        color: var(--clr-headings);
-        font-weight: var(--fw-semi);
+        padding-top: 8px;
+        margin-bottom: 24px;
     }
 
     .about-me--body {
-        font-size: var(--fs-body);
-        color: var(--clr-body-text);
-        font-weight: var(--fw-reg);
-    }
-
-    .contact--container {
-        background-color: var(--clr-white);
+        margin-left: 24px;
     }
 
     .contact--contact-title {
         display: flex;
         justify-content: left;
-        margin-left: 32px;
+        margin-left: 48px;
         margin-right: 24px;
         font-size: var(--fs-h1);
         font-weight: var(--fw-bold);
@@ -662,20 +557,14 @@
         justify-content: center;
         padding-left: 25vw;
         padding-right: 25vw;
-        grid-column-gap: 10vw;
+        grid-column-gap: 12vw;
     }
 
     .contact--social-item {
-        margin-bottom: 24px;
+        margin-bottom: 8px;
     }
 
     .contact--social-item > a {
-        color: var(--clr-primary);
-        font-size: var(--fs-h1);
-        text-decoration: none;
-    }
-
-    a:hover {
-        color: var(--clr-hover);
+        font-size: 3rem;
     }
   }

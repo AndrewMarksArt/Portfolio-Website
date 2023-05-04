@@ -184,8 +184,9 @@
     font-size: 1rem;
     font-weight: var(--fw-semi);
     border-radius: 8px;
-    padding:48px 12px;
+    padding: 4px 6px;
     margin-top: 4px;
+    height: 1.6rem;
   }
   
   .featured-see-all:hover {

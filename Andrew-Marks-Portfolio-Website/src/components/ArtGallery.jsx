@@ -19,6 +19,11 @@ export default function ArtGallery() {
 
     return (
         <div className="art-gallery--container">
+            <div className="art-gallery-top-bar">
+                <div className="art-gallery-line"></div>
+                <div className="art-gallery-line"></div>
+                <div className="art-gallery-line"></div>
+            </div>
             <div className="art-gallery--top-line">
                 <h1 className="art-gallery--title">Art Gallery</h1>
                 <button className="art-gallery--see-all">

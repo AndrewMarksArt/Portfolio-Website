@@ -158,6 +158,7 @@
   .featured-container {
     box-shadow: 8px 8px 0 0 black;
     outline: 3px solid black;
+    border-radius: 30px;
   }
 
   .featured-top-bar {
@@ -165,7 +166,7 @@
   }
 
   .featured-line {
-    width: 82%;
+    width: 85%;
     height: 3px;
   }
 
@@ -174,13 +175,13 @@
   }
   
   .featured-title {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding: 8px 8px;
     margin-bottom: 12px;
   }
   
   .featured-see-all {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: var(--fw-semi);
     border-radius: 8px;
     padding: 8px 12px;

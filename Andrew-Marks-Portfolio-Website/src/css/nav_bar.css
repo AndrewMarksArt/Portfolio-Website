@@ -42,7 +42,7 @@
       left: 0;
       background-color: var(--clr-white);
       box-shadow: var(--bs);
-      height: 80px;
+      height: 75px;
       display: flex;
       justify-content: space-between;
       padding: 1em;

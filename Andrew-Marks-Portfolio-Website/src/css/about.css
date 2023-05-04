@@ -129,6 +129,10 @@ a:hover {
         border-bottom: 2.2px solid black;
     }
 
+    .about-line {
+        width: 85%;
+    }
+
     .logo--about-me {
         max-width: 100%;
     }

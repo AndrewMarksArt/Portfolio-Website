@@ -72,7 +72,7 @@
 
 .featured-title {
   font-size: var(--fs-h1);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-semi);
   color: var(--clr-headings);
   background-color: var(--clr-secondary);
   padding: 6px 8px 0;
@@ -145,6 +145,7 @@
   font-weight: var(--fw-reg);
   color: var(--clr-body-text);
   margin: 0.5rem 1.2rem 1.2rem 1rem;
+  line-height: 1rem;
 }
 
 .project-card:hover {
@@ -154,11 +155,100 @@
 
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
+  .featured-container {
+    box-shadow: 8px 8px 0 0 black;
+    outline: 3px solid black;
+  }
+
+  .featured-top-bar {
+    border-bottom: 3px solid black;
+  }
+
+  .featured-line {
+    width: 82%;
+    height: 3px;
+  }
+
+  .featured-top-line {
+    padding: 12px 8px 0 12px;
+  }
+  
+  .featured-title {
+    font-size: 1.6rem;
+    padding: 8px 8px;
+    margin-bottom: 12px;
+  }
+  
+  .featured-see-all {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-semi);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-top: 4px;
+  }
+  
+  .featured-see-all:hover {
+    margin-top: 2px;
+  }
+  
+  .featured-skills {
+    margin: 12px 12px auto;
+  }
+  
+  .featured-skills-list {
+    font-size: var(--fs-h3);
+    margin-top: -8px;
+  }
+
 }
 
 /* Small devices (landscape phones) */
 @media (min-width: 480px) and (max-width: 767px){
   /* Styles for small devices */
+  .featured-container {
+    box-shadow: 8px 8px 0 0 black;
+    outline: 3px solid black;
+  }
+
+  .featured-top-bar {
+    border-bottom: 3px solid black;
+  }
+
+  .featured-line {
+    width: 82%;
+    height: 3px;
+  }
+
+  .featured-top-line {
+    padding: 12px 8px 0 12px;
+  }
+  
+  .featured-title {
+    font-size: 1.6rem;
+    padding: 8px 8px;
+    margin-bottom: 12px;
+  }
+  
+  .featured-see-all {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-semi);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-top: 4px;
+  }
+  
+  .featured-see-all:hover {
+    margin-top: 2px;
+  }
+  
+  .featured-skills {
+    margin: 12px 12px auto;
+  }
+  
+  .featured-skills-list {
+    font-size: var(--fs-h3);
+    margin-top: -8px;
+  }
  
 }
 

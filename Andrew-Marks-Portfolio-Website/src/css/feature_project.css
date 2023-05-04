@@ -156,7 +156,7 @@
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
   .featured-container {
-    box-shadow: 8px 8px 0 0 rgb(255, 0, 0);
+    box-shadow: 8px 8px 0 0 black;
     outline: 3px solid black;
     border-radius: 30px;
   }
@@ -175,8 +175,8 @@
   }
   
   .featured-title {
-    font-size: 1.2rem;
-    padding: 8px 8px;
+    font-size: 1rem;
+    padding: 4px 4px;
     margin-bottom: 12px;
   }
   
@@ -184,7 +184,7 @@
     font-size: 1rem;
     font-weight: var(--fw-semi);
     border-radius: 8px;
-    padding: 8px 12px;
+    padding:48px 12px;
     margin-top: 4px;
   }
   

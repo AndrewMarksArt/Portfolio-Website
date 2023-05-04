@@ -131,6 +131,7 @@ a:hover {
 
     .about-line {
         width: 85%;
+        height: 3px;
     }
 
     .logo--about-me {

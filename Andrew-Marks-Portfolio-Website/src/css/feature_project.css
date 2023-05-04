@@ -174,13 +174,13 @@
   }
   
   .featured-title {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     padding: 8px 8px;
     margin-bottom: 12px;
   }
   
   .featured-see-all {
-    font-size: var(--fs-body);
+    font-size: 1.2rem;
     font-weight: var(--fw-semi);
     border-radius: 8px;
     padding: 8px 12px;

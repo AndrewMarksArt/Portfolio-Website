@@ -156,7 +156,7 @@
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
   .featured-container {
-    box-shadow: 8px 8px 0 0 black;
+    box-shadow: 8px 8px 0 0 rgb(255, 0, 0);
     outline: 3px solid black;
     border-radius: 30px;
   }

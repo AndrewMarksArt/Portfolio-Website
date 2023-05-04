@@ -175,18 +175,17 @@
   }
   
   .featured-title {
-    font-size: 1rem;
-    padding: 4px 4px;
+    font-size: 1.6rem;
+    padding: 8px 8px;
     margin-bottom: 12px;
   }
   
   .featured-see-all {
-    font-size: 1rem;
+    font-size: var(--fs-body);
     font-weight: var(--fw-semi);
     border-radius: 8px;
-    padding: 4px 6px;
+    padding: 8px 12px;
     margin-top: 4px;
-    height: 1.6rem;
   }
   
   .featured-see-all:hover {

@@ -30,6 +30,7 @@ export default function ArtGallery() {
                     <Link to="/gallery" style={{ textDecoration: 'none', color: 'var(--clr-primary)' }}>all artwork</Link>
                 </button>
             </div>
+            <h2 className="art-gallery-skills">Example works in pen & ink, character, game, and UI design.</h2>
             <div className="art-gallery--grid-container">
                 {galleryElements.slice(0,12)}
             </div>

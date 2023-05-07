@@ -75,7 +75,7 @@
   font-weight: var(--fw-semi);
   color: var(--clr-headings);
   background-color: var(--clr-secondary);
-  padding: 6px 8px 0;
+  padding: 6px 12px 6px 12px;
 }
 
 .featured-see-all {
@@ -176,7 +176,7 @@
   
   .featured-title {
     font-size: 1.6rem;
-    padding: 8px 8px;
+    padding: 4px 8px 4px 8px;
     margin-bottom: 12px;
   }
   
@@ -258,7 +258,7 @@
   
   .featured-title {
     font-size: 1.6rem;
-    padding: 8px 8px;
+    padding: 6px 12px 6px 12px;
     margin-bottom: 12px;
   }
   
@@ -348,7 +348,7 @@
   
   .featured-title {
     font-size: var(--fs-sub-head);
-    padding: 8px 12px;
+    padding: 8px 12px 8px 12px;
     margin-bottom: 12px;
   }
   
@@ -431,7 +431,7 @@
   
   .featured-title {
     font-size: var(--fs-h1);
-    padding: 8px 12px;
+    padding: 8px 12px 8px 12px;
     margin-bottom: 12px;
   }
   
@@ -513,7 +513,7 @@
   
   .featured-title {
     font-size: var(--fs-h1);
-    padding: 8px 12px;
+    padding: 8px 12px 8px 12px;
     margin-bottom: 12px;
   }
   
@@ -596,7 +596,7 @@
   
   .featured-title {
     font-size: var(--fs-h1);
-    padding: 8px 12px;
+    padding: 8px 12px 8px 12px;
     margin-bottom: 12px;
   }
   
@@ -679,7 +679,7 @@
   
   .featured-title {
     font-size: var(--fs-h1);
-    padding: 8px 16px;
+    padding: 8px 16px 8px 16px;
     margin-bottom: 12px;
   }
   

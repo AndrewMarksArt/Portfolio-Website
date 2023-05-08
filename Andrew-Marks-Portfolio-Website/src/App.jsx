@@ -19,8 +19,6 @@ import Project9 from "./pages/Projects/Project9";
 export default function App() {
     return (
         <>
-
-
             {
                 <BrowserRouter>
                     <ScrollToTop />
@@ -43,8 +41,6 @@ export default function App() {
                     </Routes>
                 </BrowserRouter>
             }
-            
-
         </>
     );
 }

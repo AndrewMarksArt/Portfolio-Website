@@ -103,13 +103,19 @@
 /* Small devices (landscape phones) */
 @media (min-width: 320px) and (max-width: 767px){
   /* Styles for small devices */
-  
+
+  .modal-content {
+    max-width: 80vw;
+    padding: 2rem 2rem;
+  }
+
   .modal-image-title {
-    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: -1rem;
   }
   
   .modal-close {
-    margin-top: -1rem;
+    margin-top: 0rem;
   }
   
   .modal-close:hover {
@@ -121,8 +127,19 @@
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
   /* Styles for medium devices */
+
+  .modal-content {
+    max-width: 80vw;
+    padding: 2rem 4rem;
+  }
+
   .modal-image-title {
+    margin-top: 0.5rem;
     margin-bottom: -1.2rem;
+  }
+
+  .modal-image-desc {
+    margin-top: 1.5rem;
   }
   
   .modal-close {
@@ -138,12 +155,18 @@
 /* Large devices (tablets, landscape / small laptops) */
 @media (min-width: 1024px) and (max-width: 1199px){
   /* Styles for large devices */
-  .modal-image-title {
-    margin-bottom: -1.2rem;
+
+  .modal-content {
+    max-width: 80vw;
+    padding: 2rem 6rem;
   }
-  
+
+  .modal-image-title {
+    margin-top: 0.5rem;
+    margin-bottom: -0.8rem;
+  }
   .modal-close {
-    margin-top: 0rem;
+    margin-top: 0.2rem;
   }
   
   .modal-close:hover {
@@ -198,6 +221,7 @@
   
   .modal-close {
     margin-top: 0rem;
+    line-height: 2.5rem;
   }
   
   .modal-close:hover {

@@ -33,6 +33,61 @@
   --bs-solid: 6px 6px 0 0 black;
 }
 
+.projects--uiux-container {
+  background-color: var(--clr-white);
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 8vw;
+  padding-bottom: 12px;
+  max-width: 84vw;
+  box-shadow: 8px 8px 0 0 black;
+  outline: 3px solid black;
+  overflow: hidden;
+}
+
+.projects--cards-container {
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 0rem 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.projects--top-bar {
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2.5px solid black;
+}
+
+.projects--line {
+  width: 90%;
+  height: 3.5px;
+  background-color: black;
+  border-radius: 2px;
+  margin: 2px 0;
+}
+
+.projects--section-title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  color: var(--clr-headings);
+  padding: 1rem;
+}
+
+.projects--section-subhead {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-reg);
+  color: var(--clr-body-text);
+  padding: 0rem 1rem;
+}
+
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
 }

@@ -1,19 +1,5 @@
 
-/*************************************
-large screens
-*************************************/
-@media (min-width: 800px) {
- 
-}
-
-
-
-
 /*
-///////////////////////////////////////
-Projects Page
-///////////////////////////////////////
-
 ///////////////////////////////////////
 UI/UX Projects
 ///////////////////////////////////////
@@ -23,19 +9,13 @@ small screens
 */
 
 @media (max-width: 800px) {
-    .projects--uiux-container, .projects--ds-container {
+    .projects--ds-container {
         margin: 100px 7vw 40px 7vw;
         background-color: var(--clr-white);
         border-radius: 40px;
         padding: 40px;
         width: 86vw;
         box-shadow: var(--bs);
-    }
-
-    .projects--section-title {
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 }
 
@@ -44,7 +24,7 @@ small screens
 large screens
 ************************************/
 @media (min-width: 800px) {
-    .projects--uiux-container, .projects--ds-container {
+    .projects--ds-container {
         margin: 140px 7vw 40px 7vw;
         background-color: var(--clr-white);
         border-radius: 40px;
@@ -56,23 +36,6 @@ large screens
     .projects--ds-container {
         margin-top: 60px;
         margin-bottom: 100px;
-    }
-
-    .projects--cards-container {
-        margin-top: 32px;
-        margin-left: 8px;
-        margin-right: 8px;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        gap: 24px 24px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .projects--section-title {
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
     }
 }
 

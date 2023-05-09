@@ -46,12 +46,11 @@
 }
 
 .projects--cards-container {
-  padding: 0rem 2rem;
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 0rem 2rem;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 0rem;
+  column-gap: 2rem;
+  padding: 0rem 2rem;
   margin-bottom: 2rem;
 }
 
@@ -86,6 +85,46 @@
   font-weight: var(--fw-reg);
   color: var(--clr-body-text);
   padding: 0rem 1rem;
+}
+
+.project-card {
+  background-color: var(--clr-white);
+  border-radius: 40px;
+  outline: 3px solid black;
+  z-index: 10;
+  margin-top: 32px;
+  max-height:60vh;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  border-bottom: 3px solid black;
+}
+
+.project-card--text {
+  height: 12vh;
+}
+
+.project-title {
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-semi);
+  color: var(--clr-headings);
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.project-headline {
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  color: var(--clr-body-text);
+  margin: 0.5rem 1.2rem 1.2rem 1rem;
+  line-height: 1rem;
+}
+
+.project-card:hover {
+  box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
+  margin-top: 0.6rem;
 }
 
 @media (min-width: 320px) and (max-width: 479px) {

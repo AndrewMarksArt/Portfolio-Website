@@ -12,7 +12,6 @@ export default function ProjectCard(props) {
                 <h2 className="project-title">{props.item.title}</h2>
                 <p className="project-headline">{props.item.headline}</p>
             </div>
-            <div className="project-hover-bg"></div>
         </div>
 
     )

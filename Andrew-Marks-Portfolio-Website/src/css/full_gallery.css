@@ -33,18 +33,190 @@
   --bs-solid: 6px 6px 0 0 black;
 }
 
+.full-gallery--container {
+  background-color: var(--clr-white);
+  border-radius: 30px;
+  margin-top: 120px;
+  margin-left: 8vw;
+  width: 84vw;
+  box-shadow: 8px 8px 0 0 black;
+  outline: 3px solid black;
+  overflow: hidden;
+}
+
+.full-gallery--top-bar {
+  width: 100%;
+  height: 2.5rem;
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2.5px solid black;
+}
+
+.full-gallery--line {
+  width: 90%;
+  height: 3.5px;
+  background-color: black;
+  border-radius: 2px;
+  margin: 2px 0;
+}
+
+.full-gallery--title {
+  font-size: var(--fs-h1);
+  font-weight: var(--fw-bold);
+  color: var(--clr-headings);
+  margin-left: 1.5rem;
+  background-color: var(--clr-secondary);
+  padding: 4px 8px;
+}
+
+.full-gallery--grid-container {
+  padding: 1rem 3rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
+}
+
+.full-gallery--topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.full-gallery--filter-all,
+.full-gallery--filter-drawing,
+.full-gallery--filter-painting,
+.full-gallery--filter-game-art,
+.full-gallery--filter-ui {
+  background-color: transparent;
+  border: 3px solid var(--clr-primary);
+  border-radius: 200px;
+  color: var(--clr-primary);
+  padding: .4rem 1.5rem;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.full-gallery--filters > button:hover {
+  background-color: var(--clr-hover);
+  color: var(--clr-white);
+  border: 3px solid var(--clr-hover);
+}
+
+.full-gallery--filter-active {
+  background-color: var(--clr-hover);
+  border: 3px solid var(--clr-hover);
+  border-radius: 200px;
+  color: var(--clr-white);
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  font-size: var(--fs-body);
+  font-weight: var(--fw-reg);
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
+  .full-gallery--grid-container {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+  }
+  
+  .full-gallery--title {
+    font-size: var(--fs-h2);
+    margin-left: 1rem;
+  }
+  
+  .full-gallery--filters {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .full-gallery--filter-all,
+  .full-gallery--filter-drawing,
+  .full-gallery--filter-painting,
+  .full-gallery--filter-game-art,
+  .full-gallery--filter-ui {
+    background-color: transparent;
+    border: 3px solid var(--clr-primary);
+    border-radius: 200px;
+    color: var(--clr-primary);
+    font-size: var(--fs-body-sm);
+    font-weight: var(--fw-semi);
+    padding: .5rem 1rem;
+  }
+  
 }
 
 /* Small devices (landscape phones) */
 @media (min-width: 480px) and (max-width: 767px){
   /* Styles for small devices */
+  .full-gallery--grid-container {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1.5rem;
+  }
+
+  .full-gallery--topline {
+    display: grid;
+    width: 100%;
+  }
+
+  
+  .full-gallery--title {
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: fit-content;
+  }
+  
+  .full-gallery--filters {
+    display: grid;
+    width: 75vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 1rem;
+    column-gap: 1rem;
+  }
+  
+  .full-gallery--filter-all,
+  .full-gallery--filter-drawing,
+  .full-gallery--filter-painting,
+  .full-gallery--filter-game-art,
+  .full-gallery--filter-ui {
+    padding: .5rem 1rem;
+    width: max-content;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .full-gallery--filter-active {
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
 }
 
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
   /* Styles for medium devices */
+  
 }
 
 /* Large devices (tablets, landscape / small laptops) */

@@ -57,6 +57,7 @@
   font-weight: var(--fw-semi);
   color: var(--clr-headings);
   margin-left: 1.2rem;
+  margin-right: 1rem;
   margin-top: 1.2rem;
 }
 
@@ -78,17 +79,14 @@
   .project-card {
     border-radius: 20px;
     outline: 3px solid black;
-    margin-top: 32px;
-    max-height:50vh;
+    margin-top: 1.5rem;
+    height:fit-content;
     overflow: hidden;
+    padding-bottom: 2rem;
   }
 
   .project-image {
     width: fit-content;
-  }
-  
-  .project-card--text {
-    height: 14vh;
   }
   
   .project-title {
@@ -113,19 +111,14 @@
   .project-card {
     border-radius: 20px;
     outline: 3px solid black;
-    margin-top: 32px;
-    max-height:55vh;
-    max-width: fit-content;
+    margin-top: 2rem;
+    height:fit-content;
     overflow: hidden;
+    padding-bottom: 2rem;
   }
 
   .project-image {
-    height: 42vh;
     width: 100%;
-  }
-
-  .project-card--text {
-    margin-bottom: .8rem;
   }
 
   .project-title {

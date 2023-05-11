@@ -118,6 +118,14 @@
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
   /* Styles for medium devices */
+  .projects--cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 0rem;
+    column-gap: 2rem;
+    padding: 0rem 2rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* Large devices (tablets, landscape / small laptops) */

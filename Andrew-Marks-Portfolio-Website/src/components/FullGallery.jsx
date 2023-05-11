@@ -43,6 +43,13 @@ export default function FullGallery() {
     return(
         <>
             <div className="full-gallery--container">
+
+                <div className="full-gallery--top-bar">
+                    <div className="full-gallery--line"></div>
+                    <div className="full-gallery--line"></div>
+                    <div className="full-gallery--line"></div>
+                </div>
+
                 <div className="full-gallery--topline">
                     <h1 className="full-gallery--title">Art Gallery</h1>
                     <div className="full-gallery--filters">

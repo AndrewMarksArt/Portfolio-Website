@@ -124,27 +124,31 @@
   margin-top: 1rem;
 }
 
-
-
-@media (min-width: 320px) and (max-width: 479px) {
-  /* Styles for extra small devices */
+@media (max-width: 399px) {
   .full-gallery--grid-container {
     padding: 1.5rem;
     display: grid;
     grid-template-columns: auto auto;
-    gap: 1.5rem;
+    gap: 1rem;
+    margin-top: -0.5rem;
   }
-  
+
+  .full-gallery--topline {
+    display: grid;
+    padding: .8rem;
+  }
+
   .full-gallery--title {
-    font-size: var(--fs-h2);
-    margin-left: 1rem;
+    margin-left: 0;
+    padding: 0.25rem 0.5rem;
+    width: 76vw;
   }
   
   .full-gallery--filters {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 1rem;
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0.5rem;
+    column-gap: 1rem;
   }
   
   .full-gallery--filter-all,
@@ -152,13 +156,66 @@
   .full-gallery--filter-painting,
   .full-gallery--filter-game-art,
   .full-gallery--filter-ui {
-    background-color: transparent;
-    border: 3px solid var(--clr-primary);
-    border-radius: 200px;
-    color: var(--clr-primary);
-    font-size: var(--fs-body-sm);
-    font-weight: var(--fw-semi);
-    padding: .5rem 1rem;
+    padding: .4rem 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.8em;
+    font-size: 0.8rem;
+  }
+
+  .full-gallery--filter-active {
+    padding: 0.4rem 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.6rem;
+    font-size: 0.8rem;
+  }
+  
+
+}
+
+@media (min-width: 400px) and (max-width: 479px) {
+  /* Styles for extra small devices */
+  .full-gallery--grid-container {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1rem;
+    margin-top: -0.5rem;
+  }
+
+  .full-gallery--topline {
+    display: grid;
+    padding: .8rem;
+  }
+
+  .full-gallery--title {
+    margin-left: 0;
+    padding: 0.25rem 0.5rem;
+    width: 78vw;
+  }
+  
+  .full-gallery--filters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0.5rem;
+    column-gap: 1rem;
+  }
+  
+  .full-gallery--filter-all,
+  .full-gallery--filter-drawing,
+  .full-gallery--filter-painting,
+  .full-gallery--filter-game-art,
+  .full-gallery--filter-ui {
+    padding: .4rem 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.8em;
+    font-size: 0.8rem;
+  }
+
+  .full-gallery--filter-active {
+    padding: 0.4rem 1rem;
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
   }
   
 }

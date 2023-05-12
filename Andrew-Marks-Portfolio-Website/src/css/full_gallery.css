@@ -63,6 +63,14 @@
   margin: 2px 0;
 }
 
+.full-gallery--topline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
 .full-gallery--title {
   font-size: var(--fs-h1);
   font-weight: var(--fw-bold);
@@ -70,21 +78,6 @@
   margin-left: 1.5rem;
   background-color: var(--clr-secondary);
   padding: 4px 8px;
-}
-
-.full-gallery--grid-container {
-  padding: 1rem 3rem 3rem 3rem;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 2rem;
-}
-
-.full-gallery--topline {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
-  padding-right: 3rem;
 }
 
 .full-gallery--filter-all,
@@ -122,6 +115,13 @@
   font-weight: var(--fw-reg);
   margin-left: 2rem;
   margin-top: 1rem;
+}
+
+.full-gallery--grid-container {
+  padding: 1rem 3rem 3rem 3rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 2rem;
 }
 
 @media (max-width: 399px) {
@@ -273,12 +273,67 @@
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
   /* Styles for medium devices */
+  .full-gallery--grid-container {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+  }
+
+  .full-gallery--topline {
+    padding: 0;
+    padding-top: 1rem;
+  }
   
+  .full-gallery--title {
+    padding: 4px 8px;
+  }
+
+  .full-gallery--filters {
+    display: grid;
+    width: 75vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    gap: 0.8rem;
+  }
+  
+  .full-gallery--filter-all,
+  .full-gallery--filter-drawing,
+  .full-gallery--filter-painting,
+  .full-gallery--filter-game-art,
+  .full-gallery--filter-ui {
+    margin-left: 0.4rem;
+    margin-top: 0;
+  }
+  
+  .full-gallery--filter-active {
+    margin-left: 0.4rem;
+    margin-top: 0;
+  }
 }
 
 /* Large devices (tablets, landscape / small laptops) */
 @media (min-width: 1024px) and (max-width: 1199px){
   /* Styles for large devices */
+  .full-gallery--topline {
+    padding: 0;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .full-gallery--filter-all,
+  .full-gallery--filter-drawing,
+  .full-gallery--filter-painting,
+  .full-gallery--filter-game-art,
+  .full-gallery--filter-ui {
+    margin-left: 0.6rem;
+  }
+
+  .full-gallery--filter-active {
+    margin-left: 0rem;
+  }
 }
 
 /* Extra large devices (laptops, desktops) */

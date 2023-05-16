@@ -23,7 +23,7 @@
     --fs-sub-head: 2rem;
     --fs-h2: 1.5rem;
     --fs-h3: 1.25rem;
-    --fs-body: 1.375;
+    --fs-body: 1.375rem;
     --fs-body-sm: 1rem;
     --fs-xl: 3.75rem;
   
@@ -33,9 +33,19 @@
     --bs-solid: 6px 6px 0 0 black;
   }
 
+  button, a {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+
   .resume--container {
     background-color: var(--clr-white);
-    border-radius: 30px;
+    border-radius: 2rem;
     margin-top: 120px;
     margin-left: 5vw;
     width: 90vw;
@@ -46,7 +56,7 @@
 
   .resume--top-bar {
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     background-color: var(--clr-white);
     display: flex;
     justify-content: center;
@@ -69,6 +79,27 @@
     margin: 0.15rem 2rem 0.2rem 1rem;
   }
 
+  .pdf-button {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-semi);
+    border-radius: 0.6rem;  
+    padding: 0.4rem 2rem;
+    white-space: nowrap;
+  }
+  
+  .pdf-button:hover {
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 4px 4px var(--clr-hover);
+  }
+
+  .resume-custom-button:hover {
+    color: white;
+  }
+
   .resume--content-container {
     display: grid;
     grid-template-columns: 23vw auto;
@@ -82,9 +113,8 @@
 }
 
 .resume--name-contact {
-    margin-top: 40px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 2rem;
+    margin-right: 2rem;
     padding-bottom: 0;
     margin-bottom: 0;
 }
@@ -108,28 +138,29 @@
 
 .resume--profile-container {
     background-color: var(--clr-headings);
-    padding-bottom: 24px;
+    padding-bottom: 1.5rem;
 }
 
 .resume--profile-title {
     color: var(--clr-light-bg);
-    font-size: var(--fs-h1);
+    font-size: var(--fs-sub-head);
     font-weight: var(--fw-reg);
-    padding-left: 24px;
-    padding-top: 24px;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .resume--seperator {
-    margin-right: 24px;
-    margin-left: 24px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .resume--profile-body {
-    font-size: var(--fs-body);
+    font-size: 1.3rem;
     font-weight: var(--fw-light);
     color: var(--clr-light-bg);
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    line-height: 1.8rem;
 }
 
 .resume--edu-skills {
@@ -139,9 +170,10 @@
 }
 
 .resume--edu-title {
-    font-size: var(--fs-h1);
-    font-weight: var(--fw-bold);
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-semi);
     color: var(--clr-headings);
+    margin-top: -2rem;
 }
 
 .resume--edu-seperator{
@@ -152,29 +184,29 @@
 
 .resume--edu-school {
     font-size: var(--fs-h2);
-    font-weight: var(--fw-bold);
+    font-weight: var(--fw-semi);
     color: var(--clr-headings);
-    margin-bottom: 12px;
-    margin-top: 24px;
+    margin-bottom: 0.8rem;
+    margin-top: 1.5rem;
 }
 
 .resume--edu-when {
-    font-size: var(--fs-h2);
+    font-size: var(--fs-h3);
     font-weight: var(--fw-semi);
     color: var(--clr-headings);
-    margin-bottom: -6px;
+    margin-bottom: -.5rem;
 }
 
 .resume--edu-blurb {
     font-size: var(--fs-body);
     font-weight: var(--fw-reg);
     color: var(--clr-headings);
-    margin-bottom: 24px;
+    margin-bottom: 1rem;
 }
 
 .resume--edu {
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
 }
 
 .resume--skill-list {
@@ -186,7 +218,7 @@
 }
 
 .resume--main-body {
-    padding: 40px;
+    padding: 2rem;
     min-width: 0;
 }
 
@@ -199,7 +231,7 @@
 .resume--main-job-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 16px;
+    margin-top: 1rem;
     min-width: 0px;
 }
 
@@ -208,7 +240,7 @@
     font-weight: var(--fw-light);
     color: var(--clr-light-bg);
     background-color: var(--clr-headings);
-    padding: 12px;
+    padding: 0.75rem;
     min-width: 0;
 }
 
@@ -220,15 +252,15 @@
 .resume--main-contact-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 24px;
+    gap: 1.5rem;
     justify-content: space-between;
-    margin-top: 12px;
+    margin-top: 0.75rem;
     min-width: 0;
 }
 
 .resume--main-contact-link {
     text-decoration: none;
-    font-size: var(--fs-body);
+    font-size: 1.2rem;
     font-weight: var(--fw-reg);
     color: var(--clr-primary);
     min-width: 0;
@@ -241,20 +273,19 @@
 
 .resume--header {
     color: var(--clr-headings);
-    font-size: var(--fs-h1);
+    font-size: var(--fs-sub-head);
     font-weight: var(--fw-bold);
-    margin-top: -16px;
 }
 
 .resume--jobs-container {
-    margin-top: 60px;
+    margin-top: -1rem;
 }
 
 .resume--header-seperator {
     background-color: var(--clr-headings);
     height: 2px;
     border: none;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
 }
 
 .resume--project-title {
@@ -272,28 +303,28 @@
     font-size: var(--fs-body);
     font-weight: var(--fw-reg);
     color: var(--clr-body-text);
-    margin-top: 8px;
-    margin-bottom: 32px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 .resume--project-list > li {
-    margin-bottom: 20px;
+    margin-bottom: 0.5rem;
 }
 
 .resume--job-date-container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 16px;
+    margin-bottom: 1rem;
 }
 
 .resume--job-company {
     color: var(--clr-headings);
-    font-size: var(--fs-sub-head);
-    font-weight: var(--fw-bold);
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semi);
 }
 
 .resume--job-date, .resume--job-title {
     color: var(--clr-headings);
-    font-size: var(--fs-sub-head);
+    font-size: var(--fs-h2);
     font-weight: var(--fw-reg);
 }
 

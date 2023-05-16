@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom";
+import "../css/resume.css";
 
 export default function Resume() {
     return (
@@ -10,7 +11,7 @@ export default function Resume() {
                             <img src="../img/logo.png" className="resume--logo"></img>
                         </div>
                     <div className="resume--name-contact">
-                        <h1 className="resume--main-title">ANDREW MARKS</h1>
+                        <h1 className="resume--main-title">ANDREW MARKS, M.S.</h1>
                         <div className="resume--main-job-container">
                             <h1 className="resume--main-job-title">UI/UX Designer</h1>
                             <span className="resume--main-job-blank"></span>
@@ -29,14 +30,10 @@ export default function Resume() {
                         <h1 className="resume--profile-title">PROFILE</h1>
                         <hr className="resume--seperator"></hr>
                         <p className="resume--profile-body">
-                        Blurb about my background, goals, process, learning, next 
-                        steps or key takeaways. place holder  blurb about what skills 
-                        and things I learned and or used and the resut.
-                        </p>
-                        <p className="resume--profile-body">
-                        Blurb about my background, goals, process, learning, next 
-                        steps or key takeaways. place holder  blurb about what skills 
-                        and things I learned and or used and the resut.
+                            Dedicated UI/UX professional with a focus on usability and human-centered design—seeking the 
+                            UI/UX Designer position at General Dynamics Information Technology. Pursuing research to transform 
+                            customer needs into intuitive wireframes, mockups, prototypes—and weaving data-driven narratives to 
+                            enhance user experiences. Fluent interpersonal communicator, with many transferrable skills.
                         </p>
                     </div>
                     <div className="resume--edu-skills">
@@ -44,7 +41,7 @@ export default function Resume() {
                             <h1 className="resume--edu-title">EDUCATION</h1>
                             <hr className="resume--edu-seperator"></hr>
                             <h2 className="resume--edu-school">Springboard UI/UX Career Path</h2>
-                            <h2 className="resume--edu-when">March 2022 - current</h2>
+                            <h2 className="resume--edu-when">March 2022 - August 2022</h2>
                             <p className="resume--edu-blurb">UI/UX bootcamp focused on Design 
                             Thinking and Human Centered Design</p>
 
@@ -64,23 +61,27 @@ export default function Resume() {
                             <h1 className="resume--edu-title">Skills</h1>
                             <hr className="resume--edu-seperator"></hr>
                             <ul className="resume--skill-list">
-                                <li>Skill</li>
-                                <li>Skill</li>
-                                <li>Skill</li>
-                                <li>Skill</li>
-                                <li>Skill</li>
-                            </ul>
-                        </div>
-
-                        <div className="resume--hobbies">
-                            <h1 className="resume--edu-title">Hobbies</h1>
-                            <hr className="resume--edu-seperator"></hr>
-                            <ul className="resume--skill-list">
-                                <li>Hobbie</li>
-                                <li>Hobbie</li>
-                                <li>Hobbie</li>
-                                <li>Hobbie</li>
-                                <li>Hobbie</li>
+                                <li>UI/UX Research & Design</li>
+                                <li>Project Management & Product Design</li>
+                                <li>Software Development</li>
+                                <li>Information Architect</li>
+                                <li>Predictive Modeling</li>
+                                <li>Machine Learning</li>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Agile</li>
+                                <li>Blockchain Technology, Cryptocurrency & Web3</li>
+                                <li>Decentralized Finance (DeFi) & NFTs</li>
+                                <li>Natural Language Processing (NLP)</li>
+                                <li>Play-2-Earn (P2E) Gaming</li>
+                                <li>Discord Community Management</li>
+                                <li>A/B Testing</li>
+                                <li>Web Scraping</li>
+                                <li>Data Cleaning</li>
+                                <li>Figma</li>
+                                <li>Photoshop</li>
+                                <li>Illustrator</li>
                             </ul>
                         </div>
                     </div>
@@ -89,128 +90,197 @@ export default function Resume() {
                 
 
                 <div className="resume--main-body">
+                <div className="resume--jobs-container">
+                        <h1 className="resume--header">Professional Experience</h1>
+                        <hr className="resume--header-seperator"></hr>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Northrop Grumman Corporation, Redondo Beach CA</h1>
+                                <h1 className="resume--job-date">July 2021 - Current</h1>
+                            </div>
+                            <h1 className="resume--job-title">Software Engineer -- Payload & Ground Systems</h1>
+                            
+                            <ul className="resume--project-list">
+                                <li>
+                                    Developed application UI components and layouts based on customer requirements 
+                                    and internal constraints.
+                                </li>
+                                <li>
+                                    Collaborated with Internal Research and DevOps team to ensure CI/CD setup for 
+                                    testing and developing prototypes
+                                </li>
+                                <li>
+                                    Focused on Information Architecture, ensuring UI components access to telemetry 
+                                    and mission data.
+                                </li>
+                                <li>
+                                    Created and maintained software written in Java and Python while working in an 
+                                    agile environment.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Fierce Nutraceuticals, Northridge CA</h1>
+                                <h1 className="resume--job-date">February 2016 - August 2018</h1>
+                            </div>
+                            <h1 className="resume--job-title">Project Manager</h1>
+                            <ul className="resume--project-list">
+                                <li>
+                                    Grew revenue from $0 to $80K per month (within 6 months) and annual sales to $2M+ 
+                                    within 2 years; led analytics and data team to identify best supplements to partner 
+                                    with existing product line (and expand to new markets).
+                                </li>
+                                <li>
+                                    Led development and launch of health/weight management supplement for startup—focusing 
+                                    on product growth, market research, operations, and distribution.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Epic Fitness Group, Northridge CA</h1>
+                                <h1 className="resume--job-date">January 2014 - June 2016</h1>
+                            </div>
+                            <h1 className="resume--job-title">Product Designer & Project Manager</h1>
+                            <ul className="resume--project-list">
+                                <li>
+                                    Oversaw budgets for social media, TV, digital ads, and app campaign, ranging from $50K to $75K per month.
+                                </li>
+                                <li>
+                                    Led mobile application design/development on a Top 50 Health & Fitness product (U.S. market)—leading to 
+                                    a 30% increase in web traffic and 9% increase in sales after app launch.
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="resume--job-container">
+                            <div className="resume--job-date-container">
+                                <h1 className="resume--job-company">Equity Residential, North Hollywood CA</h1>
+                                <h1 className="resume--job-date">March 2012 - January 2014</h1>
+                            </div>
+                            <h1 className="resume--job-title">Leasing Consultant & Price Analyst</h1>
+                            <ul className="resume--project-list">
+                                <li>
+                                    Maintained property price database, audited competitor prices, and worked with 
+                                    pricing analysts to develop optimal pricing strategy—increasing average rents by 25%+ 
+                                    and occupancy from 94% to 98.5%.
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
                     <div className="resume--projects-container">
-                        <h1 className="resume--header">Featured Projects</h1>
+                        <h1 className="resume--header">Selected UI/UX Designer Projects</h1>
                         <hr className="resume--header-seperator"></hr>
                         <div className="resume--project-container">
-                            <Link to="/project-1" className="resume--project-title">Project 1</Link>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
+                            <Link to="/project-1" className="resume--project-title">Decentralized Finance (DeFi) & Crypto Onboarding</Link>
+                            <p className="resume--project-blurb">Researcher & Developer - DeFi & Crypto Advocacy & Onboarding, start and end date</p>
                             <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
+                                <li>
+                                    Conducted comprehensive UX research to identify challenges faced by new crypto users transitioning from 
+                                    centralized to decentralized platforms.
+                                </li>
+                                <li>
+                                    Developed gamified app concept tailored to diverse motivation, to simplify onboarding and education in DeFi.
+                                </li>
+                                <li>
+                                    Created wireframes for seamless onboarding incorporating insights from interviews, affinity groups, personas, etc.
+                                </li>
                             </ul>
 
                             <div className="resume--project-container">
-                                <Link to="/project-2" className="resume--project-title">Project 2</Link>
-                                <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                                takeaways. place holder  blurb about what skills and things I learned 
-                                and or used and the resut.</p>
+                                <Link to="/project-2" className="resume--project-title">Battle Warriors NFT</Link>
+                                <p className="resume--project-blurb">Product Designer, Manager & Lead Artist, start and end date.</p>
                                 <ul className="resume--project-list">
-                                    <li>place holder  blurb about what skills and things I learned and or used 
-                                    and the resut. Blurb about project, goals, process, learning, next steps 
-                                    or key takeaways. place holder blurb about what skills and things I learned 
-                                    and or used and the resut.</li>
-                                    <li>place holder  blurb about what skills and things I learned and or used 
-                                    and the resut. Blurb about project, goals, process, learning, next steps 
-                                    or key takeaways. place holder blurb about what skills and things I learned 
-                                    and or used and the resut.</li>
+                                    <li>
+                                        Designed launched The Viking NFT Warriors (generative collection) with diverse characters, weapons, and looks.
+                                    </li>
+                                    <li>
+                                        Grew Discord server to 3K+ members and increased Twitter followers to 3K+; authored Medium articles.
+                                    </li>
+                                    <li>
+                                        Developed Python script generating random characters/rarities, combining creativity and technical expertise.
+                                    </li>
+                                    <li>
+                                        Created website showcasing NFT collection, highlighting roadmap, and enabling minting on Ethereum.
+                                    </li>
                                 </ul>
                         </div>
 
                         <div className="resume--project-container">
-                            <Link to="/project-3" className="resume--project-title">Project 3</Link>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
+                            <Link to="/project-3" className="resume--project-title">Shogun War -- Play-2-Earn (P2E) Game</Link>
+                            <p className="resume--project-blurb">UX Auditor & Designer, start and end date.</p>
                             <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-
-                    <div className="resume--jobs-container">
-                        <h1 className="resume--header">Work Experience</h1>
-                        <hr className="resume--header-seperator"></hr>
-
-                        <div className="resume--job-container">
-                            <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Company Name</h1>
-                                <h1 className="resume--job-date">July 1 - Current</h1>
-                            </div>
-                            <h1 className="resume--job-title">Software Engineer</h1>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
-                            <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
+                                <li>
+                                    Conducted comprehensive UX audit for crypto play-to-earn (P2E) game—identifying usability issues and 
+                                    providing recommendations for navigation, onboarding, and structural improvements.
+                                </li>
+                                <li>
+                                    Redesigned games navigation system and various pages, addressing key audit issues and enhancing UX.
+                                </li>
+                                <li>
+                                    Designed aesthetically pleasing, engaging crafting page—incorporating character select windows, inventory 
+                                    panels, crafting selection windows (and a graphic for successful crafting achievements).
+                                </li>
+                                <li>
+                                    Created immersive Beast Forest and Dungeon pages, using text, character select windows, graphics, transitions, 
+                                    and ending animations to enhance players sense of accomplishment.
+                                </li>
                             </ul>
                         </div>
 
-                        <div className="resume--job-container">
-                            <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Company Name</h1>
-                                <h1 className="resume--job-date">July 1 - Current</h1>
-                            </div>
-                            <h1 className="resume--job-title">Software Engineer</h1>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
+                        <div className="resume--project-container">
+                            <Link to="/project-3" className="resume--project-title">Discord Community Management Dashboard</Link>
+                            <p className="resume--project-blurb">UI Designer, start and end date.</p>
                             <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
+                                <li>
+                                    Spearheaded and devised comprehensive Discord (community management) dashboard—shaped to manage 
+                                    multiple projects, roles, permissions, alerts, and key metrics.
+                                </li>
+                                <li>
+                                    Developed clear information architecture, wireframes, and mockups—iterating based on client 
+                                    feedback and design insights for optimal UX.
+                                </li>
+                                <li>
+                                    Leveraged visual design/data visualization to create engaging, informative dashboard—displaying 
+                                    key stats, social media metrics, collaborations, and user engagement.
+                                </li>
+                                <li>
+                                    Conducted user testing and iterations with clients and moderators—refining dashboard for specific 
+                                    preferences/requirements.
+                                </li>
                             </ul>
                         </div>
 
-                        <div className="resume--job-container">
-                            <div className="resume--job-date-container">
-                                <h1 className="resume--job-company">Company Name</h1>
-                                <h1 className="resume--job-date">July 1 - Current</h1>
-                            </div>
-                            <h1 className="resume--job-title">Software Engineer</h1>
-                            <p className="resume--project-blurb">Blurb about project, goals, process, learning, next steps or key 
-                            takeaways. place holder  blurb about what skills and things I learned 
-                            and or used and the resut.</p>
+                        <div className="resume--project-container">
+                            <Link to="/project-3" className="resume--project-title">Airbnb Optimal Price Model</Link>
+                            <p className="resume--project-blurb">Using 28K listings with 100+ features provided by Airbnb for Dublin, Ireland</p>
                             <ul className="resume--project-list">
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
-                                <li>place holder  blurb about what skills and things I learned and or used 
-                                and the resut. Blurb about project, goals, process, learning, next steps 
-                                or key takeaways. place holder blurb about what skills and things I learned 
-                                and or used and the resut.</li>
+                                <li>
+                                    Slashed Mean Absolute Error by 40%+, Root Mean Absolute Error by 55%+, and R 2 score from 0.48 to 0.61s.
+                                </li>
+                                <li>
+                                    Cleaned, explored data; narrowed down and engineered features; built baseline and Random Forest Regression 
+                                    model to predict price-per-night for each listing (using mean absolute error, root mean squared error, and R 2 score).
+                                </li>
+                                <li>
+                                    AirBnB predictive model — Andrew Marks (andrewmarksart.com).
+                                </li>
+                                <li>
+                                    GitHub - AndrewMarksArt/AirBnB_Predictive_Model.
+                                </li>
                             </ul>
                         </div>
 
+                        <p>
+                            *Full project listing at linkedin.com/in/andrewmarksart/ and on the PROJECTS page of — Andrew Marks (andrewmarksart.com).
+                        </p>
+
+                        </div>
                     </div>
                 </div>
             </div>

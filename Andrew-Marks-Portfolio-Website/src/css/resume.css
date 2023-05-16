@@ -1,0 +1,412 @@
+:root {
+    font-size: 16px;
+  
+    --ff-primary: 'Source Sans Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', monospace;
+  
+    --fw-light: 300;
+    --fw-reg: 400;
+    --fw-semi: 600;
+    --fw-bold: 900;
+  
+    --clr-light-bg: #e3dfe8;
+    --clr-headings: #3A3461;
+    --clr-body-text: #5b6b79;
+    --clr-disabled: #BA9FAA;
+    --clr-hover: #ED277C;
+    --clr-primary: #9F496E;
+    --clr-secondary: #BBB3D3;
+    --clr-backup: #334980;
+    --clr-white: #ffffff;
+    
+    --fs-h1: 2.5rem;
+    --fs-sub-head: 2rem;
+    --fs-h2: 1.5rem;
+    --fs-h3: 1.25rem;
+    --fs-body: 1.375;
+    --fs-body-sm: 1rem;
+    --fs-xl: 3.75rem;
+  
+    --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+  
+    --bs-solid: 6px 6px 0 0 black;
+  }
+
+  .resume--container {
+    display: grid;
+    grid-template-columns: 23vw auto;
+    background-color: var(--clr-white);
+    width: 90vw;
+    height: max-content;
+    margin-top: 120px;
+    margin-left: 5vw;
+    box-shadow: var(--bs);
+    padding: 24px;
+}
+
+.resume--top-line {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+.resume--name-contact {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.resume--left-column {
+    background-color: var(--clr-light-bg);
+    grid-column-start: 1;
+}
+
+.resume--logo-container {
+    background-color: var(--clr-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume--logo {
+    max-width: 15vw;
+    max-height: 15vw;
+}
+
+.resume--profile-container {
+    background-color: var(--clr-headings);
+    padding-bottom: 24px;
+}
+
+.resume--profile-title {
+    color: var(--clr-light-bg);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-reg);
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.resume--seperator {
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+.resume--profile-body {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-light);
+    color: var(--clr-light-bg);
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.resume--edu-skills {
+    display: block;
+    background-color: var(--clr-light-bg);
+    padding:24px;
+}
+
+.resume--edu-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    color: var(--clr-headings);
+}
+
+.resume--edu-seperator{
+    background-color: var(--clr-headings);
+    height: 2px;
+    border: none;
+}
+
+.resume--edu-school {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-bold);
+    color: var(--clr-headings);
+    margin-bottom: 12px;
+    margin-top: 24px;
+}
+
+.resume--edu-when {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+    margin-bottom: -6px;
+}
+
+.resume--edu-blurb {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    color: var(--clr-headings);
+    margin-bottom: 24px;
+}
+
+.resume--edu {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.resume--skill-list {
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+    list-style: decimal;
+    margin-bottom: 60px;
+}
+
+.resume--main-body {
+    padding: 40px;
+    min-width: 0;
+}
+
+.resume--main-title {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+}
+
+.resume--main-job-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 16px;
+    min-width: 0px;
+}
+
+.resume--main-job-title {
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-light);
+    color: var(--clr-light-bg);
+    background-color: var(--clr-headings);
+    padding: 12px;
+    min-width: 0;
+}
+
+.resume--main-job-blank {
+    background-color: var(--clr-light-bg);
+    min-width: 0px;
+}
+
+.resume--main-contact-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 24px;
+    justify-content: space-between;
+    margin-top: 12px;
+    min-width: 0;
+}
+
+.resume--main-contact-link {
+    text-decoration: none;
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    color: var(--clr-primary);
+    min-width: 0;
+    word-wrap: break-word;
+}
+
+.resume--main-contact-link:hover {
+    text-decoration: underline;
+}
+
+.resume--header {
+    color: var(--clr-headings);
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-bold);
+    margin-top: -16px;
+}
+
+.resume--jobs-container {
+    margin-top: 60px;
+}
+
+.resume--header-seperator {
+    background-color: var(--clr-headings);
+    height: 2px;
+    border: none;
+    margin-bottom: 24px;
+}
+
+.resume--project-title {
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-semi);
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.resume--project-title:hover {
+    text-decoration: underline;
+}
+
+.resume--project-blurb, .resume--project-list {
+    font-size: var(--fs-body);
+    font-weight: var(--fw-reg);
+    color: var(--clr-body-text);
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+.resume--project-list > li {
+    margin-bottom: 20px;
+}
+
+.resume--job-date-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.resume--job-company {
+    color: var(--clr-headings);
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-bold);
+}
+
+.resume--job-date, .resume--job-title {
+    color: var(--clr-headings);
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-reg);
+}
+
+
+/* Small devices (landscape phones) */
+@media (min-width: 320px) and (max-width: 767px){
+    .resume--container {
+        display: grid;
+        grid-template-columns: 1fr;
+        background-color: var(--clr-white);
+        border-radius: 40px;
+        padding: 16px;
+        margin: 100px 5vw 60px 5vw;;
+    }
+
+    .resume--name-contact {
+        padding: 12px;
+        margin-bottom: 24px;
+    }
+
+    .resume--main-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-top: 4px;
+    }
+
+    .resume--main-job-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-headings);
+        margin-top: 12px;
+    }
+
+    .resume--main-contact-container {
+        display: grid;
+        margin-top: 20px;
+    }
+
+    .resume--main-contact-link {
+        color: var(--clr-primary);
+        text-decoration: none;
+        font-weight: var(--fw-semi);
+    }
+
+    .resume--logo-container {
+        background-color: var(--clr-white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .resume--logo {
+        max-width: 60vw;
+        margin: auto;
+    }
+
+    .resume--profile-container {
+        background-color: var(--clr-headings);
+        border-radius: 20px;
+        padding:20px;
+        margin-bottom: 12px;;
+    }
+
+    .resume--profile-title {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+        color: var(--clr-light-bg);
+    }
+    
+    .resume--profile-body {
+        color: var(--clr-light-bg);
+    }
+
+    .resume--edu-skills {
+        padding: 20px;
+    }
+
+    .resume--edu-title,
+    .resume--edu-school,
+    .resume--edu-when {
+        color: var(--clr-headings);
+    }
+
+    .resume--projects-container, .resume--jobs-container {
+        padding:20px;
+    }
+    .resume--header {
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+    }
+
+    .resume--job-company {
+        font-weight: var(--fw-bold);
+        color: var(--clr-headings);
+        margin-top: 32px;
+    }
+
+    .resume--job-date, .resume--job-title {
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-sub-head);
+        color: var(--clr-headings);
+        margin-top: 12px;
+    }
+
+    .resume--project-title {
+        text-decoration: none;
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-sub-head);
+        color: var(--clr-primary);
+    }
+}
+
+/* Small devices (landscape phones) */
+@media (min-width: 480px) and (max-width: 767px){
+
+}
+
+
+/* Medium devices (tablets, portrait) */
+@media (min-width: 768px) and (max-width: 1023px){
+
+}
+
+/* Large devices (tablets, landscape / small laptops) */
+@media (min-width: 1024px) and (max-width: 1199px){
+
+}
+
+/* Extra large devices (laptops, desktops) */
+@media (min-width: 1200px) and (max-width: 1439px){
+
+
+}
+
+/* XXL devices (large desktops) */
+@media (min-width: 1440px) and (max-width: 1919px){
+
+
+}
+
+/* Ultra large devices (4K screens) */
+@media (min-width: 1920px) {
+
+
+}

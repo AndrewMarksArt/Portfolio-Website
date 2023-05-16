@@ -4,8 +4,20 @@ import "../css/resume.css";
 
 export default function Resume() {
     return (
-        <>
-            <div className="resume--container">
+        <div className="resume--container">
+
+            <div className="resume--top-bar">
+                <div className="resume--lines">
+                    <div className="resume--line"></div>
+                    <div className="resume--line"></div>
+                    <div className="resume--line"></div>
+                </div>
+                <div className="pdf-button">
+                    <button> DOWNLOAD PDF</button>
+                </div>
+            </div>
+
+            <div className="resume--content-container">
                 <div className="resume--top-line"></div>
                         <div className="resume--logo-container">
                             <img src="../img/logo.png" className="resume--logo"></img>
@@ -284,6 +296,6 @@ export default function Resume() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

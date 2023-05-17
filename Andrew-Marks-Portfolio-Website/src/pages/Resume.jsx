@@ -75,7 +75,6 @@ export default function Resume() {
                             <ul className="resume--skill-list">
                                 <li>UI/UX Research & Design</li>
                                 <li>Project Management & Product Design</li>
-                                <li>Software Development</li>
                                 <li>Information Architect</li>
                                 <li>Predictive Modeling</li>
                                 <li>Machine Learning</li>

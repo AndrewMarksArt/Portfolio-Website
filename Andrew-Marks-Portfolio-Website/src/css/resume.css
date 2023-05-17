@@ -355,7 +355,7 @@
         flex-direction: column;
         background-color: var(--clr-white);
         border-radius: 0;
-        padding: 0.5rem;
+        padding: 0.8rem;
         margin: 0;
         overflow: hidden;
         max-width: 100%;
@@ -401,7 +401,7 @@
 
     .resume--logo {
         min-width: 50vw;
-        min-height: 20vh;
+        min-height: 25vh;
     }
 
     .resume--profile-container {
@@ -441,32 +441,46 @@
     }
 
     .resume--projects-container, .resume--jobs-container {
-        padding:20px;
+        padding:0;
+        margin: 0 -1.5rem;
     }
     .resume--header {
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
-        color: var(--clr-headings);
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-semi);
+        margin-top: 2rem;
+    }
+
+    .resume--job-date-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: -2rem;
     }
 
     .resume--job-company {
-        font-weight: var(--fw-bold);
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-semi);
         color: var(--clr-headings);
-        margin-top: 32px;
+        margin-top: 2rem;
     }
 
     .resume--job-date, .resume--job-title {
-        font-weight: var(--fw-semi);
-        font-size: var(--fs-sub-head);
+        font-weight: var(--fw-reg);
+        font-size: var(--fs-h3);
         color: var(--clr-headings);
-        margin-top: 12px;
+        margin-top: 0.8rem;
     }
 
     .resume--project-title {
         text-decoration: none;
         font-weight: var(--fw-semi);
-        font-size: var(--fs-sub-head);
+        font-size: var(--fs-h3);
         color: var(--clr-primary);
+    }
+
+    .resume--project-list {
+        margin-left: -0.5rem;
+        margin-right: 0.5rem;
+        overflow-wrap: break-word;
     }
 
 }
@@ -556,7 +570,7 @@
     }
     .resume--header {
         font-size: var(--fs-h1);
-        font-weight: var(--fw-bold);
+        font-weight: var(--fw-reg);
         color: var(--clr-headings);
     }
 

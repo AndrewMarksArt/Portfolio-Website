@@ -406,29 +406,38 @@
 
     .resume--profile-container {
         background-color: var(--clr-headings);
-        border-radius: 20px;
-        padding:0.4rem;
-        margin-bottom: 12px;;
+        border-radius: 0;
+        padding:0.2rem;
+        margin-bottom: 0.8rem;
     }
 
     .resume--profile-title {
-        font-size: var(--fs-h1);
-        font-weight: var(--fw-semi);
-        color: var(--clr-light-bg);
+        font-size: var(--fs-h2);
+        padding-top: 1rem;
     }
     
     .resume--profile-body {
-        color: var(--clr-light-bg);
+        font-size: var(--fs-body);
+        padding-bottom: 1rem;
     }
 
     .resume--edu-skills {
-        padding: 20px;
+        padding: 1.5rem;
     }
 
-    .resume--edu-title,
+    .resume--skill-list {
+        font-size: var(--fs-body);
+        margin-left: -1rem;
+    }
+
+    .resume--edu-title {
+        font-size: var(--fs-h2);
+    }
+
     .resume--edu-school,
     .resume--edu-when {
         color: var(--clr-headings);
+        font-size: var(--fs-h3);
     }
 
     .resume--projects-container, .resume--jobs-container {

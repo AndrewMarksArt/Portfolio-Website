@@ -59,15 +59,13 @@ export default function Resume() {
                             <p className="resume--edu-blurb">UI/UX bootcamp focused on Design 
                             Thinking and Human Centered Design</p>
 
-                            <h2 className="resume--edu-school">Claremont Graduate University</h2>
-                            <h2 className="resume--edu-when">August 2018 - December 2020</h2>
+                            <h2 className="resume--edu-school">Claremont Graduate University - December 2020</h2>
                             <p className="resume--edu-blurb">Masters of Science, Information 
                             Systems and Technology, consentration in Data Analytics</p>
                             <p className="resume--edu-blurb">Masters of Arts, Sotheby’s Institute 
                             of Art, Art Business</p>
 
-                            <h2 className="resume--edu-school">California State University, Northridge</h2>
-                            <h2 className="resume--edu-when">current - current</h2>
+                            <h2 className="resume--edu-school">California State University, Northridge - May 2012</h2>
                             <p className="resume--edu-blurb">Bachelor of Art, Economics, graduated with distinction</p>
                         </div>
 

@@ -20,8 +20,7 @@ export default function AboutMe() {
 
                         <h2 className="about-me--subtitle">I love building fun and unique experiences that users love!</h2>
 
-                        <p className="about-me--body"> As someone who has faced personal challenges with chronic pain, I understand the 
-                        importance of creating accessible and enjoyable products. I believe that by prioritizing accessibility and fun, 
+                        <p className="about-me--body">I believe that by prioritizing accessibility and fun, 
                         businesses can achieve remarkable results and create meaningful impact.</p>
                         
                         <p className="about-me--body"> With a strong background in UI/UX design 

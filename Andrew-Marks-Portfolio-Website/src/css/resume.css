@@ -338,6 +338,16 @@
     font-weight: var(--fw-reg);
 }
 
+.resume-projects-link{
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary);
+    text-decoration: none;
+}
+
+.resume-projects-link:hover{
+    text-decoration: underline;
+}
+
 /* extra small devices */
 @media (min-width: 320px) and (max-width: 559px){
 

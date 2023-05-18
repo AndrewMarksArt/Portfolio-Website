@@ -13,7 +13,7 @@ export default function Resume() {
                     <div className="resume--line"></div>
                 </div>
                 <div className="pdf-button">
-                    <a href="../img/AndrewMarksResumeTest.pdf" target="_blank" rel="noopener noreferrer" className="resume-custom-button">
+                    <a href="../AndrewMarksResumeUIUX.pdf" target="_blank" rel="noopener noreferrer" className="resume-custom-button">
                         <button>View PDF</button>
                     </a>
                 </div>
@@ -32,9 +32,15 @@ export default function Resume() {
                         </div>
 
                         <div className="resume--main-contact-container">
-                            <a href="" className="resume--main-contact-link">phone: 818.274.6345</a>
-                            <a href="" className="resume--main-contact-link">email: andrew.colin.marks @gmail.com</a>
-                            <a href="" className="resume--main-contact-link">linkedin: Andrew Marks Art</a>
+                            <a href="tel:+18282746345" className="resume--main-contact-link">
+                                phone: 818.274.6345
+                            </a>
+                            <a href="mailto:andrew.colin.marks@gmail.com?subject=Interested%20in%20connecting" className="resume--main-contact-link">
+                                email: andrew.colin.marks @gmail.com
+                            </a>
+                            <a href="https://www.linkedin.com/in/andrewmarksart/" target="_blank" className="resume--main-contact-link">
+                                linkedin: Andrew Marks Art
+                            </a>
                         </div>
                 </div>
             
@@ -44,9 +50,9 @@ export default function Resume() {
                         <h1 className="resume--profile-title">PROFILE</h1>
                         <hr className="resume--seperator"></hr>
                         <p className="resume--profile-body">
-                            Dedicated UI/UX professional with a focus on usability and human-centered design—seeking the 
-                            UI/UX Designer position at General Dynamics Information Technology. Pursuing research to transform 
-                            customer needs into intuitive wireframes, mockups, prototypes—and weaving data-driven narratives to 
+                            Dedicated UI/UX professional with a focus on usability and human-centered design seeking a 
+                            UI/UX Designer or Researcher position. Pursuing research to transform 
+                            customer needs into intuitive wireframes, mockups, prototypes, and weaving data-driven narratives to 
                             enhance user experiences. Fluent interpersonal communicator, with many transferrable skills.
                         </p>
                     </div>
@@ -74,25 +80,37 @@ export default function Resume() {
                             <hr className="resume--edu-seperator"></hr>
                             <ul className="resume--skill-list">
                                 <li>UI/UX Research & Design</li>
-                                <li>Project Management & Product Design</li>
-                                <li>Information Architect</li>
-                                <li>Predictive Modeling</li>
-                                <li>Machine Learning</li>
-                                <li>Python</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Agile</li>
-                                <li>Blockchain Technology, Cryptocurrency & Web3</li>
-                                <li>Decentralized Finance (DeFi) & NFTs</li>
-                                <li>Natural Language Processing (NLP)</li>
-                                <li>Play-2-Earn (P2E) Gaming</li>
-                                <li>Discord Community Management</li>
+                                <li>User-Centered Design</li>
+
+                                <li>Information Architecture</li>
+                                <li>Prototyping</li>
+
+                                <li>Usability Testing</li>
+                                <li>Interaction Design</li>
+
+                                <li>Visual Design</li>
+                                <li>Responsive Design</li>
+
+                                <li>User Persona Development</li>
+                                <li>User Journey Mapping</li>
+
                                 <li>A/B Testing</li>
-                                <li>Web Scraping</li>
-                                <li>Data Cleaning</li>
+                                <li>Data Visualization</li>
+
+                                <li>Design Thinking</li>
+                                <li>Agile Methodology</li>
+
+                                <li>Project Management</li>
+                                <li>Product Design</li>
+
+                                <li>Collaboration & Communication Skills</li>
+                                <li>Product Strategy</li>
+
+                                <li>Photoshop & Illustrator</li>
                                 <li>Figma</li>
-                                <li>Photoshop</li>
-                                <li>Illustrator</li>
+
+                                <li>Decentralized Finance (DeFi) & NFTs</li>
+                                <li>Play-2-Earn (P2E) Gaming</li>
                             </ul>
                         </div>
                     </div>
@@ -154,7 +172,7 @@ export default function Resume() {
                         <div className="resume--job-container">
                             <div className="resume--job-date-container">
                                 <h1 className="resume--job-company">Epic Fitness Group, Northridge CA</h1>
-                                <h1 className="resume--job-date">January 2014 - June 2016</h1>
+                                <h1 className="resume--job-date">January 2014 - February 2016</h1>
                             </div>
                             <h1 className="resume--job-title">Product Designer & Project Manager</h1>
                             <ul className="resume--project-list">
@@ -288,7 +306,8 @@ export default function Resume() {
                         </div>
 
                         <p>
-                            *Full project listing at linkedin.com/in/andrewmarksart/ and on the PROJECTS page of — Andrew Marks (andrewmarksart.com).
+                            *Full project listing at <a href="https://www.linkedin.com/in/andrewmarksart/" target="_blank" className="resume-projects-link">linkedin.com/in/andrewmarksart/</a> and
+                             on the <Link to="/projects" className="resume-projects-link">PROJECTS</Link> page.
                         </p>
 
                         </div>

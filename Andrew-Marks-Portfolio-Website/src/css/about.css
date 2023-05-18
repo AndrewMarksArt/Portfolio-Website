@@ -166,7 +166,7 @@ a:hover {
     .contact--contact-title {
         font-size: var(--fs-sub-head);
         margin-left: 1rem;
-        margin-right: 0;
+        margin-right: 1rem;
         margin-top: 2rem;
     }
 

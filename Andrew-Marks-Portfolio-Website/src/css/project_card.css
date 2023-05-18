@@ -74,7 +74,43 @@
   margin-top: 0.6rem;
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (min-width: 320px) and (max-width: 419px) {
+  .project-card {
+    border-radius: 20px;
+    outline: 3px solid black;
+    margin-top: 1.5rem;
+    height:fit-content;
+    overflow: hidden;
+    padding-bottom: 2rem;
+  }
+
+  .project-image {
+    width: fit-content;
+  }
+  
+  .project-title {
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    line-height: 1.4rem;
+  }
+  
+  .project-headline {
+    margin: 0.4rem 0.5rem 1rem 0.5rem;
+    line-height: 1.2rem;
+  }
+
+  .project-card--text {
+    height: 12vh;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
+    margin-top: 1.4rem;
+  }
+
+}
+
+@media (min-width: 420px) and (max-width: 479px) {
   /* Styles for extra small devices */
   .project-card {
     border-radius: 20px;
@@ -101,7 +137,7 @@
   }
 
   .project-card--text {
-    height: 14vh;
+    height: 11vh;
   }
   
   .project-card:hover {

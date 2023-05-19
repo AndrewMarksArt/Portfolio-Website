@@ -1,4 +1,5 @@
 import React from "react";
+import "./case_study.css";
 
 export default function Project1() {
     return (

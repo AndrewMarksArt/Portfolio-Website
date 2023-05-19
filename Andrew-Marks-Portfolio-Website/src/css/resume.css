@@ -52,6 +52,7 @@
     box-shadow: 8px 8px 0 0 black;
     outline: 3px solid black;
     overflow: hidden;
+    padding-bottom: 1rem;
   }
 
   .resume--top-bar {

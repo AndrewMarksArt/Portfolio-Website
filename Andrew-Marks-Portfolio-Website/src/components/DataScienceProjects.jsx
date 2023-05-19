@@ -2,7 +2,6 @@ import ProjectCard from "../components/ProjectCard";
 import ProjectData from "../data/ProjectData"
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/ds_projects.css";
 import "../css/main.css";
 
 export default function DsProjects() {

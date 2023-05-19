@@ -30,7 +30,7 @@ export default function FeaturedProjects() {
                     </Link>
                 </div>
                 <div className="featured-skills">
-                    <h2 className="featured-skills-list">Focus: Design Thinking, Wireframing, Prototyping, Information Architecture, Visual Design</h2>
+                    <h2 className="featured-skills-list">Focus: End-to-End Project, Design Thinking, Prototyping, Information Architecture, Visual Design</h2>
                 </div>
                 <div className="featured-cards-container">
                     <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>

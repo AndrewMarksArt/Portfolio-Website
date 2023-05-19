@@ -24,7 +24,7 @@ export default function UIUXProjects() {
 
             <div className="">
                 <h1 className="projects--section-title">UI/UX Projects</h1>
-                <h2 className="projects--section-subhead">Focus: Skill 1, Skill 2, Skill 3, Skill 4, Skill 5</h2>
+                <h2 className="projects--section-subhead">Focus: Design Thinking, DeFi & NFTs, Product Development, Information Architecture, Visual Design</h2>
             </div>
 
             <div className="projects--cards-container">

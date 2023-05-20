@@ -34,3 +34,112 @@
     --bs-solid: 6px 6px 0 0 black;
 }
 
+.project--container {
+    background-color: var(--clr-white);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    padding-top: 70px;
+
+}
+
+.project--headline-container {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.project--headline-img { 
+    width: 100%;
+    height: 60vh;
+}
+
+.project--title {
+    padding: 1rem 10rem;
+    font-size: var(--fs-h1);
+    color: var(--clr-headings);
+    font-weight: var(--fw-bold);
+}
+
+.project--sub-head {
+    padding: 0 10rem;
+    font-size: var(--fs-h2);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+}
+
+.project--team-role-container {
+    margin-bottom: 5rem;
+}
+
+.project--process-container {
+    margin-bottom: 5rem;
+}
+
+.project--process-steps-container {
+    display: flex;
+    padding: 1rem 15rem;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.project--process-step {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.project--process-step:before {
+    content: "";
+    position: absolute;
+    top: 3.3rem;
+    left: 20rem;
+    right: 20rem;
+    height: 3px;
+    background-color: var(--clr-headings);
+    z-index: -1;
+  }
+  
+  .project--process-step:first-child:before {
+    display: none;
+  }
+
+.project--process-step-img {
+    width: 75%;
+}
+
+.project--process-step-name {
+    font-size: var(--fs-h3);
+    color: var(--clr-headings);
+    font-weight: var(--fw-semi);
+}
+
+.project--progress-images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 10rem;
+}
+
+.project--progress-image {
+    width: 100%;
+}
+
+.project--progress-description-container {
+    width: 100%;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project--description {
+    font-size: var(--fs-body);
+    color: var(--clr-body-text);
+}
+

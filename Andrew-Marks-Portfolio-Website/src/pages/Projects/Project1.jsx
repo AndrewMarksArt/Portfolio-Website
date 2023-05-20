@@ -1,10 +1,11 @@
 import React from "react";
+import ContactMe from "../../components/ContactMe";
 import "./case_study.css";
 
 export default function Project1() {
     return (
         <>
-            <div className="projet--container">
+            <div className="project--container">
                 <div className="project--headline-container">
                     <img src="../img/case_studies/headline_img.png" className="project--headline-img"></img>
                     <h1 className="project--title">The Story</h1>
@@ -14,7 +15,7 @@ export default function Project1() {
                 <div className="project--team-role-container">
                     <h1 className="project--title"> Introduce the Team and your Role for the project.</h1>
                     <div className="project--quote-container">
-                        <h1 className="project--quote">"Quote from Manager / Stakeholder"</h1>
+                        <h1 className="project--sub-head">"Quote from Manager / Stakeholder"</h1>
                     </div>
                 </div>
 
@@ -77,6 +78,7 @@ export default function Project1() {
                     </div>
                 </div>
 
+                <ContactMe />
             </div>
         </>
     )

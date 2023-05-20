@@ -75,7 +75,7 @@
 }
 
 .project--process-container {
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .project--process-steps-container {
@@ -102,11 +102,11 @@
     height: 3px;
     background-color: var(--clr-headings);
     z-index: -1;
-  }
-  
-  .project--process-step:first-child:before {
+}
+
+.project--process-step:first-child:before {
     display: none;
-  }
+}
 
 .project--process-step-img {
     width: 75%;
@@ -141,5 +141,118 @@
 .project--description {
     font-size: var(--fs-body);
     color: var(--clr-body-text);
+}
+
+.project--final-design-container {
+    width: 100%;
+}
+
+.project--final-img-container {
+    padding: 2rem 10rem;
+}
+
+.project--full-width {
+    width: 100%;
+}
+
+.project--moving-forward-container {
+    margin-bottom: 3rem;
+}
+
+.project--learnings-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+    margin: 3rem 10rem;
+    background-color: #D9D9D9;
+}
+
+.project--back-to-button {
+    font-size: var(--fs-h3);
+}
+
+
+/* Extra Small Screens */
+@media (min-width: 320px) and (max-width: 419px) {
+    .project--headline-container {
+        margin-bottom: 1rem;
+    }
+    
+    .project--headline-img { 
+        height: 30vh;
+    }
+    
+    .project--title {
+        padding: 1rem 1.5rem;
+        font-size: var(--fs-sub-head);
+    }
+    
+    .project--sub-head {
+        padding: 0 1.5rem;
+        font-weight: var(--fw-reg);;
+    }
+    
+    .project--team-role-container {
+        margin-bottom: 2rem;
+    }
+    
+    .project--process-container {
+        margin-bottom: 1rem;
+    }
+    
+    .project--process-steps-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 1rem 1.5rem;
+        margin-top: 0rem;
+    }
+
+    .project--process-step-img {
+        width: 50%;
+    }
+    
+    .project--process-step-name {
+        margin-bottom: 1rem;
+    }
+    
+    .project--progress-images-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1.5rem;
+    }
+    
+    .project--progress-image {
+        width: 100%;
+    }
+    
+    .project--progress-description-container {
+        padding: 2rem 1.5rem 1rem;
+    }
+    
+    .project--final-img-container {
+        padding: 1rem 1.5rem;
+        margin-bottom: -1rem;
+    }
+    
+    .project--full-width {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .project--moving-forward-container {
+        margin-bottom: 5rem;
+    }
+    
+    .project--learnings-container {
+        padding: 2rem;
+        margin: 1rem 1.5rem;
+    }
+    
+    .project--back-to-button {
+        font-size: var(--fs-h3);
+    }
 }
 

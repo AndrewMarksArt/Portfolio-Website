@@ -1,5 +1,6 @@
 import React from "react";
 import ContactMe from "../../components/ContactMe";
+import { Link } from "react-router-dom";
 import "./case_study.css";
 
 export default function Project1() {
@@ -66,8 +67,10 @@ export default function Project1() {
                 <div className="project--final-design-container">
                     <h1 className="project--title">Final Design</h1>
                     <h2 className="project--sub-head">Final design notes and thoughts.</h2>
-                    <img src="../img/case_studies/full_width.png" className="project--full-width"></img>
-                    <p className="project--description">Final design image</p>
+                    <div className="project--final-img-container">
+                        <img src="../img/case_studies/full_width.png" className="project--full-width"></img>
+                        <p className="project--description">Final design image</p>
+                    </div>
                 </div>
 
                 <div className="project--moving-forward-container">
@@ -75,6 +78,7 @@ export default function Project1() {
                     <h2 className="project--sub-head">Good place for quptes from manager / stakeholders</h2>
                     <div className="project--learnings-container">
                         <h1 className="project--title">Learnings and Moving Forward</h1>
+                        <Link to="/projects" style={{ textDecoration: 'underline' }} className="project--back-to-button">back to projects</Link>
                     </div>
                 </div>
 

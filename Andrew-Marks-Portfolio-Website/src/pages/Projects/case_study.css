@@ -42,7 +42,7 @@
     width: 100%;
     height: 100%;
     overflow-y: auto;
-    padding-top: 70px;
+    padding-top: 75px;
 
 }
 
@@ -54,6 +54,7 @@
 .project--headline-img { 
     width: 100%;
     height: 60vh;
+    margin-bottom: 1.5rem;
 }
 
 .project--title {
@@ -72,6 +73,10 @@
 
 .project--team-role-container {
     margin-bottom: 5rem;
+}
+
+.project--progress-sm {
+    display: none;
 }
 
 .project--process-container {
@@ -156,7 +161,7 @@
 }
 
 .project--moving-forward-container {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .project--learnings-container {
@@ -165,12 +170,13 @@
     justify-content: center;
     align-items: center;
     padding: 7rem;
-    margin: 3rem 10rem;
+    margin: 2rem 10rem;
     background-color: #D9D9D9;
 }
 
 .project--back-to-button {
     font-size: var(--fs-h3);
+    margin-left: 10rem;
 }
 
 
@@ -347,7 +353,383 @@
         font-size: var(--fs-h3);
         margin-left: 1.5rem;
     }
-
-
 }
 
+
+/* Small devices (landscape phones) */
+@media (min-width: 480px) and (max-width: 767px){
+    .project--headline-container {
+        margin-bottom: 1rem;
+    }
+    
+    .project--headline-img { 
+        height: 40vh;
+    }
+    
+    .project--title {
+        padding: 1.5rem 3rem;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+    }
+    
+    .project--sub-head {
+        padding: 0 3rem;
+        font-weight: var(--fw-reg);
+        font-size: var(--fs-h3);
+    }
+    
+    .project--team-role-container {
+        margin-bottom: 3rem;
+    }
+
+    .project--process-step:before {
+     display: none;
+    }
+    
+    .project--process-container {
+        margin-bottom: 3rem;
+    }
+    
+    .project--process-steps-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem 2rem;
+        margin-top: 0rem;
+        row-gap: 2rem;
+    }
+
+    .project--process-step-img {
+        width: 35%;
+    }
+    
+    .project--process-step-name {
+        margin-bottom: 1rem;
+    }
+
+    .project--progress-lrg {
+        display: none;
+    }
+
+    .project--progress-container {
+        margin: 0 3rem;
+    }
+    
+    .project--progress-image {
+        width: 100%;
+    }
+
+    .project--description {
+        margin-bottom: 3rem;
+    }
+    
+    .project--final-img-container {
+        padding: 1rem 3rem;
+        margin-bottom: -1rem;
+    }
+    
+    .project--full-width {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .project--moving-forward-container {
+        margin-bottom: 5rem;
+    }
+    
+    .project--learnings-container {
+        padding: 2rem;
+        margin: 1rem 3em;
+    }
+    
+    .project--back-to-button {
+        font-size: var(--fs-h3);
+        margin-left: 3rem;
+    }
+}
+
+/* Medium devices (tablets, portrait) */
+@media (min-width: 768px) and (max-width: 1023px){
+    .project--headline-container {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .project--headline-img { 
+        height: 45vh;
+        margin-bottom: 2rem;
+    }
+    
+    .project--title {
+        padding: 1rem 4rem;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-semi);
+    }
+    
+    .project--sub-head {
+        padding: 0 4rem;
+        font-weight: var(--fw-reg);
+        font-size: var(--fs-h3);
+    }
+    
+    .project--team-role-container {
+        margin-bottom: 3rem;
+    }
+    
+    .project--process-steps-container {
+        display: flex;
+        padding: 1rem 5rem;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 1rem;
+    }
+    
+    .project--process-step {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .project--process-step:before {
+        content: "";
+        position: absolute;
+        top: 3.3rem;
+        left: 7rem;
+        right: 7rem;
+        height: 3px;
+        background-color: var(--clr-headings);
+        z-index: -1;
+    }
+    
+    .project--process-step:first-child:before {
+        display: none;
+    }
+    
+    .project--process-step-img {
+        width: 80%;
+    }
+    
+    .project--process-step-name {
+        font-size: var(--fs-h3);
+        color: var(--clr-headings);
+        font-weight: var(--fw-semi);
+    }
+
+    .project--progress-lrg {
+        display: none;
+    }
+
+    .project--progress-container {
+        margin: 0 4rem;
+    }
+    
+    .project--progress-image {
+        width: 100%;
+    }
+
+    .project--description {
+        margin-bottom: 3rem;
+    }
+    
+    .project--final-img-container {
+        padding: 1rem 4rem;
+        margin-bottom: -1rem;
+    }
+    
+    .project--full-width {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .project--moving-forward-container {
+        margin-bottom: 5rem;
+    }
+    
+    .project--learnings-container {
+        padding: 2rem;
+        margin: 1rem 4em;
+    }
+    
+    .project--back-to-button {
+        font-size: var(--fs-h3);
+        margin-left: 4rem;
+    }
+}
+
+/* Large devices (tablets, landscape / small laptops) */
+@media (min-width: 1024px) and (max-width: 1199px){
+    .project--headline-container {
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .project--headline-img { 
+        height: 45vh;
+        margin-bottom: 2rem;
+    }
+    
+    .project--title {
+        padding: 1rem 4rem;
+        font-size: var(--fs-h1);
+        font-weight: var(--fw-bold);
+    }
+    
+    .project--sub-head {
+        padding: 0 4rem;
+        font-weight: var(--fw-reg);
+        font-size: var(--fs-h2);
+    }
+    
+    .project--team-role-container {
+        margin-bottom: 3rem;
+    }
+    
+    .project--process-steps-container {
+        display: flex;
+        padding: 1rem 6rem;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 1rem;
+    }
+    
+    .project--process-step {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    .project--process-step:before {
+        content: "";
+        position: absolute;
+        top: 3.5rem;
+        left: 8rem;
+        right: 8rem;
+        height: 3px;
+        background-color: var(--clr-headings);
+        z-index: -1;
+    }
+    
+    .project--process-step:first-child:before {
+        display: none;
+    }
+    
+    .project--process-step-img {
+        width: 85%;
+    }
+    
+    .project--process-step-name {
+        font-size: var(--fs-h3);
+        color: var(--clr-headings);
+        font-weight: var(--fw-semi);
+    }
+
+    .project--progress-lrg {
+        display: none;
+    }
+
+    .project--progress-container {
+        margin: 0 4rem;
+    }
+    
+    .project--progress-image {
+        width: 100%;
+    }
+
+    .project--description {
+        margin-bottom: 3rem;
+    }
+    
+    .project--final-img-container {
+        padding: 1rem 4rem;
+        margin-bottom: -1rem;
+    }
+    
+    .project--full-width {
+        width: 100%;
+        height: 40vh;
+    }
+    
+    .project--moving-forward-container {
+        margin-bottom: 5rem;
+    }
+    
+    .project--learnings-container {
+        padding: 2rem;
+        margin: 1rem 4em;
+    }
+    
+    .project--back-to-button {
+        font-size: var(--fs-h3);
+        margin-left: 4rem;
+    }
+}
+
+/* Extra large devices (laptops, desktops) */
+@media (min-width: 1200px) and (max-width: 1439px){
+    .project--container {
+        padding-top: 75px;
+    }
+    
+    .project--headline-container {
+        margin-bottom: 4rem;
+    }
+    
+    .project--headline-img { 
+        width: 100%;
+        height: 60vh;
+        margin-bottom: 2rem;
+    }
+    
+    .project--title {
+        padding: 1rem 7rem;
+    }
+    
+    .project--sub-head {
+        padding: 0 7rem;
+    }
+
+    .project--progress-sm {
+        display: none;
+    }
+    
+    .project--process-steps-container {
+        padding: 1rem 10rem;
+    }
+    
+    .project--process-step:before {
+        top: 3.3rem;
+        left: 15rem;
+        right: 15rem;
+  
+    }
+    
+    .project--progress-images-container {
+        padding: 0 7rem;
+    }
+    
+    .project--progress-description-container {
+        padding: 2rem 7rem;
+    }
+    
+    .project--final-img-container {
+        padding: 2rem 7rem;
+    }
+    
+    .project--full-width {
+        height: 40vh;
+    }
+    
+    .project--moving-forward-container {
+        margin-bottom: 5rem;
+    }
+    
+    .project--learnings-container {
+        margin: 3rem 7rem;
+        margin-bottom: 2rem;
+    }
+    
+    .project--back-to-button {
+        margin-left: 7rem;
+    }
+}

@@ -50,18 +50,42 @@ export default function Project1() {
                     </div>
                 </div>
 
-                <div className="project--progress-images-container">
-                    <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
-                    <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
-                    <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
-                    <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                <div className="project--progress-lrg">
+                    <div className="project--progress-images-container">
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                    </div>
+
+                    <div className="project--progress-description-container">
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                    </div>
                 </div>
 
-                <div className="project--progress-description-container">
-                    <p className="project--description"> Images and descriptions to support process and the overall story.</p>
-                    <p className="project--description"> Images and descriptions to support process and the overall story.</p>
-                    <p className="project--description"> Images and descriptions to support process and the overall story.</p>
-                    <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                <div className="project--progress-sm">
+                    <div className="project--progress-container">
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                    </div>
+
+                    <div className="project--progress-container">
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                    </div>
+
+                    <div className="project--progress-container">
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                    </div>
+
+                    <div className="project--progress-container">
+                        <img src="../img/case_studies/small_grid_img.png" className="project--progress-image"></img>
+                        <p className="project--description"> Images and descriptions to support process and the overall story.</p>
+                    </div>
                 </div>
 
                 <div className="project--final-design-container">
@@ -78,8 +102,8 @@ export default function Project1() {
                     <h2 className="project--sub-head">Good place for quptes from manager / stakeholders</h2>
                     <div className="project--learnings-container">
                         <h1 className="project--title">Learnings and Moving Forward</h1>
-                        <Link to="/projects" style={{ textDecoration: 'underline' }} className="project--back-to-button">back to projects</Link>
                     </div>
+                    <Link to="/projects" style={{ textDecoration: 'underline' }} className="project--back-to-button">back to projects</Link>
                 </div>
 
                 <ContactMe />

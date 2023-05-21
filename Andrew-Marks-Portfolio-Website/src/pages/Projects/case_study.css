@@ -216,12 +216,13 @@
     .project--process-step-name {
         margin-bottom: 1rem;
     }
-    
-    .project--progress-images-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        padding: 0 1.5rem;
+
+    .project--progress-lrg {
+        display: none;
+    }
+
+    .project--progress-container {
+        margin: 0 1.5rem;
     }
     
     .project--progress-image {
@@ -253,6 +254,7 @@
     
     .project--back-to-button {
         font-size: var(--fs-h3);
+        margin-left: 1.5rem;
     }
 }
 

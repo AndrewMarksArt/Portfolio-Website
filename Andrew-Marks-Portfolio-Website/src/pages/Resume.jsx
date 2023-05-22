@@ -310,6 +310,24 @@ export default function Resume() {
                              on the <Link to="/projects" className="resume-projects-link">PROJECTS</Link> page.
                         </p>
 
+                        <div className="resume--edu-sm">
+                            <h1 className="resume--header">EDUCATION</h1>
+                            <hr className="resume--edu-seperator"></hr>
+                            <h2 className="resume--job-company">Springboard UI/UX Career Path</h2>
+                            <h2 className="resume--job-date">March 2022 - August 2022</h2>
+                            <p className="resume--job-blurb">UI/UX bootcamp focused on Design 
+                            Thinking and Human Centered Design</p>
+
+                            <h2 className="resume--job-company">Claremont Graduate University - December 2020</h2>
+                            <p className="resume--job-blurb">Masters of Science, Information 
+                            Systems and Technology, consentration in Data Analytics</p>
+                            <p className="resume--job-blurb">Masters of Arts, Sotheby’s Institute 
+                            of Art, Art Business</p>
+
+                            <h2 className="resume--job-company">California State University, Northridge - May 2012</h2>
+                            <p className="resume--job-blurb">Bachelor of Art, Economics, graduated with distinction</p>
+                        </div>
+
                         </div>
                     </div>
                 </div>

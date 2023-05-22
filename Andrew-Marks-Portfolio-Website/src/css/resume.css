@@ -133,8 +133,7 @@
 }
 
 .resume--logo {
-    max-width: 15vw;
-    max-height: 15vw;
+    width: 100%;
 }
 
 .resume--profile-container {
@@ -350,7 +349,7 @@
 }
 
 /* extra small devices */
-@media (min-width: 320px) and (max-width: 559px){
+@media (min-width: 320px) and (max-width: 479px){
     .resume--container {
         border-radius: 1.5rem;
         margin-top: 100px;
@@ -407,11 +406,12 @@
     .resume--logo-container {
         width: 100%;
         height: auto;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem;
     }
 
     .resume--logo {
-        min-width: 48vw;
-        min-height: 24vh;
+        width: 100%;
     }
 
     .resume--profile-container {
@@ -501,7 +501,7 @@
 }
 
 /* Small devices (landscape phones) */
-@media (min-width: 560px) and (max-width: 767px){
+@media (min-width: 480px) and (max-width: 767px){
     .resume--container {
         border-radius: 2rem;
         margin-top: 100px;
@@ -553,11 +553,11 @@
     .resume--logo-container {
         width: 100%;
         height: auto;
+        margin-bottom: 1rem;
     }
 
     .resume--logo {
-        min-width: 40vw;
-        min-height: 30vh;
+        max-width: 55vw;
     }
 
     .resume--profile-container {
@@ -697,11 +697,11 @@
     .resume--logo-container {
         width: 100%;
         height: auto;
+        margin-bottom: 2rem;
     }
 
     .resume--logo {
-        min-width: 30vw;
-        min-height: 33vh;
+        max-width: 40vw;
     }
 
     .resume--profile-container {
@@ -805,9 +805,8 @@
         grid-template-columns: 25vw auto;
     }
     
-    .resume--logo {
-        max-width: 18vw;
-        max-height: 18vw;
+    .resume--logo-container {
+        margin-bottom: 2rem;
     }
     
     .resume--profile-body {
@@ -830,7 +829,7 @@
     }
     
     .resume--jobs-container {
-        margin-top: -0.5rem;
+        margin-top: -4rem;
     }
     
     .resume--project-title {
@@ -869,9 +868,8 @@
         grid-template-columns: 25vw auto;
     }
     
-    .resume--logo {
-        max-width: 18vw;
-        max-height: 18vw;
+    .resume--logo-container {
+        margin-bottom: 1rem;
     }
     
     .resume--profile-body {
@@ -894,7 +892,7 @@
     }
     
     .resume--jobs-container {
-        margin-top: -2rem;
+        margin-top: -4.5rem;
     }
     
     .resume--project-title {
@@ -926,6 +924,14 @@
         display: none;
     }
 
+    .resume--logo-container {
+        margin-bottom: 1rem;
+    }
+
+    .resume--jobs-container {
+        margin-top: -4rem;
+    }
+
 }
 
 /* Ultra large devices (4K screens) */
@@ -940,8 +946,7 @@
     }
     
     .resume--logo {
-        max-width: 18vw;
-        max-height: 18vw;
+        margin-bottom: 1rem;
     }
     
     .resume--profile-body {
@@ -964,7 +969,7 @@
     }
     
     .resume--jobs-container {
-        margin-top: -7rem;
+        margin-top: -10rem;
     }
     
     .resume--project-title {

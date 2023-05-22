@@ -147,6 +147,7 @@ a:hover {
 
     .logo--about-me {
         max-width: 100%;
+        padding: 2em;
     }
 
     .about-me--main {
@@ -238,6 +239,11 @@ a:hover {
         font-weight: var(--fw-reg);
     }
 
+    .logo--about-me {
+        padding: 3rem;
+        max-width: 70vw;
+    }
+
     .about-me--body {
         margin-top: 16px;
         margin-left: 24px;
@@ -309,6 +315,11 @@ a:hover {
         margin-left: 24px;
         margin-right: 24px;
         margin-top: 16px;
+    }
+
+    .logo--about-me {
+        padding: 3rem;
+        max-width: 50vw;
     }
 
     .about-me--body {
@@ -383,16 +394,19 @@ a:hover {
         padding: 24px;
     }
 
+    .logo--about-me {
+        min-width: 30vw;
+    }
+
     .about-me--title {
         font-size: var(--fs-h1);
         padding: 8px 12px 8px 12px;
         font-weight: var(--fw-semi);
-
     }
 
     .about-me--subtitle {
         margin-bottom: 1.5rem;
-        margin-top: 1.2rem;
+        margin-top: 2rem;
     }
 
     .about-me--body {
@@ -470,13 +484,17 @@ a:hover {
         padding: 28px;
     }
 
+    .logo--about-me {
+        min-width: 25vw;
+    }
+
     .about-me--title {
         padding: 8px 12px 8px 12px;
     }
 
     .about-me--subtitle {
         margin-bottom: 24px;
-        margin-top: 16px;
+        margin-top: 2rem;
     }
 
     .about-me--body {

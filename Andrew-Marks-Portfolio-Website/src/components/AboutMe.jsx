@@ -1,4 +1,5 @@
 import ContactMe from "../components/ContactMe";
+import { Link } from "react-router-dom";
 import "../css/about.css";
 import "../css/main.css";
 
@@ -26,6 +27,12 @@ export default function AboutMe() {
                         <p className="about-me--body"> With a strong background in UI/UX design 
                         and a passion for creating delightful user experiences, I strive to bridge the gap between user needs and 
                         business goals.</p>
+
+                        <Link to="/resume" style={{ textDecoration: 'none' }}>
+                            <button className="about-me--cta-button">
+                                See Resume   
+                            </button>
+                        </Link>
                     </div>
                 </div>
                 <div className="about-me--contact-container">

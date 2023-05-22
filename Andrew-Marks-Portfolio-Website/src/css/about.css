@@ -96,6 +96,20 @@
     color: var(--clr-body-text);
 }
 
+.about-me--cta-button {
+    background-color: transparent;
+    color: var(--clr-primary);
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-semi);
+    border-radius: 0.5rem;
+    border: 2px solid var(--clr-primary);
+    padding: 0.5rem 1rem;
+}
+
+.about-me--cta-button:hover {
+    box-shadow: 0.25rem 0.25rem var(--clr-hover);
+}
+
 .contact--contact-title {
     display: flex;
     justify-content: center;

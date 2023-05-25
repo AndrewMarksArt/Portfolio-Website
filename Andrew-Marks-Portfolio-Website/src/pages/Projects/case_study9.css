@@ -130,19 +130,20 @@ p {
 .project9--takeaway-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem 15rem;
-    column-gap: 4rem;
+    padding: 0rem 16rem;
+    column-gap: 8rem;
+    margin-bottom: 3rem;
 }
 
 .project9--contact-container {
-    margin-top: 3rem;
+    margin-top: 8rem;
 }
 
 .project9--back-to-button {
     color: var(--clr-primary);
     font-weight: var(--fw-semi);
     font-size: 1.4rem;
-    margin-left: 15rem;
+    margin-left: 16rem;
 }
 
 /* Extra Small Screens */

@@ -29,7 +29,7 @@ export default function DsProjects() {
 
             <div className="projects--cards-container">
                 <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[6]}</Link>
-                <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[7]}</Link>
+                <Link to="/project-8" style={{ textDecoration: 'none' }}>{projectElements[7]}</Link>
                 <Link to="/project-9" style={{ textDecoration: 'none' }}>{projectElements[8]}</Link>
             </div>
         </div>

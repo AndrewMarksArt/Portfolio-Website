@@ -39,7 +39,9 @@ export default function Project8() {
                         For this project I used the Yelp Open Dataset which is available here and more specifically I focused on the reviews 
                         and businesses.
                     </p>
-                    <img className="project8--dataset-img" src="../img/case_studies/project8/data_set.png"/>
+                    <div className="project8--img-container">
+                        <img className="project8--dataset-img" src="../img/case_studies/project8/data_set.png"/>
+                    </div>
                     <h2 className="project8--into-title">
                         Project Goals:
                     </h2>
@@ -97,16 +99,17 @@ export default function Project8() {
                     <p className="project8--body-text">
                         Before digging into the data too much here is the list of libraries used for this project: 
                     </p>
-
-                    <img className="project8--imports-img" src="../img/case_studies/project8/imports.png"/>
-
+                    <div className="project8--img-container">
+                        <img className="project8--imports-img" src="../img/case_studies/project8/imports.png"/>
+                    </div>
+                    
                     <p className="project8--body-text">
                         By starting with the reviews.json file provided by Yelp I created a ‘sentiment’ column which is either ‘pos’ or ‘neg’ and dropped all 
                         except for ‘text’ and ‘sentiment’. 
                     </p>
-
-                    <img className="project8--review-img" src="../img/case_studies/project8/review.png"/>
-
+                    <div className="project8--img-container">
+                        <img className="project8--review-img" src="../img/case_studies/project8/review.png"/>
+                    </div>
                     <p className="project8--body-text">
                         Due to the number of reviews unfortunately and memory issues I had to reduce the number of reviews that I will try and predict. I sampled 
                         50,000 reviews making sure to keep the distribution of pos/neg reviews the same as the overall population. 
@@ -148,9 +151,9 @@ export default function Project8() {
                             Create a list of tuples with the review and label
                         </li>
                     </ol>
-
-                    <img className="project8--process-img" src="../img/case_studies/project8/bow_process.png"/>
-
+                    <div className="project8--img-container">           
+                        <img className="project8--process-img" src="../img/case_studies/project8/bow_process.png"/>
+                    </div>
                 </div>
 
                 <div className="project8--results-container">
@@ -162,7 +165,9 @@ export default function Project8() {
                         each word. From there we can take 3500 the most frequent words and create a feature set list by checking each review against the 3500 
                         most frequent words. From there I created a training and testing set with the training set using 40,000 reviews to train and 10,000 to test.  
                     </p>
-                    <img className="project8--top-words-img" src="../img/case_studies/project8/top_words.png"/>
+                    <div className="project8--img-container">  
+                        <img className="project8--top-words-img" src="../img/case_studies/project8/top_words.png"/>
+                    </div>
                     <h2 className="project8--intro-title">
                         Baseline Model vs Naive Bayes Classifier
                     </h2>
@@ -185,7 +190,9 @@ export default function Project8() {
                         However something interesting is how mush more important negative words are to classifying a review than positive words are, when we look 
                         at the top 25 most important words only 4 are positive and the rest are negative and only 1 positive is in the top 10 most important.
                     </p>
-                    <img className="project8--important-img" src="../img/case_studies/project8/most_important.png"/>
+                    <div className="project8--img-container">  
+                        <img className="project8--important-img" src="../img/case_studies/project8/most_important.png"/>
+                    </div>
                     <p className="project8--body-text">
                         Since the Naive Bayes out preformed the base line model, I tried a few others:
                     </p>
@@ -197,7 +204,7 @@ export default function Project8() {
                             Bernoulli Naive Bayes Classifier accuracy: 77%
                         </li>
                         <li className="project8--list-item">
-                            Logistic Regression Classifier accuracy: 86.5%
+                            <b>Logistic Regression Classifier accuracy: 86.5%</b>
                         </li>
                         <li className="project8--list-item">
                             SGDClassifier accuracy: 86.4%

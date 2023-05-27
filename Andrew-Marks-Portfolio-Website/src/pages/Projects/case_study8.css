@@ -82,8 +82,14 @@
     padding: 2rem 16rem 0.5rem 16rem;
 }
 
+.project8--img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
 .project8--dataset-img {
-    padding: 1rem 36rem;
 }
 
 .project8--list {
@@ -102,19 +108,19 @@
 }
 
 .project8--imports-img {
-    padding: 0 42rem;
+    
 }
 
 .project8--review-img {
-    padding: 0 48rem;
+    width: 26%;
 }
 
 .project8--process-img {
-    padding: 0 36rem;
+
 }
 
 .project8--top-words-img {
-    padding: 1rem 36rem 3rem;
+    
 }
 
 .project8--side-by-side {
@@ -127,7 +133,7 @@
 }
 
 .project8--important-img {
-    padding: 0 40rem;
+    
 }
 
 .project8--git-link {

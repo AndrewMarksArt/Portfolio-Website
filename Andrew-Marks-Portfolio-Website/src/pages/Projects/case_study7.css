@@ -45,6 +45,57 @@
     padding-top: 70px;
 }
 
+.project7--banner-img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.project7--banner-title {
+    font-size: var(--fs-h1);
+    font-weight: var(--fw-semi);
+    color: var(--clr-headings);
+    padding: 1rem 16rem;
+}
+
+.project7--title {
+    font-size: var(--fs-sub-head);
+    font-weight: var(--fw-reg);
+    color: var(--clr-headings);
+    padding: 0.5rem 16rem;
+}
+
+.project7--body {
+    font-size: var(--fs-body);
+    color: var(--clr-body-text);
+    padding: 0 16rem;
+}
+
+.project7--list {
+    padding: 0 24rem 2rem;
+}
+
+.project7--list-item {
+    color: var(--clr-body-text);
+    padding-left: 0.8rem;
+}
+
+.project7--img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.project7--back-to-button {
+    color: var(--clr-primary);
+    font-weight: var(--fw-semi);
+    font-size: 1.4rem;
+    margin-left: 16rem;
+    padding-bottom: 10rem;
+}
+
+
 /* Extra Small Screens */
 @media (min-width: 320px) and (max-width: 419px) {
     

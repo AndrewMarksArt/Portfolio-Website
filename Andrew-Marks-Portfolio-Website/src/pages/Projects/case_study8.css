@@ -153,30 +153,421 @@
 /* Extra Small Screens */
 @media (min-width: 320px) and (max-width: 419px) {
     
+    .project8--headline-img {
+        height: 25vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-h2);
+        padding: 1rem 1.5rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-semi);
+        padding: 0.5rem 1.5rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 1.5rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 1.5rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 3rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.8rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 3rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 80vw;
+    }
+    
+    .project8--side-by-side {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.2rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+        padding-bottom: 6rem;
+    }
+    
 }
 
 
 @media (min-width: 420px) and (max-width: 479px) {
+    .project8--headline-img {
+        height: 30vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-h2);
+        padding: 1rem 2rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-semi);
+        padding: 0.5rem 2rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 2rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 2rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 3.4rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.4rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 3.4rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 80vw;
+    }
+    
+    .project8--side-by-side {
+        flex-direction: column;
+        padding: 0 1.5rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.3rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.3rem;
+        margin-left: 2rem;
+        padding-bottom: 6rem;
+    }
    
 }
 
 
 /* Small devices (landscape phones) */
 @media (min-width: 480px) and (max-width: 767px){
+    .project8--headline-img {
+        height: 30vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-h2);
+        padding: 1.5rem 3rem 1rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h3);
+        font-weight: var(--fw-semi);
+        padding: 0.5rem 3rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 3rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 3rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 6rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.5rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 5rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 60vw;
+    }
+    
+    .project8--side-by-side {
+        flex-direction: column;
+        padding: 0 8rem;
+        gap: 2rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.4rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.4rem;
+        margin-left: 3rem;
+        padding-bottom: 6rem;
+    }
     
 }
 
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
+    .project8--headline-img {
+        height: 33vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-sub-head);
+        padding: 2rem 4rem 1rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-reg);
+        padding: 0.5rem 4rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 4rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem 6rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 8rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.5rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 8rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 40vw;
+    }
+    
+    .project8--side-by-side {
+        flex-direction: column;
+        padding: 0 16rem;
+        gap: 2rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.6rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.6rem;
+        margin-left: 4rem;
+        padding-bottom: 6rem;
+    }
     
 }
 
 /* Large devices (tablets, landscape / small laptops) */
 @media (min-width: 1024px) and (max-width: 1199px){
+    .project8--headline-img {
+        height: 40vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-sub-head);
+        padding: 2rem 8rem 1rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-reg);
+        padding: 0.5rem 8rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 8rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 8rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 12rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.5rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 12rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 30vw;
+    }
+    
+    .project8--side-by-side {
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.6rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.6rem;
+        margin-left: 8rem;
+        padding-bottom: 6rem;
+    }
     
 }
 
 /* Extra large devices (laptops, desktops) */
 @media (min-width: 1200px) and (max-width: 1439px){
+    .project8--headline-img {
+        height: 40vh;
+    }
+    
+    .projec8--headline-title {
+        font-size: var(--fs-sub-head);
+        padding: 2rem 14rem 1rem;
+    }
+    
+    .project8--intro-title {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-reg);
+        padding: 0.5rem 14rem;
+    }
+    
+    .project8--body-text {
+        padding: 0 14rem;
+    }
+    
+    .project8--img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 14rem 2rem;
+    }
+    
+    .project8--list {
+        padding: 0 18rem 1rem;
+    }
+    
+    .project8--list-item {
+        color: var(--clr-body-text);
+        padding-left: 0.5rem;
+    }
+    
+    .project8--quote {
+        padding: 0.5rem 18rem 0.5rem;
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+    }
+    
+    .project8--review-img {
+        width: 30vw;
+    }
+    
+    .project8--side-by-side {
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+    
+    .project8--top-neg-img {
+        margin-right: 0rem;
+    }
+    
+    .project8--git-link {
+        font-weight: var(--fw-semi);
+        font-size: 1.6rem;
+    }
+    
+    .project8--back-to-button {
+        font-size: 1.6rem;
+        margin-left: 14rem;
+        padding-bottom: 6rem;
+    }
     
 }

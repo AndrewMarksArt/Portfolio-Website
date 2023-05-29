@@ -32,7 +32,7 @@ export default function Project8() {
                         Vegas, I love laid back atmospheres and high end steak houses yet when I opened Yelp the recommended restaurants all 
                         looked like loud and raucous bars and nightclubs I would never go to. 
                     </p>
-                    <h2 className="project8--into-title">
+                    <h2 className="project8--intro-title">
                         Yelp Dataset Challenge
                     </h2>
                     <p className="project8--body-text">
@@ -42,7 +42,7 @@ export default function Project8() {
                     <div className="project8--img-container">
                         <img className="project8--dataset-img" src="../img/case_studies/project8/data_set.png"/>
                     </div>
-                    <h2 className="project8--into-title">
+                    <h2 className="project8--intro-title">
                         Project Goals:
                     </h2>
                     <ol className="project8--list">

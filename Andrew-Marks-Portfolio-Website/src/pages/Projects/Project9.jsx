@@ -23,19 +23,19 @@ export default function Project9() {
                             Polka Dots and Formaldehyde: a crazy search for value in the art world.
                         </h2>
                         <h3 className="project9--article-subhead">
-                            What is art and ow can we quantify value in this market?
+                            What is art and how can we quantify value in this market?
                         </h3>
                         <p className="project9--article-blurb">
                             A look at the opaque fine art market and how we can use data to better determine value, find trends, 
                             and analyze a market controlled by insiders and powerful institutions that act as gatekeepers. 
                         </p>
-                        <p className="project9--article-blurb">
+                        <p className="project9--article-blurb-link">
                             <a 
                                 href="https://medium.com/@AndrewMarksArt/polka-dots-and-formaldehyde-a-crazy-search-for-value-in-the-art-world-45d57a903dd4" 
                                 target="_blank"
                                 className="project9--medium-link"
                             >
-                                Read the full article on Medium.
+                                Read the full article on Medium
                             </a>
                         </p>
                     </div>
@@ -62,12 +62,18 @@ export default function Project9() {
                         used would be viable for other artists and provided an oportunity to develop new valuation models that would be valuable 
                         for collectors, apprasors, and other market participants.  
                     </p>
-                </div>
-                
-                <Link to="/projects" style={{ textDecoration: 'underline' }} className="project9--back-to-button">Back to projects </Link>
-
-                <div className="project9--contact-container">
-                    <ContactMe />
+            
+                    <p className="project9--article-blurb">
+                        <a 
+                            href="https://medium.com/@AndrewMarksArt/polka-dots-and-formaldehyde-a-crazy-search-for-value-in-the-art-world-45d57a903dd4" 
+                            target="_blank"
+                            className="project9--medium-link"
+                        >
+                            Read the full article on Medium
+                        </a>
+                    </p>
+                    
+                    <Link to="/projects" style={{ textDecoration: 'underline' }} className="project9--back-to-button">Back to projects </Link>
                 </div>
             </div>
         </>

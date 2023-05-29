@@ -164,7 +164,7 @@ export default function Project7() {
                     <p className="project7--body">
                         But now I wanted to explore using feature selection and build the model with only the most significant features. By using scikit-learns f_regression 
                         and selecting the features with the largest F-score. And the results are below.</p>
-                    <div className="project7--img-container">
+                    <div className="project7--side-by-side">
                         <img src="../img/case_studies/project7/new_features.png"/>
                         <img src="../img/case_studies/project7/results_less_features.png"/>
                     </div>
@@ -227,7 +227,7 @@ export default function Project7() {
                         More interesting is the feature importance scores which tell us the most important features in the model.
                     </p>
 
-                    <div className="project7--img-container">
+                    <div className="project7--side-by-side">
                         <img src="../img/case_studies/project7/best_param_scores.png"/>
                         <img src="../img/case_studies/project7/importance.png"/>
                     </div>

@@ -19,19 +19,19 @@ export default [
     },
     {
         id: 4,
-        img: "battle_warriors_featured.png",
+        img: "discord_manager_featured.png",
         title: "NFT Community Manager",
         headline: "UI dashboard design for NFT communities with afocused on security."
     },
     {
         id: 5,
-        img: "battle_warriors_featured.png",
-        title: "On Chain Blind Vikery Auction",
-        headline: "Design for fully on-chain blind auction allowing for better price discovery."
+        img: "quests_featured.png",
+        title: "Quest for Valhalla",
+        headline: "NFT tactics based P2E game."
     },
     {
         id: 6,
-        img: "battle_warriors_featured.png",
+        img: "crypto_tracker_featured.png",
         title: "Crypto Tracker",
         headline: "Chrome extension to note, and keep track of crypto address and contracts."
     },

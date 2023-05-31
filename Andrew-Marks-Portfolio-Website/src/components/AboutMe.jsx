@@ -17,7 +17,7 @@ export default function AboutMe() {
                         <img className="logo--about-me" src="../img/logo.png"></img>
                     </div>
                     <div className="about-me--main">
-                        <h1 className="about-me--title">Hi, my name is Andrew </h1>
+                        <h1 className="about-me--title">Hi, my name is Andrew. </h1>
 
                         <h2 className="about-me--subtitle">I love building fun and unique experiences that users love!</h2>
 

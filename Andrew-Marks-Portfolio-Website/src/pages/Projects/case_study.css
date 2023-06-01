@@ -75,10 +75,6 @@
     margin-bottom: 5rem;
 }
 
-.project--progress-sm {
-    display: none;
-}
-
 .project--process-container {
     margin-bottom: 2rem;
 }
@@ -701,7 +697,10 @@
         top: 3.3rem;
         left: 15rem;
         right: 15rem;
-  
+    }
+
+    .project--progress-sm {
+        display: none;
     }
     
     .project--progress-images-container {

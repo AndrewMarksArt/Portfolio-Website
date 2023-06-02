@@ -45,7 +45,9 @@
     padding-top: 150px;
 }
 
-.project2-headline-container, .project2--phase1-container{
+.project2-headline-container, 
+.project2--phase1-container, 
+.project2--phase3-container {
     margin: 0 24rem 2rem;
 }
 
@@ -161,6 +163,34 @@
     padding: 0 2rem;
     column-gap: 2rem;
     background-color: #E1EAF2;
+}
+
+.project2--phase3-container {
+    margin-top: 5rem;
+}
+
+.project2--crafting-img-container {
+    padding: 3rem 0;
+}
+
+.project2--crafting-design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.project2--beast-forest-redo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0 2rem;
+    column-gap: 2rem;
+}
+
+.project2--back-to-button {
+    color: var(--clr-primary);
+    font-weight: var(--fw-semi);
+    font-size: 2rem;
 }
 
 /* Extra Small Screens */

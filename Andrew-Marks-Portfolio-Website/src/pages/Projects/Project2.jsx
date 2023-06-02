@@ -345,7 +345,7 @@ export default function Project2() {
                         Mobile layout issues & information hidden, users didn't know they could scroll or where to go
                     </li>
                 </ol>
-                <div className="project2--img-container">
+                <div className="project2--crafting-img-container">
                     <img className="project2--img" src="../img/case_studies/project2/crafting_assets.png"/>
                     <p className="project2--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
                     landing page visually worked on those small screens.</p>
@@ -357,6 +357,7 @@ export default function Project2() {
                     ut.
                 </h2>
 
+                <div className="project2--crafting-design">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/main_crafting.png"/>
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
@@ -373,18 +374,41 @@ export default function Project2() {
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
                 </div>
-
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/inventory.png"/>
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
                 </div>
+            </div>
+        
+                <h2 className="project2--body">
+                    Given a few images & the need to WOW when the player sucessfully crafts a new item. 
+                </h2>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/crafting_figma.png"/>
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
                 </div>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
+
 
                 <h1 className="project2--title">
                     Solution & Walk Through
@@ -412,6 +436,7 @@ export default function Project2() {
                         Mobile layout issues & information hidden, users didn't know they could scroll or where to go
                     </li>
                 </ol>
+            
             </div>
 
             <div className="project2--phase3-container">
@@ -469,6 +494,9 @@ export default function Project2() {
                     ut.
                 </h2>
 
+                </div>
+                
+                <div className="project2--beast-forest-redo">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/no_character.png"/>
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
@@ -482,6 +510,9 @@ export default function Project2() {
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_confirm.png"/>
                     <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
                 </div>
+                </div>
+
+                <div className="project2--phase3-container">
 
                 <h2 className="project2--body">
                     Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
@@ -502,24 +533,33 @@ export default function Project2() {
                     ut.
                 </h2>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/forest_raid.gif"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
+                <div className="project2--crafting-design">
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/forest_raid.gif"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/forest_bad.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/forest_bad.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/forest_ok.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/forest_ok.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/forest_good.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
                 </div>
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/forest_good.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
+                
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
 
                 <h2 className="project2--body">
                     Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
@@ -527,6 +567,14 @@ export default function Project2() {
                     ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
                     ut.
                 </h2>
+
+                </div>
+                
+                <div className="project2--phase2-container">
+
+                <h1 className="project2--title">
+                    Designing the Beast Forest
+                </h1>
 
                 <h2 className="project2--body">
                     Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
@@ -542,24 +590,36 @@ export default function Project2() {
                     Looking at how we can take a simple rng game, elevate it & add excitement.
                 </h2>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/undead_intro.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                <div className="project2--crafting-design">
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/undead_intro.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
+
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/undead_equip.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
+
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/undead_ok.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project2/undead_good.png"/>
+                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    </div>
                 </div>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/undead_equip.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
 
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/undead_ok.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
-                <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/undead_good.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
-                </div>
+                <Link to="/projects" style={{ textDecoration: 'underline' }} className="project2--back-to-button">Back to projects </Link>
+                
 
             </div>
 

@@ -618,9 +618,15 @@ export default function Project2() {
                     ut.
                 </h2>
 
+                <div>
+                    <br></br>
+                </div>
+
                 <Link to="/projects" style={{ textDecoration: 'underline' }} className="project2--back-to-button">Back to projects </Link>
                 
-
+                <div>
+                    <br></br>
+                </div>
             </div>
 
         </div>

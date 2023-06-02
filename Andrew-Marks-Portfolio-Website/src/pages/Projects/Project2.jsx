@@ -18,8 +18,8 @@ export default function Project2() {
                 </h2>
             </div>
 
-            <div className="project2--larg-img">
-                <img src="../img/case_studies/project2/shogun_main_page.png" />
+            <div>
+                <img className="project2--larg-img" src="../img/case_studies/project2/shogun_main_page.png" />
             </div>
             
 
@@ -160,7 +160,7 @@ export default function Project2() {
 
                 <h1 className="project2--title">Nudges, tips, & exploration.</h1>
                 <div className="project2--tip-container">
-                    <img className="project2--img" src="../img/case_studies/project2/bounce_tip.gif"/>
+                    <img className="project2--img-tip" src="../img/case_studies/project2/bounce_tip.gif"/>
                     <p className="project2--img-desc">When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
                     where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
                     experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.</p>

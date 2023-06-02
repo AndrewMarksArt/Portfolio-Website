@@ -760,12 +760,146 @@
 
 /* Large devices (tablets, landscape / small laptops) */
 @media (min-width: 1024px) and (max-width: 1199px){
-   
-    
+
+    .project2--main-container {
+        padding-top: 120px;
+    }
+
+    .project2-headline-container, 
+    .project2--phase1-container, 
+    .project2--phase3-container {
+        margin: 0 8rem 2rem;
+    }
+
+    .project2--title {
+        font-size: var(--fs-h1);
+        margin-bottom: 1.4rem;
+    }
+
+    .project2--sub-head {
+        font-size: var(--fs-h3);
+        line-height: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project2--larg-img {
+        padding: 0rem 0 3rem;
+    }
+
+    .project2--challenge {
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-h3);
+    }
+
+    .project2--list {
+        margin: 0 0 3rem;
+    }
+
+    .project2--list-item {
+        margin: 0 3rem 0 1rem;
+        padding-left: 0.5rem;
+    }
+
+    .project2--img-desc {
+        padding: 0 1rem;
+    }
+
+    .project2--body {
+        font-size: var(--fs-h3);
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project2--phase2-container {
+        padding: 5rem 8rem 5rem;
+        background-color: #E1EAF2;
+    }
+
+    .project2--phase3-container {
+        margin-top: 5rem;
+    }
+
+    .project2--crafting-img-container {
+        padding: 1rem 0;
+    }
+
+    .project2--back-to-button {
+        color: var(--clr-primary);
+        font-weight: var(--fw-semi);
+        font-size: 1.5rem;
+    }
 }
 
 /* Extra large devices (laptops, desktops) */
 @media (min-width: 1200px) and (max-width: 1439px){
+
+    .project2--main-container {
+        padding-top: 120px;
+    }
+
+    .project2-headline-container, 
+    .project2--phase1-container, 
+    .project2--phase3-container {
+        margin: 0 12rem 2rem;
+    }
+
+    .project2--title {
+        font-size: var(--fs-h1);
+        margin-bottom: 1.4rem;
+    }
+
+    .project2--sub-head {
+        font-size: var(--fs-h2);
+        line-height: 2.5rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .project2--larg-img {
+        padding: 3rem 0 3rem;
+    }
+
+    .project2--challenge {
+        font-weight: var(--fw-semi);
+        font-size: var(--fs-h3);
+    }
+
+    .project2--list {
+        margin: 0 0 3rem;
+    }
+
+    .project2--list-item {
+        margin: 0 3rem 0 1rem;
+        padding-left: 0.5rem;
+    }
+
+    .project2--img-desc {
+        padding: 0 1rem;
+    }
+
+    .project2--body {
+        font-size: var(--fs-h2);
+        line-height: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .project2--phase2-container {
+        padding: 6rem 12rem;
+        background-color: #E1EAF2;
+    }
+
+    .project2--phase3-container {
+        margin-top: 6rem;
+    }
+
+    .project2--crafting-img-container {
+        padding: 1rem 0;
+    }
+
+    .project2--back-to-button {
+        color: var(--clr-primary);
+        font-weight: var(--fw-semi);
+        font-size: 1.5rem;
+    }
     
 }
 

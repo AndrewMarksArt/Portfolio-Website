@@ -16,8 +16,12 @@ export default function Project2() {
                     I was brought on by the project founder to help redsign the player experience to help onboard new players, bring more consistency to the game,
                     and help design new levels for players to explore.
                 </h2>
+            </div>
+
+            <div className="project2--larg-img">
                 <img src="../img/case_studies/project2/shogun_main_page.png" />
             </div>
+            
 
             <div className="project2--phase1-container">
                 <p className="project2--challenge">
@@ -59,23 +63,26 @@ export default function Project2() {
                     </li>
                 </ol>
 
-                <div className="project2--img-group-container">
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/old_landing.png"/>
-                        <p className="project2--img-desc">old landing page with non working button.</p>
-                    </div>
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/old_training.png"/>
-                        <p className="project2--img-desc">
-                            art takes up most of the screen and on smaller devices hides players shoguns and not clear the user needs to scroll to see everything.
-                        </p>
-                    </div>
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/old_land.png"/>
-                        <p className="project2--img-desc">original land page, very hard for players to recognize which land has what items and actions available.</p>
-                    </div>
-                </div>
+            </div>
 
+            <div className="project2--img-group-container">
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/old_landing.png"/>
+                    <p className="project2--img-desc">old landing page with non working button.</p>
+                </div>
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/old_training.png"/>
+                    <p className="project2--img-desc">
+                        art takes up most of the screen and on smaller devices hides players shoguns and not clear the user needs to scroll to see everything.
+                    </p>
+                </div>
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/old_land.png"/>
+                    <p className="project2--img-desc">original land page, very hard for players to recognize which land has what items and actions available.</p>
+                </div>
+            </div>
+
+            <div className="project2--phase1-container">
                 <h1 className="project2--title">
                     Go over the top takeaways & quick fixes
                 </h1>
@@ -84,7 +91,7 @@ export default function Project2() {
                     to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
                     way around the map.
                 </h2>
-
+            
                 <div className="project2--landing-container">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/old_landing_lrg.png"/>
@@ -99,13 +106,17 @@ export default function Project2() {
                     </div>
                 </div>
 
+                <h2 className="project2--body">
+                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                </h2>
+
                 <div className="project2--travel-container">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/home_no_menu.png"/>
                         <p className="project2--img-desc">Old world map, no menu so players would have to click around to each different area & with hidden areas some players
                         will miss them completely.</p>
                     </div>
-                
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/home_quicktravel.png"/>
@@ -114,38 +125,46 @@ export default function Project2() {
                     </div>
                 </div>
 
+                <h2 className="project2--body">
+                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                </h2>
+
                 <div className="project2--mobile-container">
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/landing_mobile.png"/>
-                        <p className="project2--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                    <div className="project2--portrait-container">
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/landing_mobile.png"/>
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile.png"/>
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile_menu.png"/>
                     </div>
-                
-
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/home_mobile.png"/>
-                        <p className="project2--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                        from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                        very important to the client.</p>
-                    </div>
-
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/home_mobile_menu.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                    <div className="project2--landscape-container">
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/world_landscape.png" />
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/map_landscape.png" />
                     </div>
                 </div>
 
+                <h2 className="project2--body">
+                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                    landing page visually worked on those small screens.
+                </h2>
+
+                <h2 className="project2--body">
+                    On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
+                    from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
+                    very important to the client.
+                </h2>
+
+                <h2 className="project2--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+
+                <h1 className="project2--title">Nudges, tips, & exploration.</h1>
                 <div className="project2--tip-container">
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/bounce_tip.gif"/>
-                        <h1 className="project2--title">Nudges, tips, & exploration.</h1>
-                        <p className="project2--img-desc">When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
-                        where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
-                        experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.</p>
-                    </div>
+                    <img className="project2--img" src="../img/case_studies/project2/bounce_tip.gif"/>
+                    <p className="project2--img-desc">When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
+                    where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
+                    experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.</p>
                 </div>
-            
 
             </div>
 
@@ -196,7 +215,9 @@ export default function Project2() {
                         <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
                         than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
                     </div>
+                </div>
 
+                <div>
                     <h1 className="project2--title">
                         Key issues & comments from users.
                     </h1>
@@ -210,38 +231,88 @@ export default function Project2() {
                         ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
                         ut.
                     </h2>
+                </div>
+            </div>
 
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/new_training.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
-                    </div>
+                <div>
+                    <div className="project2--new-design-container">
 
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/training_details.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
-                    </div>
+                        <div className="project2--img-container">
+                            <img className="project2--img" src="../img/case_studies/project2/old_training_full.png"/>
+                            <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                            than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        </div>
 
-                    <h2 className="project2--body">
-                        Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                        sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                        ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                        ut.
-                    </h2>
+                        <div className="project2--img-container">
+                            <img className="project2--img" src="../img/case_studies/project2/new_training.png"/>
+                            <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                            than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        </div>
 
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/new_land.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
-                    </div>
-
-                    <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/land_details.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        <div className="project2--img-container">
+                            <img className="project2--img" src="../img/case_studies/project2/training_details.png"/>
+                            <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                            than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        </div>
                     </div>
                 </div>
+
+            <div className="project2--phase2-container">
+                <h1 className="project2--title">
+                    Redesigning areas with a consistant design
+                </h1>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
+
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>    
+            </div>
+
+            <div className="project2--new-design-container">
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/old_land_full.png"/>
+                    <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                </div>
+
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/new_land.png"/>
+                    <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                </div>
+
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/land_details.png"/>
+                    <p className="project2--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                </div>
+            </div>
+
+            <div className="project2--phase2-container">
+                <h1 className="project2--title">
+                    Redesigning areas with a consistant design
+                </h1>
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>
+
+                <h2 className="project2--body">
+                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                    ut.
+                </h2>    
             </div>
 
             <div className="project2--phase3-container">

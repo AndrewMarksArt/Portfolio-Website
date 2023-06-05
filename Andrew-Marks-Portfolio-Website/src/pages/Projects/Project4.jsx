@@ -252,12 +252,13 @@ export default function Project4() {
                         ut.
                     </h2>
                 </div>
-            </div>
 
-            <div className="projec4--footer">   
-                <Link to="/projects" style={{ textDecoration: 'underline' }} className="project4--back-to-button">Back to projects </Link>
+                <div className="projec4--footer"> 
+                <br></br> 
+                    <Link to="/projects" style={{ textDecoration: 'underline' }} className="project4--back-to-button">Back to projects </Link>
+                    <br></br>
+                </div>
             </div>
-
         </div>
     )
 }

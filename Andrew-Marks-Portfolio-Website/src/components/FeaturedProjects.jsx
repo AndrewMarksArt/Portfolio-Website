@@ -35,7 +35,7 @@ export default function FeaturedProjects() {
                 <div className="featured-cards-container">
                     <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
                     <Link to="/project-2" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
-                    <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
+                    <Link to="/project-3" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
                 </div>
             </div>
             <hr className="seperator"></hr>

@@ -32,7 +32,7 @@ export default function UIUXProjects() {
                 <Link to="/project-2" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
                 <Link to="/project-3" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
                 <Link to="/project-4" style={{ textDecoration: 'none' }}>{projectElements[3]}</Link>
-                <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[4]}</Link>
+                <Link to="/project-5" style={{ textDecoration: 'none' }}>{projectElements[4]}</Link>
                 <Link to="/project-1" style={{ textDecoration: 'none' }}>{projectElements[5]}</Link>
             </div>
 

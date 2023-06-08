@@ -77,6 +77,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 2rem 0 6rem;
 }
 
 .free-play-video {
@@ -193,22 +194,10 @@
     margin-bottom: 4rem;
 }
 
-.project3--customize-gifs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem 5rem;
-    gap: 5rem;
-}
-
-.project3--giveaway-loop {
-    height: 50vh;
-    object-fit: cover;
-}
-
-.project3--freya-cloak {
-    height: 50vh;
-    object-fit: cover;
+.project3--examples-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 4rem 0;
 }
 
 /* Phase 2 */

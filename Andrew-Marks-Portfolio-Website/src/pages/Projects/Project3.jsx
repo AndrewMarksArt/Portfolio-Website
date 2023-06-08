@@ -122,7 +122,7 @@ export default function Project3() {
                 </h2>
 
                 <div className="project3--video-container">
-                    <video src="../videos/free_play_prototype" autoPlay loop muted className="char-build-video"/>
+                    <video src="../videos/example_viking.mp4" autoPlay loop muted className="char-build-video"/>
                 </div>
             </div>
 
@@ -227,16 +227,67 @@ export default function Project3() {
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
                 </h2>
 
-                <div className="project3--mocks-container">
+                <div className="project3--examples-container">
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/location_bgs.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg1.png"/>
                     </div>
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/color_bgs.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg2.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg3.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg4.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg5.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg6.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg7.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg8.png"/>
+                    </div>
+                </div>
+
+                <h2 className="project3--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+
+                <h2 className="project3--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+
+                <div className="project3--examples-container">
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik1.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik2.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik3.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik4.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik5.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik6.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik7.png"/>
+                    </div>
+                    <div>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik8.png"/>
                     </div>
                 </div>
 
@@ -250,28 +301,12 @@ export default function Project3() {
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
                 </h2>
 
-                <div className="project3--customize-gifs">
-                    <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/giveaway-loop.gif"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                    <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/freya-cloak.gif"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                </div>
-
                 <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    <a className="project3--link-to-button" href="https://opensea.io/collection/warriors-of-ether-viking" target="_blank">
+                        Here is the offical collection on OpenSea.
+                    </a>
                 </h2>
-
-                <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
+                
                 <br></br>
 
             </div>
@@ -811,6 +846,18 @@ export default function Project3() {
                         <div className="project3--video-container">
                             <video src="../videos/free_play_prototype.mp4" autoPlay loop muted className="free-play-video"/>
                         </div>
+
+                        <h2 className="project3--body">
+                            Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
+                            sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
+                            ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
+                            ut.
+                        </h2>
+
+                        <h2 className="project3--body">
+                            Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
+                            nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                        </h2>
 
                         <div className="projec4--footer"> 
                             <br></br> 

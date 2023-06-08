@@ -306,7 +306,7 @@ export default function Project3() {
                         Here is the offical collection on OpenSea.
                     </a>
                 </h2>
-                
+
                 <br></br>
 
             </div>
@@ -858,6 +858,10 @@ export default function Project3() {
                             Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
                             nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
                         </h2>
+
+                        <div className="project3--video-container">
+                            <img className="project3--img" src="../img/case_studies/project3/figma_game.png"/>
+                        </div>
 
                         <div className="projec4--footer"> 
                             <br></br> 

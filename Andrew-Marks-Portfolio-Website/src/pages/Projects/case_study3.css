@@ -71,6 +71,18 @@
     padding: 0 0 3rem;
 }
 
+.project3--video-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.free-play-video {
+    width: 70vw;
+}
+
 .project3--challenge {
     color: var(--clr-headings);
     font-size: var(--fs-h2);

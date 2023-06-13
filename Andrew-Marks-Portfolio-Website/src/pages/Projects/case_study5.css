@@ -196,8 +196,46 @@
 
 .project5--examples-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     padding: 4rem 0;
+    gap: 2rem;
+}
+
+.project5--mock_mobile-examples-container {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr 0.4fr 0.4fr;
+    padding: 4rem 0;
+    gap: 2rem;
+}
+
+.project5--mock-examples-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 0;
+    gap: 2rem;
+}
+
+.project5--video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.site-scroll {
+    width: 60%;
+}
+
+.project5--next-steps-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    padding: 4rem 0;
+    gap: 2rem;
+}
+
+.project5--link-to-button {
+    margin: 4rem 0;
 }
 
 /* Phase 2 */

@@ -7,11 +7,11 @@ export default function Project5() {
     return (
         <div className="project5--main-container">
             <div>
-                <img className="project5--larg-img" src="../img/case_studies/project5/bw_banner.png" />
+                <img className="project5--larg-img" src="../img/case_studies/project5/quests_banner.png" />
             </div>
 
             <div className="project5-headline-container">
-                <h1 className="project5--title">Battle Warriors Vikings of ETH: Design & Launch of a Generative NFT Collection and Gaming Ecosystem</h1>
+                <h1 className="project5--title">Quest for Valhalla: Fantasy & D&D inspired Tactics & Strategy Game.</h1>
                 <h2 className="project5--sub-head">
                     Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
                     sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
@@ -69,19 +69,19 @@ export default function Project5() {
             <div className="project5--sketch-group-container">
                 <div className="project5--sketch-group-imgs">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/face_sketch1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/map1.png"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/face_sketch2.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/map3.png"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/face_sketch3.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/original_map1.png"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/new_items_sketch.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/land2.png"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/early_archer.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/quest3.png"/>
                     </div>
                 </div>
                 <p className="project5--img-desc">
@@ -91,6 +91,62 @@ export default function Project5() {
             </div>
 
             <div className="project5--phase1-container">
+                <h2 className="project5--body">
+                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
+                    way around the map.
+                </h2>
+
+                <h2 className="project5--body">
+                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
+                    way around the map.
+                </h2>
+            </div>
+
+            <div className="project5--phase1-container">
+
+            <div className="project5--sketch-group-container">
+                <div className="project5--sketch-group-imgs">
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/village1.png"/>
+                    </div>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/adventure1.png"/>
+                    </div>
+                </div>
+                <p className="project5--img-desc">
+                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                    landing page visually worked on those small screens.
+                </p>
+            </div>
+
+            <h2 className="project5--body">
+                First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
+                way around the map.
+            </h2>
+
+            <div className="project5--sketch-group-container">
+                <div className="project5--sketch-group-imgs">
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/arch5.png"/>
+                    </div>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/arch6.png"/>
+                    </div>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/arch3.png"/>
+                    </div>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/arch1.png"/>
+                    </div>
+                </div>
+                <p className="project5--img-desc">
+                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                    landing page visually worked on those small screens.
+                </p>
+            </div>
 
                 <h2 className="project5--body">
                     First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
@@ -106,11 +162,15 @@ export default function Project5() {
 
                 <div className="project5--test-gen-container">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/test_generated_viking.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/card_design_sketch.png"/>
                         <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/test_generation.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/unrevealed_quest.png"/>
+                        <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                    </div>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/1st_quest.png"/>
                         <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
                     </div>
                 </div>
@@ -120,15 +180,10 @@ export default function Project5() {
                     to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
                     way around the map.
                 </h2>
-
-                <div className="project5--video-container">
-                    <video src="../videos/example_viking.mp4" autoPlay loop muted className="char-build-video"/>
-                </div>
-            </div>
-
-            <div className="project5--phase1-container">
+            
+            
                 <h1 className="project5--title">
-                    Phase 2 -- wireframes & initial mock ups
+                    Lets see some monsters.
                 </h1>
                 <h2 className="project5--body">
                     First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
@@ -145,16 +200,28 @@ export default function Project5() {
                 <div className="project5--banner-group-container">
                     <div className="project5--banner-group-imgs">
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/banner1.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/skeleton_warrior_card.png"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/banner2.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/goblin_grunt_card.png"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/banner3.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/fire_elemental_card.png"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/banner4.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/arcane_fox_card.png"/>
+                        </div>
+                        <div className="project5--img-container">
+                            <img className="project5--img" src="../img/case_studies/project5/dragon_card.png"/>
+                        </div>
+                        <div className="project5--img-container">
+                            <img className="project5--img" src="../img/case_studies/project5/gorgon_card.png"/>
+                        </div>
+                        <div className="project5--img-container">
+                            <img className="project5--img" src="../img/case_studies/project5/litch_card.png"/>
+                        </div>
+                        <div className="project5--img-container">
+                            <img className="project5--img" src="../img/case_studies/project5/nightmare_card.png"/>
                         </div>
                     </div>
                     <p className="project5--img-desc">
@@ -172,16 +239,26 @@ export default function Project5() {
                     First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
                     to where twitter and discord are. Lets implement a simple quick travel navigation menu.
                 </h2>
+                
+            </div>
 
-                <div className="project5--items-container">
-                    <div>
-                        <img className="project5--item-banner" src="../img/case_studies/project5/armory_weapons.png"/>
+        
+            <div className="project5--sketch-group-container">
+                <div className="project5--sketch-group-imgs">
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/level_up.png"/>
                     </div>
-                    <div className="project5--item-chests">
-                        <img className="project5--item-chest" src="../img/case_studies/project5/sm_chest.png"/>
-                        <img className="project5--item-chest" src="../img/case_studies/project5/lrg_chest.png"/>
+                    <div className="project5--img-container">
+                        <img className="project5--img" src="../img/case_studies/project5/dragon_levels.png"/>
                     </div>
                 </div>
+                <p className="project5--img-desc">
+                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                    landing page visually worked on those small screens.
+                </p>
+            </div>
+
+            <div className="project5--phase1-container">
                 
                 <h2 className="project5--body">
                     The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
@@ -196,22 +273,25 @@ export default function Project5() {
 
                 <div className="project5--mocks-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/helmets.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_commons.png"/>
                         <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
                         landing page visually worked on those small screens.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/axes.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_uncommons.png"/>
                         <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
                         landing page visually worked on those small screens.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/hammers.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_rares.png"/>
                         <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
                         landing page visually worked on those small screens.</p>
                     </div>
+                </div>
+
+                <div className="project5--all-quests-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/swords.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/all_quests.png"/>
                         <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
                         landing page visually worked on those small screens.</p>
                     </div>

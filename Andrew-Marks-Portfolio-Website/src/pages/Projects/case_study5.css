@@ -147,8 +147,8 @@
 
 .project5--test-gen-container {
     display: flex;
-    padding: 2rem 10rem 1rem;
-    gap: 10rem;
+    padding: 2rem 0rem 1rem;
+    gap: 1rem;
 }
 
 .project5--banner-group-container {
@@ -159,8 +159,8 @@
 }
 
 .project5--banner-group-imgs {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
 }
 
@@ -189,7 +189,7 @@
 
 .project5--mocks-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
     margin-bottom: 4rem;
 }

@@ -399,6 +399,11 @@ export default function Project5() {
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
                 </h2>
 
+                <div className="project5--video-container">
+                    <video src="../videos/quests_site_scroll_1.mp4" autoPlay loop muted className="site-scroll"/>
+                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                </div>
+
                 <h2 className="project5--body">
                     Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
                     than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
@@ -450,35 +455,6 @@ export default function Project5() {
                     take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
                 </h2>
 
-                <div className="project5--next-steps-container">
-                    <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/userflow.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                    <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/entered_portal_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                    <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/user_account_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                </div>
-                
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-                <br></br>
-
                 <div className="project5--mocks-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_wireframe.png"/>
@@ -508,12 +484,101 @@ export default function Project5() {
                 </h2>
                 <br></br>
 
-            </div>
+                <div className="project5--mocks-container">
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_design.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_design.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_details.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                </div>
+                
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
 
-            <div className="projec4--footer"> 
-                <br></br> 
-                <Link to="/projects" style={{ textDecoration: 'underline' }} className="project5--back-to-button">Back to projects </Link>
+                <div className="project5--video-container">
+                    <video src="../videos/library_early_demo.mp4" autoPlay loop muted className="site-scroll"/>
+                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                </div>
+
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
                 <br></br>
+
+                <div className="project5--video-container">
+                    <video src="../videos/quest details.mp4" autoPlay loop muted className="site-scroll"/>
+                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                </div>
+
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+
+                <div className="project5--video-container">
+                    <video src="../videos/mobile_prototype_1.mp4" autoPlay loop muted className="site-scroll-mobile"/>
+                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                </div>
+
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+                <br></br>
+
+                <h1 className="project5--title">
+                    Redesigning areas with a consistant design
+                </h1>
+                <h2 className="project5--body">
+                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                </h2>
+
+                <div className="project5--next-steps-container">
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/userflow.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/entered_portal_wireframe.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                    <div>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/user_account_wireframe.png"/>
+                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
+                        landing page visually worked on those small screens.</p>
+                    </div>
+                </div>
+                
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+
+                <h2 className="project5--body">
+                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
+                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                </h2>
+                <br></br>
+
+                <div className="projec5--footer"> 
+                    <Link to="/projects" style={{ textDecoration: 'underline' }} className="project5--back-to-button">Back to projects </Link>
+                </div>
+
             </div>
 
         </div>

@@ -227,6 +227,11 @@
     width: 60%;
 }
 
+.site-scroll-mobile {
+    width: 25%;
+}
+
+
 .project5--next-steps-container {
     display: grid;
     grid-template-columns: 1.5fr 1fr 1fr;

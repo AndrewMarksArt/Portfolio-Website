@@ -420,46 +420,14 @@ export default function Project2() {
                     <p className="project2--img-desc">Here is a screenshot of the Figma deliverable of the final design showing all of the different screens and a basic user flow.</p>
                 </div>
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    After launch the feedback from users was great, they loved crafting page and within days thousands of items had been crafted and traded between players.
                 </h2>
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    One piece of feedback I took to heart was some players were still not sure why they couldn't use the crafting page, they didn't realize only Shogun who trained as 
+                    "Artisan's" or "Shinto Priest's" could craft items. <b>With this feedback in mind and interviewing a few users I created new loading and landing screens for the 
+                        newer levels. These changes not only helped players understand the game better but also provided a way to build lore and story elements.
+                    </b>
                 </h2>
-
-
-                <h1 className="project2--title">
-                    Solution & Walk Through
-                </h1>
-                <h2 className="project2--body">
-                    Given a few images & the need to WOW when the player sucessfully crafts a new item. 
-                </h2>
-                <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
-                </h2>
-                <h2 className="project2--body">
-                    Requirements from client
-                </h2>
-                <ol className="project2--list">
-                    <li className="project2--list-item">
-                        Confusing buttons & layouts
-                    </li>
-                    <li className="project2--list-item">
-                        Hard to navigate & easy to get stuck
-                    </li>
-                    <li className="project2--list-item">
-                        Mobile layout issues & information hidden, users didn't know they could scroll or where to go
-                    </li>
-                </ol>
-            
             </div>
 
             <div className="project2--phase3-container">

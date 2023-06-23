@@ -438,51 +438,75 @@ export default function Project2() {
                     Designing the Beast Forest
                 </h1>
                 <h2 className="project2--body">
-                    Looking at how we can take a simple rng game, elevate it & add excitement.
+                    Simply speaking many aspects of the Shogun War game can be boiled down to the player selecting a Shogun to use, rolling a dice or using some king of random
+                    number generator, then determin the outcome.
                 </h2>
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    These aspects were ment to keep players and users engaged, build a comminity, and help fund the development of the more advanced game elements being developed.
                 </h2>
                 <h2 className="project2--body">
-                    Requirements from client
+                    <b>So the main issue I had to try and solve was how do you keep players engaged when the "game" or "level" could be described as clicking a button, wait a few
+                        seconds, and see if I won?
+                    </b>
+                </h2>
+                <h2 className="project2--body">
+                    <b>Requirements from client</b>
                 </h2>
                 <ol className="project2--list">
                     <li className="project2--list-item">
-                        Confusing buttons & layouts
+                        Keep players engaged in a very simple and repatative "game".
                     </li>
                     <li className="project2--list-item">
-                        Hard to navigate & easy to get stuck
+                        Keep the artwork the focus and build a sense of excitement.
                     </li>
                     <li className="project2--list-item">
-                        Mobile layout issues & information hidden, users didn't know they could scroll or where to go
+                        Make sure to add more tips and hints for players as to which Shogun characters could use the "Beast Forest".
                     </li>
                 </ol>
 
+                <br></br>
+
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_assets.png"/>
-                    <p className="project2--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.</p>
+                    <p className="project2--img-desc">Art assets provided to me to build the level, a main background with day and night hues, and icons for the different rewards.</p>
                 </div>
+                <br></br>
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    Just like with the "Crafting" page I was provided with a few images and given the creative license to <b>create an experience that players would enjoy.</b>
+                </h2>
+
+                <h2 className="project2--body">
+                    Since I had the two images a light and dark it gave me the idea to play with the colors a bit, when the player enters the "Beast Forest" I showed the brighter image
+                    then slowly faded it darker to <b>start creating a sense of suspense and let the player know something else is about to come.</b>
+                </h2>
+
+                <h2 className="project2--body">
+                    Then I created the "Welcome" text. Here we could greet the player, list the types of characters who could use the "Beast Forest", and <b>add a bit of lore
+                    to keep building up a sense of excitement/adventure.
+                    </b>
+                    
+                </h2>
+
+                <h2 className="project2--body">
+                    It was also important to add a "Skip" button so that returning players wouldn't have to wait through the welcome and intro screens.
                 </h2>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_loading.gif"/>
-                    <p className="project2--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.</p>
+                    <p className="project2--img-desc">Here is an early prototype, welcoming the player, giving hints to the player but in a way that leads into story elements helping 
+                    build some excitement, and finally sticking with the brand colors to show the "Select" buttonto get started and the "Skip" button to let players enter faster.</p>
                 </div>
+
+                <br></br>
+
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    Once the player entered the forest, I used the same grid and modal layout used in other areas for consistency. I also added a pop up for players who enter but don't
+                    have any Shogun characters that can be used explaining to the user why they couldn't continue. This was added based on user feedback from the "Crafting" page.
+                </h2>
+
+                <h2 className="project2--body">
+                    Players could then select which Shogun they wanted to use leading to the confirm screen where they could see the Shoguns stats, the chance of sucess the SHogun had,
+                    the cost to enter, and the "Enter" button.
                 </h2>
 
                 </div>
@@ -490,123 +514,172 @@ export default function Project2() {
                 <div className="project2--beast-forest-redo">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/no_character.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    <p className="project2--img-desc">Based on user feedback from the "Crafting" page I added a screen for players who don't have eligable Shoguns explaining why
+                    they can't continue.</p>
                 </div>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_select.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    <p className="project2--img-desc">Shogun select screen using the familar grid layout and basic stats.</p>
                 </div>
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_confirm.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    <p className="project2--img-desc">Confirm screen shows additional stats giving the player a look at how successful they might be. Eventually 
+                    players would be able to equip items that could boost those stats.</p>
                 </div>
                 </div>
 
                 <div className="project2--phase3-container">
 
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    The actual game part of the "Beast Forest" at this stage is very simple, the user enters the forest, selects, an eligable Shogun, confirms the
+                    Shogun and pays.
+                </h2>
+
+                <h2 className="project2--body">
+                    With such a simple process I really tried to darken and lighten the image, use text to tell a story, and create a few different result animations 
+                    to make the experience a bit more exciting. Below is the Figma file used that shows the user flow and different outcomes.
                 </h2>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/forest_figma.png"/>
-                    <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                    <p className="project2--img-desc">Screen shot of the Figma file showing the user flow and building the prototype.</p>
                 </div>
 
+                <br></br>
+
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    I darkened the image quite a bit from the top to add a bit of suspense, then the text indicating what is 
+                    happening bounces while the result is pending, and finally when the result is ready the text animates up from lower and also lightens the image back up.
+                </h2>
+
+                <h2 className="project2--body">
+                    The darkness and bouncing progress text helps build a bit of suspense so the results text lifting up from the bottom and lightening the image should help 
+                    build some hope and excitement for the player but leaves them waiting for just a second not knowing how well they did.
+                </h2>
+
+                <h2 className="project2--body">
+                    Finally we get to the results. There were 3 outcomes, poor, good, and amazing. Since I brought the players hope and excitement up leading to the results
+                    if the result was poor the reward image and text would slide back down and the image darken to symbolize disapointment.
+                </h2>
+
+                <h2 className="project2--body">
+                    If the result is good, I added some rays of light coming out of the forest with a larger rewards icon to show the success of the player.
+                </h2>
+
+                <h2 className="project2--body">
+                    And finally if the result is amazing, the text and large reward icon raise even higher and I created an explosion of light coming out of the forest.
                 </h2>
 
                 <div className="project2--crafting-design">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_raid.gif"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Create suspense with the darker background image and bouncing text.</p>
                     </div>
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_bad.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Example poor result, image stays dark, text drops and reward icon small to signal disapointment.</p>
                     </div>
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_ok.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Example good result, screen brightens with rays of light, larger rewards icon to signal success.</p>
                     </div>
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_good.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Example amazing result, text raised higher, larg reward icon, explosion of light to signal a great acheivement.</p>
                     </div>
                 </div>
                 
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    After launching the Beast Forest the player feedback was great, the new pop up for players who didn't have a Shogun that could access the forest really helped
+                    limit confussion, and with some of the rewards introducing a new item "The Wolf" it created huge incentives to play and replay.
                 </h2>
 
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    One bit of negative feedback I heard from users was that for players with lots of Shoguns looking to play over and over as much as they could, the elements added
+                    to build suspense, the darkening of the image, the bouncing text, and the slight delay before the rewards took to long. For players replaying the forest a lot
+                    they wanted a way to get to the results quicker.
                 </h2>
+
+                <h2 className="project2--body">
+                    So after talking with users and keeping that feedback in mind, I began designing the "Tomb of the Undead King!"
+                </h2>
+
+                <br></br>
 
                 </div>
                 
                 <div className="project2--phase2-container">
 
                 <h1 className="project2--title">
-                    Designing the Beast Forest
+                    Designing the Tomb of the Undead King
                 </h1>
 
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    The final level design I was in charge of was the "Tomb of the Undead King" which was going to be the first boss level. Again though like the Crafting page and the
+                    Beast Forest this is a simple version to keep players engaged and help fund the development of the much more advanced game.
                 </h2>
 
-                <h1 className="project2--title">
-                    Designing the Beast Forest
-                </h1>
                 <h2 className="project2--body">
-                    Looking at how we can take a simple rng game, elevate it & add excitement.
+                    This level is very similar to the Beast Forest but where I was testing new design ideas for equiping items and skiping through some of the slower parts. These ideas 
+                    were being tested based on the user feedback and interviews conducted.
+                </h2>
+
+                <h2 className="project2--body">
+                    So again I was given a main image to use as the background, I used the same Welcome message style as the Beast Forest, used the image to create the color pallet, 
+                    the same grid and modal layout, and added different light elements to the image for the different results. 
                 </h2>
 
                 <div className="project2--crafting-design">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_intro.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Similar welcome meassage to the Beast Forest but used different colors to highlight which Shoguns could enter.</p>
                     </div>
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_equip.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">The new Equip Shogun screen where players can pick from their inventory items to increase their chances of a better result. </p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/undead_ok.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <img className="project2--img" src="../img/case_studies/project2/undead_equiped.png"/>
+                        <p className="project2--img-desc">New Confirm screen showing the equiped item and the stats boost that item provides.</p>
                     </div>
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_good.png"/>
-                        <p className="project2--img-desc">Navigation was the largest issues users had when playing.</p>
+                        <p className="project2--img-desc">Example of a great result, here the light is bursting out of the tomb and all of the lamps glow brighter.</p>
                     </div>
                 </div>
 
                 <h2 className="project2--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    After completing the new designs for the Tomb of the Undead King we tested it with a few users who loved it, some did want a way to bulk select so they could 
+                    select all the warriors at once and have them play all in one go. The project founder didn't want to explore that to much since we wanted players to spend more
+                    time in the game and with the exception of a few power users players didn't have enough Shoguns that would make running through multiple times take too long.
+                </h2>
+
+                <h2 className="project2--body">
+                    Below is the Figma screenshot shows of the Tomb of the Undead King user flow and what I built the prototype from.
+                </h2>
+
+                <div className="project2--img-container">
+                    <img className="project2--img" src="../img/case_studies/project2/undead_figma.png"/>
+                    <p className="project2--img-desc">Screen shot of the Figma file showing the user flow and building the prototype.</p>
+                </div>
+
+                <br></br>
+
+                <h2 className="project2--body">
+                    This was the final level I design for the project which was never implemented. The users were really excited to see more development in the 3D
+                    game and with the small size of the team and the worsening market conditions foucs was shifted in that direction.
+                </h2>
+
+                <h2 className="project2--body">
+                    After leading the redesign and the new level designs the project was able to fix a lot of the major issues users were running into. The navigation
+                    was fixed, all main areas were redesinged with the same layout for consistency, search and filter options were added, bulk actions could be performed
+                    making it much easier for players to get the maximum results. And three new areas were designed increasing player retention, improving new player onboarding
+                    and increase revenue for the project.
                 </h2>
 
                 <div>

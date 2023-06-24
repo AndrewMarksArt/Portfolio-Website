@@ -101,81 +101,86 @@ export default function Project4() {
                     Wireframes & initial mock ups
                 </h1>
                 <h2 className="project4--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    After the client meeting I was able to take the sketch provided and break the overall project into key sections. The top sections had to be focused on security, 
+                    viewing team members permissions, and alerts.
+                </h2>
+                <h2 className="project4--body">
+                    From there the focus would switch to metrics and overall stats, this section would need to be customizable to fit the users specific needs. But from there it was
+                    a bit less defined, I would need a section for social media overview, colabs and marketing promos, and rankings but it was less clear how those sections would look.
                 </h2>
             
                 <div className="project4--wireframe-container">
                     <div className="project4--img-container">
                         <img className="project4--img" src="../img/case_studies/project4/wireframe_sketch.png"/>
-                        <p className="project4--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project4--img-desc">Picture of original wireframe sketch that was shown to the clients to get feedback and iterate on.</p>
                     </div>
                 </div>
 
                 <h2 className="project4--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                    My process is very iterative and with a background in Agile development I made sure to meet with teh client frequently to get feedback and make sure things
+                    were going in the right direction.
                 </h2>
 
                 <h2 className="project4--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                    The client laughed at how I was able to "take the crappy sketch" they gave me and start to make it look like something real. They loved the direction I was going 
+                    and provided me a few more examples for the colab and promotion section and what they wanted to see for the social media overview.
+                </h2>
+
+                <h2 className="project4--body">
+                    With that feedback I was able to start building the mock up in Figma, building on the wireframe and incorporating the color scheme and styles that were approved.
                 </h2>
 
                 <div className="project4--mocks-container">
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/roles_alerts_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">Here is the top section showing different team members, here we have a quick view with a fast revoke button, and we can 
+                        see active and revoked members. Additionally there is the "Alerts" section with the examples of different severity alerts.</p>
                     </div>
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/stats_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">Next is an example of some basic stats and how it might be organized, these can be moved/rearanged or swapped out for
+                        different metrics.</p>
                     </div>
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/wl_ranks_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">The colabs, ranking and social over view section was the area I was the least sure about. Here is the mock up I fist started
+                        with before getting examples from the client.</p>
                     </div>
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/colab_feedback.png" />
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">This was the example image provided by the client after our tag up to help me design the final sections.</p>
                     </div>
                 </div>
                 
                 <h2 className="project4--body">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                    After meeting with the client and seeing their example about how they were tracking the colabs and whitelists I realized I didn't need such a large section 
+                    for them. That ment I could use that space to track social media metrics and posts. The top posts section can be filtered for most likes, reposts, engagement, etc.
                 </h2>
 
                 <h2 className="project4--body">
-                    On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                    from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                    very important to the client.
+                    Now that I had a better idea of what the client was looking for in regards to the Colabs I reached back out to them to get some clarity on how they would use the
+                    Rankings. With that I was able to finish the last section for Colabs and to track which members/holders were most active, had the highest engagement, held the most
+                    NFTs or ETH, etc. 
                 </h2>
 
                 <div className="project4--mocks-container">
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/need_fix_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">The original mock up used to test spacing before meeting again with the client to get feedback and clarity.</p>
                     </div>
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/socail_ranks_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">Colab section didn't need to be as large as I thought originally and provided the space needed for a Social Media Overview section.</p>
                     </div>
                 </div>
 
                 <h2 className="project4--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    That covered all of the requirements the client had, the dashboard was built not quite in a mobile first method but tailored for smaller screens that could easily expand
+                    to larger screens. By working in an Agile fashion I was able to meet and get feedback from the client as the design was developing streamlining the process and delivering 
+                    a final mock up that they loved.
                 </h2>
 
-                <h1 className="project4--title">Nudges, tips, & exploration.</h1>
+                <h1 className="project4--title">Final design and Deliverable</h1>
                 <div className="project4--scroll-container">
                     <div className="project4--scroll-description">
                         <img className="project4--scroll-gif" src="../img/case_studies/project4/dashboard_scroll.gif"/>

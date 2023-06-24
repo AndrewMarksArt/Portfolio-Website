@@ -182,98 +182,61 @@ export default function Project4() {
 
                 <h1 className="project4--title">Final design and Deliverable</h1>
                 <div className="project4--scroll-container">
-                    <div className="project4--scroll-description">
-                        <img className="project4--scroll-gif" src="../img/case_studies/project4/dashboard_scroll.gif"/>
-                        <p className="project4--img-desc">
-                            When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
-                            where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
-                            experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.
-                        </p>
-
-                        <p className="project4--img-desc">
-                            When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
-                            where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
-                            experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.
-                        </p>
-
-                        <p className="project4--img-desc">
-                            When new players join & get started there can be a lot to take in, by add simple animations we can nudge players 
-                            where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
-                            experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.
-                        </p>
-                    </div>
-                    <div className="project4--full-dash">
-                        <img className="project4--full-dash-img" src="../img/case_studies/project4/full_dash.png"/>
-                    </div>
-                    
+                    <img className="project4--full-dash-img" src="../img/case_studies/project4/full_dash.png"/>
                 </div>
 
             </div>
 
             <div className="project4--phase2-container">
-                <p className="project4--challenge">
-                    Balance & Concistency
-                </p>
                 <h1 className="project4--title">
-                    Redesigning areas with a consistant design
+                    Next Steps
                 </h1>
                 <h2 className="project4--body">
-                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                    After getting approval from the client on the final dashboad design, I started creating mock ups for the team members security screens and individual team member details,
+                    this wasn't part of the project or scope of work but I felt it would help the team nail down more concretly how they wanted to start developing the next part of the project
+                    since they were still a bit unsure. 
                 </h2>
+
                 <h2 className="project4--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    When looking at all the team memebrs, I created a grid layout with simple cards that matched the main dashboard section but would allow the users to quickly see everything, 
+                    and while it isn't in this mock up a search/filter option would work nicely to quickly find who you needed.
                 </h2>
+
                 <h2 className="project4--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    Each card would open up a details modal where notes and activities could be logged, then if revoking or changing permissions there would be check boxes to select which roles,
+                    or a revoke all button. Finally, a confirm screen to make sure the user wanted to complete the action and a space for adding notes.
                 </h2>
+                
+                
 
                 <div className="project4--redesign-container">
                     <div className="project4--img-container">
                         <img className="project4--img" src="../img/case_studies/project4/all_team_mock.png"/>
-                        <p className="project4--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project4--img-desc">Team member cards that can be scrolled through quickly, need to addsom sort and filter options.</p>
                     </div>
                 
 
                     <div className="project4--img-container">
                         <img className="project4--img" src="../img/case_studies/project4/selected_user_mock.png"/>
-                        <p className="project4--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                        from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                        very important to the client.</p>
+                        <p className="project4--img-desc">Individual team member details modal where users can add notes and check recent activity.</p>
                     </div>
 
                     <div className="project4--img-container">
                         <img className="project4--img" src="../img/case_studies/project4/select_roles_mock.png"/>
-                        <p className="project4--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        <p className="project4--img-desc">Example revoke screen, see active status, select which roles to revoke, or just revoke all.</p>
                     </div>
 
                     <div className="project4--img-container">
                         <img className="project4--img" src="../img/case_studies/project4/confirm_mock.png"/>
-                        <p className="project4--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        <p className="project4--img-desc">Confirm actions screen, user can add notes after making sure the correct permissions/security changes are being made.</p>
                     </div>
                 </div>
 
-                <div>
-                    <h1 className="project4--title">
-                        Key issues & comments from users.
-                    </h1>
-                    <h2 className="project4--body">
-                        Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                        nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
-                    </h2>
-                    <h2 className="project4--body">
-                        Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                        sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                        ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                        ut.
-                    </h2>
-                </div>
+                <h2 className="project4--body">
+                    These screens and mock ups are a bit rough and ment to serve as a starting point for user testing. I can already see a few areas that might need to be redone but
+                    getting feedback from users and doing some paper prototyping/ testing would give us more information to make sure development is heading in the right direction.
+                </h2>
+                
 
                 <div className="projec4--footer"> 
                 <br></br> 

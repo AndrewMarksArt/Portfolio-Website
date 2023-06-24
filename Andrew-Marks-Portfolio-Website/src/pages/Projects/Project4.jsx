@@ -13,15 +13,21 @@ export default function Project4() {
             <div className="project4-headline-container">
                 <h1 className="project4--title">Discord Community Manager & Dashboard</h1>
                 <h2 className="project4--sub-head">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    During the last cryptocurrency bull market towards the later stages in late 2021 and early 2022 a series of projects suffered catestrophic hacks and security breaches.
+                    Twitter was the primary social media platform for most projects but esspecially for NFTs community was one of the largest selling points and all major projects had 
+                    Discord servers where investors, collectors, and those just interested in learning more could hang out. And while some projects used Telegram, or WhatsApp, twitter
+                    and Discord were the focus of this project.
                 </h2>
                 <h2 className="project4--sub-head">
-                    I was brought on by the project founder to help redsign the player experience to help onboard new players, bring more consistency to the game,
-                    and help design new levels for players to explore.
+                    Since these projects made announcment, posted official links, and marketed to all of their followers security became a huge issue. Sim swaps, hacks, social engineering, 
+                    etc. were all techniques used by bad actors to try and hijack these communities and spread scams.
                 </h2>
+                <h2 className="project4--sub-head">
+                    I was hired by three project founders who had launched a successful NFT gaming project, helped uncover a smart contract vulneralbility in a large cryptocurrency project,
+                    and advised/colabed with many other NFT project. The biggest risk they saw to their projects was security and they wanted to build a dashboard where they could monitor
+                    all of their projects across Discord and Twitter and take quick action if needed.
+                </h2>
+                <br></br>
             </div>
 
             <div className="project4--phase1-container">
@@ -32,20 +38,28 @@ export default function Project4() {
                     Client Meeting -- needs, thoughts, basic requirements
                 </h1>
                 <h2 className="project4--body">
-                    My Role, Methodology & Approach Taken. 
+                    My Role role was to help turn the rough idea and sketchs the founders had into wireframes and highfidelity mock ups. 
                 </h2>
                 <h2 className="project4--body">
                     Client requirements & needs:
                 </h2>
                 <ol className="project4--list">
                     <li className="project4--list-item">
-                        Confusing buttons & layouts
+                        Needed to be able to see team members for all projects, the roles and permissions they had, and to be able to revoke those permissions as quickly as possible
+                        if that team member was compromised.
                     </li>
                     <li className="project4--list-item">
-                        Hard to navigate & easy to get stuck
+                        They also needed to be able monitor social media and other sites for alerts of various severity, from hacks to data connection or API issues.
                     </li>
                     <li className="project4--list-item">
-                        Mobile layout issues & information hidden, users didn't know they could scroll or where to go
+                        Since the cryptocurrency market is 24/7 and news can break at anytime, the design needed to be mobile friendly so if a user was out and away from their computer
+                        when a hack occured or if it happend in the middle of the night they could quickly and easily take action from their phone.
+                    </li>
+                    <li className="project4--list-item">
+                        Along with monitoring security and alerts they wanted to be able to tack metrics and community stats.
+                    </li>
+                    <li className="project4--list-item">
+                        The design would also need to be flexible and custimizable as this was being built as a product they could sell to other projects and not just for personal use.
                     </li>
                 </ol>
                 <h2 className="project4--body">
@@ -53,14 +67,16 @@ export default function Project4() {
                 </h2>
                 <ol className="project4--list">
                     <li className="project4--list-item">
-                        How to get started, where to go, who can do what?
+                        I was given a very simple sketch with the requirements which helped me get started with wireframing quickly which I shared with the client to get feedback and
+                        iterate quickly.
                     </li>
                     <li className="project4--list-item">
-                        For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of there warriros, what can be done, 
-                        and manage their army.
+                        Along with the sketch and notes, they provided a few designs to use as benchmarks and while they couldn't explain exactly the color scheme or look they wanted 
+                        we had wroked together in the past and I had a good idea of what they were looking for.
                     </li>
                     <li className="project4--list-item">
-                        Mechanics & gameplay a bit confusing, not sure how to best use their Shoguns.
+                        I created a mood board with images that fit a neon/tokyo or neon/miami asthetic and a retro/futuristic style, once the client approved I was able to create the 
+                        projects color pallet.
                     </li>
                 </ol>
 
@@ -77,11 +93,12 @@ export default function Project4() {
                         Example images and styles the client liked and wanted to capture in the project along with a color pallet I created from those images.
                     </p>
                 </div>
+                <br></br>
             </div>
 
             <div className="project4--phase1-container">
                 <h1 className="project4--title">
-                    Phase 2 -- wireframes & initial mock ups
+                    Wireframes & initial mock ups
                 </h1>
                 <h2 className="project4--body">
                     First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper

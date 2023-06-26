@@ -231,6 +231,10 @@
     padding: 3rem 0;
 }
 
+.project3--site-img-container {
+    padding: 0 12rem;
+}
+
 .project3--medium-links-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

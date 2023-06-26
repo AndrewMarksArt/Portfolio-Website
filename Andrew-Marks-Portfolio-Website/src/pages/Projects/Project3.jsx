@@ -279,180 +279,115 @@ export default function Project3() {
             <div className="project3--phase2-container">
                 <br></br>
                 <p className="project3--challenge">
-                    Balance & Concistency
+                    Community Building, Website, and dApp to mint.
                 </p>
                 <h1 className="project3--title">
-                    Redesigning areas with a consistant design
+                    Website and Minting Site Wireframes
                 </h1>
                 <h2 className="project3--body">
-                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                    As development was moving along I needed to create a website that would have the offical roadmap, mint deatils, official links, etc. 
                 </h2>
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Because of time constraints, I decied to use Squarespace to build a no code site. I created some simple wireframes about what the structure needed to look like 
+                    and I do have a bit of experience with HTML, CSS, etc. I felt to meet dealines and create a sucessful launch a no code simple site was the best option.
                 </h2>
                 <h2 className="project3--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    Below are the wireframes for the main site and the minting site, I wanted to use a large visual to bring the user in with a strong CTA. During development 
+                    the CTA button would being visitors to the Discord where we could try and get them to join the community. That would be followed by a small about us, key dates 
+                    and a simple road map, and then some examples of the artwork.
+                </h2>
+                <h2 className="project3--body">
+                    For the Minting site I worked with my friend who developed a simple React app which would show how many Vikings were left, a way to conenct the users wallet, and 
+                    quick mint buttons to mint 1, 3, or 5 Vikings. I also needed to have some disclaimers and advice about how to set the gas fees for Ethereum.
                 </h2>
 
                 <div className="project3--redesign-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/site_wireframe.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Main website wireframe, staring with the main background image and CTA, leads into a gallery and project roadmap,
+                        a large gallery to show off the current artwork, and then links to all socials.</p>
                     </div>
                 
 
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/dapp_wireframe.png"/>
-                        <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                        from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                        very important to the client.</p>
+                        <p className="project3--img-desc">Design for simple dApp to mint the Viking characters. Main pannel with the number of Vikings left, gifs on the side that show 
+                        example Vikings so users can see what they might mint, once connected quick mint buttons and warnings about Etheruem.</p>
                     </div>
 
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/bw_site.png"/>
-                        <p className="project3--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        <p className="project3--img-desc">What the main site looked like, large Viking village image, title and CTA to launch minting site, before mint this would push 
+                        to our social media links to try and build followers.</p>
                     </div>
 
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/bw_dapp_site.png"/>
-                        <p className="project3--img-desc">Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                        than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.</p>
+                        <p className="project3--img-desc">Minting site showing how many Vikings are left, example Vikings on the sides to show users what they could mint, and quick 
+                        mint buttons letting users know they can mint 1, 3, or 5 at a time.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    The site was a great way to onboard Web2 users, help get the roadmap and articles out, and drive traffic to our social medial accounts. Before launching the mint site 
+                    this helped me grow the Discord community over 200% to 3,000 members, and our Twiiter over 150% to more than 5,000 followers.
                 </h2>
-
-                <div className="project3--redesign-container">
-                    <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/site_wireframe.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
-                    </div>
-                
-
-                    <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/dapp_wireframe.png"/>
-                        <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                        from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                        very important to the client.</p>
-                    </div>
-                </div>
 
                 <div>
                     <h1 className="project3--title">
-                        Key issues & comments from users.
+                        Keeping users upto date and bringing them into the design procress.
                     </h1>
                     <h2 className="project3--body">
-                        Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                        nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                        As I was building the project I was constantly working with the community, getting feedback, and making iterative changes. At the begining there was definetly 
+                        some scope creap as more and more features and content was added. This led to some confusion from new members as it become difficult to keep all the documentation 
+                        current.
                     </h2>
 
                     <h2 className="project3--body">
-                    Design notes & ideas:
-                    </h2>
-                    <ol className="project3--list">
-                        <li className="project3--list-item">
-                            How to get started, where to go, who can do what?
-                        </li>
-                        <li className="project3--list-item">
-                            For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of there warriros, what can be done, 
-                            and manage their army.
-                        </li>
-                        <li className="project3--list-item">
-                            Mechanics & gameplay a bit confusing, not sure how to best use their Shoguns.
-                        </li>
-                    </ol>
-
-                    <h2 className="project3--body">
-                        Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                        nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                        One way I felt that worked well was creating a series of Medium articles that laid out the vision for the project, a lose timeline, new deatils as development 
+                        continued, and any important updates. We could then link to these from our site and our social media accounts which was helpful to new members.
                     </h2>
 
                     <div className="project3--medium-links-container">
                         <div className="project3--img-container">
                             <a href="https://battlevikingnft.medium.com/battle-warriors-vikings-of-eth-553df4cae393" target="_blank">
                                 <img className="project3--medium-img" src="../img/case_studies/project3/bw_banner.png"/>
-                                <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                                landing page visually worked on those small screens.</p>
+                                <p className="project3--img-desc">Very short article introducing the project, and trying to get readers to join our Discord server where we were building
+                                our community.</p>
                             </a>
                         </div>
 
                         <div className="project3--img-container">
                             <a href="https://battlevikingnft.medium.com/looks-rare-or-does-it-fc49b56dcc6a" target="_blank">
                                 <img className="project3--medium-img" src="../img/case_studies/project3/power_stones.png"/>
-                                <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                                from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                                very important to the client.</p>
+                                <p className="project3--img-desc">Short article on rarity, the powerstones, upgrades and customizations, and again trying to get the reader to join our Discord.</p>
                             </a>
                         </div>
 
                         <div className="project3--img-container">
                         <a href="https://battlevikingnft.medium.com/whats-in-a-rank-281d0aaaa9ed" target="_blank">
                                 <img className="project3--medium-img" src="../img/case_studies/project3/stats_card.png"/>
-                                <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                                from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                                very important to the client.</p>
+                                <p className="project3--img-desc">More detailed breakdown on how the characters would work, covering ranks, stats, items, and levels.</p>
                             </a>
                         </div>
                     </div>
 
                     <h2 className="project3--body">
-                        Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                        sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                        ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                        ut.
+                        In addition to the Medium articles we held some AMA's and took questions from the community to create an FAQ. Here is the old official site, I'm currently in the process 
+                        of transfering the content to our new site as I build out the next stage of the project but have left this one up so people could see how far the project has come.
                     </h2>
 
-                    <h2 className="project3--body">
-                        Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                        nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
-                    </h2>
-
-                    <div className="project3--medium-links-container">
-                        <div className="project3--img-container">
-                            <a href="https://battlevikingnft.medium.com/battle-warriors-vikings-of-eth-553df4cae393" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/bw_site.png"/>
-                                <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                                landing page visually worked on those small screens.</p>
-                            </a>
-                        </div>
-
-                        <div className="project3--img-container">
-                            <a href="https://battlevikingnft.medium.com/looks-rare-or-does-it-fc49b56dcc6a" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/discord.png"/>
-                                <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                                from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                                very important to the client.</p>
-                            </a>
-                        </div>
-
-                        <div className="project3--img-container">
-                        <a href="https://battlevikingnft.medium.com/whats-in-a-rank-281d0aaaa9ed" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/bw_twitter.png"/>
-                                <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                                from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                                very important to the client.</p>
+                    <div className="project3--site-links-container">
+                        <div className="project3--site-img-container">
+                            <a href="https://www.battlewarriors.io" target="_blank">
+                                <img className="project3--site-img" src="../img/case_studies/project3/bw_site.png"/>
+                                <p className="project3--img-desc">You can see the old official page here, there is a new site being built to better fit the new project content but this 
+                                site will stay up so everyone can see how far teh project has come.</p>
                             </a>
                         </div>
                     </div>
 
-                    <h2 className="project3--body">
-                        Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                        sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                        ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                        ut.
-                    </h2>
+                    <br></br>
 
                 </div>
             </div>

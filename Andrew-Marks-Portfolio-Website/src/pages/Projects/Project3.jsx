@@ -66,9 +66,9 @@ export default function Project3() {
                 <br></br>
 
                 <h2 className="project3--body">
-                    As creator and project founder my goal was to see where oportunities in the market were but also talk to real users and see how I could create something 
-                    to fill that oportunity and deliver value to users. As creator and project founder my goal was to see where oportunities in the market were but also talk to real users and see how I could create something 
-                    to fill that oportunity and deliver value to users. 
+                    The first stage of the project was testing the concept, below are some early character sketches testing different facial expressions, hairstyles, items 
+                    and weapons, etc. When designing a generatvie NFT project you have to be careful with the number of traits, too few and everything looks the same and 
+                    there's not enough variability. But the other issues is too many traits and everything becomes rare meaning nothing is really rare. 
                 </h2>
 
             </div>
@@ -92,41 +92,44 @@ export default function Project3() {
                     </div>
                 </div>
                 <p className="project3--img-desc">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                    Early character sketches testing different traits and combos, I needed to see if it was possible for me to create enough different traits to create the
+                    characters and all the different items would work together.
                 </p>
             </div>
 
             <div className="project3--phase1-container">
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    After some initial sketches I need to test if the characters could be randomly generated and if the images could be created from all different trait images.
                 </h2>
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    I wrote a simple python script to generate a sample Viking warrior and to get the images 
+                    associated with the traits that character had to create the charater image. Once I was able to create a randomly generated character I expanded the script to 
+                    test creating many characters and then building each of those characters.
                 </h2>
 
                 <div className="project3--test-gen-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/test_generated_viking.png"/>
-                        <p className="project3--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project3--img-desc">First Viking character randomly generated and created from the individual trait images.</p>
                     </div>
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/test_generation.png"/>
-                        <p className="project3--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project3--img-desc">Adjusting the script to create many different characters with different traits.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    These sketches and sample generated VIking characters help show the MVP would work, I spent lots of time sharing progress pictures and ideas online talking to 
+                    real users of other projects to get feedback and found there was a lot of excitement for the project.
                 </h2>
+
+                <h2 className="project3--body">
+                    From there I needed to create all of the traits, clean up all the artwork, and start generating Viking warriors to make sure there was a good balance of traits. Below is
+                    an example of one of the final tempaltes with the final artwork showing how I was able to build the characters that would be minted.
+                </h2>
+
 
                 <div className="project3--video-container">
                     <video src="../videos/example_viking.mp4" autoPlay loop muted className="char-build-video"/>
@@ -135,18 +138,16 @@ export default function Project3() {
 
             <div className="project3--phase1-container">
                 <h1 className="project3--title">
-                    Phase 2 -- wireframes & initial mock ups
+                    Utility, Community, and Incentives
                 </h1>
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    One goal of the project was to try and create some fun competition by introducing different clans, these would be showcased with different banners and only our 
+                    early supporters and minters of the original launch would get them. 
                 </h2>
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    Below is an example of a few of the different clan banners, this would try and create freindly competiton between players and give extra benefits to our earliest
+                    users through staking and exclusive content.
                 </h2>
             
                 <div className="project3--banner-group-container">
@@ -165,19 +166,18 @@ export default function Project3() {
                         </div>
                     </div>
                     <p className="project3--img-desc">
-                        The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.
+                        Original version 1 characters when minted would get clan banners, after talking to our users we picked a few popular projects that the banners would be nodes to.
                     </p>
                 </div>
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                    From the very begining I knew the characters needed to be upgradeable, if you minted a low level character with no weapons and played our early games you would 
+                    be able to earn gold to buy item chests or craft new items to upgrade your characters making them stronger.
                 </h2>
 
                 <h2 className="project3--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                    Below are some examples of the level 1 common weapons and some item chests, along with earning gold to get item chests early community members who got on the whitelist
+                    to be some of the first minters would get extra items. 
                 </h2>
 
                 <div className="project3--items-container">
@@ -191,84 +191,42 @@ export default function Project3() {
                 </div>
                 
                 <h2 className="project3--body">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
-                </h2>
-
-                <h2 className="project3--body">
-                    On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                    from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                    very important to the client.
+                    Next up are some examples of all the different "Helmet" items and how weapons could be leveled up from throwing axes to power axes, one handed hammers to warhammers,
+                    and how swords could be leveld up from basic to powered to level 2.
                 </h2>
 
                 <div className="project3--mocks-container">
                     <div>
                         <img className="project3--img-mobile" src="../img/case_studies/project3/helmets.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Here are different Helmets all the warriors could get, a basic metal cap, to horned helmets with broken or downward horns, 
+                        to skull masks, winged helms, and crowns for the highest level high kings and queens.</p>
                     </div>
                     <div>
                         <img className="project3--img-mobile" src="../img/case_studies/project3/axes.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">These are the example Axes, from a throwing axe tha can be held in either hand, to a two handed axe, then a heavy axe, and 
+                        finally the power axe that has special abilities from a power stone which are unique items in the game with magical abilities.</p>
                     </div>
                     <div>
                         <img className="project3--img-mobile" src="../img/case_studies/project3/hammers.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">These are the differenet hammers, the small hammer is based on Thors hammer and can be held in the main or off hand, then 
+                        is the two handed warhammer, and powered hammer using a power stone.</p>
                     </div>
                     <div>
                         <img className="project3--img-mobile" src="../img/case_studies/project3/swords.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Here is the basic sword, this is based on my favorite game Rouge Legacy, the basic sword can be upgraded with a powered stone 
+                        making it stronger with magical powers, and then if you collect many of the same itemsthey can be leveled up like this level 2 sword.</p>
                     </div>
                 </div>
 
+
                 <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    So now that I had all of the different items, weapons, stats, etc. I wanted to create a special trait that would unlock future content only if you have these traits
+                    to incentivies collecting and trading between players.
                 </h2>
 
                 <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-
-                <div className="project3--examples-container">
-                    <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg1.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg2.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg3.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg4.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg5.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg6.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/bg7.png"/>
-                    </div>
-                    <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/bg8.png"/>
-                    </div>
-                </div>
-
-                <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-
-                <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    Backgrounds aren't just for looks, different color backgrounds provide boosts to the powers the character have but locations will unlock special levels in upcoming 
+                    games. THe first mini game I am creating is a side scrolling platformer and only Vikings with location backgrounds will be able to access those coresponding levels.
                 </h2>
 
                 <div className="project3--examples-container">
@@ -299,13 +257,13 @@ export default function Project3() {
                 </div>
 
                 <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    These are a select few example characters taken from the final collection showing the different items, banners, backgrounds, and traits. These 
+                    are a good example of the diversity of the characters in the collection and how players might want to style or build their characters.
                 </h2>
 
                 <h2 className="project3--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    The final collection consists of 1,111 randomly generated Viking warriors which was the culmination of 100's of hours of work. This is just version 1
+                    and there is a version 2 in the works which are a bit weaker and have less items but will start to introduce nex character classes like Pirates and Knights.
                 </h2>
 
                 <h2 className="project3--body">

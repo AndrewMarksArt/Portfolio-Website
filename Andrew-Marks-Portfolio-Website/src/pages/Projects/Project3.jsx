@@ -13,14 +13,13 @@ export default function Project3() {
             <div className="project3-headline-container">
                 <h1 className="project3--title">Battle Warriors Vikings of ETH: Design & Launch of a Generative NFT Collection and Gaming Ecosystem</h1>
                 <h2 className="project3--sub-head">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    In mid to late 2021 I suffered a serious back injury that made it so I was unable to work. The only thing that helped with the pain was drawing and making art 
+                    and at the time I discoverd NFT's and began designing characters for a NFT project.
                 </h2>
                 <h2 className="project3--sub-head">
-                    I was brought on by the project founder to help redsign the player experience to help onboard new players, bring more consistency to the game,
-                    and help design new levels for players to explore.
+                    As the creator and project owner I designed and created all the art assests for the generative NFT characters, built up a community with over 5,000 twitter followers 
+                    and 3,000 Discord members, built a no code website to provide updates and showcase the project, and wrote a series of articles on medium about the project but also 
+                    about the Play-2-Earn landscape.
                 </h2>
             </div>
 
@@ -29,40 +28,48 @@ export default function Project3() {
                     The Challenge
                 </p>
                 <h1 className="project3--title">
-                    Client Meeting -- needs, thoughts, basic requirements
+                    Fun NFTs With Real Utility
                 </h1>
                 <h2 className="project3--body">
-                    My Role, Methodology & Approach Taken. 
+                    As creator and project founder my goal was to see where oportunities in the market were but also talk to real users and see how I could create something 
+                    to fill that oportunity and deliver value to users. 
                 </h2>
                 <h2 className="project3--body">
-                    Client requirements & needs:
+                    Market and Business oportunities:
                 </h2>
                 <ol className="project3--list">
                     <li className="project3--list-item">
-                        Confusing buttons & layouts
+                        NFT's need to be more than just profile pictures (pfp's).
                     </li>
                     <li className="project3--list-item">
-                        Hard to navigate & easy to get stuck
+                        Access to live events and merch were the norm when delivering utility to holders but NFT's fit well with gaming and colaborating by giving holders IP rights.
                     </li>
                     <li className="project3--list-item">
-                        Mobile layout issues & information hidden, users didn't know they could scroll or where to go
+                        To many products launched and then didn't know what to do or had no model to generate future revenue.
                     </li>
                 </ol>
                 <h2 className="project3--body">
-                    Design notes & ideas:
+                    User needs: (what I kept hearing from other collecters and users I interviewed)
                 </h2>
                 <ol className="project3--list">
                     <li className="project3--list-item">
-                        How to get started, where to go, who can do what?
+                        What do I get with my NFT? Is it just art? Is there future development? What will being a holder give me?
                     </li>
                     <li className="project3--list-item">
-                        For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of there warriros, what can be done, 
-                        and manage their army.
+                        How will I be able to use my NFT's to earn in play-2-earn and what does ownership of assets mean to me if the project isn't decentralized.
                     </li>
                     <li className="project3--list-item">
-                        Mechanics & gameplay a bit confusing, not sure how to best use their Shoguns.
+                        What IP rights do I have as a holder to create my own products/games/etc.
                     </li>
                 </ol>
+
+                <br></br>
+
+                <h2 className="project3--body">
+                    As creator and project founder my goal was to see where oportunities in the market were but also talk to real users and see how I could create something 
+                    to fill that oportunity and deliver value to users. As creator and project founder my goal was to see where oportunities in the market were but also talk to real users and see how I could create something 
+                    to fill that oportunity and deliver value to users. 
+                </h2>
 
             </div>
 

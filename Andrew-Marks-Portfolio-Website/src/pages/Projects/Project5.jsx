@@ -13,56 +13,44 @@ export default function Project5() {
             <div className="project5-headline-container">
                 <h1 className="project5--title">Quest for Valhalla: Fantasy & D&D inspired Tactics & Strategy Game.</h1>
                 <h2 className="project5--sub-head">
-                    Massa pede class viverra laoreet ad odio viverra condimentum dictum risus velit phasellus. Ac fusce et placerat sem pharetra, pulvinar praesent. Tempor 
-                    sapien ante dapibus accumsan dignissim sollicitudin, varius nostra fringilla. In, quis rutrum fermentum placerat. Tincidunt sagittis turpis platea fermentum 
-                    ornare netus sodales pulvinar. Platea scelerisque euismod egestas quis. Cras a Ac. Porta. Ad. Natoque sed sit ornare maecenas nascetur rhoncus ante dignissim 
-                    ut.
+                    The next expansion in the Battle Warriors ecosystem is our turn-based strategy game called Quest for Valhalla.
                 </h2>
                 <h2 className="project5--sub-head">
-                    I was brought on by the project founder to help redsign the player experience to help onboard new players, bring more consistency to the game,
-                    and help design new levels for players to explore.
+                    In this expansion I created a series of “Quests” which are levels that players can mint and then try to beat to earn 
+                    rewards. I developed the main website for the project and am currently developing the a special site for the game docs 
+                    call the “Quest Library” to add more interactive elements to the game docs.
+                </h2>
+                <h2 className="project5--sub-head">
+                    Finally, I have started developing the game where players can use their quests to build their own dungeons, challenge friends, 
+                    capture pets to train, and complete missions that will drive the world's narrative shaping future events. 
                 </h2>
             </div>
 
             <div className="project5--phase1-container">
                 <p className="project5--challenge">
-                    The Challenge
+                    Creating a game to challenge crypto native users that can also onboard new users.
                 </p>
                 <h1 className="project5--title">
-                    Client Meeting -- needs, thoughts, basic requirements
+                    Game Design -- How to challenge Web3 users while onboarding new players
                 </h1>
                 <h2 className="project5--body">
-                    My Role, Methodology & Approach Taken. 
+                    As the project owner I initially used AI art generators to create treasure maps and designed a system that would allow players to complete 
+                    these maps based on on-chain data and events that could be verified by oracles. 
                 </h2>
                 <h2 className="project5--body">
-                    Client requirements & needs:
+                    Requirements & needs:
                 </h2>
                 <ol className="project5--list">
                     <li className="project5--list-item">
-                        Confusing buttons & layouts
+                        Fun game that incorporates the nature of treasure maps and going on an adventure.
                     </li>
                     <li className="project5--list-item">
-                        Hard to navigate & easy to get stuck
+                        Mix of game elements to challenge more advanced crypto/Web3 users.
                     </li>
                     <li className="project5--list-item">
-                        Mobile layout issues & information hidden, users didn't know they could scroll or where to go
+                        Simpler game modes to help bring in new players and onboard new Web3 users.
                     </li>
-                </ol>
-                <h2 className="project5--body">
-                    Design notes & ideas:
-                </h2>
-                <ol className="project5--list">
-                    <li className="project5--list-item">
-                        How to get started, where to go, who can do what?
-                    </li>
-                    <li className="project5--list-item">
-                        For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of there warriros, what can be done, 
-                        and manage their army.
-                    </li>
-                    <li className="project5--list-item">
-                        Mechanics & gameplay a bit confusing, not sure how to best use their Shoguns.
-                    </li>
-                </ol>
+                </ol>                
 
             </div>
 
@@ -85,22 +73,14 @@ export default function Project5() {
                     </div>
                 </div>
                 <p className="project5--img-desc">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                Early AI generated reasure maps representing unrevealed or hidden quests that players can embark on.
                 </p>
             </div>
 
             <div className="project5--phase1-container">
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
-                </h2>
-
-                <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                    Even though this new game will have a very different art style to the Battle Warriors Vikings characters, they will still be what players use to 
+                    try and complete the quests. So, when creating images for the game I tried to tie in the Viking and Valhalla theme.
                 </h2>
             </div>
 
@@ -116,15 +96,13 @@ export default function Project5() {
                     </div>
                 </div>
                 <p className="project5--img-desc">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                    I used MidJourney to generate promotional and mood board images playing on the theme of a Viking leaving their village to go on an Adventure.
                 </p>
             </div>
 
             <h2 className="project5--body">
-                First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                way around the map.
+                In addition to the treasure maps and the Viking villages I needed something to symbolize a portal or gateway that would transport the player to a 
+                new world where they would fight monsters to complete the quests. 
             </h2>
 
             <div className="project5--sketch-group-container">
@@ -143,58 +121,50 @@ export default function Project5() {
                     </div>
                 </div>
                 <p className="project5--img-desc">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                    I generated a series of gateway/portals in a few different styles to be used in marketing material, the website, and in the game.
                 </p>
             </div>
 
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                After generating a few maps, villages, and gateways I reached out to the community to get feedback from and do some quick user interviews. From there 
+                I chose a design for the “Quests” using images like a treasure map but also more like a playing card
                 </h2>
 
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                I want an element of trading between players and this design easily translates to future card games I am starting to think up and create.
                 </h2>
 
                 <div className="project5--test-gen-container">
                     <div className="project5--img-container">
                         <img className="project5--img" src="../img/case_studies/project5/card_design_sketch.png"/>
-                        <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project5--img-desc">
+                        Here is the original sketch for the “Quests”, the card would have a back and appear that way until the player revealed it. Once revealed the 
+                        monster would be shown.</p>
                     </div>
                     <div className="project5--img-container">
                         <img className="project5--img" src="../img/case_studies/project5/unrevealed_quest.png"/>
-                        <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project5--img-desc">
+                            From the sketch and previous maps the final "Quest" card back was created.</p>
                     </div>
                     <div className="project5--img-container">
                         <img className="project5--img" src="../img/case_studies/project5/1st_quest.png"/>
-                        <p className="project5--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project5--img-desc">
+                            In the sketch the monster revealed had a lot of information, but since the game is digital, I felt there was no need to include that on the card 
+                            and it could be shown in the game. It gives me more space to show the artwork, but also leaves room to change how things work in the future if 
+                            needed.</p>
                     </div>
-                </div>
-
-                <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
-                </h2>
-            
+                </div>            
             
                 <h1 className="project5--title">
                     Lets see some monsters.
                 </h1>
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                After finalizing the “Quest” design I started working on creating the individual quests. I wanted to create a wide range of different types of quests filled with 
+                monsters but also animals or companions that players could catch and train to help them in battle.
                 </h2>
 
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu, and lets add some nudges/descriptions to help players find their 
-                    way around the map.
+                Below are a few different monsters, I worked hard to bring elements from games like D&D, classic fantasy RPGs, and mythology.
                 </h2>
             
                 <div className="project5--banner-group-container">
@@ -225,19 +195,17 @@ export default function Project5() {
                         </div>
                     </div>
                     <p className="project5--img-desc">
-                        The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.
+                    Here are a few examples of different monsters from “Skeleton Warriors” and “Goblin Grunts” to “Dragons”, “Gorgons”, and “Fire Elementals”.
                     </p>
                 </div>
 
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                In addition to the individual “Quest” I created a level system that would incentivize collecting and trading among players so they could complete 
+                sets or use duplicate quests to level up the monsters. 
                 </h2>
 
                 <h2 className="project5--body">
-                    First impressions matter alot, lets show how we can fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Lets implement a simple quick travel navigation menu.
+                Here is an example of how a player can use 3 of the same “Quest” to level it up and the different level each class of monster has.
                 </h2>
                 
             </div>
@@ -253,67 +221,64 @@ export default function Project5() {
                     </div>
                 </div>
                 <p className="project5--img-desc">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                Here 3 “Goblin Grunts” (the level 1 Goblin) are being combined to level it up to a level 2 “Goblin Raider”. And for the Dragon class of monsters 
+                here are the 3 different levels.
                 </p>
             </div>
 
             <div className="project5--phase1-container">
                 
                 <h2 className="project5--body">
-                    The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                    landing page visually worked on those small screens.
+                After creating the level system, I wanted to create some different rarities between, Commons will have quests that are a bit easier and have creatures that 
+                players could try to catch and train to use as allies. Un-Common quests are slightly stronger and well know fantasy and D&D monsters. Rare’s are fearsome monsters, 
+                some of the strongest and most terrifying with a node to mythology.
                 </h2>
 
                 <h2 className="project5--body">
-                    On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                    from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                    very important to the client.
+                Here we can see the level Quests for each rarity, and below that the my master Figma file showing all the different monsters and rarities.
                 </h2>
 
                 <div className="project5--mocks-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_commons.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Here are all of the level 1 Commons, these are good entry level and starter quests.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_uncommons.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Here are the un-common quests, which are monsters more common in fantasy and D&D games.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_rares.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">The rare level 1 Quests are some of the strongest and most dangerous monsters in the Battle Warriors world.</p>
                     </div>
                 </div>
 
                 <div className="project5--all-quests-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/all_quests.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Here is a screen shot of the Figma file showing all of the Quests and all of the different levels, the Quests showing 
+                        a card back is still being created.</p>
                     </div>
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                Looking over all of the Quests we have 15 different commons each with 5 different levels, 10 different un-commons with 5 levels, 9 different rares with 3 levels 
+                each, and then 4 mythic rares with 1 level but will have special alternative art.
                 </h2>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                    This makes about 160 unique Quests, and when you factor in the different game boards, game modes, and ability to combine multiple quests to create dungeons, 
+                    there are millions of different combinations. 
                 </h2>
 
                 <br></br>
 
                 <h1 className="project5--title">
-                    Redesigning areas with a consistant design
+                    Designing the website
                 </h1>
                 <h2 className="project5--body">
-                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                After creating all of the different Quests and building the basics of the project, I started working on the website for the project beginning with 
+                some wireframe sketches.  
                 </h2>
 
                 <div className="project5--examples-container">

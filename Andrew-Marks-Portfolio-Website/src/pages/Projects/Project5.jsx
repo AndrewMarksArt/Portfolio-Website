@@ -297,13 +297,14 @@ export default function Project5() {
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                The original sketch uses one of the portal/gateway images from above as way to let the user know they were entering a new world and is where I have been 
+                testing different CTA’s. As the user scrolls, they will find information about what the project is, how to join the waitlist, galleries and how it ties to 
+                the original Battle Warriors project.
                 </h2>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                I cleaned up the original sketches into nicer wireframes, one for the desktop site and the other for how it would look on mobile. Below are screen shots of 
+                the different section that I created from those wireframes.
                 </h2>
 
                 <div className="project5--mock-examples-container">
@@ -316,13 +317,12 @@ export default function Project5() {
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                The first image is the main sections of the site, it starts with the gateway and a CTA button to enter the new world. Below that are the basics about the game 
+                and Quests where we can try to convert users to join our socials and signup for early access.
                 </h2>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                The next section shows some more aspects of the game like leveling up Quests and a Gallery of example Quests with descriptions to build some lore.
                 </h2>
 
                 <div className="project5--mock-examples-container">
@@ -335,13 +335,12 @@ export default function Project5() {
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                After the Gallery I created a section to tie in the original Battle Warriors characters, showing how players could equip them, what their strengths and weakness are, 
+                a CTA to get users to mint or buy on secondary, and finally an example gallery .
                 </h2>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                Then a section on how to play talking about how you can use your Battle Warriors Viking characters, selecting a quest, and a hint at the rewards you can earn.
                 </h2>
 
                 <div className="project5--mock_mobile-examples-container">
@@ -360,41 +359,45 @@ export default function Project5() {
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                Finally, there is a section for the demo which for now just holds and example board and loading screen followed by our last 
+                CTA to get users to sign up for early access.
+                </h2>
+
+                <h2 className="project5--body">
+                You can also see all of those section above adjusted for mobile, and below is a video showing the prototype I create which scrolls through the site.
                 </h2>
 
                 <div className="project5--video-container">
                     <video src="../videos/quests_site_scroll_1.mp4" autoPlay loop muted className="site-scroll"/>
-                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                    <p className="project5--img-desc">Example video showing how the site might look and while the user scrolls through it.</p>
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                Since I wasn’t ready to have users enter the site, I sketched up a new main section with some lore and a text box to capture email addresses. 
+                This way users can sign up for Early Access, join our Discord, and we can test different offers or perks.
                 </h2>
 
                 <div className="project5--mocks-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">New main section wireframe sketch, want to capture email to build up my email list which I could use to 
+                        market as I get closer to launch.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_mockup.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">The new main section includes a text box to gather emails, buttons to get early access, and join discord to build 
+                        our community.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_popup.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Once the user signs up for early access, I created a thank you window that creates another push to 
+                        join the discord and offers a perk for doing so.</p>
                     </div>
                 </div>
                 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                This site is currently being built and is a way for me to learn some more HTML, CSS, JavaScript, and React. Currently it is about 
+                50% done but is successful at helping build the email list, you can see the current site using the link below.
                 </h2>
 
                 <h2 className="project5--body">

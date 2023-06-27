@@ -402,13 +402,12 @@ export default function Project3() {
                 </h1>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    After finishing the Art work, and creating the site and social media account, I experimented with some Google Colab Notebooks using python to randomly
+                     generate the Viking characters and metadata.
                 </h2>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Below is a link to an early notebook that you can play around with and generate your own army, and again a link to the offical collection on OpenSea.
                 </h2>
 
                 <h2 className="project3--body">
@@ -427,104 +426,99 @@ export default function Project3() {
                 <div className="project3--traits-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/set_traits_1.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Screen shot from the notebook that sets the number of Vikings and creates lists for the traits.</p>
                     </div>
                 
 
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/set_traits_2.png"/>
-                        <p className="project3--img-desc">On smaller screens & in portrait mode the original world map layout didn't work, so I created cards that showed the locations
-                        from the map overlayed on the world map. This way players on mobile can navigate easily where they need to go & the artwork is still highlighted which was 
-                        very important to the client.</p>
+                        <p className="project3--img-desc">More traits being set up, when the main function to create Viking is called these will be randomly picked to 
+                        build the characters.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    After generating Viking characters I created a Pandas Dataframe, set the columns, and printed out the first 5 rows to see how things were looking.
                 </h2>
 
                 <div className="project3--wide-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/df_head.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Print out of the new Dataframe, checking to make sure the column names are correct, and to see if there are any 
+                        obvious errors.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    After checking the data I realized there were a few mistakes or items I wanted to change, some of the traits clashed a bit more than expected so it took 
+                    some cleaning to correct those.
                 </h2>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    After cleaning the Dataframe was saved as a cvs file and I brought it into excel to do some analysis and build some tables.
                 </h2>
 
                 <div className="project3--counts-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/bg_counts.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Tables created to look at the Background trait, examining the counts of each and the percentage which gives an insight into 
+                        the rarity.</p>
                     </div>
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/counts_2.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Some more tables look at the various traits and rarities, I'm checking to make sure I like the balance and nothing seems out of 
+                        whack. These are a bit misleading since they combine Male and Female characters but it gives a good overview.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Once I breakdown the basic traits I'm able to see how the balance is looking, I needed to make a few adjustments and did this process a few times before I found the 
+                    final mix I really liked. It was difficult finding the balance of randomly generated characters with manual adjustments but the end result was great.
                 </h2>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    After the basic traits were finished I turned to the weapons and this is where things got the most complicated. There are tons of differnt combinations which is great 
+                    but creates an issue where everything becomes rare which isn't great but since the plan is to allow players to grow and custimize their Vikings and the base traits have
+                    good rarities its not a huge issue.
                 </h2>
 
                 <div className="project3--weapon-count-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/weapon_count_1.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Each Viking has a main and off hand that they can use to hold weapons, if the weapon is a 2 handed weapon they will only have a 
+                        main weapon. Due to all of the different weapon variations there are everything is rare, but if we group things by level or class of weapon the rarity distribution 
+                        looks a bit better.</p>
                     </div>
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/weapon_count_2.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Digging into the off hand weapons and seeing the rarity of Vikings with matching main and off hand weapons.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Data has now been cleaned, rarities look good, and traits balanced so it was time to create the metadata and build the images.
                 </h2>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Below is an example of one of the Female Vikings picked from the Dataframe and the image generated from the traits. After running a few more tests the 
+                    metadata was generated, the images created and saved to IPFS using pinata.
                 </h2>
 
                 <div className="project3--weapon-count-container">
                     <div className="project3--img-container">
                         <img className="project3--img" src="../img/case_studies/project3/viking_113.png"/>
-                        <p className="project3--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project3--img-desc">Example female Viking fromt the dateframe, checking that the image matches the traits and there are no 
+                        glaring issues.</p>
                     </div>
                 </div>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Once finished I was able to get ready for launch and miniting, unfortunately due to my back surgery and some health complications the project was delayed 
+                    and eventually launched as a free mint where users just needed to pay the gass for the mint transaction.
                 </h2>
 
                 <h2 className="project3--body">
-                    Fringilla nullam aenean rutrum morbi nunc hac purus mattis congue, vel pellentesque scelerisque donec, egestas dapibus. Ultricies elit Feugiat id. Habitasse 
-                    nisi sodales ac mollis ante volutpat dictumst sagittis feugiat dictum fermentum cras, suspendisse elit.
+                    Once the mint was finished I was able to start building the mini game which is still in development currently.
                 </h2>
 
                 <h2 className="project3--body">
@@ -547,7 +541,7 @@ export default function Project3() {
             <div className="project3--phase2-container">
                     <br></br>
                     <p className="project3--challenge">
-                        Survival Grounds side scrolling mini game.
+                        What is P2E and how can we empower players?
                     </p>
                     <h1 className="project3--title">
                         Survival Grounds side scrolling mini game.

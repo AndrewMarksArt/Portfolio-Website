@@ -13,11 +13,11 @@ export default function Project2() {
             <div className="project2-headline-container">
                 <h1 className="project2--title">Enhancing the Adventure</h1>
                 <h2 className="project2--sub-head">
-                    In Early 2022 a new Play-2-Earn game ShogunWarNFT launched with great retro artwork and an ambitions roadmap. Focused on creating an amazing 
-                    and emersive world there was lots of different elements that started to conflict with each other leading to some issues for players. 
+                    In Early 2022 a new Play-2-Earn game ShogunWarNFT launched with great retro artwork and an ambitions roadmap. Focused on creating an amazing and 
+                    immersive world there was lots of different elements that started to conflict with each other leading to some issues for players. 
                 </h2>
                 <h2 className="project2--sub-head">
-                    I was brought on by the project founder to help redsign the player experience to help onboard new players, bring more consistency to the game,
+                    I was brought on by the project founder to help redesign the player experience to help onboard new players, bring more consistency to the game, 
                     and help design new levels for players to explore.
                 </h2>
             </div>
@@ -55,7 +55,7 @@ export default function Project2() {
                         How to get started, where to go, who can do what?
                     </li>
                     <li className="project2--list-item">
-                        For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of there warriros, what can be done, 
+                        For players with lots of Shogun Warriors -- way to many transaction, very hard to see all of their warrior's, what can be done, 
                         and manage their army.
                     </li>
                     <li className="project2--list-item">
@@ -68,65 +68,66 @@ export default function Project2() {
             <div className="project2--img-group-container">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/old_landing.png"/>
-                    <p className="project2--img-desc">old landing page where the 'Tutorial' button is non-working (it was a place holder but not implemented yet),
-                     and overall this screen is not really necessary.</p>
+                    <p className="project2--img-desc">Old landing page where the 'Tutorial' button is non-working (it was a place holder but not implemented yet),
+                     and overall this screen is not really necessary</p>
                 </div>
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/old_training.png"/>
                     <p className="project2--img-desc">
-                        Art takes up most of the screen hiding players shoguns and its not clear the user needs to scroll to see everything. On smaller screens
-                        the art takes up the whole screen and again no idication the users can scroll.
+                        Art takes up most of the screen hiding players shoguns and its not clear the user needs to scroll to see everything. On smaller screens 
+                        the art takes up the whole screen and again no indication the users can scroll.
                     </p>
                 </div>
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/old_land.png"/>
                     <p className="project2--img-desc">Players have to scroll horizontally but again no indication, and there are different actions that can be taken 
-                    on each land but no idication for the user which land needs attention or has available actions</p>
+                    on each land but no indication for the user which land needs attention or has available actions.</p>
                 </div>
             </div>
 
             <div className="project2--phase1-container">
                 <h1 className="project2--title">
-                    Quick fixes that address users main concerns 
+                    Quick fixes that address user's main concerns 
                 </h1>
                 <h2 className="project2--body">
-                    First impressions matter alot, and we need to fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Using hierarchy we can draw the users into the game quicker, disable the non-working button but still let the users know
-                    new features are coming soon, and move the whitepaper button to the same level as community links since it takes the palyer away from the game and most users
-                    didn't really care about it.
+                    First impressions matter a lot, and we need to fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
+                    to where twitter and discord are. Using hierarchy we can draw the users into the game quicker, disable the non-working button but still let the users 
+                    know new features are coming soon, and move the whitepaper button to the same level as community links since it takes the player away from the game 
+                    and most users didn't really care about it.
                 </h2>
 
                 <h2 className="project2--body">
-                    Ultimately after talking with project founder we decided to test removing this landing page and bringing the users right into the game where they could still
-                    access the whitepaper, twitter, and discord links.
+                    Ultimately after talking with project founder, we decided to test removing this landing page and bringing the users right into the game where they 
+                    could still access the whitepaper, twitter, and discord links.
                 </h2>
             
                 <div className="project2--landing-container">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/old_landing_lrg.png"/>
-                        <p className="project2--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to comminity/socials.</p>
+                        <p className="project2--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to 
+                        community/socials.</p>
                     </div>
                 
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/new_landing.png"/>
-                        <p className="project2--img-desc">Simple redesign of landing page, getting player into the game quicker, let them know new features are coming soon,
-                        & links to the community and socials.</p>
+                        <p className="project2--img-desc">Simple redesign of landing page, getting player into the game quicker, let them know new features 
+                        are coming soon, and links to the community and socials.</p>
                     </div>
                 </div>
 
                 <h2 className="project2--body">
-                    After conducting the site audit and finding the navigation an issue I joined the projects discord server and talked with player. <b>The single biggest complaint
-                    and issue players had was navigating the site.</b>
+                    After conducting the site audit and finding the navigation issue I joined the projects discord server and talked with a few dozen players. 
+                    <b> The single biggest complaint and issue players had was navigating the site.</b>
                 </h2>
 
                 <h2 className="project2--body">
-                    Below is the original site and the simple side navigation menu I created which can be expanded and collapsed 
-                        using a 'Hamburger' icon that is very familar to players.
+                    Below is the original site and the simple side navigation menu I created which can be expanded and collapsed using a 'Hamburger' icon that 
+                    is very familiar to players.
                 </h2>
 
                 <h2 className="project2--body">
-                    Additionally I grouped areas together based on there content and added some arrows to let th user know were they are currently.
+                    Additionally I grouped areas together based on their content and added some arrows to let the user know where they are currently.
                 </h2>
 
                 <div className="project2--travel-container">
@@ -138,15 +139,17 @@ export default function Project2() {
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/home_quicktravel.png"/>
-                        <p className="project2--img-desc">Using a hamgurger menu icon that will be familare to all players, I created a simple menu that shows the players 
-                        all the different areas they can travel to, breaks down the links into categories, & can color/highlight new areas or areas we want player to explore.</p>
+                        <p className="project2--img-desc">Using a hamburger menu icon that will be familiar to all players, I created a simple menu that shows the players  
+                        all the different areas they can travel to, breaks down the links into categories, & can color/highlight new areas or areas we want player to 
+                        explore.</p>
                     </div>
                 </div>
 
                 <h2 className="project2--body">
-                    One issue that the founder was trying to overcome was that the game didn't work on mobile or small screens. He tried communicating this to players but some
-                    players and lots of new players would try to visit and play on their phones. <b>One of my tasks was to create concpets for mobile layouts that transformed the 
-                        interactive map into something easier to use on small screens but still celebrated the art and sense of adventure the map convayed.</b>
+                    One issue that the founder was trying to overcome was that the game didn't work on mobile or small screens. He tried communicating this to players 
+                    but some players and lots of new players would try to visit and play on their phones. <b>One of my tasks was to create concepts for mobile layouts 
+                    that transformed the interactive map into something easier to use on small screens but still celebrated the art and sense of adventure the map 
+                    conveyed. </b>
                 </h2>
 
                 <div className="project2--mobile-container">
@@ -166,23 +169,23 @@ export default function Project2() {
                 </h2>
 
                 <h2 className="project2--body">
-                    I created cards with art from the original map which is used as a background to keep the player feeling that they are in a large imersive world.
-                    The cards also allow for easy navigation and are familar to users so a new player would be able to figure out how to navigate the world very quickly.
+                    I created cards with art from the original map which is used as a background to keep the player feeling that they are in a large immersive world. 
+                    The cards also allow for easy navigation and are familiar to users so a new player would be able to figure out how to navigate the world very quickly.
                 </h2>
 
                 <h1 className="project2--title">Nudges, tips, & exploration.</h1>
                 <div className="project2--tip-container">
                     <img className="project2--img-tip" src="../img/case_studies/project2/bounce_tip.gif"/>
-                    <p className="project2--img-desc">Example nudge and tip to help new players find there way around the map -- main building label has a slight bounce, lighten
-                    the text of other labels and add a description to the label when hovering.</p>
+                    <p className="project2--img-desc">Example nudge and tip to help new players find their way around the map -- main building label has a slight bounce, 
+                    lighten the text of other labels and add a description to the label when hovering.</p>
                 </div>
 
                 <br></br>
 
                 <h2 className="project2--body">
-                    When new players join and get started there can be a lot to take in, by add simple animations we can nudge players 
-                    where we want them to go & provide useful tips. We have to be careful not tell the players where to go all the time since exploration is part of the 
-                    experiance but when getting started or when new areas open it could help get them into the game faster with less frustration.
+                    When new players join and get started there can be a lot to take in, by adding simple animations we can nudge players where we want them to go & provide 
+                    useful tips. We must be careful not tell the players where to go all the time since exploration is part of the experience but when getting started or when 
+                    new areas open it could help get them into the game faster with less frustration.
                 </h2>
                 <br></br>
 
@@ -193,14 +196,14 @@ export default function Project2() {
                     Balance & Concistency
                 </p>
                 <h1 className="project2--title">
-                    Redesigning areas with a consistant design
+                    Redesigning areas with a consistent design
                 </h1>
                 <h2 className="project2--body">
-                    <b>The second largest complaint from players was the inconsistency in the design of different areas.</b> It added confusion and lead to players missing certain
-                    things they could do or not understand why they couldn't access certain areas.  
+                    <b>The second largest complaint from players was the inconsistency in the design of different areas. </b> It added confusion and lead to players
+                     missing certain things they could do or not understand why they couldn't access certain areas.  
                 </h2>
                 <h2 className="project2--body">
-                    Additionally for players who had lots of Shogun the design made it very difficult to use all of them, collect rewards, upgrade land, etc. So I 
+                    Additionally for players who had lots of Shogun the design made it very difficult to use all of them, collect rewards, upgrade land, etc. So, I 
                     <b> needed to try and find some balance for players who were just getting started and those who were the most active users.</b>
                 </h2>
                 <h2 className="project2--body">
@@ -211,26 +214,27 @@ export default function Project2() {
                 <div className="project2--redesign-container">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/training_redo.png"/>
-                        <p className="project2--img-desc">Original design was to highlight the art, this pushed the players characters to the bottom and in some cases users
+                        <p className="project2--img-desc">The original design was to highlight the art, this pushed the players characters to the bottom and in some cases users
                         didn't know where the characters were.</p>
                     </div>
                 
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/land_redo.png"/>
-                        <p className="project2--img-desc">Original design again highlighted art but pushed players lands to the top and required horizontal scroll. There was
-                        also no way to filter or know which land needed the players attention.</p>
+                        <p className="project2--img-desc">The original design again highlighted art but pushed players lands to the top and required horizontal scroll. 
+                        There was also no way to filter or know which land needed the players’ attention.</p>
                     </div>
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/den_redo.png"/>
-                        <p className="project2--img-desc">One of only two sections that launched a pop up modal and originally had no way to close, also a bit crowded and 
+                        <p className="project2--img-desc">One of only two sections that launched a pop-up modal and originally had no way to close, also a bit crowded and 
                         hard to see all the information.</p>
                     </div>
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/townhall_redo.png"/>
-                        <p className="project2--img-desc">The other pop up that originally had no way to close, very different look that strays away from the rest of the game</p>
+                        <p className="project2--img-desc">The other pop up that originally had no way to close, very different look that strays away from the rest of 
+                        the game.</p>
                     </div>
                 </div>
 
@@ -242,17 +246,16 @@ export default function Project2() {
                         The first area to address was the 'Training Grounds' where new players could take there Shogun characters to get started and claim their land.
                     </h2>
                     <h2 className="project2--body">
-                        The main focus across the whole game was highlighting the art and emersing the player in the atmosphere the art created. However the original design took up
-                        most of the screen with nice art that didn't actually do anything. Players had to search and scroll to find where they needed to go and had no way
-                        of organizing there characters.
+                        The focus of the whole game was highlighting the art and immersing the player in the atmosphere the art created. However, the original design 
+                        took up most of the screen with nice art that didn't actually do anything. Players had to search and scroll to find where they needed to go and 
+                        had no way of organizing their characters.
                     </h2>
                     <h2 className="project2--body">
                         <b>My design focused on a style that could be used across all areas so no matter where a user went they would know how to navigate and complete tasks.</b>
                     </h2>
                     <h2 className="project2--body">
-                        <b>Additionally I focused on adding new components like sorting and filtering, as well as quick claim buttons to help users accomplish all tasks faster and more
-                            conveniantly.
-                        </b>
+                        <b>Additionally, I focused on adding new components like sorting and filtering, as well as quick claim buttons to help users accomplish all 
+                        tasks faster and more conveniently.</b>
                     </h2>
                 </div>
             </div>
@@ -262,7 +265,7 @@ export default function Project2() {
                         <div className="project2--img-container">
                             <img className="project2--img" src="../img/case_studies/project2/old_training_full.png"/>
                             <p className="project2--img-desc">Here is the original design where the art takes up most and sometimes the whole screen making it 
-                            difficult for the player to figure how to complete tasks</p>
+                            difficult for the player to figure how to complete tasks.</p>
                         </div>
 
                         <div className="project2--img-container">
@@ -273,7 +276,8 @@ export default function Project2() {
 
                         <div className="project2--img-container">
                             <img className="project2--img" src="../img/case_studies/project2/training_details.png"/>
-                            <p className="project2--img-desc">The redesigned details page alows for easy navigation between characters and a quick way back to were the player was before.</p>
+                            <p className="project2--img-desc">The redesigned details page allows for easy navigation between characters and a quick way back to were the player was 
+                            before.</p>
                         </div>
                     </div>
                 </div>
@@ -288,29 +292,27 @@ export default function Project2() {
                 </h2>
 
                 <h2 className="project2--body">
-                    However because there is so much to do here and it requires the players to complete many tasks sometimes daily anc can be very cumbersome and frustrating. <b>
-                        My focus on the re-design was to stick with the same grid and modal design from the 'Training Grounds' as well as add components to help filter, sort, and 
-                        batch tasks players needed to complete.
-                    </b>
+                    However, because there is so much to do here, and it requires the players to complete many tasks sometimes daily and can be very cumbersome and 
+                    frustrating. <b> My focus on the re-design was to stick with the same grid and modal design from the 'Training Grounds' as well as add components 
+                    to help filter, sort, and batch tasks players needed to complete.</b>
                 </h2> 
 
                 <h2 className="project2--body">
-                    One of the biggest complaints players had was as they grew their armies and accquired more land it become almost impossible to complete the needed tasks.
-                    With the original design if you had built up a dozen lands or more you would have to go to each one directly to claim rewards and have no way to keep track
-                    of how much rewards you could claim.
+                    One of the biggest complaints players had was as they grew their armies and acquired more land it became almost impossible to complete the needed tasks. 
+                    With the original design if you had built up a dozen pieces of land or more you would have to go to each one directly to claim rewards and have no way 
+                    to keep track of how much rewards you could claim.
                 </h2>
                 <h2 className="project2--body">
-                    <b>It was critical to be able to see all the rewards available from all land and claim it all at once with one button click, for other tasks like upgrading, 
-                        or hiring deffenders the sort and filter components quickly let players find the lands that needed attention.
-                    </b>
+                    <b>It was critical to be able to see all the rewards available from all land and claim it all at once with one button click, for other tasks like 
+                        upgrading, or hiring defenders the sort and filter components quickly let players find the lands that needed attention. </b>
                 </h2>
             </div>
 
             <div className="project2--new-design-container">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/old_land_full.png"/>
-                    <p className="project2--img-desc">Here is the original land page, players would have to scroll horizontally with no idication of whats available, then click 
-                    on each one to see if anything can be done.</p>
+                    <p className="project2--img-desc">Here is the original land page, players would have to scroll horizontally with no indication of what’s available, 
+                    then click on each one to see if anything can be done</p>
                 </div>
 
                 <div className="project2--img-container">
@@ -324,10 +326,10 @@ export default function Project2() {
                     <p className="project2--img-desc">The details section for each land was expanded and a modal for consistency with the "Training Grounds", shows all actions the 
                     player can take, and allows for quick navigation between different 'Lands'.</p>
                 </div>
+
+                <br></br>
             </div>
 
-            <div className="project2--phase2-container">
-            </div>
 
             <div className="project2--phase3-container">
                 <p className="project2--challenge">
@@ -337,29 +339,29 @@ export default function Project2() {
                     Designing the "Crafting" page
                 </h1>
                 <h2 className="project2--body">
-                    After a sucsessful redesign of the main page, navigation, training grounds, and land pages the project founder approached me to help design the newest
-                    section of the game and site.
+                    After a successful redesign of the main page, navigation, training grounds, and land pages the project founder approached me to help design 
+                    the newest section of the game and site.
                 </h2>
                 <h2 className="project2--body">
-                    players would be able to use certain Shogun characters to craft specail items they would be able to sell to other players or use on their characters to
-                    increase rewards and play new levels.
+                    Players would be able to use certain Shogun characters to craft special items they would be able to sell to other players or use on their characters
+                    to increase rewards and play new levels.
                 </h2>
                 <h2 className="project2--body">
-                    The main hurdle to overcome from the founder was he had comissioned art for the "Crafting" area that he didn't want to get lost, players were confused 
-                    about if they could use the page and which characters could, and he wanted to create a sense of excitement and achivement.
+                    The main hurdle to overcome from the founder was he had commissioned art for the "Crafting" area that he didn't want to get lost, players were confused 
+                    about if they could use the page and which characters could, and he wanted to create a sense of excitement and achievement.
                 </h2>
                 <h2 className="project2--body">
                     <b>Requirements from client</b>
                 </h2>
                 <ol className="project2--list">
                     <li className="project2--list-item">
-                        Keep the art the focus, don't lose or block the main image to much.
+                        Keep the art the focus, don't lose or block the main image too much.
                     </li>
                     <li className="project2--list-item">
                         Help players understand which characters can access the page and what they can do.
                     </li>
                     <li className="project2--list-item">
-                        With effectivlly only one main image and a few items, create a sense of excitement and acheivement.
+                        With effectively only one main image and a few items, create a sense of excitement and achievement.
                     </li>
                 </ol>
                 <div className="project2--crafting-img-container">
@@ -381,7 +383,7 @@ export default function Project2() {
                 </h2>
 
                 <h2 className="project2--body">
-                    <b>Finally I created the "Success!" screen, every crafting action will led to this page but it gives a feeling of accomplishment and wow!</b>
+                    <b>Finally, I created the "Success!" screen, every crafting action will led to this page but it gives a feeling of accomplishment and wow!</b>
                 </h2>
 
                 <div className="project2--crafting-design">
@@ -408,25 +410,28 @@ export default function Project2() {
             </div>
         
                 <h2 className="project2--body">
-                    Lots of elements within the game are ultimately very simple concepts which is why the artwork and finding ways to create a sense of excitement is so important.
+                    Lots of elements within the game are ultimately very simple concepts which is why the artwork and finding ways to create a sense of excitement is 
+                    so important.
                 </h2>
                 <h2 className="project2--body">
-                    <b>After delivering the initial designs to the project founder, he was told me "I didn't know how describe what the 'Success!' screen should look like other than
-                    just WOW and the rays of light and my concept was exactly what I had in my mind but couldn't articulate" he was stoked and new players would love it.</b>
+                    <b>After delivering the initial designs to the project founder, he told me "I didn't know how describe what the 'Success!' screen should look 
+                    like other than just WOW and the rays of light was exactly what I had in my mind but couldn't articulate" he was stoked, and new players would 
+                    love it. </b>
                 </h2>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/crafting_figma.png"/>
-                    <p className="project2--img-desc">Here is a screenshot of the Figma deliverable of the final design showing all of the different screens and a basic user flow.</p>
+                    <p className="project2--img-desc">Here is a screenshot of the Figma deliverable of the final design showing all of the different screens and a 
+                    basic user flow.</p>
                 </div>
                 <h2 className="project2--body">
                     After launch the feedback from users was great, they loved crafting page and within days thousands of items had been crafted and traded between players.
                 </h2>
                 <h2 className="project2--body">
-                    One piece of feedback I took to heart was some players were still not sure why they couldn't use the crafting page, they didn't realize only Shogun who trained as 
-                    "Artisan's" or "Shinto Priest's" could craft items. <b>With this feedback in mind and interviewing a few users I created new loading and landing screens for the 
-                        newer levels. These changes not only helped players understand the game better but also provided a way to build lore and story elements.
-                    </b>
+                    One piece of feedback I took to heart was some players were still not sure why they couldn't use the crafting page, they didn't realize only Shogun 
+                    who trained as "Artisan's”, or "Shinto Priest's" could craft items. <b>With this feedback in mind and interviewing a few users I created new loading 
+                    and landing screens for the newer levels. These changes not only helped players understand the game better but also provided a way to build lore 
+                    and story elements. </b>
                 </h2>
             </div>
 
@@ -438,23 +443,23 @@ export default function Project2() {
                     Designing the Beast Forest
                 </h1>
                 <h2 className="project2--body">
-                    Simply speaking many aspects of the Shogun War game can be boiled down to the player selecting a Shogun to use, rolling a dice or using some king of random
-                    number generator, then determin the outcome.
+                    Simply speaking many aspects of the Shogun War game can be boiled down to the player selecting a Shogun to use, rolling a dice or using some king 
+                    of random number generator, then determine the outcome.
                 </h2>
                 <h2 className="project2--body">
-                    These aspects were ment to keep players and users engaged, build a comminity, and help fund the development of the more advanced game elements being developed.
+                    These aspects were meant to keep players and users engaged, build a community, and help fund the development of the more advanced game elements being 
+                    developed.
                 </h2>
                 <h2 className="project2--body">
-                    <b>So the main issue I had to try and solve was how do you keep players engaged when the "game" or "level" could be described as clicking a button, wait a few
-                        seconds, and see if I won?
-                    </b>
+                    <b>So the main issue I had to try and solve was how do you keep players engaged when the "game" or "level" could be described as clicking a button, 
+                    wait a few seconds, and see if I won? </b>
                 </h2>
                 <h2 className="project2--body">
                     <b>Requirements from client</b>
                 </h2>
                 <ol className="project2--list">
                     <li className="project2--list-item">
-                        Keep players engaged in a very simple and repatative "game".
+                        Keep players engaged in a very simple and repetitive "game".
                     </li>
                     <li className="project2--list-item">
                         Keep the artwork the focus and build a sense of excitement.
@@ -468,7 +473,8 @@ export default function Project2() {
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_assets.png"/>
-                    <p className="project2--img-desc">Art assets provided to me to build the level, a main background with day and night hues, and icons for the different rewards.</p>
+                    <p className="project2--img-desc">Art assets provided to me to build the level, a main background with day and night hues, and icons for the 
+                    different rewards.</p>
                 </div>
                 <br></br>
                 <h2 className="project2--body">
@@ -493,34 +499,37 @@ export default function Project2() {
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_loading.gif"/>
-                    <p className="project2--img-desc">Here is an early prototype, welcoming the player, giving hints to the player but in a way that leads into story elements helping 
-                    build some excitement, and finally sticking with the brand colors to show the "Select" buttonto get started and the "Skip" button to let players enter faster.</p>
+                    <p className="project2--img-desc">Here is an early prototype, welcoming the player, giving hints to the player but in a way that leads into story 
+                    elements helping build some excitement, and finally sticking with the brand colors to show the "Select" button to get started and the "Skip" button 
+                    to let players enter faster.</p>
                 </div>
 
                 <br></br>
 
                 <h2 className="project2--body">
-                    Once the player entered the forest, I used the same grid and modal layout used in other areas for consistency. I also added a pop up for players who enter but don't
-                    have any Shogun characters that can be used explaining to the user why they couldn't continue. This was added based on user feedback from the "Crafting" page.
+                    Once the player entered the forest, I used the same grid and modal layout used in other areas for consistency. I also added a pop up for players who 
+                    enter but don't have any Shogun characters that can be used explaining to the user why they couldn't continue. This was added based on user feedback 
+                    from the "Crafting" page.
                 </h2>
 
                 <h2 className="project2--body">
-                    Players could then select which Shogun they wanted to use leading to the confirm screen where they could see the Shoguns stats, the chance of sucess the SHogun had,
-                    the cost to enter, and the "Enter" button.
+                    Players could then select which Shogun they wanted to use leading to the confirm screen where they could see the Shoguns stats, the chance of success 
+                    the Shogun had, the cost to enter, and the "Enter" button.
                 </h2>
+                <br></br>
 
                 </div>
                 
                 <div className="project2--beast-forest-redo">
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/no_character.png"/>
-                    <p className="project2--img-desc">Based on user feedback from the "Crafting" page I added a screen for players who don't have eligable Shoguns explaining why
-                    they can't continue.</p>
+                    <p className="project2--img-desc">Based on user feedback from the "Crafting" page I added a screen for players who don't have eligible Shoguns 
+                    explaining why they can't continue.</p>
                 </div>
 
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_select.png"/>
-                    <p className="project2--img-desc">Shogun select screen using the familar grid layout and basic stats.</p>
+                    <p className="project2--img-desc">Shogun select screen using the familiar grid layout and basic stats.</p>
                 </div>
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/beast_forest_confirm.png"/>
@@ -532,7 +541,7 @@ export default function Project2() {
                 <div className="project2--phase3-container">
 
                 <h2 className="project2--body">
-                    The actual game part of the "Beast Forest" at this stage is very simple, the user enters the forest, selects, an eligable Shogun, confirms the
+                    The actual game part of the "Beast Forest" at this stage is very simple, the user enters the forest, selects an eligable Shogun, confirms the
                     Shogun and pays.
                 </h2>
 
@@ -559,8 +568,8 @@ export default function Project2() {
                 </h2>
 
                 <h2 className="project2--body">
-                    Finally we get to the results. There were 3 outcomes, poor, good, and amazing. Since I brought the players hope and excitement up leading to the results
-                    if the result was poor the reward image and text would slide back down and the image darken to symbolize disapointment.
+                    Finally, we get to the results. There were 3 outcomes, poor, good, and amazing. Since I brought the players hope and excitement up leading to the 
+                    results if the result was poor the reward image and text would slide back down, and the image darken to symbolize disappointment.
                 </h2>
 
                 <h2 className="project2--body">
@@ -568,7 +577,7 @@ export default function Project2() {
                 </h2>
 
                 <h2 className="project2--body">
-                    And finally if the result is amazing, the text and large reward icon raise even higher and I created an explosion of light coming out of the forest.
+                    And finally, if the result is amazing, the text and large reward icon rose even higher, and I created an explosion of light coming out of the forest.
                 </h2>
 
                 <div className="project2--crafting-design">
@@ -579,7 +588,7 @@ export default function Project2() {
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_bad.png"/>
-                        <p className="project2--img-desc">Example poor result, image stays dark, text drops and reward icon small to signal disapointment.</p>
+                        <p className="project2--img-desc">Example poor result, image stays dark, text drops and reward icon small to signal disappointment.</p>
                     </div>
 
                     <div className="project2--img-container">
@@ -588,13 +597,13 @@ export default function Project2() {
                     </div>
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/forest_good.png"/>
-                        <p className="project2--img-desc">Example amazing result, text raised higher, larg reward icon, explosion of light to signal a great acheivement.</p>
+                        <p className="project2--img-desc">Example amazing result, text raised higher, large reward icon, explosion of light to signal a great achievement.</p>
                     </div>
                 </div>
                 
                 <h2 className="project2--body">
-                    After launching the Beast Forest the player feedback was great, the new pop up for players who didn't have a Shogun that could access the forest really helped
-                    limit confussion, and with some of the rewards introducing a new item "The Wolf" it created huge incentives to play and replay.
+                    After launching the Beast Forest, the player feedback was great, the new pop up for players who didn't have a Shogun that could access the forest 
+                    really helped limit confusion, and with some of the rewards introducing a new item "The Wolf" it created huge incentives to play and replay.
                 </h2>
 
                 <h2 className="project2--body">
@@ -618,13 +627,13 @@ export default function Project2() {
                 </h1>
 
                 <h2 className="project2--body">
-                    The final level design I was in charge of was the "Tomb of the Undead King" which was going to be the first boss level. Again though like the Crafting page and the
-                    Beast Forest this is a simple version to keep players engaged and help fund the development of the much more advanced game.
+                    The final level design I oversaw was the "Tomb of the Undead King" which was going to be the first boss level. Again, though like the “Crafting” 
+                    page and the “Beast Forest” this is a simple version to keep players engaged and help fund the development of the much more advanced game.
                 </h2>
 
                 <h2 className="project2--body">
-                    This level is very similar to the Beast Forest but where I was testing new design ideas for equiping items and skiping through some of the slower parts. These ideas 
-                    were being tested based on the user feedback and interviews conducted.
+                    This level is very similar to the Beast Forest but where I was testing new design ideas for equipping items and skipping through some of the 
+                    slower parts. These ideas were being tested based on user feedback and interviews conducted.
                 </h2>
 
                 <h2 className="project2--body">
@@ -635,7 +644,7 @@ export default function Project2() {
                 <div className="project2--crafting-design">
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_intro.png"/>
-                        <p className="project2--img-desc">Similar welcome meassage to the Beast Forest but used different colors to highlight which Shoguns could enter.</p>
+                        <p className="project2--img-desc">Similar welcome message to the Beast Forest but used different colors to highlight which Shoguns could enter.</p>
                     </div>
 
                     <div className="project2--img-container">
@@ -645,18 +654,19 @@ export default function Project2() {
 
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_equiped.png"/>
-                        <p className="project2--img-desc">New Confirm screen showing the equiped item and the stats boost that item provides.</p>
+                        <p className="project2--img-desc">New Confirm screen showing the equipped item and the stats boost that item provides.</p>
                     </div>
                     <div className="project2--img-container">
                         <img className="project2--img" src="../img/case_studies/project2/undead_good.png"/>
-                        <p className="project2--img-desc">Example of a great result, here the light is bursting out of the tomb and all of the lamps glow brighter.</p>
+                        <p className="project2--img-desc">Example of a great result, here the light is bursting out of the tomb and all of the lamp's glow brighter.</p>
                     </div>
                 </div>
 
                 <h2 className="project2--body">
-                    After completing the new designs for the Tomb of the Undead King we tested it with a few users who loved it, some did want a way to bulk select so they could 
-                    select all the warriors at once and have them play all in one go. The project founder didn't want to explore that to much since we wanted players to spend more
-                    time in the game and with the exception of a few power users players didn't have enough Shoguns that would make running through multiple times take too long.
+                    After completing the new designs for the “Tomb of the Undead King” we tested it with a few users who loved it, some did want a way to bulk select 
+                    so they could select all the warriors at once and have them play all in one go. The project founder didn't want to explore that too much since we 
+                    wanted players to spend more time in the game and with the exception of a few power users’ players didn't have enough Shoguns that would make running 
+                    through multiple times take too long.
                 </h2>
 
                 <h2 className="project2--body">
@@ -671,15 +681,15 @@ export default function Project2() {
                 <br></br>
 
                 <h2 className="project2--body">
-                    This was the final level I design for the project which was never implemented. The users were really excited to see more development in the 3D
-                    game and with the small size of the team and the worsening market conditions foucs was shifted in that direction.
+                    This was the final level I designed for the project which was never implemented. The users were excited to see more development in the 3D game 
+                    and with the small size of the team and the worsening market conditions focus was shifted in that direction.
                 </h2>
 
                 <h2 className="project2--body">
-                    After leading the redesign and the new level designs the project was able to fix a lot of the major issues users were running into. The navigation
-                    was fixed, all main areas were redesinged with the same layout for consistency, search and filter options were added, bulk actions could be performed
-                    making it much easier for players to get the maximum results. And three new areas were designed increasing player retention, improving new player onboarding
-                    and increase revenue for the project.
+                    After leading the redesign and the new level designs the project was able to fix a lot of the major issues users were running into. The 
+                    navigation was fixed, all main areas were redesigned with the same layout for consistency, search and filter options were added, bulk actions 
+                    could be performed making it much easier for players to get the maximum results. And three new areas were designed increasing player retention, 
+                    improving new player onboarding, and increasing revenue for the project.
                 </h2>
 
                 <div>

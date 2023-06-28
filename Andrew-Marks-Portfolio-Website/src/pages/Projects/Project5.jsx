@@ -400,16 +400,6 @@ export default function Project5() {
                 50% done but is successful at helping build the email list, you can see the current site using the link below.
                 </h2>
 
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
-
                 <h2 className="project5--link-to-button">
                     <a className="project5--link-to-button" href="https://www.battlewarriors.quest" target="_blank">
                         Here is the current site based on the above design, some changes have been made to focus on getting users to sign up for early access.
@@ -417,130 +407,130 @@ export default function Project5() {
                 </h2>
 
                 <h1 className="project5--title">
-                    Redesigning areas with a consistant design
+                    Designing the new "Quest Library"
                 </h1>
                 <h2 className="project5--body">
-                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                    With over 150 different Quests each with its own description, game hits, abilities, etc. the most common feedback I got from users was that they wanted a 
+                    place to see all of the quests and read the descriptions. 
                 </h2>
+                <h2 className="project5--body">
+                Again, I start with wireframe sketches, I had an idea of what it should look like in my head but getting it on paper is the best way for me to test 
+                different ideas.
+                </h2>
+
 
                 <div className="project5--mocks-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">The landing page needs to have a large main image of a fantasy style library, then cards/links to jump straight 
+                        to those quests, followed by some lore to help with world building.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">For each class of monsters/creatures there needs to be a banner image with some lore and then links to 
+                        each quest in the class.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe2.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Once a Quest is clicked, the user gets to see the Quest card, name, level, description, and battle tips or 
+                        other information.</p>
                     </div>
                 </div>
                 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                The goal of this site is to create a fantasy encyclopedia that incorporates all of the game docs in a less formal and really fun way.
+                To do this I relied on using big powerful images with heavy fantasy influences to create the experience that the player is entering this 
+                huge and exciting world.
                 </h2>
 
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
                 <br></br>
 
                 <div className="project5--mocks-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_design.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Mockup of the main section, with a large fantasy library as a background, large images as links to the 
+                        different Quests, Common, Un-Common, Rare, and Mythic Rare</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_design.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Each section, Common here, has search and filter options, and then each class of creatures has its own banner 
+                        image, and large pictures of the quests as links to see more details.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_details.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">The details page shows the large Quest image, the name, description, battle and game tips and some navigation 
+                        to see the other levels.</p>
                     </div>
                 </div>
                 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                This design is meant to be bold and vibrate again trying to create an immersive world that players can get lost in, go on adventures, and builds 
+                excitement for the game launch. Below is a recording of the prototype I made that scrolls through all the Common quests.
                 </h2>
 
                 <div className="project5--video-container">
                     <video src="../videos/library_early_demo.mp4" autoPlay loop muted className="site-scroll"/>
-                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                    <p className="project5--img-desc">Scrolling from the main section through all of the Common quests.</p>
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                After scrolling through the Common quests I create this video testing the details page for the “Faerie” Quests, the players can see all of the 
+                quests and the Faerie class lore. Once the user clicks any of the links, the details appear where players can learn more about each quests.
                 </h2>
                 <br></br>
 
                 <div className="project5--video-container">
                     <video src="../videos/quest details.mp4" autoPlay loop muted className="site-scroll"/>
-                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                    <p className="project5--img-desc">Going throught each of the Faerie Quests and seeing the details.</p>
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                After making a simple prototype to test the details page, I needed to make sure it would work for mobile and small screens. Here the user 
+                can scroll horizontally between the different levels and quickly swipe/click through to all of the Quests.
                 </h2>
 
                 <div className="project5--video-container">
                     <video src="../videos/mobile_prototype_1.mp4" autoPlay loop muted className="site-scroll-mobile"/>
-                    <p className="project5--img-desc">The game didn't work well on mobile but many players wanted.</p>
+                    <p className="project5--img-desc">Testing the mobile prototype and how the layout needs to change to fit smaller screens.</p>
                 </div>
 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                Now that the design and simple prototype has been created, I’m currently working on finishing the art assets needed to finish the Un-Common, 
+                Rare, and Mythic Rare sections. After that I need to create a profile section so users can connect their wallets and see the Vikings and Quests they own.
                 </h2>
                 <br></br>
 
                 <h1 className="project5--title">
-                    Redesigning areas with a consistant design
+                    Future work / Next steps
                 </h1>
                 <h2 className="project5--body">
-                    take a look at some of the older screens, all very different which can cause some confusion & frustrate the players. 
+                The main issue I’m focused on working on next is making the user flow to get users to create an account and sign up for early access much smother. As
+                I get closer to launching the mint having a larger email list and as many users as possible already set up with accounts will help boost sales. 
                 </h2>
 
                 <div className="project5--next-steps-container">
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/userflow.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">User flow diagram a walking through how a user enters the site and where I can uses CTAs to convert that user to 
+                        someone who joins the email list to get early access.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/entered_portal_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">Sketch for when a user who has connected / logged on and enters the portal. Links to the users Vikings, 
+                        Quests, and Achievements, news and updates, leaderboards, etc.</p>
                     </div>
                     <div>
                         <img className="project5--img-mobile" src="../img/case_studies/project5/user_account_wireframe.png"/>
-                        <p className="project5--img-desc">The game didn't work well on mobile but many players wanted to use mobile or smaller tablets so I made sure the new 
-                        landing page visually worked on those small screens.</p>
+                        <p className="project5--img-desc">The users “My Vikings” page shows the users pfp, name, rank, etc. then shows all the Vikings the player has 
+                        sorted by rank and searchable. Each Viking has a details page that shows the current items equipped.  </p>
                     </div>
                 </div>
                 
                 <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
+                I’m currently finishing the Quest cards and Quest Library, once that is finished the profile page and looking at the user flow and onboarding flow to 
+                optimize it will be the focus until the project officially launches. Hopefully this process will be done by the end of the year.
                 </h2>
 
-                <h2 className="project5--body">
-                    Navigation was the largest issues users had when playing so even though navigation on mobile is more straight forward
-                    than on larger screens, I used the same menu to create a sense of consistency & help show the user all the different areas they can travel to.
-                </h2>
                 <br></br>
 
                 <div className="projec5--footer"> 

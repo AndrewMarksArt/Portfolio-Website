@@ -1,12 +1,12 @@
 export default [
     {
-        id: 4,
+        id: 1,
         img: "discord_manager_featured.png",
         title: "NFT Community Manager",
         headline: "UI dashboard design for NFT communities with afocused on security."
     },
     {
-        id: 6,
+        id: 2,
         img: "levels_featured.png",
         title: "Shogun Level Designs",
         headline: "Level Design -- building levels that connect with users & improve UX"
@@ -18,19 +18,19 @@ export default [
         headline: "Creator, Artist, & Designer of P2E NFT gaming project."
     },
     {
-        id: 5,
+        id: 4,
         img: "quests_featured.png",
         title: "Quest for Valhalla",
         headline: "NFT tactics based P2E game."
     },
     {
-        id: 2,
+        id: 5,
         img: "shogun_featured.png",
         title: "Shogun Warriors",
         headline: "UI & Level Design -- improving player UX for P2E game."
     },
     {
-        id: 1,
+        id: 6,
         img: "mini_game_featured.png",
         title: "Survival Grounds",
         headline: "UI & Game Design -- user focused P2E game design."

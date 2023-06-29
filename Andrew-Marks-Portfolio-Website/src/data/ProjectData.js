@@ -3,13 +3,13 @@ export default [
         id: 1,
         img: "discord_manager_featured.png",
         title: "NFT Community Manager",
-        headline: "UI dashboard design for NFT communities with afocused on security."
+        headline: "UI dashboard design for NFT communities with a focused on security."
     },
     {
         id: 2,
         img: "levels_featured.png",
         title: "Shogun Level Designs",
-        headline: "Level Design -- building levels that connect with users & improve UX"
+        headline: "Level Design -- building levels that connect with users & improve UX."
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ export default [
         id: 4,
         img: "quests_featured.png",
         title: "Quest for Valhalla",
-        headline: "NFT tactics based P2E game."
+        headline: "NFT tactics game -- onboarding new web3 users with games."
     },
     {
         id: 5,
@@ -39,13 +39,13 @@ export default [
         id: 7,
         img: "airbnb_card.png",
         title: "AirBnB Price Predictions",
-        headline: "UI dashboard design for NFT communities with afocused on security."
+        headline: "Building models using Airbnb data to try & find the best value."
     },
     {
         id: 8,
         img: "yelp_card.png",
         title: "Yelp Sentiment Analysis",
-        headline: "Design for fully on-chain blind auction allowing for better price discovery."
+        headline: "NLP model to analyze the sentiment of Yelp reviews for restaurants."
     },
     {
         id: 9,

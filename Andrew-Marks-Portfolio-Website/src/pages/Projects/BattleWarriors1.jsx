@@ -11,6 +11,13 @@ export default function Project3() {
             </div>
 
             <div className="project3-headline-container">
+                <h2 className="project2--sub-head">
+                    This is the first part of the Battle Warriors project, this is an end-to-end project covering initial product concept all the way through launch.   
+                </h2>
+                <h2 className="project2--sub-head">
+                    You can find part 2 where I expanded on this project designing a video game using these characters &nbsp;  
+                        <Link to="/battle-warriors-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
+                </h2>
                 <h1 className="project3--title">Battle Warriors Vikings of ETH: Design & Launch of a Generative NFT Collection and Gaming Ecosystem</h1>
                 <h2 className="project3--sub-head">
                     In mid to late 2021 I suffered a serious back injury that made it so I was unable to work. The only thing that helped with the pain 
@@ -540,15 +547,21 @@ export default function Project3() {
                 </h2>
                 <br></br>
 
+                <h1 className="project3--title">
+                    Next Steps
+                </h1>
+
+                <h2 className="project2--sub-head">
+                    Now that the base characters were finished the next step was to start building a simple game where players could use their Vikings to play, the case study for part 2 is&nbsp;  
+                        <Link to="/battle-warriors-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
+                </h2>
+
                 <div className="projec4--footer"> 
                     <Link to="/projects" style={{ textDecoration: 'underline' }} className="project3--back-to-button">Back to projects</Link>
                     <br></br>
                 </div>
             </div>
 
-            
-
-            
         </div>
     )
 }

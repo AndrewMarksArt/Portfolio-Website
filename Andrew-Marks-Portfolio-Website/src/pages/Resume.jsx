@@ -206,7 +206,7 @@ export default function Resume() {
                         <h1 className="resume--header">Selected UI/UX Designer Projects</h1>
                         <hr className="resume--header-seperator"></hr>
                         <div className="resume--project-container">
-                            <Link to="/project-1" className="resume--project-title">Decentralized Finance (DeFi) & Crypto Onboarding</Link>
+                            <h2 className="resume--job-company">Decentralized Finance (DeFi) & Crypto Onboarding --  Case Study Comming Soon</h2>
                             <p className="resume--project-blurb">Researcher & Developer - DeFi & Crypto Advocacy & Onboarding, start and end date</p>
                             <ul className="resume--project-list">
                                 <li>
@@ -222,7 +222,9 @@ export default function Resume() {
                             </ul>
 
                             <div className="resume--project-container">
-                                <Link to="/project-2" className="resume--project-title">Battle Warriors NFT</Link>
+                                <Link to="/battle-warriors-part-1" className="resume--project-title">Battle Warriors NFT -- Part 1: end-to-end from conception to launch</Link>
+                                <br></br>
+                                <Link to="/battle-warriors-part-2" className="resume--project-title">Battle Warriors NFT -- Part 2: game UI and visual design</Link>
                                 <p className="resume--project-blurb">Product Designer, Manager & Lead Artist, start and end date.</p>
                                 <ul className="resume--project-list">
                                     <li>
@@ -241,7 +243,9 @@ export default function Resume() {
                         </div>
 
                         <div className="resume--project-container">
-                            <Link to="/project-3" className="resume--project-title">Shogun War -- Play-2-Earn (P2E) Game</Link>
+                            <Link to="/shogun-war-part-1" className="resume--project-title">Shogun War -- Play-2-Earn (P2E) Game Part 1: UX audit and fixes</Link>
+                            <br></br>
+                            <Link to="/shogun-war-part-2" className="resume--project-title">Shogun War -- Part 2: Level and Experience Design</Link>
                             <p className="resume--project-blurb">UX Auditor & Designer, start and end date.</p>
                             <ul className="resume--project-list">
                                 <li>
@@ -263,7 +267,7 @@ export default function Resume() {
                         </div>
 
                         <div className="resume--project-container">
-                            <Link to="/project-3" className="resume--project-title">Discord Community Management Dashboard</Link>
+                            <Link to="/discord-dashboard" className="resume--project-title">Discord Community Management Dashboard</Link>
                             <p className="resume--project-blurb">UI Designer, start and end date.</p>
                             <ul className="resume--project-list">
                                 <li>
@@ -286,7 +290,7 @@ export default function Resume() {
                         </div>
 
                         <div className="resume--project-container">
-                            <Link to="/project-3" className="resume--project-title">Airbnb Optimal Price Model</Link>
+                            <Link to="/airbnb-price-prediction" className="resume--project-title">Airbnb Optimal Price Model</Link>
                             <p className="resume--project-blurb">Using 28K listings with 100+ features provided by Airbnb for Dublin, Ireland</p>
                             <ul className="resume--project-list">
                                 <li>

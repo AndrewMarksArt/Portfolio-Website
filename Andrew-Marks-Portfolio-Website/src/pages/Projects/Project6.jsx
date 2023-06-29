@@ -7,6 +7,9 @@ export default function Project6() {
     return (
         <>
         <div className="project2--main-container">
+            <div>
+                <img className="project2--larg-img" src="../img/case_studies/project6/levels_banner.png" />
+            </div>
             <div className="project2--phase3-container">
                 <p className="project2--challenge">
                     Building & crafting new levels

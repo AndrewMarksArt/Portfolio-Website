@@ -13,7 +13,7 @@ export default function Project1() {
             <div className="project3--phase1-container">
                     <br></br>
                     <p className="project3--challenge">
-                        This game being designed is related to the Battle Warriors project, you can see that case study&nbsp;  
+                        The game being designed is related to the Battle Warriors project, you can see that case study&nbsp;  
                             <Link to="/project-3" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link>
                     </p>
                     <br></br>

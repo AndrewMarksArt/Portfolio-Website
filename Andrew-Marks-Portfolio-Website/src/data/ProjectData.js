@@ -31,9 +31,9 @@ export default [
     },
     {
         id: 6,
-        img: "crypto_tracker_featured.png",
-        title: "Crypto Tracker",
-        headline: "Chrome extension to note, and keep track of crypto address and contracts."
+        img: "levels_featured.png",
+        title: "Shogun Level Designs",
+        headline: "Level Design -- building levels that connect with users & improve UX"
     },
     {
         id: 7,

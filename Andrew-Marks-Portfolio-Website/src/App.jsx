@@ -6,15 +6,15 @@ import Resume from "./pages/Resume";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Projects from "./pages/Projects";
 import ScrollToTop from "./components/ScrollToTop";
-import Project1 from "./pages/Projects/Project1";
-import Project2 from "./pages/Projects/Project2";
-import Project3 from "./pages/Projects/Project3";
-import Project4 from "./pages/Projects/Project4";
-import Project5 from "./pages/Projects/Project5";
-import Project6 from "./pages/Projects/Project6";
-import Project7 from "./pages/Projects/Project7";
-import Project8 from "./pages/Projects/Project8";
-import Project9 from "./pages/Projects/Project9";
+import Project1 from "./pages/Projects/BattleWarriors2";
+import Project2 from "./pages/Projects/ShogunWar1";
+import Project3 from "./pages/Projects/BattleWarriors1";
+import Project4 from "./pages/Projects/DiscordDash";
+import Project5 from "./pages/Projects/Quests";
+import Project6 from "./pages/Projects/ShogunWar2";
+import Project7 from "./pages/Projects/Airbnb";
+import Project8 from "./pages/Projects/Yelp";
+import Project9 from "./pages/Projects/ArtMarket";
 
 export default function App() {
     return (

@@ -11,6 +11,14 @@ export default function Project6() {
                 <img className="project2--larg-img" src="../img/case_studies/project6/levels_banner.png" />
             </div>
             <div className="project2--phase3-container">
+                <h2 className="project2--sub-head">
+                    This is the second project I did for Shogun War, the focus of this part was designing new levels and areas for players to explore. I needed 
+                    to build fun and exciting experiences for users given only a few art assets.  
+                </h2>
+                <h2 className="project2--sub-head">
+                    You can find part 1 where I completed an audit and designed fixes to user pain points&nbsp;  
+                        <Link to="/shogun-war-part-1" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
+                </h2>
                 <p className="project2--challenge">
                     Building & crafting new levels
                 </p>

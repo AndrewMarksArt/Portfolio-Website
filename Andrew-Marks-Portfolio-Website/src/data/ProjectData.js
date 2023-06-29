@@ -1,9 +1,9 @@
 export default [
     {
         id: 1,
-        img: "defi_onboarding_featured.png",
-        title: "DeFi & Crypto Onboarding",
-        headline: "UX Research -- Onboarding users with different needs."
+        img: "mini_game_featured.png",
+        title: "Survival Grounds",
+        headline: "UI & Game Design -- user focused P2E game design."
     },
     {
         id: 2,

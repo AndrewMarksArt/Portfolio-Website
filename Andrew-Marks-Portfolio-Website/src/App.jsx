@@ -28,15 +28,15 @@ export default function App() {
                             <Route path="projects" element={<Projects />} />
                             <Route path="resume" element={<Resume />} />
                             <Route path="gallery" element={<FullGallery />} />
-                            <Route path="project-1" element={<Project1 />} />
-                            <Route path="project-2" element={<Project2 />} />
-                            <Route path="project-3" element={<Project3 />} />
-                            <Route path="project-4" element={<Project4 />} />
-                            <Route path="project-5" element={<Project5 />} />
-                            <Route path="project-6" element={<Project6 />} />
-                            <Route path="project-7" element={<Project7 />} />
-                            <Route path="project-8" element={<Project8 />} />
-                            <Route path="project-9" element={<Project9 />} />
+                            <Route path="battle-warriors-part-2" element={<Project1 />} />
+                            <Route path="shogun-war-part-1" element={<Project2 />} />
+                            <Route path="battle-warriors-part-1" element={<Project3 />} />
+                            <Route path="discord-dashboard" element={<Project4 />} />
+                            <Route path="quest-for-valhalla" element={<Project5 />} />
+                            <Route path="shogun-war-part-2" element={<Project6 />} />
+                            <Route path="airbnb-price-prediction" element={<Project7 />} />
+                            <Route path="yelp-sentiment-analysis" element={<Project8 />} />
+                            <Route path="fine-art-market-analysis" element={<Project9 />} />
                         </Route>
                     </Routes>
                 </BrowserRouter>

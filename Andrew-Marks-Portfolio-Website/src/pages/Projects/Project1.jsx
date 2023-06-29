@@ -14,7 +14,7 @@ export default function Project1() {
                     <br></br>
                     <p className="project3--challenge">
                         The game being designed is related to the Battle Warriors project, you can see that case study&nbsp;  
-                            <Link to="/project-3" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link>
+                            <Link to="/battle-warriors-part-1" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link>
                     </p>
                     <br></br>
                     <h1 className="project3--title">

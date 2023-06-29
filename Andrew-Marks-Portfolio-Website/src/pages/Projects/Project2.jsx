@@ -17,7 +17,7 @@ export default function Project2() {
                 </h2>
                 <h2 className="project2--sub-head">
                     You can find part 2 where I designed new levels and experiences for players&nbsp;  
-                        <Link to="/project-3" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
+                        <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
                 </h2>
                 <h1 className="project2--title">Enhancing the Adventure</h1>
                 <h2 className="project2--sub-head">

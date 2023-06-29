@@ -11,6 +11,14 @@ export default function Project2() {
                 <img className="project2--larg-img" src="../img/case_studies/project2/shogun_main_page.png" />
             </div>
             <div className="project2-headline-container">
+                <h2 className="project2--sub-head">
+                    This is the first project I did for Shogun War, the focus was on auditing the UX, updating the UI to fix issues users were having, and
+                    help streamline the onboarding process.  
+                </h2>
+                <h2 className="project2--sub-head">
+                    You can find part 2 where I designed new levels and experiences for players&nbsp;  
+                        <Link to="/project-3" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>  
+                </h2>
                 <h1 className="project2--title">Enhancing the Adventure</h1>
                 <h2 className="project2--sub-head">
                     In Early 2022 a new Play-2-Earn game ShogunWarNFT launched with great retro artwork and an ambitions roadmap. Focused on creating an amazing and 
@@ -330,16 +338,42 @@ export default function Project2() {
                 <br></br>
             </div>
 
+            <br></br>
+
 
             <div className="project2--phase3-container">
-                
+                <br></br>
+                <h1 className="project2--title">
+                        User Feedback and Next Steps
+                    </h1>
+                    <h2 className="project2--body">
+                        By using a grid layout with modals for more details players were able to access all of their Shoguns and Land much easier, 
+                        filter and sort options along with bulk actions turned tedious tasks that were leading to players leaving in to much more 
+                        manageable ones which boosted retention.
+                    </h2>
 
-                <Link to="/projects" style={{ textDecoration: 'underline' }} className="project2--back-to-button">Back to projects </Link>
-                
-                <div>
-                    <br></br>
+                    <h2 className="project2--body">
+                        Now that most of the major pain points users had complained about were fixed I was tasked by the team to design and create 
+                        3 new levels. The "Crafting" page, the "Beast Forest", and the "Tomb of the Undead King".
+                    </h2>
+
+                    <div className="project2--img-container">
+                        <img className="project2--img" src="../img/case_studies/project6/levels_banner.png"/>
+                        <br></br>
+                    </div>
+
+                    <h2 className="project2--body">
+                        You can see Part 2 and the level design process&nbsp;  
+                        <Link to="/project-6" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link> 
+                    </h2>
+                    
+
+                    <Link to="/projects" style={{ textDecoration: 'underline' }} className="project2--back-to-button">Back to projects </Link>
+                    
+                    <div>
+                        <br></br>
+                    </div>
                 </div>
-            </div>
 
         </div>
         </>

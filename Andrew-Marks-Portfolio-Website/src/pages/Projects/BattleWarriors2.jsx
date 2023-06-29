@@ -204,7 +204,7 @@ export default function Project1() {
 
                         <h2 className="project3--body">
                             As this game is being developed I am also expanding the Battle Warrior ecosystem with the "Quest for Valhalla" NFTs and game. You can read that&nbsp;
-                            <Link to="/project-5" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link> 
+                            <Link to="/battle-warriors-part-1" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link> 
                             
                         </h2>
 

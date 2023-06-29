@@ -364,7 +364,7 @@ export default function Project2() {
 
                     <h2 className="project2--body">
                         You can see Part 2 and the level design process&nbsp;  
-                        <Link to="/project-6" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link> 
+                        <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link> 
                     </h2>
                     
 

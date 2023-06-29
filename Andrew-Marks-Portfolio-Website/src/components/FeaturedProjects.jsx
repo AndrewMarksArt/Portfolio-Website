@@ -33,8 +33,8 @@ export default function FeaturedProjects() {
                     <h2 className="featured-skills-list">Focus: End-to-End Projects, Design Thinking, Prototyping, Information Architecture, UI/UX Research & Design</h2>
                 </div>
                 <div className="featured-cards-container">
-                    <Link to="/battle-warriors-part-2" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
-                    <Link to="/shogun-war-part-1" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
+                    <Link to="/discord-dashboard" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
+                    <Link to="/shogun-war-part-2" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
                     <Link to="/battle-warriors-part-1" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
                 </div>
             </div>

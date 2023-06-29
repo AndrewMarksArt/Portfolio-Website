@@ -28,12 +28,12 @@ export default function UIUXProjects() {
             </div>
 
             <div className="projects--cards-container">
-                <Link to="/battle-warriors-part-2" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
-                <Link to="/shogun-war-part-1" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
+                <Link to="/discord-dashboard" style={{ textDecoration: 'none' }}>{projectElements[0]}</Link>
+                <Link to="/shogun-war-part-2" style={{ textDecoration: 'none' }}>{projectElements[1]}</Link>
                 <Link to="/battle-warriors-part-1" style={{ textDecoration: 'none' }}>{projectElements[2]}</Link>
-                <Link to="/discord-dashboard" style={{ textDecoration: 'none' }}>{projectElements[3]}</Link>
-                <Link to="/quest-for-valhalla" style={{ textDecoration: 'none' }}>{projectElements[4]}</Link>
-                <Link to="/shogun-war-part-2" style={{ textDecoration: 'none' }}>{projectElements[5]}</Link>
+                <Link to="/quest-for-valhalla" style={{ textDecoration: 'none' }}>{projectElements[3]}</Link>
+                <Link to="/shogun-war-part-1" style={{ textDecoration: 'none' }}>{projectElements[4]}</Link>
+                <Link to="/battle-warriors-part-2" style={{ textDecoration: 'none' }}>{projectElements[5]}</Link>
             </div>
 
         </div>

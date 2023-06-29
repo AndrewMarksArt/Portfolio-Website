@@ -206,8 +206,8 @@ export default function Resume() {
                         <h1 className="resume--header">Selected UI/UX Designer Projects</h1>
                         <hr className="resume--header-seperator"></hr>
                         <div className="resume--project-container">
-                            <h2 className="resume--job-company">Decentralized Finance (DeFi) & Crypto Onboarding --  Case Study Comming Soon</h2>
-                            <p className="resume--project-blurb">Researcher & Developer - DeFi & Crypto Advocacy & Onboarding, start and end date</p>
+                            <h2 className="resume--job-company">Decentralized Finance (DeFi) & Crypto Onboarding --  (Case Study Comming Soon)</h2>
+                            <p className="resume--project-blurb">Researcher & Developer - DeFi & Crypto Advocacy & Onboarding, March 2022 - August 2022.</p>
                             <ul className="resume--project-list">
                                 <li>
                                     Conducted comprehensive UX research to identify challenges faced by new crypto users transitioning from 
@@ -225,7 +225,7 @@ export default function Resume() {
                                 <Link to="/battle-warriors-part-1" className="resume--project-title">Battle Warriors NFT -- Part 1: end-to-end from conception to launch</Link>
                                 <br></br>
                                 <Link to="/battle-warriors-part-2" className="resume--project-title">Battle Warriors NFT -- Part 2: game UI and visual design</Link>
-                                <p className="resume--project-blurb">Product Designer, Manager & Lead Artist, start and end date.</p>
+                                <p className="resume--project-blurb">Product Designer, Manager & Lead Artist, September 2021 - Current.</p>
                                 <ul className="resume--project-list">
                                     <li>
                                         Designed launched The Viking NFT Warriors (generative collection) with diverse characters, weapons, and looks.
@@ -246,7 +246,7 @@ export default function Resume() {
                             <Link to="/shogun-war-part-1" className="resume--project-title">Shogun War -- Play-2-Earn (P2E) Game Part 1: UX audit and fixes</Link>
                             <br></br>
                             <Link to="/shogun-war-part-2" className="resume--project-title">Shogun War -- Part 2: Level and Experience Design</Link>
-                            <p className="resume--project-blurb">UX Auditor & Designer, start and end date.</p>
+                            <p className="resume--project-blurb">UX Auditor & Designer, April 2022 - June 2022.</p>
                             <ul className="resume--project-list">
                                 <li>
                                     Conducted comprehensive UX audit for crypto play-to-earn (P2E) game—identifying usability issues and 
@@ -268,7 +268,7 @@ export default function Resume() {
 
                         <div className="resume--project-container">
                             <Link to="/discord-dashboard" className="resume--project-title">Discord Community Management Dashboard</Link>
-                            <p className="resume--project-blurb">UI Designer, start and end date.</p>
+                            <p className="resume--project-blurb">UI Designer, July 2022 - September 2022.</p>
                             <ul className="resume--project-list">
                                 <li>
                                     Spearheaded and devised comprehensive Discord (community management) dashboard—shaped to manage 

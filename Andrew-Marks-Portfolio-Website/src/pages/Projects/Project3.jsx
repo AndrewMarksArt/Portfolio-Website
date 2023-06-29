@@ -558,7 +558,7 @@ export default function Project3() {
                         and rewards.
                     </h2>
                     <h2 className="project3--body">
-                        The first game is called the "Survival Grounds", a side scolling platformer where players can control "Ragnar" our main character as they try to avoid 
+                        The first game is called the "Survival Grounds", a side scrolling platformer where players can control "Ragnar" our main character as they try to avoid 
                         axes, arrows, spikes, pits, and more.
                     </h2>
                     <h2 className="project3--body">
@@ -571,12 +571,12 @@ export default function Project3() {
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/game_home.png"/>
                             <p className="project3--img-desc">Here is the welcome screen for the game, I want to get the player into the game quickly so "Begin Training!" 
-                            is the main focus.</p>
+                            is the focus.</p>
                         </div>
                     </div>
 
                     <h2 className="project3--body">
-                        And here are some examples of obsticles the player will have to avoid and get through.
+                        And here are some examples of obstacles the player will have to avoid and get through.
                     </h2>
 
                     <div className="project3--ex-levels-container">
@@ -597,32 +597,32 @@ export default function Project3() {
                     </div>
 
                     <h2 className="project3--body">
-                        For players who have connected their wallets and have Vikings, they will be able to select which one they want to use, the rank will corespond 
+                        For players who have connected their wallets and have Vikings, they will be able to select which one they want to use, the rank will correspond  
                         to the number of hearts the player gets. The player will then be able to select which power they want to use to boost their Viking.
                     </h2>
 
                     <div className="project3--char-selects-container">
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/char_select.png"/>
-                            <p className="project3--img-desc">The player can see the Vikings they have available, here the player can see the ranks and amount of 
+                            <p className="project3--img-desc">The player can see the Vikings they have available, here the player can see the ranks and number of 
                             hearts the Viking will get.</p>
                         </div>
 
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/char_confirm.png"/>
-                            <p className="project3--img-desc">Based on the items the Viking has certain powers are available to players and they can chose one to boost their 
+                            <p className="project3--img-desc">Based on the items the Viking has certain powers that are available to players and they can choose  one to boost their 
                             Viking.</p>
                         </div>
                     </div>
 
                     <h2 className="project3--body">
-                        The 9 power stones drive so many elements through out the Battle warriors ecosystem and in this game gives players a power if their Viking has any 
+                        The 9 power stones drive so many elements throughout the Battle warrior’s ecosystem and in this game gives players a power if their Viking has any 
                         items powered by 1 of the stones. 
                     </h2>
 
                     <h2 className="project3--body">
-                        To help explain all the different powers and abilities these help screens where created and could be used as a tutorial when ever the player has any 
-                        questions.
+                        To help explain all the different powers and abilities these help screens were created and could be used as a tutorial whenever the 
+                        player has any questions.
                     </h2>
 
                     <div className="project3--ex-levels-container">
@@ -647,7 +647,7 @@ export default function Project3() {
 
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/help5.png"/>
-                            <p className="project3--img-desc">Showing the different obstacles the player will have to avoid.</p>
+                            <p className="project3--img-desc">Showing the different obstacles, the player will have to avoid.</p>
                         </div>
 
                         <div className="project3--img-container">
@@ -662,18 +662,18 @@ export default function Project3() {
                             What if I don't have any Vikings?
                         </h1>
                         <h2 className="project3--body">
-                            Gaming provides a unique oportunity to onboard new users to Web3 but to do that we need to make our products avaiable to everyone.
+                            Gaming provides a unique opportunity to onboard new users to Web3 but to do that we need to make our products available to everyone.
                         </h2>
 
                         <h2 className="project3--body">
-                        Design notes & ideas:
+                            Design notes & ideas:
                         </h2>
                         <ol className="project3--list">
                             <li className="project3--list-item">
                                 Need to offer a free to play mode that can help bring new players.
                             </li>
                             <li className="project3--list-item">
-                                Alow players to play alot, share with their frineds, and challenge each other.
+                                Allow players to play a lot, share with their friends, and challenge each other.
                             </li>
                             <li className="project3--list-item">
                                 Create incentives to convert casual players who aren't into Web3 into new crypto users.
@@ -693,12 +693,12 @@ export default function Project3() {
                         <div className="project3--ex-levels-container">
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/free_chars.png"/>
-                            <p className="project3--img-desc">The 3 Vikings the player can chose from are hidden at first.</p>
+                            <p className="project3--img-desc">The 3 Vikings the player can choose from are hidden at first.</p>
                         </div>
 
                         <div className="project3--img-container">
                             <img className="project3--img" src="../img/case_studies/project3/free_char_select.png"/>
-                            <p className="project3--img-desc">The cards are fliped over to reveal the Vikings they can select from.</p>
+                            <p className="project3--img-desc">The cards are flipped over to reveal the Vikings they can select from.</p>
                         </div>
 
                         <div className="project3--img-container">
@@ -721,9 +721,9 @@ export default function Project3() {
                         </div>
 
                         <h2 className="project3--body">
-                            Above shows the free play mode character select screen, the cards starting unrevealed give a sense of excitement as they are flipped over. 
-                            Once revealed I show the whole Viking to showcase the art before animating the stats in. Additionally the borders are different colors to signifiy 
-                            rarity.
+                            Above shows the free play mode character select screen, the cards starting unrevealed give a sense of excitement as they are flipped 
+                            over. Once revealed I show the whole Viking to showcase the art before animating the stats in. Additionally, the borders are different 
+                            colors to signify rarity.
                         </h2>
 
                         <h2 className="project3--body">

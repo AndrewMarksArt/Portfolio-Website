@@ -275,6 +275,11 @@
     gap: 2rem;
 }
 
+.project3--case-study-link {
+    color: var(--clr-primary);
+    font-weight: var(--fw-semi);
+}
+
 .project3--back-to-button {
     color: var(--clr-primary);
     font-weight: var(--fw-semi);

@@ -99,12 +99,13 @@
 }
 
 .project3--list {
-    margin: 1rem 0;
+    margin: 1rem 0 4rem;
 }
 
 .project3--list-item {
     margin-left: 1rem;
     padding-left: 1rem;
+    font-size: 1.4rem;
 }
 
 
@@ -329,6 +330,18 @@
         padding-left: 0.2rem
     }
 
+    .project3--ex-levels-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .project3--char-selects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
         .project3--sketch-group-container {
             display: flex;
             flex-direction: column;
@@ -541,7 +554,20 @@
     
     .project3--list-item {
         margin-left: -0.4rem;
-        padding-left: 0.2rem
+        padding-left: 0.2rem;
+        font-size: 1.1rem;
+    }
+
+    .project3--ex-levels-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .project3--char-selects-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
     
     .project3--img-group-container {
@@ -761,6 +787,21 @@
     .project3--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .project3--ex-levels-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 4rem;
+        gap: 2rem;
+    }
+
+    .project3--char-selects-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 4rem;
+        gap: 2rem;
     }
     
     .project3--img-group-container {
@@ -982,6 +1023,21 @@
     .project3--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .project3--ex-levels-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 4rem;
+        gap: 2rem;
+    }
+
+    .project3--char-selects-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 4rem;
+        gap: 2rem;
     }
     
     .project3--img-group-container {
@@ -1203,6 +1259,7 @@
     .project3--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
     
     .project3--img-group-container {
@@ -1384,6 +1441,7 @@
     .project3--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
     
     .project3--img-group-container {

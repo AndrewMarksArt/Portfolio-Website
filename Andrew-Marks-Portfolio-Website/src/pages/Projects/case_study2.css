@@ -73,6 +73,7 @@
 
 .project2--challenge {
     color: var(--clr-headings);
+    font-weight: var(--fw-semi);
     font-size: var(--fs-h2);
     margin: 0 0 1rem;
 }
@@ -88,6 +89,7 @@
 .project2--list-item {
     margin-left: 1rem;
     padding-left: 1rem;
+    font-size: 1.5rem;
 }
 
 .project2--img-group-container {
@@ -201,7 +203,7 @@
 @media (min-width: 320px) and (max-width: 419px) {
 
     .project2--main-container {
-        padding-top: 100px;
+        padding-top: 70px;
     }
 
     .project2-headline-container, 
@@ -222,15 +224,15 @@
     }
 
     .project2--larg-img {
-        width: 100%;
-        height: 50vh;
+        padding: 0;
+        height: 28vh;
         object-fit: cover;
-        padding: 0 0 3rem;
     }
 
     .project2--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: 3rem;
     }
 
     .project2--list {
@@ -240,6 +242,7 @@
     .project2--list-item {
         margin-left: -0.4rem;
         padding-left: 0.2rem;
+        font-size: 1rem;
     }
 
     .project2--img-group-container {
@@ -341,7 +344,7 @@
 
 @media (min-width: 420px) and (max-width: 479px){
     .project2--main-container {
-        padding-top: 100px;
+        padding-top: 70px;
     }
 
     .project2-headline-container, 
@@ -362,7 +365,8 @@
     }
 
     .project2--larg-img {
-        padding: 0rem 0 2rem;
+        padding: 0;
+        margin-bottom: 3rem;
         height: 33vh;
         object-fit: cover;
     }
@@ -370,6 +374,7 @@
     .project2--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: 4rem;
     }
 
     .project2--list {
@@ -379,6 +384,7 @@
     .project2--list-item {
         margin-left: -0.4rem;
         padding-left: 0.2rem;
+        font-size: 1.1rem;
     }
 
     .project2--img-group-container {
@@ -483,7 +489,7 @@
 @media (min-width: 480px) and (max-width: 767px){
    
     .project2--main-container {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .project2-headline-container, 
@@ -504,14 +510,15 @@
     }
 
     .project2--larg-img {
-        padding: 0rem 0 2rem;
+        padding: 0;
         height: 33vh;
         object-fit: cover;
     }
 
     .project2--challenge {
         font-weight: var(--fw-semi);
-        font-size: var(--fs-h3);
+        font-size: var(--fs-h2);
+        margin-top: 4rem;
     }
 
     .project2--list {
@@ -521,6 +528,7 @@
     .project2--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .project2--img-group-container {
@@ -628,7 +636,7 @@
 /* Medium devices (tablets, portrait) */
 @media (min-width: 768px) and (max-width: 1023px){
     .project2--main-container {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .project2-headline-container, 
@@ -649,12 +657,15 @@
     }
 
     .project2--larg-img {
-        padding: 0rem 0 3rem;
+        height: 35vh;
+        object-fit: cover;
+        margin-bottom: -5rem;
     }
 
     .project2--challenge {
         font-weight: var(--fw-semi);
-        font-size: var(--fs-h3);
+        font-size: var(--fs-h2);
+        margin-top: 3rem;
     }
 
     .project2--list {
@@ -664,6 +675,7 @@
     .project2--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .project2--img-group-container {
@@ -767,7 +779,7 @@
 @media (min-width: 1024px) and (max-width: 1199px){
 
     .project2--main-container {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .project2-headline-container, 
@@ -788,12 +800,16 @@
     }
 
     .project2--larg-img {
-        padding: 0rem 0 3rem;
+        padding: 0;
+        height: 35vh;
+        object-fit: cover;
+        margin-bottom: -1rem;
     }
 
     .project2--challenge {
         font-weight: var(--fw-semi);
-        font-size: var(--fs-h3);
+        font-size: var(--fs-h2);
+        margin-top: 3rem;
     }
 
     .project2--list {
@@ -803,6 +819,7 @@
     .project2--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.2rem;
     }
 
     .project2--img-desc {
@@ -839,7 +856,7 @@
 @media (min-width: 1200px) and (max-width: 1439px){
 
     .project2--main-container {
-        padding-top: 120px;
+        padding-top: 80px;
     }
 
     .project2-headline-container, 
@@ -860,12 +877,15 @@
     }
 
     .project2--larg-img {
-        padding: 3rem 0 3rem;
+        padding: 0rem 0 3rem;
+        object-fit: cover;
+        margin-bottom: -5rem;
     }
 
     .project2--challenge {
         font-weight: var(--fw-semi);
-        font-size: var(--fs-h3);
+        font-size: var(--fs-h2);
+        margin-top: 4rem;
     }
 
     .project2--list {
@@ -875,6 +895,7 @@
     .project2--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
+        font-size: 1.4rem;
     }
 
     .project2--img-desc {

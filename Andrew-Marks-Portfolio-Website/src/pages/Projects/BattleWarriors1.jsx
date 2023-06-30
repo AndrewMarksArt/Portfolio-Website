@@ -176,7 +176,7 @@ export default function Project3() {
                         </div>
                     </div>
                     <p className="project3--img-desc">
-                        Original version 1 characters when minted would get clan banners, after talking to our users we picked a few popular projects that the banners would be nodes to.
+                        Characters when minted would get clan banners, after talking to our users we picked a few popular projects that the banners would be nodes to.
                     </p>
                 </div>
 

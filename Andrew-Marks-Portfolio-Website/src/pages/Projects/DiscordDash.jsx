@@ -184,6 +184,7 @@ export default function Project4() {
                     that could easily expand to larger screens. By working in an Agile fashion, I was able to meet and get feedback from the client as the design 
                     was developing streamlining the process and delivering a final mockup that they loved.
                 </h2>
+                <br></br>
 
                 <h1 className="project4--title">Final design and Deliverable</h1>
                 <div className="project4--scroll-container">
@@ -194,6 +195,7 @@ export default function Project4() {
             </div>
 
             <div className="project4--phase2-container">
+                <br></br>
                 <h1 className="project4--title">
                     Next Steps
                 </h1>

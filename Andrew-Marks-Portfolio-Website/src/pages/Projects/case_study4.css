@@ -56,6 +56,7 @@
     font-size: var(--fs-xl);
     font-weight: var(--fw-semi);
     margin-bottom: 2rem;
+    margin-top: -1.8rem;
 }
 
 .project4--sub-head {
@@ -65,13 +66,13 @@
     margin-bottom: 2.5rem;
 }
 .project4--larg-img {
-    padding: 0 0 3rem;
+    padding: 0 0 5rem;
 }
 
 .project4--challenge {
     color: var(--clr-headings);
-    font-size: var(--fs-h2);
-    margin: 0 0 1rem;
+    font-size: var(--fs-h1);
+    margin: -2.5rem 0 4rem;
 }
 
 .project4--body {
@@ -79,18 +80,19 @@
 }
 
 .project4--list {
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .project4--list-item {
     margin-left: 1rem;
     padding-left: 1rem;
+    font-size: 1.2rem;
 }
 
 .project4--img-group-container {
     display: grid;
     grid-template-columns: 1fr 1.3fr;
-    padding: 1rem 5rem;
+    padding: 1rem 16rem;
     column-gap: 2rem;
 }
 
@@ -205,6 +207,7 @@
     .project4--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
+        margin-top: -2rem;
     }
     
     .project4--sub-head {
@@ -213,7 +216,8 @@
         margin-bottom: 1.5rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 2rem;
+        padding: 0;
+        margin-bottom: 4rem;
         height: 28vh;
         object-fit: cover;
     }
@@ -221,6 +225,8 @@
     .project4--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: -2rem;
+        margin-bottom: 3rem;
     }
     
     .project4--body {
@@ -272,17 +278,7 @@
     .project4--scroll-container {
         display: flex;
         flex-direction: column;
-    }
-    
-    .project4--scroll-description {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        padding-bottom: 0;
-    }
-    
-    .project4--scroll-gif {
-        margin-bottom: 2rem;
+        padding: 0 0.5rem;
     }
     
     .project4--phase2-container {
@@ -316,6 +312,7 @@
     .project4--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
+        margin-top: -1rem;
     }
     
     .project4--sub-head {
@@ -324,7 +321,8 @@
         margin-bottom: 1.5rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 2rem;
+        padding: 0;
+        margin-bottom: 3rem;
         height: 33vh;
         object-fit: cover;
     }
@@ -332,6 +330,8 @@
     .project4--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: -2rem;
+        margin-bottom: 2rem;
     }
     
     .project4--body {
@@ -346,7 +346,8 @@
     
     .project4--list-item {
         margin-left: -0.4rem;
-        padding-left: 0.2rem
+        padding-left: 0.2rem;
+        font-size: 1.1rem;
     }
     
     .project4--img-group-container {
@@ -383,7 +384,7 @@
     .project4--scroll-container {
         display: flex;
         flex-direction: column;
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
     
     .project4--scroll-description {
@@ -431,6 +432,7 @@
     .project4--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
+        margin-top: -2rem;
     }
     
     .project4--sub-head {
@@ -439,7 +441,8 @@
         margin-bottom: 1.5rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 2rem;
+        padding: 0;
+        margin-bottom: 4rem;
         height: 33vh;
         object-fit: cover;
     }
@@ -447,6 +450,8 @@
     .project4--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: -2.4rem;
+        margin-bottom: 2.4rem;
     }
     
     .project4--body {
@@ -556,7 +561,6 @@
         margin-bottom: 1.5rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 2rem;
         height: 35vh;
         object-fit: cover;
     }
@@ -564,6 +568,7 @@
     .project4--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: -2rem;
     }
     
     .project4--body {
@@ -673,7 +678,7 @@
         margin-bottom: 1.5rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 0;
+        padding: 0;
         height: 35vh;
         object-fit: cover;
         margin-bottom: 4rem;
@@ -682,6 +687,7 @@
     .project4--challenge {
         font-weight: var(--fw-semi);
         font-size: var(--fs-h3);
+        margin-top: -2rem;
     }
     
     .project4--body {
@@ -772,6 +778,7 @@
     .project4--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.5rem;
+        margin-top: -2rem;
     }
     
     .project4--sub-head {
@@ -780,14 +787,16 @@
         margin-bottom: 1.8rem;
     }
     .project4--larg-img {
-        padding: 0rem 0 0;
+        padding: 0rem 0 3rem;
         object-fit: cover;
         margin-bottom: 3rem;
     }
     
     .project4--challenge {
         font-weight: var(--fw-semi);
-        font-size: var(--fs-h3);
+        font-size: var(--fs-h2);
+        margin-top: -2rem;
+        margin-bottom: 3rem;
     }
     
     .project4--body {

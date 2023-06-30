@@ -142,7 +142,7 @@ export default function Project3() {
 
 
                 <div className="project3--video-container">
-                    <video src="../videos/example_viking.mp4" autoPlay playsinline loop muted controls className="char-build-video"/>
+                    <video src="../videos/example_viking.mp4" playsinline loop muted controls className="char-build-video"/>
                 </div>
             </div>
 

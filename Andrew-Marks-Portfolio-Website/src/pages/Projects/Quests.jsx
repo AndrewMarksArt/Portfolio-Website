@@ -134,7 +134,7 @@ export default function Project5() {
                 I want an element of trading between players and this design easily translates to future card games I am starting to think up and create.
                 </h2>
 
-                <div className="project5--test-gen-container">
+                <div className="project5--next-steps-container">
                     <div className="project5--img-container">
                         <img className="project5--img" src="../img/case_studies/project5/card_design_sketch.png"/>
                         <p className="project5--img-desc">
@@ -149,9 +149,7 @@ export default function Project5() {
                     <div className="project5--img-container">
                         <img className="project5--img" src="../img/case_studies/project5/1st_quest.png"/>
                         <p className="project5--img-desc">
-                            In the sketch the monster revealed had a lot of information, but since the game is digital, I felt there was no need to include that on the card 
-                            and it could be shown in the game. It gives me more space to show the artwork, but also leaves room to change how things work in the future if 
-                            needed.</p>
+                            No need to include stats on the card, it gives me more space to show the artwork, and gives more flexibility.</p>
                     </div>
                 </div>            
             

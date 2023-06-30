@@ -49,8 +49,7 @@
     margin-top: 120px;
     margin-left: 5vw;
     width: 90vw;
-    box-shadow: 8px 8px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
     overflow: hidden;
     padding-bottom: 1rem;
   }
@@ -355,8 +354,8 @@
         margin-top: 100px;
         margin-left: 8vw;
         width: 84vw;
-        box-shadow: 6px 6px 0 0 black;
-        outline: 3px solid black;
+        box-shadow: 6px 6px 0 0 black, 0 0 0 3px black;
+        
     }
 
     .resume--content-container {
@@ -507,8 +506,7 @@
         margin-top: 100px;
         margin-left: 8vw;
         width: 84vw;
-        box-shadow: 6px 6px 0 0 black;
-        outline: 3px solid black;
+        box-shadow: 6px 6px 0 0 black, 0 0 0 3px black;
     }
 
     .resume--content-container {
@@ -657,8 +655,7 @@
         margin-top: 100px;
         margin-left: 8vw;
         width: 84vw;
-        box-shadow: 12px 12px 0 0 black;
-        outline: 3px solid black;
+        box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     }
 
     .resume--content-container {
@@ -798,7 +795,7 @@
 @media (min-width: 1024px) and (max-width: 1199px){
     .resume--container {
         border-radius: 2.5rem;
-        box-shadow: 12px 12px 0 0 black;
+        box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     }
 
     .resume--content-container {
@@ -861,7 +858,7 @@
 @media (min-width: 1200px) and (max-width: 1439px){
     .resume--container {
         border-radius: 2.5rem;
-        box-shadow: 12px 12px 0 0 black;
+        box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     }
 
     .resume--content-container {
@@ -938,7 +935,7 @@
 @media (min-width: 1920px) {
     .resume--container {
         border-radius: 2.5rem;
-        box-shadow: 12px 12px 0 0 black;
+        box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     }
 
     .resume--content-container {

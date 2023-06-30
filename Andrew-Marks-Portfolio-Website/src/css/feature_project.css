@@ -40,8 +40,7 @@
   margin-left: 8vw;
   padding-bottom: 12px;
   max-width: 84vw;
-  box-shadow: 12px 12px 0 0 black;
-  outline: 3px solid black;
+  box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   overflow: hidden;
 }
 
@@ -118,8 +117,7 @@
 @media (min-width: 320px) and (max-width: 479px) {
   /* Styles for extra small devices */
   .featured-container {
-    box-shadow: 8px 8px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
     border-radius: 30px;
   }
 
@@ -177,8 +175,7 @@
 @media (min-width: 480px) and (max-width: 767px){
   /* Styles for small devices */
   .featured-container {
-    box-shadow: 8px 8px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
   }
 
   .featured-top-bar {
@@ -234,8 +231,7 @@
 @media (min-width: 768px) and (max-width: 1023px){
   /* Styles for medium devices */
   .featured-container {
-    box-shadow: 8px 8px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
   }
 
   .featured-top-bar {
@@ -288,8 +284,7 @@
 @media (min-width: 1024px) and (max-width: 1199px){
   /* Styles for large devices */
   .featured-container {
-    box-shadow: 12px 12px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     max-width: 86vw;
     margin-left: 7vw;
   }
@@ -345,8 +340,7 @@
 @media (min-width: 1200px) and (max-width: 1439px){
   /* Styles for extra large devices */
   .featured-container {
-    box-shadow: 12px 12px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     max-width: 86vw;
     margin-left: 7vw;
   }
@@ -403,8 +397,7 @@
 @media (min-width: 1440px) and (max-width: 1919px){
   /* Styles for XXL devices */
   .featured-container {
-    box-shadow: 12px 12px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     max-width: 86vw;
     margin-left: 7vw;
   }
@@ -461,8 +454,7 @@
 @media (min-width: 1920px) {
   /* Styles for ultra large devices */
   .featured-container {
-    box-shadow: 12px 12px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
     max-width: 86vw;
     margin-left: 7vw;
   }

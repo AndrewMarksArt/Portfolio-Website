@@ -39,8 +39,7 @@
   max-width: 86vw;
   margin-left: 7vw;
   margin-top: 36px;
-  box-shadow: 12px 12px 0 0 black;
-  outline: 3px solid black;
+  box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   overflow: hidden;
 }
 
@@ -121,7 +120,7 @@
   .art-gallery--container {
     max-width: 84vw;
     margin-left: 8vw;
-    box-shadow: 8px 8px 0 0 black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {
@@ -193,7 +192,7 @@
   .art-gallery--container {
     max-width: 84vw;
     margin-left: 8vw;
-    box-shadow: 8px 8px 0 0 black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {
@@ -266,7 +265,7 @@
   .art-gallery--container {
     max-width: 86vw;
     margin-left: 7vw;
-    box-shadow: 12px 12px 0 0 black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {
@@ -339,7 +338,7 @@
   .art-gallery--container {
     max-width: 86vw;
     margin-left: 7vw;
-    box-shadow: 12px 12px 0 0 black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {
@@ -412,7 +411,7 @@
   .art-gallery--container {
     max-width: 86vw;
     margin-left: 7vw;
-    box-shadow: 12px 12px 0 0 black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {
@@ -485,7 +484,7 @@
   .art-gallery--container {
     max-width: 86vw;
     margin-left: 7vw;
-    box-shadow: 12px 12px 0 0 black;
+    box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
   }
 
   .art-gallery-line {

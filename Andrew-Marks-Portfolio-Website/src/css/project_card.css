@@ -36,7 +36,7 @@
 .project-card {
   background-color: var(--clr-white);
   border-radius: 40px;
-  outline: 3px solid black;
+  box-shadow: 0 0 0 3px black;
   z-index: 10;
   margin-top: 32px;
   max-height:60vh;
@@ -71,13 +71,13 @@
 
 .project-card:hover {
   box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
+  outline: 3px solid black;
   margin-top: 0.6rem;
 }
 
 @media (min-width: 320px) and (max-width: 419px) {
   .project-card {
     border-radius: 20px;
-    outline: 3px solid black;
     margin-top: 1.5rem;
     height:fit-content;
     overflow: hidden;
@@ -114,7 +114,6 @@
   /* Styles for extra small devices */
   .project-card {
     border-radius: 20px;
-    outline: 3px solid black;
     margin-top: 1.5rem;
     height:fit-content;
     overflow: hidden;
@@ -151,7 +150,6 @@
   /* Styles for small devices */
   .project-card {
     border-radius: 20px;
-    outline: 3px solid black;
     margin-top: 2rem;
     height:fit-content;
     overflow: hidden;

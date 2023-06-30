@@ -184,7 +184,7 @@ export default function Project1() {
                         </h2>
 
                         <div className="project3--video-container">
-                            <video src="../videos/free_play_prototype.mp4" autoPlay loop muted className="free-play-video"/>
+                            <video src="../videos/free_play_prototype.mp4" autoPlay playsInLine loop muted controls className="free-play-video"/>
                         </div>
 
                         <h2 className="project3--body">

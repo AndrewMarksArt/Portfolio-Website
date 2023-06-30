@@ -366,7 +366,7 @@ export default function Project5() {
                 </h2>
 
                 <div className="project5--video-container">
-                    <video src="../videos/quests_site_scroll_1.mp4" autoPlay loop muted className="site-scroll"/>
+                    <video src="../videos/quests_site_scroll_1.mp4" autoPlay playsInLine loop muted controls className="site-scroll"/>
                     <p className="project5--img-desc">Example video showing how the site might look and while the user scrolls through it.</p>
                 </div>
 
@@ -467,7 +467,7 @@ export default function Project5() {
                 </h2>
 
                 <div className="project5--video-container">
-                    <video src="../videos/library_early_demo.mp4" autoPlay loop muted className="site-scroll"/>
+                    <video src="../videos/library_early_demo.mp4" autoPlay playsInLine loop muted controls className="site-scroll"/>
                     <p className="project5--img-desc">Scrolling from the main section through all of the Common quests.</p>
                 </div>
 
@@ -478,7 +478,7 @@ export default function Project5() {
                 <br></br>
 
                 <div className="project5--video-container">
-                    <video src="../videos/quest details.mp4" autoPlay loop muted className="site-scroll"/>
+                    <video src="../videos/quest details.mp4" autoPlay playsInLine loop muted controls className="site-scroll"/>
                     <p className="project5--img-desc">Going throught each of the Faerie Quests and seeing the details.</p>
                 </div>
 
@@ -488,7 +488,7 @@ export default function Project5() {
                 </h2>
 
                 <div className="project5--video-container">
-                    <video src="../videos/mobile_prototype_1.mp4" autoPlay loop muted className="site-scroll-mobile"/>
+                    <video src="../videos/mobile_prototype_1.mp4" autoPlay playsInLine loop muted controls className="site-scroll-mobile"/>
                     <p className="project5--img-desc">Testing the mobile prototype and how the layout needs to change to fit smaller screens.</p>
                 </div>
 

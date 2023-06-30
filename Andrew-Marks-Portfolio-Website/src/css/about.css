@@ -41,7 +41,7 @@
     margin-left: 8vw;
     padding-bottom: 12px;
     max-width: 84vw;
-    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
+    box-shadow: 8px 8px 0 0 red;
     
     overflow: hidden;
 }
@@ -549,8 +549,8 @@ a:hover {
         max-width: 86vw;
         margin-top: 140px;
         margin-left: 7vw;
-        box-shadow: 12px 12px 0 0 black;
-        outline: 3px solid black;
+        box-shadow: 12px 12px 0 0 black, 0 0 0 3px black;
+        
     }
 
     .about-top-bar {

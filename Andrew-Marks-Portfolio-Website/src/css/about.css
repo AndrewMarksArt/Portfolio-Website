@@ -41,8 +41,8 @@
     margin-left: 8vw;
     padding-bottom: 12px;
     max-width: 84vw;
-    box-shadow: 8px 8px 0 0 black;
-    outline: 3px solid black;
+    box-shadow: 8px 8px 0 0 black, 0 0 0 3px black;
+    
     overflow: hidden;
 }
 

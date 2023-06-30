@@ -212,6 +212,10 @@
         margin: 0 1.5rem 2rem;
     }
 
+    .project2-headline-container {
+        padding-top: 2rem;
+    }
+
     .project2--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
@@ -242,7 +246,7 @@
     .project2--list-item {
         margin-left: -0.4rem;
         padding-left: 0.2rem;
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .project2--img-group-container {
@@ -498,6 +502,10 @@
         margin: 0 3rem 2rem;
     }
 
+    .project2-headline-container {
+        padding-top: 2rem;
+    }
+
     .project2--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
@@ -528,7 +536,7 @@
     .project2--list-item {
         margin: 0 3rem 0 1rem;
         padding-left: 0.5rem;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .project2--img-group-container {
@@ -643,6 +651,10 @@
     .project2--phase1-container, 
     .project2--phase3-container {
         margin: 0 8rem 2rem;
+    }
+
+    .project2-headline-container {
+        padding-top: 6rem;
     }
 
     .project2--title {
@@ -788,6 +800,10 @@
         margin: 0 8rem 2rem;
     }
 
+    .project2-headline-container {
+        padding-top: 4rem;
+    }
+
     .project2--title {
         font-size: var(--fs-h1);
         margin-bottom: 1.4rem;
@@ -863,6 +879,10 @@
     .project2--phase1-container, 
     .project2--phase3-container {
         margin: 0 12rem 2rem;
+    }
+
+    .project2-headline-container {
+        padding-top: 6rem;
     }
 
     .project2--title {

@@ -387,7 +387,8 @@
         }
 
         .project3--item-banner {
-            height: 100%;
+            height: auto;
+            width: 84vw;
         }
 
         .project3--items-container {
@@ -634,7 +635,8 @@
     }
 
     .project3--item-banner {
-        height: 100%;
+        height: auto;
+        width: 84vw;
     }
 
     .project3--items-container {
@@ -868,7 +870,8 @@
     }
 
     .project3--item-banner {
-        height: 100%;
+        height: auto;
+        width: 84vw;
     }
 
     .project3--items-container {
@@ -1103,7 +1106,8 @@
     }
 
     .project3--item-banner {
-        height: 100%;
+        height: auto;
+        width: 84vw;
     }
 
     .project3--items-container {
@@ -1302,7 +1306,8 @@
     }
 
     .project3--item-banner {
-        height: 100%;
+         height: auto;
+        width: 84vw;
     }
 
     .project3--items-container {
@@ -1485,12 +1490,12 @@
     }
 
     .project3--item-banner {
-        height: 100%;
+        height: 300px;
     }
     
     .project3--item-chest {
-        height: auto;
-        width: 42vw;
+        height: 150px;
+        width: 150px;
         object-fit: cover;
     }
 

@@ -70,13 +70,10 @@
 }
 
 .project-card:hover {
-  box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
+  box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black, 0 0 0 3px black;
   margin-top: 0.6rem;
 }
 
-.project-card:active {
-  box-shadow: 0 0 0 3px black;
-}
 
 @media (min-width: 320px) and (max-width: 419px) {
   .project-card {
@@ -143,7 +140,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
+    box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }
@@ -170,7 +167,7 @@
   }
 
   .project-card:hover {
-    box-shadow: 0.5rem 0.5rem var(--clr-hover), 0.5rem 0.5rem 0 3px black;
+    box-shadow: 0.5rem 0.5rem var(--clr-hover), 0.5rem 0.5rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.6rem;
   }
 }
@@ -201,7 +198,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.6rem 0.6rem var(--clr-hover), 0.6rem 0.6rem 0 3px black;
+    box-shadow: 0.6rem 0.6rem var(--clr-hover), 0.6rem 0.6rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }
@@ -232,7 +229,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.6rem 0.6rem var(--clr-hover), 0.6rem 0.6rem 0 3px black;
+    box-shadow: 0.6rem 0.6rem var(--clr-hover), 0.6rem 0.6rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }
@@ -263,7 +260,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black;
+    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }
@@ -294,7 +291,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black;
+    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }
@@ -325,7 +322,7 @@
   }
   
   .project-card:hover {
-    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black;
+    box-shadow: 0.7rem 0.7rem var(--clr-hover), 0.7rem 0.7rem 0 3px black, 0 0 0 3px black;
     margin-top: 1.4rem;
   }
 }

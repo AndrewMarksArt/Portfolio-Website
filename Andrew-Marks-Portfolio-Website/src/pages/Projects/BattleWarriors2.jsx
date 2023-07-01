@@ -184,7 +184,12 @@ export default function Project1() {
                         </h2>
 
                         <div className="project3--video-container">
-                            <video src="../videos/free_play_prototype.mp4" autoplay playsInline loop muted controls webkit-playsInline className="free-play-video"/>
+                            <video 
+                                src="../videos/free_play_prototype.mp4" 
+                                className="free-play-video"
+                                poster="../img/case_studies/project3/play_video_minigame.png"
+                                autoplay playsInline loop muted controls webkit-playsInline 
+                            />
                         </div>
 
                         <h2 className="project3--body">

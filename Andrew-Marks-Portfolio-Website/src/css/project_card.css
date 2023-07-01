@@ -71,7 +71,6 @@
 
 .project-card:hover {
   box-shadow: 0.75rem 0.75rem var(--clr-hover), 0.75rem 0.75rem 0 3px black;
-  outline: 3px solid black;
   margin-top: 0.6rem;
 }
 

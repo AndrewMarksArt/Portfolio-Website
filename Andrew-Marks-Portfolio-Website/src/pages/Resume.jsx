@@ -22,7 +22,7 @@ export default function Resume() {
             <div className="resume--content-container">
                 <div className="resume--top-line"></div>
                         <div className="resume--logo-container">
-                            <img src="../img/logo.png" className="resume--logo"></img>
+                            <img src="../img/logo.webp" className="resume--logo"></img>
                         </div>
                     <div className="resume--name-contact">
                         <h1 className="resume--main-title">ANDREW MARKS, M.S.</h1>

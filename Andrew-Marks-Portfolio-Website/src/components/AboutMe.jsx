@@ -14,7 +14,7 @@ export default function AboutMe() {
                 </div>
                 <div className="about-me--main-container">
                     <div className="about-me--logo-container">
-                        <img className="logo--about-me" src="../img/logo.png"></img>
+                        <img className="logo--about-me" src="../img/logo.webp"></img>
                     </div>
                     <div className="about-me--main">
                         <h1 className="about-me--title">Hi, my name is Andrew. </h1>

@@ -7,7 +7,7 @@ export default function Project3() {
     return (
         <div className="project3--main-container">
             <div>
-                <img className="project3--larg-img" src="../img/case_studies/project3/bw_banner.png" />
+                <img className="project3--larg-img" src="../img/case_studies/project3/bw_banner.webp" />
             </div>
 
             <div className="project3-headline-container">
@@ -85,19 +85,19 @@ export default function Project3() {
             <div className="project3--sketch-group-container">
                 <div className="project3--sketch-group-imgs">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/face_sketch1.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/face_sketch1.webp"/>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/face_sketch2.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/face_sketch2.webp"/>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/face_sketch3.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/face_sketch3.webp"/>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/new_items_sketch.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/new_items_sketch.webp"/>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/early_archer.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/early_archer.webp"/>
                     </div>
                 </div>
                 <p className="project3--img-desc">
@@ -120,11 +120,11 @@ export default function Project3() {
 
                 <div className="project3--test-gen-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/test_generated_viking.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/test_generated_viking.webp"/>
                         <p className="project3--img-desc">First Viking character randomly generated and created from the individual trait images.</p>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/test_generation.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/test_generation.webp"/>
                         <p className="project3--img-desc">Adjusting the script to create many different characters with different traits.</p>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ export default function Project3() {
                     <video 
                         src="../videos/example_viking.mp4" 
                         className="char-build-video" 
-                        poster="../img/case_studies/project3/play_video.png"
+                        poster="../img/case_studies/project3/play_video.webp"
                         autoplay playsInline loop muted controls webkit-playsInline/>
                 </div>
             </div>
@@ -167,16 +167,16 @@ export default function Project3() {
                 <div className="project3--banner-group-container">
                     <div className="project3--banner-group-imgs">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/banner1.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/banner1.webp"/>
                         </div>
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/banner2.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/banner2.webp"/>
                         </div>
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/banner3.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/banner3.webp"/>
                         </div>
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/banner4.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/banner4.webp"/>
                         </div>
                     </div>
                     <p className="project3--img-desc">
@@ -196,11 +196,11 @@ export default function Project3() {
 
                 <div className="project3--items-container">
                     <div>
-                        <img className="project3--item-banner" src="../img/case_studies/project3/armory_weapons.png"/>
+                        <img className="project3--item-banner" src="../img/case_studies/project3/armory_weapons.webp"/>
                     </div>
                     <div className="project3--item-chests">
-                        <img className="project3--item-chest" src="../img/case_studies/project3/sm_chest.png"/>
-                        <img className="project3--item-chest" src="../img/case_studies/project3/lrg_chest.png"/>
+                        <img className="project3--item-chest" src="../img/case_studies/project3/sm_chest.webp"/>
+                        <img className="project3--item-chest" src="../img/case_studies/project3/lrg_chest.webp"/>
                     </div>
                 </div>
                 
@@ -211,22 +211,22 @@ export default function Project3() {
 
                 <div className="project3--mocks-container">
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/helmets.png"/>
+                        <img className="project3--img-mobile" src="../img/case_studies/project3/helmets.webp"/>
                         <p className="project3--img-desc">Here are different Helmets all the warriors could get, a basic metal cap, to horned helmets with broken or 
                         downward horns, to skull masks, winged helms, and crowns for the highest-level high kings and queens.</p>
                     </div>
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/axes.png"/>
+                        <img className="project3--img-mobile" src="../img/case_studies/project3/axes.webp"/>
                         <p className="project3--img-desc">These are examples Axes, from a throwing axe that can be held in either hand, to a two handed axe, then a heavy 
                         axe, and finally the power axe that has special abilities from a power stone which are unique items in the game with magical abilities.</p>
                     </div>
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/hammers.png"/>
+                        <img className="project3--img-mobile" src="../img/case_studies/project3/hammers.webp"/>
                         <p className="project3--img-desc">These are the different hammers, the small hammer is based on Thor’s hammer and can be held in the main or off 
                         hand, then is the two handed Warhammer, and powered hammer using a power stone.</p>
                     </div>
                     <div>
-                        <img className="project3--img-mobile" src="../img/case_studies/project3/swords.png"/>
+                        <img className="project3--img-mobile" src="../img/case_studies/project3/swords.webp"/>
                         <p className="project3--img-desc">Here is the basic sword, this is based on my favorite game Rouge Legacy, the basic sword can be upgraded with 
                         a powered stone making it stronger with magical powers, and then if you collect many of the same items, they can be leveled up like this level 
                         2 sword.</p>
@@ -247,28 +247,28 @@ export default function Project3() {
 
                 <div className="project3--examples-container">
                     <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik1.png"/>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik1.webp"/>
                     </div>
                     <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik2.png"/>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik2.webp"/>
                     </div>
                     <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik3.png"/>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik3.webp"/>
                     </div>
                     <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik4.png"/>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik4.webp"/>
                     </div>
                     <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik5.png"/>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik5.webp"/>
                     </div>
                     <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik6.png"/>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik6.webp"/>
                     </div>
                     <div>
-                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik7.png"/>
+                        <img className="project3--giveaway-loop" src="../img/case_studies/project3/vik7.webp"/>
                     </div>
                     <div>
-                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik8.png"/>
+                        <img className="project3--freya-cloak" src="../img/case_studies/project3/vik8.webp"/>
                     </div>
                 </div>
 
@@ -321,26 +321,26 @@ export default function Project3() {
 
                 <div className="project3--redesign-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/site_wireframe.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/site_wireframe.webp"/>
                         <p className="project3--img-desc">Main website wireframe, staring with the main background image and CTA, leads into a gallery and project roadmap,
                         a large gallery to show off the current artwork, and then links to all socials.</p>
                     </div>
                 
 
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/dapp_wireframe.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/dapp_wireframe.webp"/>
                         <p className="project3--img-desc">Design for simple dApp to mint the Viking characters. Main panel with the number of Vikings left, gifs 
                         on the side that show example Vikings so users can see what they might mint, once connected quick mint buttons and warnings about Ethereum.</p>
                     </div>
 
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/bw_site.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/bw_site.webp"/>
                         <p className="project3--img-desc">What the main site looked like, large Viking village image, title and CTA to launch minting site, before mint this would push 
                         to our social media links to try and build followers.</p>
                     </div>
 
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/bw_dapp_site.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/bw_dapp_site.webp"/>
                         <p className="project3--img-desc">Minting site showing how many Vikings are left, example Vikings on the sides to show users what they could mint, and quick 
                         mint buttons letting users know they can mint 1, 3, or 5 at a time.</p>
                     </div>
@@ -368,7 +368,7 @@ export default function Project3() {
                     <div className="project3--medium-links-container">
                         <div className="project3--img-container">
                             <a href="https://battlevikingnft.medium.com/battle-warriors-vikings-of-eth-553df4cae393" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/bw_banner.png"/>
+                                <img className="project3--medium-img" src="../img/case_studies/project3/bw_banner.webp"/>
                                 <p className="project3--img-desc">Very short article introducing the project, and trying to get readers to join our Discord server where we were 
                                 building our community.</p>
                             </a>
@@ -376,14 +376,14 @@ export default function Project3() {
 
                         <div className="project3--img-container">
                             <a href="https://battlevikingnft.medium.com/looks-rare-or-does-it-fc49b56dcc6a" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/power_stones.png"/>
+                                <img className="project3--medium-img" src="../img/case_studies/project3/power_stones.webp"/>
                                 <p className="project3--img-desc">Short article on rarity, the power stones, upgrades and customizations, and again trying to get the reader to join our Discord.</p>
                             </a>
                         </div>
 
                         <div className="project3--img-container">
                         <a href="https://battlevikingnft.medium.com/whats-in-a-rank-281d0aaaa9ed" target="_blank">
-                                <img className="project3--medium-img" src="../img/case_studies/project3/stats_card.png"/>
+                                <img className="project3--medium-img" src="../img/case_studies/project3/stats_card.webp"/>
                                 <p className="project3--img-desc">More detailed breakdown on how the characters would work, covering ranks, stats, items, and levels.</p>
                             </a>
                         </div>
@@ -398,7 +398,7 @@ export default function Project3() {
                     <div className="project3--site-links-container">
                         <div className="project3--site-img-container">
                             <a href="https://www.battlewarriors.io" target="_blank">
-                                <img className="project3--site-img" src="../img/case_studies/project3/bw_site.png"/>
+                                <img className="project3--site-img" src="../img/case_studies/project3/bw_site.webp"/>
                                 <p className="project3--img-desc">You can see the old official page here, there is a new site being built to better fit the new 
                                 project content but this site will stay up so everyone can see how far the project has come.</p>
                             </a>
@@ -443,13 +443,13 @@ export default function Project3() {
 
                 <div className="project3--traits-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/set_traits_1.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/set_traits_1.webp"/>
                         <p className="project3--img-desc">Screen shot from the notebook that sets the number of Vikings and creates lists for the traits.</p>
                     </div>
                 
 
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/set_traits_2.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/set_traits_2.webp"/>
                         <p className="project3--img-desc">More traits being set up, when the main function to create Viking is called these will be randomly picked to 
                         build the characters.</p>
                     </div>
@@ -461,7 +461,7 @@ export default function Project3() {
 
                 <div className="project3--wide-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/df_head.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/df_head.webp"/>
                         <p className="project3--img-desc">Print out of the new Dataframe, checking to make sure the column names are correct, and to see if there are any 
                         obvious errors.</p>
                     </div>
@@ -478,12 +478,12 @@ export default function Project3() {
 
                 <div className="project3--counts-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/bg_counts.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/bg_counts.webp"/>
                         <p className="project3--img-desc">Tables created to look at the Background trait, examining the counts of each and the percentage which gives an insight into 
                         the rarity.</p>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/counts_2.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/counts_2.webp"/>
                         <p className="project3--img-desc">Some more tables look at the various traits and rarities, I'm checking to make sure I like the balance and nothing seems out of 
                         whack. These are a bit misleading since they combine Male and Female characters but it gives a good overview.</p>
                     </div>
@@ -502,13 +502,13 @@ export default function Project3() {
 
                 <div className="project3--weapon-count-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/weapon_count_1.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/weapon_count_1.webp"/>
                         <p className="project3--img-desc">Each Viking has a main and offhand that they can use to hold weapons, if the weapon is a 2 handed weapon, they will only 
                         have a main weapon. Due to all the different weapon variations everything is rare, but if we group things by level or class of weapon the rarity 
                         distribution looks a bit better.</p>
                     </div>
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/weapon_count_2.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/weapon_count_2.webp"/>
                         <p className="project3--img-desc">Digging into the off hand weapons and seeing the rarity of Vikings with matching main and off hand weapons.</p>
                     </div>
                 </div>
@@ -524,7 +524,7 @@ export default function Project3() {
 
                 <div className="project3--weapon-count-container">
                     <div className="project3--img-container">
-                        <img className="project3--img" src="../img/case_studies/project3/viking_113.png"/>
+                        <img className="project3--img" src="../img/case_studies/project3/viking_113.webp"/>
                         <p className="project3--img-desc">Example female Viking from the dateframe, checking that the image matches the traits and there are no 
                         glaring issues.</p>
                     </div>

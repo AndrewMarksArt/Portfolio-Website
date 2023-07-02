@@ -7,7 +7,7 @@ export default function Project4() {
     return (
         <div className="project4--main-container">
             <div>
-                <img className="project4--larg-img" src="../img/case_studies/project4/dashboard_cover.png" />
+                <img className="project4--larg-img" src="../img/case_studies/project4/test/dashboard_cover copy.webp" />
             </div>
 
             <div className="project4-headline-container">
@@ -85,11 +85,11 @@ export default function Project4() {
 
             <div className="project4--img-group-container">
                 <div className="project4--img-container">
-                    <img className="project4--img" src="../img/case_studies/project4/client_notes.png"/>
+                    <img className="project4--img" src="../img/case_studies/project4/test/client_notes copy.webp"/>
                     <p className="project4--img-desc">Sketch and requirements from client with a few design concepts they found online.</p>
                 </div>
                 <div className="project4--img-container">
-                    <img className="project4--img" src="../img/case_studies/project4/moodboard.png"/>
+                    <img className="project4--img" src="../img/case_studies/project4/test/moodboard copy.webp"/>
                     <p className="project4--img-desc">Example images and styles the client liked and wanted to capture in the project along with a color pallet I created 
                     from those images.
                     </p>
@@ -113,7 +113,7 @@ export default function Project4() {
             
                 <div className="project4--wireframe-container">
                     <div className="project4--img-container">
-                        <img className="project4--img" src="../img/case_studies/project4/wireframe_sketch.png"/>
+                        <img className="project4--img" src="../img/case_studies/project4/test/wireframe_sketch copy.webp"/>
                         <p className="project4--img-desc">Picture of original wireframe sketch that was shown to the clients to get feedback and iterate on.</p>
                     </div>
                 </div>
@@ -135,22 +135,22 @@ export default function Project4() {
 
                 <div className="project4--mocks-container">
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/roles_alerts_mock.png"/>
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/roles_alerts_mock copy.webp"/>
                         <p className="project4--img-desc">Here is the top section showing different team members, here we have a quick view with a fast revoke button, 
                         and we can see active and revoked members. Additionally, there is the "Alerts" section with examples of different severity alerts.</p>
                     </div>
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/stats_mock.png"/>
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/stats_mock copy.webp"/>
                         <p className="project4--img-desc">Next is an example of some basic stats and how it might be organized, these can be moved/rearranged or swapped 
                         out for different metrics.</p>
                     </div>
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/wl_ranks_mock.png"/>
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/wl_ranks_mock copy.webp"/>
                         <p className="project4--img-desc">The colabs, ranking and social overview section was the area I was the least sure about. Here is the mockup I 
                         first started with before getting examples from the client.</p>
                     </div>
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/colab_feedback.png" />
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/colab_feedback copy.webp" />
                         <p className="project4--img-desc">This was the example image provided by the client after our tag up to help me design the final sections.</p>
                     </div>
                 </div>
@@ -169,11 +169,11 @@ export default function Project4() {
 
                 <div className="project4--mocks-container">
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/need_fix_mock.png"/>
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/need_fix_mock copy.webp"/>
                         <p className="project4--img-desc">The original mockup used to test spacing before meeting again with the client to get feedback and clarity.</p>
                     </div>
                     <div>
-                        <img className="project4--img-mobile" src="../img/case_studies/project4/socail_ranks_mock.png"/>
+                        <img className="project4--img-mobile" src="../img/case_studies/project4/test/socail_ranks_mock copy.webp"/>
                         <p className="project4--img-desc">Colab section didn't need to be as large as I thought originally and provided the space needed for a 
                         Social Media Overview section.</p>
                     </div>
@@ -188,7 +188,7 @@ export default function Project4() {
 
                 <h1 className="project4--title">Final design and Deliverable</h1>
                 <div className="project4--scroll-container">
-                    <img className="project4--full-dash-img" src="../img/case_studies/project4/full_dash.png"/>
+                    <img className="project4--full-dash-img" src="../img/case_studies/project4/test/full_dash copy.webp"/>
                 </div>
                 <br></br>
 
@@ -219,23 +219,23 @@ export default function Project4() {
 
                 <div className="project4--redesign-container">
                     <div className="project4--img-container">
-                        <img className="project4--img" src="../img/case_studies/project4/all_team_mock.png"/>
+                        <img className="project4--img" src="../img/case_studies/project4/test/all_team_mock copy.webp"/>
                         <p className="project4--img-desc">Team member cards that can be scrolled through quickly, need to add some sort and filter options.</p>
                     </div>
                 
 
                     <div className="project4--img-container">
-                        <img className="project4--img" src="../img/case_studies/project4/selected_user_mock.png"/>
+                        <img className="project4--img" src="../img/case_studies/project4/test/selected_user_mock copy.webp"/>
                         <p className="project4--img-desc">Individual team member details modal where users can add notes and check recent activity.</p>
                     </div>
 
                     <div className="project4--img-container">
-                        <img className="project4--img" src="../img/case_studies/project4/select_roles_mock.png"/>
+                        <img className="project4--img" src="../img/case_studies/project4/test/select_roles_mock copy.webp"/>
                         <p className="project4--img-desc">Example revoke screen, see active status, select which roles to revoke, or just revoke all.</p>
                     </div>
 
                     <div className="project4--img-container">
-                        <img className="project4--img" src="../img/case_studies/project4/confirm_mock.png"/>
+                        <img className="project4--img" src="../img/case_studies/project4/test/confirm_mock copy.webp"/>
                         <p className="project4--img-desc">Confirm actions screen, user can add notes after making sure the correct permissions/security changes 
                         are being made.</p>
                     </div>

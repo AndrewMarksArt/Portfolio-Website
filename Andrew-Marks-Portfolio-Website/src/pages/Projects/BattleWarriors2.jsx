@@ -7,7 +7,7 @@ export default function Project1() {
     return (
         <div className="project3--main-container">
             <div>
-                <img className="project3--larg-img" src="../img/case_studies/project1/mini_game_banner.png" />
+                <img className="project3--larg-img" src="../img/case_studies/project1/mini_game_banner.webp" />
             </div>
 
             <div className="project3--phase1-container">
@@ -36,7 +36,7 @@ export default function Project1() {
 
                     <div className="project3--game-container">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/game_home.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/game_home.webp"/>
                             <p className="project3--img-desc">Here is the welcome screen for the game, I want to get the player into the game quickly so "Begin Training!" 
                             is the focus.</p>
                         </div>
@@ -48,17 +48,17 @@ export default function Project1() {
 
                     <div className="project3--ex-levels-container">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/ex_spikes.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/ex_spikes.webp"/>
                             <p className="project3--img-desc">Players will have to figure out how to get past spike pits with little room for error.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/ex_arrow.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/ex_arrow.webp"/>
                             <p className="project3--img-desc">Players will also have to dodge arrows along with the spikes and pits.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/ex_arrow_axes.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/ex_arrow_axes.webp"/>
                             <p className="project3--img-desc">Axes are also thrown at players that they must dodge and when they land they become like spikes.</p>
                         </div>
                     </div>
@@ -70,13 +70,13 @@ export default function Project1() {
 
                     <div className="project3--char-selects-container">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/char_select.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/char_select.webp"/>
                             <p className="project3--img-desc">The player can see the Vikings they have available, here the player can see the ranks and number of 
                             hearts the Viking will get.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/char_confirm.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/char_confirm.webp"/>
                             <p className="project3--img-desc">Based on the items the Viking has certain powers that are available to players and they can choose  one to boost their 
                             Viking.</p>
                         </div>
@@ -94,31 +94,31 @@ export default function Project1() {
 
                     <div className="project3--ex-levels-container">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help1.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help1.webp"/>
                             <p className="project3--img-desc">Explaining the power stones background.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help2.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help2.webp"/>
                             <p className="project3--img-desc">A breakdown of each specific stone and the ability it gives the player.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help3.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help3.webp"/>
                             <p className="project3--img-desc">Breaking down and explaining the abilities the powers give to Arrows.</p>
                         </div>
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help4.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help4.webp"/>
                             <p className="project3--img-desc">Breaking down and explaining the abilities the powers give to Axes.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help5.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help5.webp"/>
                             <p className="project3--img-desc">Showing the different obstacles, the player will have to avoid.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/help6.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/help6.webp"/>
                             <p className="project3--img-desc">In addition to the main help screen, when picking a power to use players can check to see what that 
                             power does.</p>
                         </div>
@@ -159,17 +159,17 @@ export default function Project1() {
 
                         <div className="project3--ex-levels-container">
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/free_chars.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/free_chars.webp"/>
                             <p className="project3--img-desc">The 3 Vikings the player can choose from are hidden at first.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/free_char_select.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/free_char_select.webp"/>
                             <p className="project3--img-desc">The cards are flipped over to reveal the Vikings they can select from.</p>
                         </div>
 
                         <div className="project3--img-container">
-                            <img className="project3--img" src="../img/case_studies/project3/free_char_confirm.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/free_char_confirm.webp"/>
                             <p className="project3--img-desc">Once selected they can click "play" to start the game.</p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ export default function Project1() {
                             <video 
                                 src="../videos/free_play_prototype.mp4" 
                                 className="free-play-video"
-                                poster="../img/case_studies/project3/play_video_minigame.png"
+                                poster="../img/case_studies/project3/play_video_minigame.webp"
                                 autoplay playsInline loop muted controls webkit-playsInline 
                             />
                         </div>
@@ -204,7 +204,7 @@ export default function Project1() {
                         </h2>
 
                         <div className="project3--video-container">
-                            <img className="project3--img" src="../img/case_studies/project3/figma_game.png"/>
+                            <img className="project3--img" src="../img/case_studies/project3/figma_game.webp"/>
                         </div>
 
                         <h2 className="project3--body">

@@ -8,7 +8,7 @@ export default function Project6() {
         <>
         <div className="project2--main-container">
             <div>
-                <img className="project2--larg-img" src="../img/case_studies/project6/levels_banner.png" />
+                <img className="project2--larg-img" src="../img/case_studies/project6/levels_banner copy.webp" />
             </div>
             <div className="project2--phase3-container">
                 <h2 className="project2--sub-head">
@@ -52,7 +52,7 @@ export default function Project6() {
                     </li>
                 </ol>
                 <div className="project2--crafting-img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/crafting_assets.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/crafting_assets copy.webp"/>
                     <p className="project2--img-desc">Along with notes on which class of Shoguns could craft which items, these images were all I was provided with to try and create
                     an experience that would be fun for the players.</p>
                 </div>
@@ -75,23 +75,23 @@ export default function Project6() {
 
                 <div className="project2--crafting-design">
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/main_crafting.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/main_crafting copy.webp"/>
                     <p className="project2--img-desc">Using the main image I built the side panel around it, incorporated the button to start in the image, and 
                     created the color pallet from colors in the image.</p>
                 </div>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/crafting_items.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/crafting_items copy.webp"/>
                     <p className="project2--img-desc">The toggle buttons in the "Select" panel remind player who can craft, multiple Shogun can be selected at one time, 
                     the "crafting" modal pops up letting players select items to craft and the quantity based on the number of Shogun selected.</p>
                 </div>
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/success.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/success copy.webp"/>
                     <p className="project2--img-desc">All crafting leads to the "Success!" screen, I wanted to try and create a sense of accomplishment and wow to get 
                     the player excited about their new items.</p>
                 </div>
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/inventory.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/inventory copy.webp"/>
                     <p className="project2--img-desc">An example of the inventory window so players could see what items and how many they have.</p>
                 </div>
             </div>
@@ -107,7 +107,7 @@ export default function Project6() {
                 </h2>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/crafting_figma.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/crafting_figma copy.webp"/>
                     <p className="project2--img-desc">Here is a screenshot of the Figma deliverable of the final design showing all of the different screens and a 
                     basic user flow.</p>
                 </div>
@@ -159,7 +159,7 @@ export default function Project6() {
                 <br></br>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_assets.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_assets copy.webp"/>
                     <p className="project2--img-desc">Art assets provided to me to build the level, a main background with day and night hues, and icons for the 
                     different rewards.</p>
                 </div>
@@ -209,17 +209,17 @@ export default function Project6() {
                 
                 <div className="project2--beast-forest-redo">
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/no_character.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/no_character copy.webp"/>
                     <p className="project2--img-desc">Based on user feedback from the "Crafting" page I added a screen for players who don't have eligible Shoguns 
                     explaining why they can't continue.</p>
                 </div>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_select.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_select copy.webp"/>
                     <p className="project2--img-desc">Shogun select screen using the familiar grid layout and basic stats.</p>
                 </div>
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_confirm.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/beast_forest_confirm copy.webp"/>
                     <p className="project2--img-desc">Confirm screen shows additional stats giving the player a look at how successful they might be. Eventually 
                     players would be able to equip items that could boost those stats.</p>
                 </div>
@@ -238,7 +238,7 @@ export default function Project6() {
                 </h2>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/forest_figma.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/forest_figma copy.webp"/>
                     <p className="project2--img-desc">Screen shot of the Figma file showing the user flow and building the prototype.</p>
                 </div>
 
@@ -274,16 +274,16 @@ export default function Project6() {
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/forest_bad.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/forest_bad copy.webp"/>
                         <p className="project2--img-desc">Example poor result, image stays dark, text drops and reward icon small to signal disappointment.</p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/forest_ok.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/forest_ok copy.webp"/>
                         <p className="project2--img-desc">Example good result, screen brightens with rays of light, larger rewards icon to signal success.</p>
                     </div>
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/forest_good.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/forest_good copy.webp"/>
                         <p className="project2--img-desc">Example amazing result, text raised higher, large reward icon, explosion of light to signal a great achievement.</p>
                     </div>
                 </div>
@@ -330,21 +330,21 @@ export default function Project6() {
 
                 <div className="project2--crafting-design">
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/undead_intro.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/undead_intro copy.webp"/>
                         <p className="project2--img-desc">Similar welcome message to the Beast Forest but used different colors to highlight which Shoguns could enter.</p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/undead_equip.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/undead_equip copy.webp"/>
                         <p className="project2--img-desc">The new Equip Shogun screen where players can pick from their inventory items to increase their chances of a better result. </p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/undead_equiped.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/undead_equiped copy.webp"/>
                         <p className="project2--img-desc">New Confirm screen showing the equipped item and the stats boost that item provides.</p>
                     </div>
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/undead_good.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/undead_good copy.webp"/>
                         <p className="project2--img-desc">Example of a great result, here the light is bursting out of the tomb and all of the lamp's glow brighter.</p>
                     </div>
                 </div>
@@ -361,7 +361,7 @@ export default function Project6() {
                 </h2>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/undead_figma.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/undead_figma copy.webp"/>
                     <p className="project2--img-desc">Screen shot of the Figma file showing the user flow and building the prototype.</p>
                 </div>
 

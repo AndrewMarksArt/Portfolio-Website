@@ -8,7 +8,7 @@ export default function Project2() {
         <>
         <div className="project2--main-container">
             <div>
-                <img className="project2--larg-img" src="../img/case_studies/project2/shogun_main_page.png" />
+                <img className="project2--larg-img" src="../img/case_studies/project2/shogun_main_page copy.webp" />
             </div>
             <div className="project2-headline-container">
                 <h2 className="project2--sub-head">
@@ -75,19 +75,19 @@ export default function Project2() {
 
             <div className="project2--img-group-container">
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/old_landing.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/old_landing copy.webp"/>
                     <p className="project2--img-desc">Old landing page where the 'Tutorial' button is non-working (it was a place holder but not implemented yet),
                      and overall this screen is not really necessary</p>
                 </div>
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/old_training.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/old_training copy.webp"/>
                     <p className="project2--img-desc">
                         Art takes up most of the screen hiding players shoguns and its not clear the user needs to scroll to see everything. On smaller screens 
                         the art takes up the whole screen and again no indication the users can scroll.
                     </p>
                 </div>
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/old_land.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/old_land copy.webp"/>
                     <p className="project2--img-desc">Players have to scroll horizontally but again no indication, and there are different actions that can be taken 
                     on each land but no indication for the user which land needs attention or has available actions.</p>
                 </div>
@@ -111,14 +111,14 @@ export default function Project2() {
             
                 <div className="project2--landing-container">
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/old_landing_lrg.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/old_landing_lrg copy.webp"/>
                         <p className="project2--img-desc">old landing page with broken buttons, whitepaper that takes them away from the game, & no link to 
                         community/socials.</p>
                     </div>
                 
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/new_landing.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/new_landing copy.webp"/>
                         <p className="project2--img-desc">Simple redesign of landing page, getting player into the game quicker, let them know new features 
                         are coming soon, and links to the community and socials.</p>
                     </div>
@@ -140,13 +140,13 @@ export default function Project2() {
 
                 <div className="project2--travel-container">
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/home_no_menu.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/home_no_menu copy.webp"/>
                         <p className="project2--img-desc">Old world map, no menu so players would have to click around to each different area & with hidden areas some players
                         will miss them completely.</p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/home_quicktravel.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/home_quicktravel copy.webp"/>
                         <p className="project2--img-desc">Using a hamburger menu icon that will be familiar to all players, I created a simple menu that shows the players  
                         all the different areas they can travel to, breaks down the links into categories, & can color/highlight new areas or areas we want player to 
                         explore.</p>
@@ -162,13 +162,13 @@ export default function Project2() {
 
                 <div className="project2--mobile-container">
                     <div className="project2--portrait-container">
-                        <img className="project2--img-mobile" src="../img/case_studies/project2/landing_mobile.png"/>
-                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile.png"/>
-                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile_menu.png"/>
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/landing_mobile copy.webp"/>
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile copy.webp"/>
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/home_mobile_menu copy.webp"/>
                     </div>
                     <div className="project2--landscape-container">
-                        <img className="project2--img-mobile" src="../img/case_studies/project2/world_landscape.png" />
-                        <img className="project2--img-mobile" src="../img/case_studies/project2/map_landscape.png" />
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/world_landscape copy.webp" />
+                        <img className="project2--img-mobile" src="../img/case_studies/project2/map_landscape copy.webp" />
                     </div>
                 </div>
 
@@ -221,26 +221,26 @@ export default function Project2() {
 
                 <div className="project2--redesign-container">
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/training_redo.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/training_redo copy.webp"/>
                         <p className="project2--img-desc">The original design was to highlight the art, this pushed the players characters to the bottom and in some cases users
                         didn't know where the characters were.</p>
                     </div>
                 
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/land_redo.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/land_redo copy.webp"/>
                         <p className="project2--img-desc">The original design again highlighted art but pushed players lands to the top and required horizontal scroll. 
                         There was also no way to filter or know which land needed the players’ attention.</p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/den_redo.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/den_redo copy.webp"/>
                         <p className="project2--img-desc">One of only two sections that launched a pop-up modal and originally had no way to close, also a bit crowded and 
                         hard to see all the information.</p>
                     </div>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project2/townhall_redo.png"/>
+                        <img className="project2--img" src="../img/case_studies/project2/townhall_redo copy.webp"/>
                         <p className="project2--img-desc">The other pop up that originally had no way to close, very different look that strays away from the rest of 
                         the game.</p>
                     </div>
@@ -271,19 +271,19 @@ export default function Project2() {
                     <div className="project2--new-design-container">
 
                         <div className="project2--img-container">
-                            <img className="project2--img" src="../img/case_studies/project2/old_training_full.png"/>
+                            <img className="project2--img" src="../img/case_studies/project2/old_training_full copy.webp"/>
                             <p className="project2--img-desc">Here is the original design where the art takes up most and sometimes the whole screen making it 
                             difficult for the player to figure how to complete tasks.</p>
                         </div>
 
                         <div className="project2--img-container">
-                            <img className="project2--img" src="../img/case_studies/project2/new_training.png"/>
+                            <img className="project2--img" src="../img/case_studies/project2/new_training copy.webp"/>
                             <p className="project2--img-desc">In this redesigned page the elements would animate in so we can show off the art but also show the player their characters,
                             help them filter and sort, and complete tasks faster.</p>
                         </div>
 
                         <div className="project2--img-container">
-                            <img className="project2--img" src="../img/case_studies/project2/training_details.png"/>
+                            <img className="project2--img" src="../img/case_studies/project2/training_details copy.webp"/>
                             <p className="project2--img-desc">The redesigned details page allows for easy navigation between characters and a quick way back to were the player was 
                             before.</p>
                         </div>
@@ -318,19 +318,19 @@ export default function Project2() {
 
             <div className="project2--new-design-container">
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/old_land_full.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/old_land_full copy.webp"/>
                     <p className="project2--img-desc">Here is the original land page, players would have to scroll horizontally with no indication of what’s available, 
                     then click on each one to see if anything can be done</p>
                 </div>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/new_land.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/new_land copy.webp"/>
                     <p className="project2--img-desc">New design using the same grid layout as the "Training Grounds", a sort and filter bar to help players organize their land, 
                     and a total rewards button that shows the current total rewards and lets the player claim all of them with one click.</p>
                 </div>
 
                 <div className="project2--img-container">
-                    <img className="project2--img" src="../img/case_studies/project2/land_details.png"/>
+                    <img className="project2--img" src="../img/case_studies/project2/land_details copy.webp"/>
                     <p className="project2--img-desc">The details section for each land was expanded and a modal for consistency with the "Training Grounds", shows all actions the 
                     player can take, and allows for quick navigation between different 'Lands'.</p>
                 </div>
@@ -358,7 +358,7 @@ export default function Project2() {
                     </h2>
 
                     <div className="project2--img-container">
-                        <img className="project2--img" src="../img/case_studies/project6/levels_banner.png"/>
+                        <img className="project2--img" src="../img/case_studies/project6/levels_banner copy.webp"/>
                         <br></br>
                     </div>
 

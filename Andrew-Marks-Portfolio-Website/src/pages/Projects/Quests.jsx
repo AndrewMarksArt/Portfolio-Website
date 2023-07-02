@@ -7,7 +7,7 @@ export default function Project5() {
     return (
         <div className="project5--main-container">
             <div>
-                <img className="project5--larg-img" src="../img/case_studies/project5/quests_banner.png" />
+                <img className="project5--larg-img" src="../img/case_studies/project5/quests_banner copy.webp" />
             </div>
 
             <div className="project5-headline-container">
@@ -57,19 +57,19 @@ export default function Project5() {
             <div className="project5--sketch-group-container">
                 <div className="project5--sketch-group-imgs">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/map1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/map1 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/map3.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/map3 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/original_map1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/original_map1 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/land2.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/land2 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/quest3.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/quest3 copy.webp"/>
                     </div>
                 </div>
                 <p className="project5--img-desc">
@@ -89,10 +89,10 @@ export default function Project5() {
             <div className="project5--sketch-group-container">
                 <div className="project5--sketch-group-imgs">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/village1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/village1 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/adventure1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/adventure1 copy.webp"/>
                     </div>
                 </div>
                 <p className="project5--img-desc">
@@ -108,16 +108,16 @@ export default function Project5() {
             <div className="project5--sketch-group-container">
                 <div className="project5--sketch-group-imgs">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/arch5.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/arch5 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/arch6.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/arch6 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/arch3.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/arch3 copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/arch1.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/arch1 copy.webp"/>
                     </div>
                 </div>
                 <p className="project5--img-desc">
@@ -136,18 +136,18 @@ export default function Project5() {
 
                 <div className="project5--next-steps-container">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/card_design_sketch.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/card_design_sketch copy.webp"/>
                         <p className="project5--img-desc">
                         Here is the original sketch for the “Quests”, the card would have a back and appear that way until the player revealed it. Once revealed the 
                         monster would be shown.</p>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/unrevealed_quest.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/unrevealed_quest copy.webp"/>
                         <p className="project5--img-desc">
                             From the sketch and previous maps the final "Quest" card back was created.</p>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/1st_quest.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/1st_quest copy.webp"/>
                         <p className="project5--img-desc">
                             No need to include stats on the card, it gives me more space to show the artwork, and gives more flexibility.</p>
                     </div>
@@ -168,28 +168,28 @@ export default function Project5() {
                 <div className="project5--banner-group-container">
                     <div className="project5--banner-group-imgs">
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/skeleton_warrior_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/skeleton_warrior_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/goblin_grunt_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/goblin_grunt_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/fire_elemental_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/fire_elemental_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/arcane_fox_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/arcane_fox_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/dragon_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/dragon_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/gorgon_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/gorgon_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/litch_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/litch_card copy.webp"/>
                         </div>
                         <div className="project5--img-container">
-                            <img className="project5--img" src="../img/case_studies/project5/nightmare_card.png"/>
+                            <img className="project5--img" src="../img/case_studies/project5/nightmare_card copy.webp"/>
                         </div>
                     </div>
                     <p className="project5--img-desc">
@@ -212,10 +212,10 @@ export default function Project5() {
             <div className="project5--sketch-group-container">
                 <div className="project5--sketch-group-imgs">
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/level_up.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/level_up copy.webp"/>
                     </div>
                     <div className="project5--img-container">
-                        <img className="project5--img" src="../img/case_studies/project5/dragon_levels.png"/>
+                        <img className="project5--img" src="../img/case_studies/project5/dragon_levels copy.webp"/>
                     </div>
                 </div>
                 <p className="project5--img-desc">
@@ -238,22 +238,22 @@ export default function Project5() {
 
                 <div className="project5--mocks-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_commons.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_commons copy.webp"/>
                         <p className="project5--img-desc">Here are all of the level 1 Commons, these are good entry level and starter quests.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_uncommons.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_uncommons copy.webp"/>
                         <p className="project5--img-desc">Here are the un-common quests, which are monsters more common in fantasy and D&D games.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_rares.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/level_1_rares copy.webp"/>
                         <p className="project5--img-desc">The rare level 1 Quests are some of the strongest and most dangerous monsters in the Battle Warriors world.</p>
                     </div>
                 </div>
 
                 <div className="project5--all-quests-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/all_quests.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/all_quests copy.webp"/>
                         <p className="project5--img-desc">Here is a screen shot of the Figma file showing all of the Quests and all of the different levels, the Quests showing 
                         a card back is still being created.</p>
                     </div>
@@ -281,16 +281,16 @@ export default function Project5() {
 
                 <div className="project5--examples-container">
                     <div>
-                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/original_site_sketch.png"/>
+                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/original_site_sketch copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/site_sketch_breakdown.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/site_sketch_breakdown copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/cleaned_up_wireframe.png"/>
+                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/cleaned_up_wireframe copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_wireframe.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_wireframe copy.webp"/>
                     </div>
                 </div>
 
@@ -307,10 +307,10 @@ export default function Project5() {
 
                 <div className="project5--mock-examples-container">
                     <div>
-                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_main.png"/>
+                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_main copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mockup_section2.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mockup_section2 copy.webp"/>
                     </div>
                 </div>
 
@@ -325,10 +325,10 @@ export default function Project5() {
 
                 <div className="project5--mock-examples-container">
                     <div>
-                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_section3.png"/>
+                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_section3 copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mockup_section4.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mockup_section4 copy.webp"/>
                     </div>
                 </div>
 
@@ -343,16 +343,16 @@ export default function Project5() {
 
                 <div className="project5--mock_mobile-examples-container">
                     <div>
-                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_section5.png"/>
+                        <img className="project5--giveaway-loop" src="../img/case_studies/project5/mockup_section5 copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section1.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section1 copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section2.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section2 copy.webp"/>
                     </div>
                     <div>
-                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section3.png"/>
+                        <img className="project5--freya-cloak" src="../img/case_studies/project5/mobile_section3 copy.webp"/>
                     </div>
                 </div>
 
@@ -369,7 +369,7 @@ export default function Project5() {
                     <video 
                         src="../videos/quests_site_scroll_1.mp4"
                         className="site-scroll"
-                        poster="../img/case_studies/project5/play_video_quests_site.png" 
+                        poster="../img/case_studies/project5/play_video_quests_site copy.webp" 
                         autoplay playsInline loop muted controls webkit-playsInline 
                     />
                     <p className="project5--img-desc">Example video showing how the site might look and while the user scrolls through it.</p>
@@ -382,17 +382,17 @@ export default function Project5() {
 
                 <div className="project5--mocks-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_wireframe.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_wireframe copy.webp"/>
                         <p className="project5--img-desc">New main section wireframe sketch, want to capture email to build up my email list which I could use to 
                         market as I get closer to launch.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_mockup.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_mockup copy.webp"/>
                         <p className="project5--img-desc">The new main section includes a text box to gather emails, buttons to get early access, and join discord to build 
                         our community.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_popup.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/early_access_popup copy.webp"/>
                         <p className="project5--img-desc">Once the user signs up for early access, I created a thank you window that creates another push to 
                         join the discord and offers a perk for doing so.</p>
                     </div>
@@ -424,17 +424,17 @@ export default function Project5() {
 
                 <div className="project5--mocks-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_wireframe.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_wireframe copy.webp"/>
                         <p className="project5--img-desc">The landing page needs to have a large main image of a fantasy style library, then cards/links to jump straight 
                         to those quests, followed by some lore to help with world building.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe copy.webp"/>
                         <p className="project5--img-desc">For each class of monsters/creatures there needs to be a banner image with some lore and then links to 
                         each quest in the class.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe2.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_wireframe2 copy.webp"/>
                         <p className="project5--img-desc">Once a Quest is clicked, the user gets to see the Quest card, name, level, description, and battle tips or 
                         other information.</p>
                     </div>
@@ -450,17 +450,17 @@ export default function Project5() {
 
                 <div className="project5--mocks-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_design.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/quest_library_design copy.webp"/>
                         <p className="project5--img-desc">Mockup of the main section, with a large fantasy library as a background, large images as links to the 
                         different Quests, Common, Un-Common, Rare, and Mythic Rare</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_design.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_design copy.webp"/>
                         <p className="project5--img-desc">Each section, Common here, has search and filter options, and then each class of creatures has its own banner 
                         image, and large pictures of the quests as links to see more details.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_details.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/library_monsters_details copy.webp"/>
                         <p className="project5--img-desc">The details page shows the large Quest image, the name, description, battle and game tips and some navigation 
                         to see the other levels.</p>
                     </div>
@@ -475,7 +475,7 @@ export default function Project5() {
                     <video 
                         src="../videos/library_early_demo.mp4" 
                         className="site-scroll"
-                        poster="../img/case_studies/project5/play_video_library.png"
+                        poster="../img/case_studies/project5/play_video_library copy.webp"
                         autoplay playsInline loop muted controls webkit-playsInline 
                     />
                     <p className="project5--img-desc">Scrolling from the main section through all of the Common quests.</p>
@@ -491,7 +491,7 @@ export default function Project5() {
                     <video 
                         src="../videos/quest details.mp4" 
                         className="site-scroll"
-                        poster="../img/case_studies/project5/play_video_faerie.png"
+                        poster="../img/case_studies/project5/play_video_faerie copy.webp"
                         autoplay playsInline loop muted controls webkit-playsInline 
                     />
                     <p className="project5--img-desc">Going throught each of the Faerie Quests and seeing the details.</p>
@@ -505,7 +505,7 @@ export default function Project5() {
                 <div className="project5--video-container">
                     <video 
                         src="../videos/mobile_prototype_1.mp4" 
-                        poster="../img/case_studies/project5/play_video_faerie_mobile.png"
+                        poster="../img/case_studies/project5/play_video_faerie_mobile copy.webp"
                         autoplay playsInline loop muted controls webkit-playsInline 
                         className="site-scroll-mobile"
                     />
@@ -528,17 +528,17 @@ export default function Project5() {
 
                 <div className="project5--next-steps-container">
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/userflow.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/userflow copy.webp"/>
                         <p className="project5--img-desc">User flow diagram a walking through how a user enters the site and where I can uses CTAs to convert that user to 
                         someone who joins the email list to get early access.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/entered_portal_wireframe.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/entered_portal_wireframe copy.webp"/>
                         <p className="project5--img-desc">Sketch for when a user who has connected / logged on and enters the portal. Links to the users Vikings, 
                         Quests, and Achievements, news and updates, leaderboards, etc.</p>
                     </div>
                     <div>
-                        <img className="project5--img-mobile" src="../img/case_studies/project5/user_account_wireframe.png"/>
+                        <img className="project5--img-mobile" src="../img/case_studies/project5/user_account_wireframe copy.webp"/>
                         <p className="project5--img-desc">The users “My Vikings” page shows the users pfp, name, rank, etc. then shows all the Vikings the player has 
                         sorted by rank and searchable. Each Viking has a details page that shows the current items equipped.  </p>
                     </div>

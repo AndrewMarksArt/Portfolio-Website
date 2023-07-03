@@ -42,7 +42,7 @@ export default function Project2() {
                     Very quickly it became obvious there were certain pain points that made the experience very difficult for the player.
                 </h2>
                 <h2 className="project2--body">
-                    High level results:
+                    <b>High level results:</b>
                 </h2>
                 <ol className="project2--list">
                     <li className="project2--list-item">
@@ -55,8 +55,9 @@ export default function Project2() {
                         Mobile/Smaller screen size issues & information hidden, users didn't know they could scroll or where to go.
                     </li>
                 </ol>
+                <br></br>
                 <h2 className="project2--body">
-                    Common user issues:
+                    <b>Common user issues:</b>
                 </h2>
                 <ol className="project2--list">
                     <li className="project2--list-item">
@@ -98,10 +99,14 @@ export default function Project2() {
                     Quick fixes that address user's main concerns 
                 </h1>
                 <h2 className="project2--body">
-                    First impressions matter a lot, and we need to fix the landing page -- colored CTA button, disable tutorial and add a coming soon, move the whitepaper
-                    to where twitter and discord are. Using hierarchy we can draw the users into the game quicker, disable the non-working button but still let the users 
+                    First impressions matter a lot, and we need to fix the landing page so to get started I colored CTA button, disable tutorial and add a coming soon label, move the whitepaper
+                    to where twitter and discord are.
+                </h2>
+
+                <h2 className="project2--body">
+                    Using hierarchy we can draw the users into the game quicker, disable the non-working button but still let the users 
                     know new features are coming soon, and move the whitepaper button to the same level as community links since it takes the player away from the game 
-                    and most users didn't really care about it.
+                    and most users didn't really care about it, at least when getting started.
                 </h2>
 
                 <h2 className="project2--body">
@@ -125,8 +130,8 @@ export default function Project2() {
                 </div>
 
                 <h2 className="project2--body">
-                    After conducting the site audit and finding the navigation issue I joined the projects discord server and talked with a few dozen players. 
-                    <b> The single biggest complaint and issue players had was navigating the site.</b>
+                    After conducting the site audit and finding a serious navigation issue, I joined the projects discord server and talked with a few dozen players where I discovered 
+                    the single biggest complaint and issue players had was navigating the site.
                 </h2>
 
                 <h2 className="project2--body">
@@ -155,9 +160,9 @@ export default function Project2() {
 
                 <h2 className="project2--body">
                     One issue that the founder was trying to overcome was that the game didn't work on mobile or small screens. He tried communicating this to players 
-                    but some players and lots of new players would try to visit and play on their phones. <b>One of my tasks was to create concepts for mobile layouts 
+                    but some players and lots of new players would try to visit and play on their phones. One of my tasks was to create concepts for mobile layouts 
                     that transformed the interactive map into something easier to use on small screens but still celebrated the art and sense of adventure the map 
-                    conveyed. </b>
+                    conveyed.
                 </h2>
 
                 <div className="project2--mobile-container">
@@ -207,12 +212,12 @@ export default function Project2() {
                     Redesigning areas with a consistent design
                 </h1>
                 <h2 className="project2--body">
-                    <b>The second largest complaint from players was the inconsistency in the design of different areas. </b> It added confusion and lead to players
+                    The second largest complaint from players was the inconsistency in the design of different areas. It added confusion and lead to players
                      missing certain things they could do or not understand why they couldn't access certain areas.  
                 </h2>
                 <h2 className="project2--body">
                     Additionally for players who had lots of Shogun the design made it very difficult to use all of them, collect rewards, upgrade land, etc. So, I 
-                    <b> needed to try and find some balance for players who were just getting started and those who were the most active users.</b>
+                    needed to try and find some balance for players who were just getting started and those who were the most active users.
                 </h2>
                 <h2 className="project2--body">
                     Below are screen shots of the 'Training Grounds', 'Land Manager', 'Bakuto Den', and a 'Town Hall Election' -- each area looks very different and requires 
@@ -259,11 +264,11 @@ export default function Project2() {
                         had no way of organizing their characters.
                     </h2>
                     <h2 className="project2--body">
-                        <b>My design focused on a style that could be used across all areas so no matter where a user went they would know how to navigate and complete tasks.</b>
+                        My design focused on a style that could be used across all areas so no matter where a user went they would know how to navigate and complete tasks.
                     </h2>
                     <h2 className="project2--body">
-                        <b>Additionally, I focused on adding new components like sorting and filtering, as well as quick claim buttons to help users accomplish all 
-                        tasks faster and more conveniently.</b>
+                        Additionally, I focused on adding new components like sorting and filtering, as well as quick claim buttons to help users accomplish all 
+                        tasks faster and more conveniently.
                     </h2>
                 </div>
             </div>
@@ -301,8 +306,8 @@ export default function Project2() {
 
                 <h2 className="project2--body">
                     However, because there is so much to do here, and it requires the players to complete many tasks sometimes daily and can be very cumbersome and 
-                    frustrating. <b> My focus on the re-design was to stick with the same grid and modal design from the 'Training Grounds' as well as add components 
-                    to help filter, sort, and batch tasks players needed to complete.</b>
+                    frustrating. My focus on the re-design was to stick with the same grid and modal design from the 'Training Grounds' as well as add components 
+                    to help filter, sort, and batch tasks players needed to complete.
                 </h2> 
 
                 <h2 className="project2--body">
@@ -311,8 +316,8 @@ export default function Project2() {
                     to keep track of how much rewards you could claim.
                 </h2>
                 <h2 className="project2--body">
-                    <b>It was critical to be able to see all the rewards available from all land and claim it all at once with one button click, for other tasks like 
-                        upgrading, or hiring defenders the sort and filter components quickly let players find the lands that needed attention. </b>
+                    It was critical to be able to see all the rewards available from all land and claim it all at once with one button click, for other tasks like 
+                    upgrading, or hiring defenders the sort and filter components quickly let players find the lands that needed attention.
                 </h2>
             </div>
 

@@ -15,6 +15,9 @@ export default function Project5() {
                 <h2 className="project5--sub-head">
                     The next expansion in the Battle Warriors ecosystem is our turn-based strategy game called Quest for Valhalla.
                 </h2>
+                <h2>link to part 1 concept and NFT project creation</h2>
+                <h2>link to part 2 mini game</h2>
+                <br></br>
                 <h2 className="project5--sub-head">
                     In this expansion I created a series of “Quests” which are levels that players can mint and then try to beat to earn 
                     rewards. I developed the main website for the project and am currently developing the a special site for the game docs 
@@ -38,7 +41,7 @@ export default function Project5() {
                     these maps based on on-chain data and events that could be verified by oracles. 
                 </h2>
                 <h2 className="project5--body">
-                    Requirements & needs:
+                    <b>Requirements & needs:</b>
                 </h2>
                 <ol className="project5--list">
                     <li className="project5--list-item">
@@ -50,7 +53,8 @@ export default function Project5() {
                     <li className="project5--list-item">
                         Simpler game modes to help bring in new players and onboard new Web3 users.
                     </li>
-                </ol>                
+                </ol>   
+                <br></br>             
 
             </div>
 
@@ -162,7 +166,7 @@ export default function Project5() {
                 </h2>
 
                 <h2 className="project5--body">
-                Below are a few different monsters, I worked hard to bring elements from games like D&D, classic fantasy RPGs, and mythology.
+                Below are a few different monsters, I worked hard to bring in elements from games like D&D, classic fantasy RPGs, and mythology.
                 </h2>
             
                 <div className="project5--banner-group-container">
@@ -227,9 +231,9 @@ export default function Project5() {
             <div className="project5--phase1-container">
                 
                 <h2 className="project5--body">
-                After creating the level system, I wanted to create some different rarities between, Commons will have quests that are a bit easier and have creatures that 
+                After creating the level system, I wanted to create some different rarities, Commons will have quests that are a bit easier and have creatures that 
                 players could try to catch and train to use as allies. Un-Common quests are slightly stronger and well know fantasy and D&D monsters. Rare’s are fearsome monsters, 
-                some of the strongest and most terrifying with a node to mythology.
+                some of the strongest and most terrifying with a nod to mythology.
                 </h2>
 
                 <h2 className="project5--body">

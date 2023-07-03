@@ -26,7 +26,8 @@ export default function Project3() {
                 <h2 className="project3--sub-head">
                     As the creator and project owner I designed and created all the art assets for the generative NFT characters, built up a community 
                     with over 5,000 twitter followers and 3,000 Discord members, built a no code website to provide updates and showcase the project, and 
-                    wrote a series of articles on medium about the project but also about the Play-2-Earn landscape.
+                    wrote a series of articles on medium about the project but also about the Play-2-Earn landscape, finally leading to the launch of the
+                    project where players could mint their own NFT Viking characters.
                 </h2>
             </div>
 
@@ -42,7 +43,7 @@ export default function Project3() {
                     could create something to fill that opportunity and deliver value to users.
                 </h2>
                 <h2 className="project3--body">
-                    Market and Business opportunities:
+                    <b>Market and Business opportunities:</b>
                 </h2>
                 <ol className="project3--list">
                     <li className="project3--list-item">
@@ -57,7 +58,7 @@ export default function Project3() {
                     </li>
                 </ol>
                 <h2 className="project3--body">
-                    User needs: (what I kept hearing from other collectors and users I interviewed)
+                    <b>User needs: (what I kept hearing from other collectors and users I interviewed)</b>
                 </h2>
                 <ol className="project3--list">
                     <li className="project3--list-item">
@@ -76,8 +77,7 @@ export default function Project3() {
                 <h2 className="project3--body">
                     The first stage of the project was testing the concept, below are some early character sketches testing different facial expressions, 
                     hairstyles, items, and weapons, etc. When designing a generative NFT project you must be careful with the number of traits, too few 
-                    and everything looks the same and there's not enough variability. But the other issues are too many traits, and everything becomes rare 
-                    meaning nothing is rare. 
+                    and everything looks the same and there's not enough variability.
                 </h2>
 
             </div>
@@ -130,13 +130,13 @@ export default function Project3() {
                 </div>
 
                 <h2 className="project3--body">
-                    These sketches and sample generated Viking characters help show the MVP would work, I spent lots of time sharing progress pictures 
+                    These sketches and sample generated Viking characters help show the concept would work, I spent lots of time sharing progress pictures 
                     and ideas online talking to real users of other projects to get feedback and found there was a lot of excitement for the project.
                 </h2>
 
                 <h2 className="project3--body">
                     From there I needed to create all of the traits, clean up all the artwork, and start generating Viking warriors to make sure there was a 
-                    good balance of traits. Below is an example of one of the final templates with the final artwork showing how I was able to build the 
+                    good balance of traits. Below is a video showing one of the final templates with the final artwork and how I was able to build the 
                     characters that would be minted.
                 </h2>
 
@@ -311,7 +311,7 @@ export default function Project3() {
                 <h2 className="project3--body">
                     Below are the wireframes for the main site and the minting site, I wanted to use a large visual to bring the user in with a strong CTA. During 
                     development the CTA button would bring visitors to the Discord where we could try and get them to join the community. That would be followed by 
-                    a small about us, key dates, and a simple road map, and then some examples of the artwork.
+                    a small "about us" section, "key dates", and a simple "road map", and then some examples of the artwork.
                 </h2>
                 <h2 className="project3--body">
                     For the Minting site I worked with my friend who developed a simple React app which would show how many Vikings were left, a way to connect 
@@ -347,7 +347,7 @@ export default function Project3() {
                 </div>
 
                 <h2 className="project3--body">
-                    he site was a great way to onboard Web2 users, help get the roadmap and articles out, and drive traffic to our social medial accounts. Before launching the mint 
+                    The site was a great way to onboard Web2 users, help get the roadmap and articles out, and drive traffic to our social medial accounts. Before launching the mint 
                     site this helped me grow the Discord community over 200% to 3,000 members, and our Twitter over 150% to more than 5,000 followers.
                 </h2>
 
@@ -420,7 +420,7 @@ export default function Project3() {
                 </h1>
 
                 <h2 className="project3--body">
-                    After finishing the Art work, and creating the site and social media account, I experimented with some Google Collab Notebooks using python 
+                    After finishing the Art work, and creating the site and social media account, I experimented with some Google Colab Notebooks using python 
                     to randomly generate the Viking characters and metadata.
                 </h2>
 
@@ -430,7 +430,7 @@ export default function Project3() {
 
                 <h2 className="project3--body">
                     <a className="project3--link-to-button" href="https://colab.research.google.com/drive/1nEi4GZ3nvS39wP7S1XKtQcEkcbsCPH8U?usp=sharing" target="_blank">
-                        You can see the Google Collab Notebook I used to test generating Vikings and traits here.
+                        You can see the Google Colab Notebook I used to test generating Vikings and traits here.
                     </a>
                 </h2>
                 <h2 className="project3--body">

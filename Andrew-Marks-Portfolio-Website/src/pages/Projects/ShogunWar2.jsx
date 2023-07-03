@@ -35,7 +35,7 @@ export default function Project6() {
                 </h2>
                 <h2 className="project2--body">
                     The main hurdle to overcome from the founder was he had commissioned art for the "Crafting" area that he didn't want to get lost, players were confused 
-                    about if they could use the page and which characters could, and he wanted to create a sense of excitement and achievement.
+                    about if they could use the page, and he wanted to create a sense of excitement and achievement.
                 </h2>
                 <h2 className="project2--body">
                     <b>Requirements from client</b>
@@ -58,19 +58,18 @@ export default function Project6() {
                 </div>
 
                 <h2 className="project2--body">
-                    <b>The first requirement from the founder was to highlight the art</b> so I started by designing a side panel where players could select the Shoguns they wanted to use
-                    and <b>created a color pallet from the colors in the image.</b> Next I wanted to <b>incorporate the button to craft into the art work itself</b> so I placed the crafting button 
+                    The first requirement from the founder was to highlight the art so I started by designing a side panel where players could select the Shoguns they wanted to use
+                    andcreated a color pallet from the colors in the image. Next I wanted to incorporate the button to craft into the artwork itself so I placed the crafting button 
                     in the fire.
                 </h2>
 
                 <h2 className="project2--body">
-                    Next to <b>remind players which characters would be able to craft items</b> I added two buttons to the side panel that would toggle between the available Shoguns. I 
-                    also designed the character select panel so that <b>players could select multiple Shoguns and craft multiple items at one time to help players</b> who needed to craft
-                    many items at once.
+                    Next to remind players which characters would be able to craft items I added two buttons to the side panel that would toggle between the available Shoguns. I 
+                    also designed the character select panel so that players could select multiple Shoguns and craft multiple items at one time.
                 </h2>
 
                 <h2 className="project2--body">
-                    <b>Finally, I created the "Success!" screen, every crafting action will led to this page but it gives a feeling of accomplishment and wow!</b>
+                    Finally, I created the "Success!" screen, every crafting action will led to this page but it gives a feeling of accomplishment and wow!
                 </h2>
 
                 <div className="project2--crafting-design">
@@ -92,7 +91,7 @@ export default function Project6() {
                 </div>
                 <div className="project2--img-container">
                     <img className="project2--img" src="../img/case_studies/project2/inventory copy.webp"/>
-                    <p className="project2--img-desc">An example of the inventory window so players could see what items and how many they have.</p>
+                    <p className="project2--img-desc">An example of the inventory window so players could see what items they have and how many they have.</p>
                 </div>
             </div>
         
@@ -101,9 +100,9 @@ export default function Project6() {
                     so important.
                 </h2>
                 <h2 className="project2--body">
-                    <b>After delivering the initial designs to the project founder, he told me "I didn't know how describe what the 'Success!' screen should look 
-                    like other than just WOW and the rays of light was exactly what I had in my mind but couldn't articulate" he was stoked, and new players would 
-                    love it. </b>
+                    After delivering the initial designs to the project founder, he told me "I didn't know how describe what the 'Success!' screen should look 
+                    like other than just WOW and the rays of light was exactly what I had in my mind but couldn't articulate" he was stoked, and thought players would 
+                    love it.
                 </h2>
 
                 <div className="project2--img-container">
@@ -116,9 +115,12 @@ export default function Project6() {
                 </h2>
                 <h2 className="project2--body">
                     One piece of feedback I took to heart was some players were still not sure why they couldn't use the crafting page, they didn't realize only Shogun 
-                    who trained as "Artisan's”, or "Shinto Priest's" could craft items. <b>With this feedback in mind and interviewing a few users I created new loading 
-                    and landing screens for the newer levels. These changes not only helped players understand the game better but also provided a way to build lore 
-                    and story elements. </b>
+                    who trained as "Artisan's”, or "Shinto Priest's" could craft items.
+                </h2>
+
+                <h2 className="project2--body">
+                    With this feedback in mind and interviewing a few users I created new loading and landing screens for the newer levels. These changes not only helped 
+                    players understand the game better but also provided a way to build lore and story elements.
                 </h2>
             </div>
 
@@ -130,16 +132,16 @@ export default function Project6() {
                     Designing the Beast Forest
                 </h1>
                 <h2 className="project2--body">
-                    Simply speaking many aspects of the Shogun War game can be boiled down to the player selecting a Shogun to use, rolling a dice or using some king 
+                    Simply speaking many aspects of the Shogun War game can be boiled down to the player selecting a Shogun to use, using some kind
                     of random number generator, then determine the outcome.
                 </h2>
                 <h2 className="project2--body">
-                    These aspects were meant to keep players and users engaged, build a community, and help fund the development of the more advanced game elements being 
+                    These levels were meant to keep players and users engaged, build a community, and help fund the development of the more advanced game elements being 
                     developed.
                 </h2>
                 <h2 className="project2--body">
-                    <b>So the main issue I had to try and solve was how do you keep players engaged when the "game" or "level" could be described as clicking a button, 
-                    wait a few seconds, and see if I won? </b>
+                    So the main issue I had to try and solve was how do you keep players engaged when the "game" or "level" could be described as clicking a button, 
+                    wait a few seconds, and see if I won?
                 </h2>
                 <h2 className="project2--body">
                     <b>Requirements from client</b>
@@ -165,19 +167,17 @@ export default function Project6() {
                 </div>
                 <br></br>
                 <h2 className="project2--body">
-                    Just like with the "Crafting" page I was provided with a few images and given the creative license to <b>create an experience that players would enjoy.</b>
+                    Just like with the "Crafting" page I was provided with a few images and given the creative license to create an experience that players would enjoy.
                 </h2>
 
                 <h2 className="project2--body">
                     Since I had the two images a light and dark it gave me the idea to play with the colors a bit, when the player enters the "Beast Forest" I showed the brighter image
-                    then slowly faded it darker to <b>start creating a sense of suspense and let the player know something else is about to come.</b>
+                    then slowly faded it darker to start creating a sense of suspense and let the player know something else is about to come.
                 </h2>
 
                 <h2 className="project2--body">
-                    Then I created the "Welcome" text. Here we could greet the player, list the types of characters who could use the "Beast Forest", and <b>add a bit of lore
+                    Then I created the "Welcome" text. Here we could greet the player, list the types of characters who could use the "Beast Forest", and add a bit of lore
                     to keep building up a sense of excitement/adventure.
-                    </b>
-                    
                 </h2>
 
                 <h2 className="project2--body">
@@ -229,12 +229,12 @@ export default function Project6() {
 
                 <h2 className="project2--body">
                     The actual game part of the "Beast Forest" at this stage is very simple, the user enters the forest, selects an eligable Shogun, confirms the
-                    Shogun and pays.
+                    Shogun and pays to enter.
                 </h2>
 
                 <h2 className="project2--body">
                     With such a simple process I really tried to darken and lighten the image, use text to tell a story, and create a few different result animations 
-                    to make the experience a bit more exciting. Below is the Figma file used that shows the user flow and different outcomes.
+                    to make the experience a bit more engaging. Below is the Figma file used that shows the user flow and different outcomes.
                 </h2>
 
                 <div className="project2--img-container">

@@ -30,7 +30,7 @@ export default function Project1() {
                     </h2>
                     <h2 className="project3--body">
                         The big challenge to creating a game like this is how to balance access, many other games made it so you have to own a certain NFT to access the game 
-                        and after playing there were large cool downs. This is fine for players with lots of characters but for new players or others with just 1 or 2 it creates 
+                        and after playing there were large cool down periods that would prevent most players from continuing. This is fine for players with lots of characters but for new players or others with just 1 or 2 it creates 
                         a situation where most players will be able to play for very short periods of time and then have nothing to do.
                     </h2>
 
@@ -83,8 +83,8 @@ export default function Project1() {
                     </div>
 
                     <h2 className="project3--body">
-                        The 9 power stones drive so many elements throughout the Battle warrior’s ecosystem and in this game gives players a power if their Viking has any 
-                        items powered by 1 of the stones. 
+                        The 9 power stones drive so many elements throughout the Battle Warrior’s ecosystem and in this game gives players a power if their Viking has any 
+                        items powered by one of the stones. 
                     </h2>
 
                     <h2 className="project3--body">
@@ -133,7 +133,7 @@ export default function Project1() {
                         </h2>
 
                         <h2 className="project3--body">
-                            Design notes & ideas:
+                            <b>Design notes & ideas:</b>
                         </h2>
                         <ol className="project3--list">
                             <li className="project3--list-item">
@@ -148,13 +148,13 @@ export default function Project1() {
                         </ol>
 
                         <h2 className="project3--body">
-                            A common question I heard all the time was if these characters are minting for $100's (when the NFT bull market was in full swing this happened 
+                            A common question I heard all the time when talking with users was if these characters are minting for $100's (when the NFT bull market was in full swing this happened 
                             with lots of games) and I can't afford 1 or can only afford 1 or 2, how can I still play?
                         </h2>
 
                         <h2 className="project3--body">
                             It became clear that I needed to create a free to play mode to increase the potential number of players and onboard new community members. In free 
-                            to play mode, the player gets to reveal 3 random Vikings from the collection and select 1 to use.
+                            to play mode, the player gets to reveal 3 random Vikings from the collection and select one to use.
                         </h2>
 
                         <div className="project3--ex-levels-container">
@@ -183,6 +183,10 @@ export default function Project1() {
                             held by someone else it will link to that Viking on OpenSea or another NFT exchange.
                         </h2>
 
+                        <h2 className="project3--body">
+                            Below is a video showing the animations of the free to play character selection screen.
+                        </h2>
+
                         <div className="project3--video-container">
                             <video 
                                 src="../videos/free_play_prototype.mp4" 
@@ -209,7 +213,7 @@ export default function Project1() {
 
                         <h2 className="project3--body">
                             As this game is being developed I am also expanding the Battle Warrior ecosystem with the "Quest for Valhalla" NFTs and game. You can read that&nbsp;
-                            <Link to="/battle-warriors-part-1" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link> 
+                            <Link to="/quest-for-valhalla" style={{ textDecoration: 'underline' }} className="project3--case-study-link">case study here.</Link> 
                             
                         </h2>
 

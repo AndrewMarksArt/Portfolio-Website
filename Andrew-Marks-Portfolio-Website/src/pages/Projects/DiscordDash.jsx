@@ -19,10 +19,6 @@ export default function Project4() {
                     could hang out. And while some projects used Telegram, or WhatsApp, twitter and Discord were the focus of this project.
                 </h2>
                 <h2 className="project4--sub-head">
-                    Since these projects made announcements, posted official links, and marketed to all of their follower’s security became a huge issue. Sim swaps, 
-                    hacks, social engineering, etc. were all techniques used by bad actors to try and hijack these communities and spread scams.
-                </h2>
-                <h2 className="project4--sub-head">
                     I was hired by three project founders who had launched a successful NFT gaming project, helped uncover a smart contract vulnerability in a large 
                     cryptocurrency project, and advised/colabed with many other NFT projects. The biggest risk they saw to their projects was security and they wanted 
                     to build a dashboard where they could monitor all of their projects across Discord and Twitter and take quick action if needed.
@@ -49,11 +45,10 @@ export default function Project4() {
                         if that team member was compromised.
                     </li>
                     <li className="project4--list-item">
-                        They also needed to be able monitor social media and other sites for alerts of various severity, from hacks to data connection or API issues.
+                        Be able monitor social media and other sites for alerts of various severity, from hacks to data connection or API issues.
                     </li>
                     <li className="project4--list-item">
-                        Since the cryptocurrency market is 24/7 and news can break at any time, the design needed to be mobile friendly so if a user was out and away 
-                        from their computer when a hack occurred or if it happened in the middle of the night they could quickly and easily take action from their phone.
+                        Since the cryptocurrency market is 24/7 and news can break at any time, the design needed to be mobile friendly so could quickly and easily take action from anywhere.
                     </li>
                     <li className="project4--list-item">
                         Along with monitoring security and alerts they wanted to be able to tack metrics and community stats.
@@ -68,12 +63,10 @@ export default function Project4() {
                 </h2>
                 <ol className="project4--list">
                     <li className="project4--list-item">
-                        I was given a very simple sketch with the requirements which helped me get started with wireframing quickly which I shared with the client 
-                        to get feedback and iterate quickly.
+                        I was given a very simple sketch with the requirements which helped me get started with wireframing quickly.
                     </li>
                     <li className="project4--list-item">
-                        Along with the sketch and notes, they provided a few designs to use as benchmarks and while they couldn't explain exactly the color scheme or 
-                        look, they wanted we had worked together in the past and I had a good idea of what they were looking for.
+                        Along with the sketch and notes, they provided a few designs to use as benchmarks and a general idea on what the color scheme should be.
                     </li>
                     <li className="project4--list-item">
                         I created a mood board with images that fit a neon/Tokyo or neon/Miami aesthetic and a retro/futuristic style, once the client approved, 
@@ -124,19 +117,18 @@ export default function Project4() {
                 </h2>
 
                 <h2 className="project4--body">
-                    The client laughed at how I was able to "take the crappy sketch" they gave me and start to make it look like something real. They loved the 
-                    direction I was going and provided me a few more examples for the colab and promotion section and what they wanted to see for the social media overview.
+                    The client laughed at how I was able to "take the crappy sketch" they gave me and start to make it look like something real.
                 </h2>
 
                 <h2 className="project4--body">
-                    With that feedback I was able to start building the mockup in Figma, building on the wireframe and incorporating the color scheme and styles that 
+                    With the feedback I was given I started building the mockup in Figma, building on the wireframe and incorporating the color scheme and styles that 
                     were approved.
                 </h2>
 
                 <div className="project4--mocks-container">
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/test/roles_alerts_mock copy.webp"/>
-                        <p className="project4--img-desc">Here is the top section showing different team members, here we have a quick view with a fast revoke button, 
+                        <p className="project4--img-desc">Top section showing different team members, here we have a quick view with a fast revoke button, 
                         and we can see active and revoked members. Additionally, there is the "Alerts" section with examples of different severity alerts.</p>
                     </div>
                     <div>
@@ -161,12 +153,6 @@ export default function Project4() {
                     reposts, engagement, etc.
                 </h2>
 
-                <h2 className="project4--body">
-                    Now that I had a better idea of what the client was looking for regarding the Colabs I reached back out to them to get some clarity on how they would 
-                    use the Rankings. With that I was able to finish the last section for Colabs and to track which members/holders were most active, had the highest 
-                    engagement, held the most NFTs or ETH, etc 
-                </h2>
-
                 <div className="project4--mocks-container">
                     <div>
                         <img className="project4--img-mobile" src="../img/case_studies/project4/test/need_fix_mock copy.webp"/>
@@ -180,7 +166,7 @@ export default function Project4() {
                 </div>
 
                 <h2 className="project4--body">
-                    That covered all the requirements the client had; the dashboard was built not quite in a mobile first method but tailored for smaller screens 
+                    That covered all the requirements the client had, the dashboard was built not quite in a mobile first method but tailored for smaller screens 
                     that could easily expand to larger screens. By working in an Agile fashion, I was able to meet and get feedback from the client as the design 
                     was developing streamlining the process and delivering a final mockup that they loved.
                 </h2>

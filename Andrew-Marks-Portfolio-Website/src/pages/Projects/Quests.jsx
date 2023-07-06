@@ -18,10 +18,10 @@ export default function Project5() {
 
                 <h2 className="project5--sub-head">
                     You can read about the design and launch of the original project&nbsp;&nbsp;  
-                    <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
+                    <Link to="/battle-warriors-part-1" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
                     <br></br>
                     And you can learn more about the first mini game I am developing&nbsp;&nbsp; 
-                    <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
+                    <Link to="/battle-warriors-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
                 </h2>
 
                 <h2 className="project5--sub-head">

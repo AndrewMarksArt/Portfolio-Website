@@ -15,9 +15,15 @@ export default function Project5() {
                 <h2 className="project5--sub-head">
                     The next expansion in the Battle Warriors ecosystem is our turn-based strategy game called Quest for Valhalla.
                 </h2>
-                <h2>link to part 1 concept and NFT project creation</h2>
-                <h2>link to part 2 mini game</h2>
-                <br></br>
+
+                <h2 className="project5--sub-head">
+                    You can read about the design and launch of the original project&nbsp;&nbsp;  
+                    <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
+                    <br></br>
+                    And you can learn more about the first mini game I am developing&nbsp;&nbsp; 
+                    <Link to="/shogun-war-part-2" style={{ textDecoration: 'underline' }} className="project3--case-study-link">here.</Link>
+                </h2>
+
                 <h2 className="project5--sub-head">
                     In this expansion I created a series of “Quests” which are levels that players can mint and then try to beat to earn 
                     rewards. I developed the main website for the project and am currently developing the a special site for the game docs 

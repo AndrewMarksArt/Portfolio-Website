@@ -13,7 +13,7 @@ export default function Resume() {
                     <div className="resume--line"></div>
                 </div>
                 <div className="pdf-button">
-                    <a href="../AndrewMarksResumeUIUX.pdf" target="_blank" rel="noopener noreferrer" className="resume-custom-button">
+                    <a href="../AndrewMarks_Resume_UIUX_2024.pdf" target="_blank" rel="noopener noreferrer" className="resume-custom-button">
                         <button>View PDF</button>
                     </a>
                 </div>
